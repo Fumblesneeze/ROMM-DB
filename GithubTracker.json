@@ -1,0 +1,105 @@
+[
+  // UnlimitedHugs Mods
+  {
+    "name": "HugsLib",
+    "repoOwner": "UnlimitedHugs",
+    "repoName": "RimworldHugsLib",
+    "definition": {
+      "id": "HugsLib",
+      "name": "HugsLib",
+      "author": "UnlimitedHugs",
+      "preview": "http://i.imgur.com/W8wAiTm.png",
+      "homePage": "https://ludeon.com/forums/index.php?topic=28066",
+      "issues": "https://ludeon.com/forums/index.php?topic=28066",
+      "category": "Library",
+      "source": {
+        "steam": "818773962"
+      },
+      "support": "https://www.patreon.com/UnlimitedHugs"
+    }
+  },
+  {
+    "name": "AllowTool",
+    "repoOwner": "UnlimitedHugs",
+    "repoName": "RimworldAllowTool",
+    "definition": {
+      "id": "AllowTool",
+      "name": "Allow Tool",
+      "author": "UnlimitedHugs",
+      "preview": "http://i.imgur.com/70nDp0b.jpg",
+      "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "761421485"
+      },
+      "relationships": {
+        "required": [ "HugsLib" ]
+      },
+      "support": "https://www.patreon.com/UnlimitedHugs"
+    }
+  },
+  {
+    "name": "MapReroll",
+    "repoOwner": "UnlimitedHugs",
+    "repoName": "RimworldMapReroll",
+    "definition": {
+      "id": "MapReroll",
+      "name": "Map Reroll",
+      "author": "UnlimitedHugs",
+      "preview": "http://i.imgur.com/I3Vz9TJ.png",
+      "homePage": "https://ludeon.com/forums/index.php?topic=18073",
+      "issues": "https://ludeon.com/forums/index.php?topic=18073",
+      "category": "Gameplay",
+      "source": {
+        "steam": "761315214"
+      },
+      "relationships": {
+        "required": [ "HugsLib" ]
+      },
+      "support": "https://www.patreon.com/UnlimitedHugs"
+    }
+  },
+  {
+    "name": "DefensivePositions",
+    "repoOwner": "UnlimitedHugs",
+    "repoName": "RimworldDefensivePositions",
+    "definition": {
+      "id": "DefensivePositions",
+      "name": "Defensive Positions",
+      "author": "UnlimitedHugs",
+      "preview": "http://i.imgur.com/6478wKG.png",
+      "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "761219125"
+      },
+      "relationships": {
+        "required": [ "HugsLib" ]
+      },
+      "support": "https://www.patreon.com/UnlimitedHugs"
+    }
+  },
+  {
+    "name": "RemoteExplosives",
+    "repoOwner": "UnlimitedHugs",
+    "repoName": "RimworldRemoteExplosives",
+    "definition": {
+      "id": "RemoteExplosives",
+      "name": "Remote Explosives",
+      "author": "UnlimitedHugs",
+      "preview": "http://i.imgur.com/Ou66S8o.gif",
+      "homePage": "https://ludeon.com/forums/index.php?topic=17285",
+      "issues": "https://ludeon.com/forums/index.php?topic=17285",
+      "category": "Content",
+      "source": {
+        "steam": "761379469"
+      },
+      "relationships": {
+        "required": [ "HugsLib" ]
+      },
+      "support": "https://www.patreon.com/UnlimitedHugs"
+    }
+  }
+]

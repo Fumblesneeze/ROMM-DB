@@ -1,0 +1,112 @@
+[
+  {
+    "id": "HugsLib",
+    "name": "HugsLib",
+    "version": "2.4.2",
+    "author": "UnlimitedHugs",
+    "description": "<color=orange><b>Important: </b> This mod should be one of the first to be loaded to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 2.4.2\n\t",
+    "preview": "http://i.imgur.com/W8wAiTm.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=28066",
+    "issues": "https://ludeon.com/forums/index.php?topic=28066",
+    "category": "Library",
+    "source": {
+      "steam": "818773962",
+      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v2.4.2/HugsLib_2.4.2.zip"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-02-14T14:18:02+00:00",
+    "changeLog": "- The \"this\" parameter in extension method detour destinations now supports polymorphism\n- Possible fix for restart call failing due to executing in the wrong thread\n- Fixed injection method name in AutoRestarter\n- Added Spanish translations by nahuen89\n- Updated Chinese translations"
+  },
+  {
+    "id": "AllowTool",
+    "name": "Allow Tool",
+    "version": "2.5.4",
+    "author": "UnlimitedHugs",
+    "description": "Version: 2.5.4\n\n<size=20>Description</size>\nA set of tools to make handling forbidden items easier.\n\n<size=20>How to use</size>\nThe tools are located in the Architect menu, under the Orders tab. Hovering over each tool shows what it does and how to use it.\n\nEach tool can also be selected with a hotkey without opening the menu. See the Keyboard configuration panel in the options menu to customize the hotkeys.\n\t",
+    "preview": "http://i.imgur.com/70nDp0b.jpg",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "761421485",
+      "github": "https://github.com/UnlimitedHugs/RimworldAllowTool/releases/download/v2.5.4/AllowTool_2.5.4.zip"
+    },
+    "relationships": {
+      "required": [
+        "HugsLib"
+      ]
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-01-04T13:56:19+00:00",
+    "changeLog": "- Fixed global hotkeys no longer working after loading a game twice\n"
+  },
+  {
+    "id": "MapReroll",
+    "name": "Map Reroll",
+    "version": "1.5.1",
+    "author": "UnlimitedHugs",
+    "description": "Version: 1.5.1\n\t\n<size=20>Description</size>\nAllows you to randomize your starting map to help you find one you like. Getting new positions for just the steam geysers is also possible.\n\n<size=20>How to use</size>\nStart a new game. In the top right corner of the screen you will find a button with red dice. Click that.\nUse \"Reroll Map\" to get an entirely new starting map or \"Reroll Geysers\" to get random new geyser positions on the current map.\nEach operation will cost you an amount of unmined resources from the map- both the cost and the amount of remaining resources are displayed in the window.\n\nNote, that rerolling becomes unavailable after naming your colony or loading it from a save file.\n\nIf you are using Community Core Library (CCL) you might want to temporarily disable the minimap, as it covers up the button.\n",
+    "preview": "http://i.imgur.com/I3Vz9TJ.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=18073",
+    "issues": "https://ludeon.com/forums/index.php?topic=18073",
+    "category": "Gameplay",
+    "source": {
+      "steam": "761315214",
+      "github": "https://github.com/UnlimitedHugs/RimworldMapReroll/releases/download/v1.5.1/MapReroll_1.5.1.zip"
+    },
+    "relationships": {
+      "required": [
+        "HugsLib"
+      ]
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-01-14T05:04:30+00:00",
+    "changeLog": "- Fixed a potential error on map reroll\n"
+  },
+  {
+    "id": "DefensivePositions",
+    "name": "Defensive Positions",
+    "version": "1.3.3",
+    "author": "UnlimitedHugs",
+    "description": "Version: 1.3.3\n\t\n<size=20>Description</size>\nAllows your colonists to remember their position during base defense. You can send off your colonists to their positions with a single click.\n\t\t\n<size=20>How to use</size>\n<b>Set defensive positions for colonists</b>\n1) Draft your defenders and place them where you want them.\n2) With your defenders selected, hold the Shift key and click the Defensive position button (or press T).\nDone. The selected colonists will remember their held positions.\n\n<b>Send colonists to saved positions</b>\n1) Select your defenders.\n2) Click the Defensive position button (or press T).\nYour defenders will be drafted and will run to their saved positions.\n\n<b>Advanced mode</b>\nHold the Alt key and click the Defensive position button to switch between basic and advanced mode.\nAdvanced mode works exactly like Basic, but you have 4 positions to work with. Shift+click a slot to save a position, just click to send the selected pawns to the position they have been assigned under that number.\nPressing T is the same as clicking the first slot.\n\n<b>Squad hotkeys</b>\nColonists can be assigned to squads for easier selection. To assign, hold the Ctrl key and press 1-9 on the numeric keypad to assign the squad to that key. Press the numeric key of a squad to select the pawns, press again to focus on the squad location.\n\n<b>Utility hotkeys</b>\nThere are three other keys on the keypad for quick colonist management: press period to select all colonists on the map, undraft everyone by pressing divide, and press zero to send all colonists to their assigned defensive position.\n",
+    "preview": "http://i.imgur.com/6478wKG.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "761219125",
+      "github": "https://github.com/UnlimitedHugs/RimworldDefensivePositions/releases/download/v1.3.3/DefensivePositions_1.3.3.zip"
+    },
+    "relationships": {
+      "required": [
+        "HugsLib"
+      ]
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2016-12-26T23:23:06+00:00",
+    "changeLog": "- Restored missing \"Allow firing\" button\n"
+  },
+  {
+    "id": "RemoteExplosives",
+    "name": "Remote Explosives",
+    "version": "1.11.2",
+    "author": "UnlimitedHugs",
+    "description": "Version: 1.11.2\n\t\n<size=20>Description</size>\nAn assortment of remotely detonated explosives for different purposes- from defending your base to mining, and much more.\nAlso includes several new researches and a workbench to manufacture your explosive goodies.\n\n<size=20>How to use</size>\nEverything you might want to build is available from the Explosives category in the Build menu. You can manufacture your own explosives, or buy them from traders- but at the very least the \"Remote Detonator\" research must be completed. With that, you can build the Explosives Workshop and the Remote Detonator.\nMake the explosive of your choice at the workshop, place it using the Build menu, make sure it's armed, then trigger it using the Remote Detonator. Multiple explosives can be triggered together.\n\n- If you research \"Remote Explosives Channels\" and upgrade your detonator, you can divide your placed explosives into groups, to be triggered separately.\n- The \"Auto replace\" toggle on the placed explosives allows your colonists to replace them after they are triggered.\n- The other research projects unlock the creation of different explosives- for mining, mechanoid defense, and other purposes. Read the research and item descriptions to learn more.\n\t",
+    "preview": "http://i.imgur.com/Ou66S8o.gif",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17285",
+    "issues": "https://ludeon.com/forums/index.php?topic=17285",
+    "category": "Content",
+    "source": {
+      "steam": "761379469",
+      "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.11.2/RemoteExplosives_1.11.2.zip"
+    },
+    "relationships": {
+      "required": [
+        "HugsLib"
+      ]
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-02-16T18:39:06+00:00",
+    "changeLog": "- Added wire detonation and auto-replace features to the vanilla firefoam popper\n- The shaped charge will no longer leave a thin roof after breaking mountain roof\n- The channel button on charges will now indicate that the channel is still being switched\n- Fixed error when detonating multiple clustered shaped or mining charges\n- Fixed bill error when placing the workbench in dev mode without doing the research\n- Collapsed rock can now be multi-selected"
+  }
+]
