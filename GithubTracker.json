@@ -1,12 +1,10 @@
 [
   // UnlimitedHugs Mods
   {
-    "name": "HugsLib",
     "repoOwner": "UnlimitedHugs",
     "repoName": "RimworldHugsLib",
     "definition": {
       "id": "HugsLib",
-      "name": "HugsLib",
       "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/W8wAiTm.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=28066",
@@ -19,33 +17,29 @@
     }
   },
   {
-    "name": "AllowTool",
     "repoOwner": "UnlimitedHugs",
     "repoName": "RimworldAllowTool",
     "definition": {
       "id": "AllowTool",
-      "name": "Allow Tool",
       "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/70nDp0b.jpg",
       "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
       "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
-      "category": "Gameplay",
+      "category": "UI",
       "source": {
         "steam": "761421485"
       },
       "relationships": {
-        "required": [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       },
       "support": "https://www.patreon.com/UnlimitedHugs"
     }
   },
   {
-    "name": "MapReroll",
     "repoOwner": "UnlimitedHugs",
     "repoName": "RimworldMapReroll",
     "definition": {
       "id": "MapReroll",
-      "name": "Map Reroll",
       "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/I3Vz9TJ.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=18073",
@@ -55,18 +49,16 @@
         "steam": "761315214"
       },
       "relationships": {
-        "required": [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       },
       "support": "https://www.patreon.com/UnlimitedHugs"
     }
   },
   {
-    "name": "DefensivePositions",
     "repoOwner": "UnlimitedHugs",
     "repoName": "RimworldDefensivePositions",
     "definition": {
       "id": "DefensivePositions",
-      "name": "Defensive Positions",
       "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/6478wKG.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
@@ -76,18 +68,16 @@
         "steam": "761219125"
       },
       "relationships": {
-        "required": [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       },
       "support": "https://www.patreon.com/UnlimitedHugs"
     }
   },
   {
-    "name": "RemoteExplosives",
     "repoOwner": "UnlimitedHugs",
     "repoName": "RimworldRemoteExplosives",
     "definition": {
       "id": "RemoteExplosives",
-      "name": "Remote Explosives",
       "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/Ou66S8o.gif",
       "homePage": "https://ludeon.com/forums/index.php?topic=17285",
@@ -97,9 +87,217 @@
         "steam": "761379469"
       },
       "relationships": {
-        "required": [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       },
       "support": "https://www.patreon.com/UnlimitedHugs"
     }
-  }
+  },
+
+  // Fluffys Mods
+  
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "AnimalTab",
+    "definition": {
+      "id": "AnimalTab",
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/445110482475930483/12AF30180BEB0376F8480A7069612F6C67698CCA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "UI",
+      "source": {
+        "steam": "712141500"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "RW_ArchitectSense",
+    "definition": {
+      "id": "ArchitectSense",
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/159151301107195908/79FAC61B1A4C15A26E1DA2823F18CB1B760E0D38/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Library",
+      "source": {
+        "steam": "852998459"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "AreaUnlocker",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328006531/C1CE5598F006A9584201FDC8A8106F57998445FE/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "725153576"
+      },
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "MedicalTab",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "UI",
+      "source": {
+        "steam": "715565817"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "Blueprints",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/445110030946051062/58FC0EE4BAD4739B4C758E1EE52CBF9E93F32948/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "708455313"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "ColonyManager",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "715565262"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "FluffyBreakdowns",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "726244033"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "FollowMe",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/445110986852687950/CE5C43BDBEACFDBC0E7CBFD6AE1821C7CFCD8340/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "UI",
+      "source": {
+        "steam": "715759739"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "RelationsTab",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/455245034324421374/5A88953493B899469AFEB866B57222DB2265A5B6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "UI",
+      "source": {
+        "steam": "709317151"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "StackMerger",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "857164561"
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "StuffedFloors",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/159151765533634297/1DF9C77518325BEBC98F6C0CC9E49DD8B8EB62E0/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Content",
+      "source": {
+        "steam": "853043503"
+      },
+      "relationships": {
+        "requires": [
+          "HugsLib",
+          "ArchitectSense"
+        ]
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "BirdsAndBees",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "Gameplay",
+      "source": {
+        "steam": "751049133"
+      },
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
+  {
+    "repoOwner": "FluffierThanThou",
+    "repoName": "WorkTab",
+    "definition": {
+      "author": "Fluffy",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328307906/1B8398044257B7B174A724EAA42C5C9FF02F8857/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+      "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+      "category": "UI",
+      "source": {
+        "steam": "725219116"
+      },
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
 ]

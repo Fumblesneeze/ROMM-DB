@@ -3,6 +3,7 @@
     "id": "HugsLib",
     "name": "HugsLib",
     "version": "2.4.2",
+    "targetGameVersion": "0.16.1393",
     "author": "UnlimitedHugs",
     "description": "<color=orange><b>Important: </b> This mod should be one of the first to be loaded to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 2.4.2\n\t",
     "preview": "http://i.imgur.com/W8wAiTm.png",
@@ -21,18 +22,19 @@
     "id": "AllowTool",
     "name": "Allow Tool",
     "version": "2.5.4",
+    "targetGameVersion": "0.16.1393",
     "author": "UnlimitedHugs",
     "description": "Version: 2.5.4\n\n<size=20>Description</size>\nA set of tools to make handling forbidden items easier.\n\n<size=20>How to use</size>\nThe tools are located in the Architect menu, under the Orders tab. Hovering over each tool shows what it does and how to use it.\n\nEach tool can also be selected with a hotkey without opening the menu. See the Keyboard configuration panel in the options menu to customize the hotkeys.\n\t",
     "preview": "http://i.imgur.com/70nDp0b.jpg",
     "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
     "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
-    "category": "Gameplay",
+    "category": "UI",
     "source": {
       "steam": "761421485",
       "github": "https://github.com/UnlimitedHugs/RimworldAllowTool/releases/download/v2.5.4/AllowTool_2.5.4.zip"
     },
     "relationships": {
-      "required": [
+      "requires": [
         "HugsLib"
       ]
     },
@@ -44,6 +46,7 @@
     "id": "MapReroll",
     "name": "Map Reroll",
     "version": "1.5.1",
+    "targetGameVersion": "0.16.1393",
     "author": "UnlimitedHugs",
     "description": "Version: 1.5.1\n\t\n<size=20>Description</size>\nAllows you to randomize your starting map to help you find one you like. Getting new positions for just the steam geysers is also possible.\n\n<size=20>How to use</size>\nStart a new game. In the top right corner of the screen you will find a button with red dice. Click that.\nUse \"Reroll Map\" to get an entirely new starting map or \"Reroll Geysers\" to get random new geyser positions on the current map.\nEach operation will cost you an amount of unmined resources from the map- both the cost and the amount of remaining resources are displayed in the window.\n\nNote, that rerolling becomes unavailable after naming your colony or loading it from a save file.\n\nIf you are using Community Core Library (CCL) you might want to temporarily disable the minimap, as it covers up the button.\n",
     "preview": "http://i.imgur.com/I3Vz9TJ.png",
@@ -55,7 +58,7 @@
       "github": "https://github.com/UnlimitedHugs/RimworldMapReroll/releases/download/v1.5.1/MapReroll_1.5.1.zip"
     },
     "relationships": {
-      "required": [
+      "requires": [
         "HugsLib"
       ]
     },
@@ -67,6 +70,7 @@
     "id": "DefensivePositions",
     "name": "Defensive Positions",
     "version": "1.3.3",
+    "targetGameVersion": "0.16.1393",
     "author": "UnlimitedHugs",
     "description": "Version: 1.3.3\n\t\n<size=20>Description</size>\nAllows your colonists to remember their position during base defense. You can send off your colonists to their positions with a single click.\n\t\t\n<size=20>How to use</size>\n<b>Set defensive positions for colonists</b>\n1) Draft your defenders and place them where you want them.\n2) With your defenders selected, hold the Shift key and click the Defensive position button (or press T).\nDone. The selected colonists will remember their held positions.\n\n<b>Send colonists to saved positions</b>\n1) Select your defenders.\n2) Click the Defensive position button (or press T).\nYour defenders will be drafted and will run to their saved positions.\n\n<b>Advanced mode</b>\nHold the Alt key and click the Defensive position button to switch between basic and advanced mode.\nAdvanced mode works exactly like Basic, but you have 4 positions to work with. Shift+click a slot to save a position, just click to send the selected pawns to the position they have been assigned under that number.\nPressing T is the same as clicking the first slot.\n\n<b>Squad hotkeys</b>\nColonists can be assigned to squads for easier selection. To assign, hold the Ctrl key and press 1-9 on the numeric keypad to assign the squad to that key. Press the numeric key of a squad to select the pawns, press again to focus on the squad location.\n\n<b>Utility hotkeys</b>\nThere are three other keys on the keypad for quick colonist management: press period to select all colonists on the map, undraft everyone by pressing divide, and press zero to send all colonists to their assigned defensive position.\n",
     "preview": "http://i.imgur.com/6478wKG.png",
@@ -78,7 +82,7 @@
       "github": "https://github.com/UnlimitedHugs/RimworldDefensivePositions/releases/download/v1.3.3/DefensivePositions_1.3.3.zip"
     },
     "relationships": {
-      "required": [
+      "requires": [
         "HugsLib"
       ]
     },
@@ -90,6 +94,7 @@
     "id": "RemoteExplosives",
     "name": "Remote Explosives",
     "version": "1.11.2",
+    "targetGameVersion": "0.16.1393",
     "author": "UnlimitedHugs",
     "description": "Version: 1.11.2\n\t\n<size=20>Description</size>\nAn assortment of remotely detonated explosives for different purposes- from defending your base to mining, and much more.\nAlso includes several new researches and a workbench to manufacture your explosive goodies.\n\n<size=20>How to use</size>\nEverything you might want to build is available from the Explosives category in the Build menu. You can manufacture your own explosives, or buy them from traders- but at the very least the \"Remote Detonator\" research must be completed. With that, you can build the Explosives Workshop and the Remote Detonator.\nMake the explosive of your choice at the workshop, place it using the Build menu, make sure it's armed, then trigger it using the Remote Detonator. Multiple explosives can be triggered together.\n\n- If you research \"Remote Explosives Channels\" and upgrade your detonator, you can divide your placed explosives into groups, to be triggered separately.\n- The \"Auto replace\" toggle on the placed explosives allows your colonists to replace them after they are triggered.\n- The other research projects unlock the creation of different explosives- for mining, mechanoid defense, and other purposes. Read the research and item descriptions to learn more.\n\t",
     "preview": "http://i.imgur.com/Ou66S8o.gif",
@@ -101,12 +106,267 @@
       "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.11.2/RemoteExplosives_1.11.2.zip"
     },
     "relationships": {
-      "required": [
+      "requires": [
         "HugsLib"
       ]
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2017-02-16T18:39:06+00:00",
     "changeLog": "- Added wire detonation and auto-replace features to the vanilla firefoam popper\n- The shaped charge will no longer leave a thin roof after breaking mountain roof\n- The channel button on charges will now indicate that the channel is still being switched\n- Fixed error when detonating multiple clustered shaped or mining charges\n- Fixed bill error when placing the workbench in dev mode without doing the research\n- Collapsed rock can now be multi-selected"
+  },
+  {
+    "id": "AnimalTab",
+    "name": "Animal Tab",
+    "version": "0.16.1-6",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Adds extra functionality to the Animals tab \n\n<size=24>Important</size>\nDoes not require a new save game. \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Notes</size>\nFirst released back in A12 (or was it 11?) this mod vastly improved the vanilla animals tab. Evidently, Tynan agreed and the mod is now (mostly) part of the vanilla game. I still feel this mod looks better, and adds enough extra functionality (sorting, filters, renaming) to make it a worthwhile replacement. \n\n<size=24>Features</size>\nGender and lifestage icons on the animals tab. Easily keep track of your chickenfarm! \nButchery designation right from the animals tab. \nSort by name, gender, lifestage/age, and bodysize (meat). \nFilter by race, and a variety of attributes. \nRename (named) pets. Don’t like the name Buttercup for your Warg? Change it! \nMass assign masters, or assign all to bonded masters. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\nurty5656:    Introduction to the magic of reflection & translations, Korean translation\nrgponce:    Brazilian Portuguese translation\nfrenchiveruti:    \n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482475930483/12AF30180BEB0376F8480A7069612F6C67698CCA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "steam": "712141500",
+      "github": "https://github.com/FluffierThanThou/AnimalTab/releases/download/v0.16.1.6/Animal.Tab.rar"
+    },
+    "created": "2017-02-12T09:16:21+00:00",
+    "changeLog": "fix pregnancy progress always showing zero"
+  },
+  {
+    "id": "ArchitectSense",
+    "name": "Architect Sense",
+    "version": "0.16.1-4",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Allows modders to combine buildables in subcategories.\n\n<size=24>Important</size>\n<b>This is a functionality mod, it does nothing on its own</b> \nThis mod is intended to provide functionality to other modders, and does nothing without custom XML and/or C# code.\nIf you’re a modder, or want to try out subcategories, have a look at the Examples folder. \n\n<size=24>Features (for modders)</size>\nArchitect Sense allows you to group designators for buildings and terrains (e.g. the buttons in the architect menu) together.\nIt is simple to configure with DesignationSubCategoryDefs in XML (see the Examples folder), and also exposes a number of methods\nto handle dynamically creating categories, as well as finding and hiding individual designators.  \n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159151301107195908/79FAC61B1A4C15A26E1DA2823F18CB1B760E0D38/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Library",
+    "source": {
+      "steam": "852998459",
+      "github": "https://github.com/FluffierThanThou/RW_ArchitectSense/releases/download/v0.16.1.4/Architect.Sense.rar"
+    },
+    "created": "2017-02-05T15:55:50+00:00",
+    "changeLog": "rename hideNotBuildable to emulateStuff\nadd panel readout for subcat based on selected\nadd hideNotBuildable flag to SubCatDef"
+  },
+  {
+    "id": "AreaUnlocker",
+    "name": "Area Unlocker",
+    "version": "0.16.1-1",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Removes the (arbitrary) limit to the number of areas you can create. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b>\n\n<size=24>Notes</size>\nWhile this completely removes the limit on the number of areas you can create, the UI is untouched - and optimized for 5 areas per type. If you create too many areas, you may run into UI issues. This practical limit depends largely on your resolution. I have no plans to update these UI issues, as that would be a massive undertaking.\n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328006531/C1CE5598F006A9584201FDC8A8106F57998445FE/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "725153576",
+      "github": "https://github.com/FluffierThanThou/AreaUnlocker/releases/download/v0.16.1.1/Area.Unlocker.rar"
+    },
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      },
+    "created": "2016-12-26T11:42:15+00:00",
+    "changeLog": "Fix unsafe detour warning.\n"
+  },
+  {
+    "id": "MedicalTab",
+    "name": "Medical Tab",
+    "version": "0.16.1-2",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Adds a comprehensive medical overview tab, showing your colonists’ health at a glance. \n\n<size=24>Important</size>\nDoes not require a new save game \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Features</size>\nMedical care designation \nSchedule operations \nSort by everything \n\n<size=24>Notes</size>\nDetecting which diseases/wounds/etc affect a certain body function is not as easy as one might expect it to be. There may be some inconsistencies in the labels associated with efficiency scores. If you encounter any, please leave a report so I can try and fix them. \n\n<size=24>Contributors</size>\nRacoon    German translation\nduduluu    Chinese translation\nMossieuLeBlanc    French translation\nkPherox    A16 update\n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "steam": "715565817",
+      "github": "https://github.com/FluffierThanThou/MedicalTab/releases/download/v0.16.1.2/Medical.Tab.rar"
+    },
+    "created": "2016-12-21T14:51:12+00:00",
+    "changeLog": "add translation japanese and fix error (#8)\n"
+  },
+  {
+    "id": "Blueprints",
+    "name": "Blueprints",
+    "version": "0.16.1-9",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Blueprints allow the quick construction of repetitive rooms/areas. \n\n<size=24>Features</size>\n<b>Create blueprint</b>\nUse the ‘Create’ designator to drag over an area with existing constructions. Floors, walls and furniture will all be designated, and included in the blueprint. once created, a popup will appear with a default name, giving you the option to set a more meaningful name. \n\n<i>NOTE: Only constructions owned by you will be included, use the ‘Claim’ order if necessary.</i>\n\n<b>Place blueprint</b>\nOnce you’ve created a blueprint, you can use the new button to place copies of that blueprint. Blueprints can be rotated as normal. With a blueprint selected, you’ll see an outline of what will be build on the main view, and a list of items and total cost in the lower left info panel. In this panel, you can click on furniture and walls made of stuff to change what stuff should be used in their construction. \n\n<i>NOTE: You can shift-click with a designator selected to use the planning mode. In this case, any walls in the blueprint will be used to create a plan for your future rooms. This might be useful for mining out the required space. </i>\n\n<b>Rename, import & export blueprints</b>\nOnce you’ve created a blueprint, you can right click the blueprint button to rename, remove or export the blueprint. Exported blueprints will be saved in the same location as RimWorlds save games and config files, in a directory called “Blueprints”. If a blueprint has been exported, an option to remove and delete the exported blueprint will also appear. \nYou can import previously exported blueprints by right clicking the ‘Create’ button, and selecting the blueprint from the list of available blueprints. \n\n<i>NOTE: While you can import/export blueprints between games, be careful with doing so when a blueprint contains (modded) items that are not available in the current game. If you import a blueprint containing items that are unavailable, an error will pop up, and the offending item will be deleted from the blueprint. I’ve tried to make sure the rest of the blueprint is still usable, but your results may vary.</i>\n\n<size=24>Contributors</size>\n\nRaccoon & Haplo:    German translation\nduduluu:    Chinese translations\nrgponce:    Brazilian Portuguese translation\nBronytamin:    Russian translation\nNils de Lumière:    French translation\n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110030946051062/58FC0EE4BAD4739B4C758E1EE52CBF9E93F32948/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "708455313",
+      "github": "https://github.com/FluffierThanThou/Blueprints/releases/download/v0.16.1.9/Blueprints.rar"
+    },
+    "created": "2017-02-13T21:48:53+00:00",
+    "changeLog": "Update Chinese translations"
+  },
+  {
+    "id": "ColonyManager",
+    "name": "Colony Manager",
+    "version": "0.16.1-8",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony. Set up production chains from raw resources to finished products, and your managers will make sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A16, and alpha 16 is a biggy for anything that is even slightly related to mods. In theory, each map you’re on should get it’s own instance of the manager - circumventing any complications with multiple maps. This also means Manager jobs are NOT shared across multiple maps. In practice, there’s so many changes that I’m pretty sure there’s going to be a few odd bugs. Please, if you find any, report them here.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n\n\nAssign ‘global’ bills, that will be assigned to workstations by your manager(s). \nSet start/stop conditions with the aid of a trigger. \nSelect which workstations bills should be assigned to by area and/or count, or select specific workstations. \nQuickly add jobs for ingredients in complex production chains \n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n\n\nImport & export jobs between colonies, or share them with others! (Will likely throw at least a few errors when different mods are loaded - always back up your save before importing jobs from another world) \n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Known Issues</size>\nSkills display on the colonist info pane gets cut off. This is an issue with the vanilla interface I’m not willing to change (it has too many possible conflicts). \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "715565262",
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.16.1.8/Colony.Manager.rar"
+    },
+    "created": "2017-02-14T22:31:23+00:00",
+    "changeLog": "add French translation (Thanks, MossieuLeBlanc)"
+  },
+  {
+    "id": "FluffyBreakdowns",
+    "name": "Fluffy Breakdowns",
+    "version": "0.16.1-9",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Replaces random breakdowns with a maintenance requirement.\n\n<size=24>Important</size>\nThis mod requires HugsLib to be installed, and loaded before it.\n\n<size=24>Features</size>\nBuildings using components will now gradually deteriorate. The odds of a breakdown happening (and requiring replacement components), is directly linked to the amount of deterioration. \n\nTo keep your machinery in top shape, your colonists with the construction work enabled will periodically maintain components. As long as components are properly maintained, they cannot randomly break down. \n\n<size=24>Notes</size>\nI’m very interested in any feedback on how these changes affect the difficulty of the game. I’ve tried to balance it so that it’s not too hard/easy - but I’m just one person with one playstyle.\n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "726244033",
+      "github": "https://github.com/FluffierThanThou/FluffyBreakdowns/releases/download/v0.16.1.9/Fluffy.Breakdowns.rar"
+    },
+    "created": "2017-02-13T21:52:33+00:00",
+    "changeLog": "Add Chinese translations (#11)\nadd readme and license"
+  },
+  {
+    "id": "FollowMe",
+    "name": "Follow Me",
+    "version": "0.16.0-2",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Gives the camera tracking capabilities. \n\n<size=24>Features</size>\nPress the ‘Home’ key (default, can be changed with in-game keybinding settings) while any colonist, enemy, animal or item is selected, and the camera will follow them (including furniture and plants - but they tend to not move much). Alternatively, you can right click colonists in the Colonist Bar on top of the screen to toggle following.\n\n<b>Does not require a new save game</b>\nCan safely be enabled/disabled in ongoing saves.\n\n<size=24>Contributors</size>\n\nSkullyWag:    Help with/nagging about updates\nRaccoon:    German translation\nAlexSchrod:    Screen edge & Camera jump detection\n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110986852687950/CE5C43BDBEACFDBC0E7CBFD6AE1821C7CFCD8340/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "steam": "715759739",
+      "github": "https://github.com/FluffierThanThou/FollowMe/releases/download/v0.16.0.2/Follow.Me.rar"
+    },
+    "created": "2017-02-07T16:58:19+00:00",
+    "changeLog": "'fix' camera tracking for pawns to be smooth again\nadd readme and license"
+  },
+  {
+    "id": "RelationsTab",
+    "name": "Relations Tab",
+    "version": "0.16.1-5",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Replaces the faction tab with a relations tab. The relations tab shows, in a very graphical way, relations between your colonists and with other factions. \n\n<size=24>Contributors</size>\n\nMossieurLeBlanc:    French translation\nJozay:    \nduduluu:    \n\ntag:Fluffylicious\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/455245034324421374/5A88953493B899469AFEB866B57222DB2265A5B6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "steam": "709317151",
+      "github": "https://github.com/FluffierThanThou/RelationsTab/releases/download/v0.16.1.5/Relations.Tab.rar"
+    },
+    "created": "2017-02-13T22:00:17+00:00",
+    "changeLog": "Add Chinese tanslations (#13)"
+  },
+  {
+    "id": "StackMerger",
+    "name": "Stack Merger",
+    "version": "0.16.0-5",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Make your haulers understand that a tidy stockpile is an efficient stockpile.\n\n<size=24>Important</size>\nThis mod uses Harmony, a fancy new toy for modders. You don’t have to install harmony - it comes bundled with the mod, but if you encounter any errors, please let me know!\n\n<size=24>Features</size>\nAdds a low-priority hauling job that makes your haulers merge stacks in your stockpiles. Works per stockpile, so if items are in different stockpiles they will not be merged. \n\n<size=24>Issues</size>\nAs each storage building (e.g. vanilla racks, extended storage, deep storage, etc) count as a single stockpile (or technically, have their own SlotGroup - which for this mod is equivalent), stacks in different storage units will not be merged. \n\n<size=24>Notes</size>\nWhen I was playtesting this, Stockpile Efficiency was brought to my attention. These mods do pretty much exactly the same thing (in fact we both use the same vanilla methods for the actual hauling). The main difference is in how we keep track of what can be merged. Stockpile Efficiency searches for stacks that can potentially be merged whenever a pawn is looking for something to merge. Stack Merger keeps a permanent cache of stacks that can be merged. I haven’t run any benchmarks, but I expect my mod to have a mostly constant, relatively low cpu load. Stockpile Efficiency will have no load as long as pawns don’t have time to do the hauling jobs, but when they search for things to merge the cpu load will most likely be considerably larger. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "857164561",
+      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.5/Stack.Merger.rar"
+    },
+    "created": "2017-02-13T21:42:27+00:00",
+    "changeLog": "Add Chinese translations"
+  },
+  {
+    "id": "StuffedFloors",
+    "name": "Stuffed Floors",
+    "version": "0.16.0-8",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Allows building floors out of stuff*.\n\n<size=24>Important</size>\nThis mod <i>requires</i> both HugsLib and Architect Sense to be loaded before it. HugsLib must be loaded before Architect Sense, and Architect Sense must be loaded before Stuffed Floors.\n\nYou can safely add this mod to you save games, but <i>you can not remove it</i> from save games. (If you really must do this, you’ll have to remove all built stuffed floors added by this mod first).\n\n<size=24>Features</size>\nThis mod does two things. First, using Architect Sense it provides a framework for modders to define their own stuffed floor types. Second, it uses this framework to create a number of new floors that are stuffed. \n\n<b>For players</b>\nAdds several floor types (borrowed with permission from Telkir’s More Floors, CuproPanda’s Extra Floors and Pravus’ Fences and Floors) in a variety of stone, wood and metal types.\n\nWorks great with other mods that add more resources, e.g. Minerals and Materials Kura’s Extra Minerals, Extended Woodworking, Vegetable Garden and GlitterTech. \n\nThis mod also organizes and where needed, removes the floors added by Vanilla RimWorld, More Floors, Extended Woodworking, Minerals and Materials, GlitterTech, More Furniture, Vegetable Garden and Floored.\n\n<b>For modders</b>\nAdds a custom FloorTypeDef that derives from TerrainDef, and allows modders to create floortypes by setting a texture (grayscale for best effect, will be coloured by stuff) and a list of stuffCategories to generate terrain defs for. The resulting designators will be placed together in a category, and any vanilla or other mod’s terrains made obsolete can also be provided in the XML, and will then be hidden for the user (but not removed, so it won’t break save games).\n\n<size=24>Known issues</size>\nWhile this mod will happily generate more floors for any mods that add materials to the metallic, stony and/or woody stuff types, it only cleans up the floors added by mods that are explicitly supported. Any other mods that add floor types may appear as duplicates. If you encounter such an issue, or know of mods that add more floors, please let me know! \n\n<size=24>Technical details</size>\n*: This mod doesn’t actually allow building stuffed floors. Rather, it spoofs this behaviour by generating TerrainDefs for each of the stuffDefs handed to it, and then using ArchitectSense to group these terrains together and give a user experience similar to stuff selection on buildings. This mod doesn’t do anything destructive, it doesn’t make any detours, and doesn’t remove any defs. It does however remove a number of designators from the architect in order to hide them from the user.\n\n<size=24>Contributors</size>\n\nTelkir:    Permission to use textures for many of the floors\nCuproPanda:    Permission to use textures for even more floors\nPravus:    Permission to use textures for yet more floors\nDarkSlayerEx:    Original idea, texture tweaks and moral support\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159151765533634297/1DF9C77518325BEBC98F6C0CC9E49DD8B8EB62E0/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Content",
+    "source": {
+      "steam": "853043503",
+      "github": "https://github.com/FluffierThanThou/StuffedFloors/releases/download/v0.16.0.8/Stuffed.Floors.rar"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib",
+        "ArchitectSense"
+      ]
+    },
+    "created": "2017-02-13T21:39:32+00:00",
+    "changeLog": "Add Chinese translation"
+  },
+  {
+    "id": "BirdsAndBees",
+    "name": "The Birds and the Bees",
+    "version": "0.16.0-5",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Adds reproductive organs to the animals, and then you, raiders and time can take them away again. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b> \n\n<b>Does NOT require a new save game</b> \nThis mod uses CCL to dynamically change game data* when a game is loaded. Should be fine to use with any other mod that adds animals, races, relations, or anything else. \n\n<size=24>Features</size>\nAnimals (including humanoids) require reproductive organs to mate & and do lovin’. \n\n\nAdds reproductive organs to fleshy pawns (e.g., animals and colonists). \nSince reproductive organs are now a body part, they can be affected by external violence - including, but not limited to; gunfire, berserking colonists, frostbite, castration (neutering) and old age.\nReworks mating & lovin’ to take account of fertility stat. \n\n<size=24>Does this mod add the ability for colonists to have babies?</size>\n<i>No. Nor will I ever add this, so don’t ask.</i>\nThere’s a myriad of problems with adding colonist babies. There’s moral/ethical issues, but I don’t particularly care about those, I don’t see why making baby leather hats is worse than prisoner leather hats. \n\nWhat I do care about is gameplay. For me, two things are required to make babies actually fun. \n\nFirst, there needs to be systems around babies. If they’re just colonists or animals in behaviour, I don’t see the point. You’d have to have various interactions from parents with their children, amongst children, children with the environment, etc. etc. to really bring children alive. Then you’d also want to build in things like schools or at least some sort of internships/apprenticeships, the list goes on and on. \nThe problem with all of this is that it takes a huge amount of work - including a number of new gameplay mechanics. It’s something better suited for Tynan himself to add to the game. \n\nSecond, the timescale just doesn’t work. The average colony will last a couple of years, 10 if you’re in it for the long haul. Only rarely do colonies last longer than that. That would mean that there’s not really any room for progression, and I don’t see the fun in that. Adding cloning vats, time chambers, gro-quick drugs or whatever are weak solutions for a fundamental problem, and I don’t want to go that way. Changing the games timescale is pretty much impossible for mods to do. \n\n<i>TLDR; if you want babies, go ask Tynan.</i>\n\n<size=24>Contributors</size>\n\nkouyou:    Japanese translation\nDuduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "steam": "751049133",
+      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-13T21:36:53+00:00",
+    "changeLog": "Add Chinese translations"
+  },
+  {
+    "id": "WorkTab",
+    "name": "WorkTab",
+    "version": "0.16.2-4",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fluffy",
+    "description": "Provides a vastly more customizable work tab. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b>\nThis mod requires HugsLib to be loaded before it, or it will not function.\n\n<b>BETA release</b>\nThis should be considered a beta release. The basic functionality is confirmed to work, but there may be more elusive bugs still to be caught.\n\n<size=24>Features</size>\nVarious usability extentions to the ‘vanilla’ work tab; sorting by columns, toggling/changing priorities for entire columns at once, and creating presets. \n\nAn extra detailed ‘Dwarf Therapist’ mode, that allows you to set priorities for the individual tasks within each job. \n\nFinally, a time scheduler to set priorities for a given time slot only - allows you to designate a cleaning hour, or have your cook prepare meals right before dinner, etc. etc. \n\n<size=24>Notes</size>\nWith great power comes great responsibility. The default priorities of tasks within a job is set for a good reason; it’s a sensible default. Changing these can lead to deadlock situations, so use the detailed tab at your own risk! \n\nFinally, there will never be an ‘autolabor’ mode where a mod sets priorities for you. Due to the way the AI is handled (e.g. pawns actively look for work, instead of there being a ‘bulletin board’ of jobs that need doing), it’s not feasible to get the complete list of work that needs doing that would be needed to make this a reality, without extreme overhead and loads of special excpetion coding.\n\n<size=24>Contributors</size>\n\nBronytamin:    Russian translation\nEric Swanson:    \nDuduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328307906/1B8398044257B7B174A724EAA42C5C9FF02F8857/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "steam": "725219116",
+      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-14T07:03:23+00:00",
+    "changeLog": "translate from DefMap to Dictionary when loading v0.16.1.x saves."
   }
 ]
