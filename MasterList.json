@@ -1,5 +1,27 @@
 [
   {
+    "id": "Background",
+    "name": "Animated Background",
+    "version": "0.1.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fumblesneeze",
+    "description": "Replaces the original Rimworld menu background with an animation.\\n\\nThe video was made by The Dee (https://www.youtube.com/watch?v=1YOiQ5Vrqe4), bug him for a better version!\\n\\nThis is a rather big download so be patient!",
+    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
+    "issues": "https://github.com/Fumblesneeze/RimBackground",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/Fumblesneeze/RimBackground/zipball/v0.1",
+      "steam": "869600389"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-22T12:50:52+00:00",
+    "changeLog": ""
+  },
+  {
     "id": "HugsLib",
     "name": "HugsLib",
     "version": "2.4.2",
@@ -11,8 +33,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=28066",
     "category": "Library",
     "source": {
-      "steam": "818773962",
-      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v2.4.2/HugsLib_2.4.2.zip"
+      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v2.4.2/HugsLib_2.4.2.zip",
+      "steam": "818773962"
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2017-02-14T14:18:02+00:00",
@@ -30,8 +52,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
     "category": "UI",
     "source": {
-      "steam": "761421485",
-      "github": "https://github.com/UnlimitedHugs/RimworldAllowTool/releases/download/v2.5.4/AllowTool_2.5.4.zip"
+      "github": "https://github.com/UnlimitedHugs/RimworldAllowTool/releases/download/v2.5.4/AllowTool_2.5.4.zip",
+      "steam": "761421485"
     },
     "relationships": {
       "requires": [
@@ -54,8 +76,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=18073",
     "category": "Gameplay",
     "source": {
-      "steam": "761315214",
-      "github": "https://github.com/UnlimitedHugs/RimworldMapReroll/releases/download/v1.5.1/MapReroll_1.5.1.zip"
+      "github": "https://github.com/UnlimitedHugs/RimworldMapReroll/releases/download/v1.5.1/MapReroll_1.5.1.zip",
+      "steam": "761315214"
     },
     "relationships": {
       "requires": [
@@ -78,8 +100,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
     "category": "Gameplay",
     "source": {
-      "steam": "761219125",
-      "github": "https://github.com/UnlimitedHugs/RimworldDefensivePositions/releases/download/v1.3.3/DefensivePositions_1.3.3.zip"
+      "github": "https://github.com/UnlimitedHugs/RimworldDefensivePositions/releases/download/v1.3.3/DefensivePositions_1.3.3.zip",
+      "steam": "761219125"
     },
     "relationships": {
       "requires": [
@@ -102,8 +124,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=17285",
     "category": "Content",
     "source": {
-      "steam": "761379469",
-      "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.11.2/RemoteExplosives_1.11.2.zip"
+      "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.11.2/RemoteExplosives_1.11.2.zip",
+      "steam": "761379469"
     },
     "relationships": {
       "requires": [
@@ -126,8 +148,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "UI",
     "source": {
-      "steam": "712141500",
-      "github": "https://github.com/FluffierThanThou/AnimalTab/releases/download/v0.16.1.6/Animal.Tab.rar"
+      "github": "https://github.com/FluffierThanThou/AnimalTab/releases/download/v0.16.1.6/Animal.Tab.rar",
+      "steam": "712141500"
     },
     "created": "2017-02-12T09:16:21+00:00",
     "changeLog": "fix pregnancy progress always showing zero"
@@ -144,8 +166,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Library",
     "source": {
-      "steam": "852998459",
-      "github": "https://github.com/FluffierThanThou/RW_ArchitectSense/releases/download/v0.16.1.4/Architect.Sense.rar"
+      "github": "https://github.com/FluffierThanThou/RW_ArchitectSense/releases/download/v0.16.1.4/Architect.Sense.rar",
+      "steam": "852998459"
     },
     "created": "2017-02-05T15:55:50+00:00",
     "changeLog": "rename hideNotBuildable to emulateStuff\nadd panel readout for subcat based on selected\nadd hideNotBuildable flag to SubCatDef"
@@ -162,14 +184,14 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Gameplay",
     "source": {
-      "steam": "725153576",
-      "github": "https://github.com/FluffierThanThou/AreaUnlocker/releases/download/v0.16.1.1/Area.Unlocker.rar"
+      "github": "https://github.com/FluffierThanThou/AreaUnlocker/releases/download/v0.16.1.1/Area.Unlocker.rar",
+      "steam": "725153576"
     },
-      "relationships": {
-        "requires": [
-          "HugsLib"
-        ]
-      },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
     "created": "2016-12-26T11:42:15+00:00",
     "changeLog": "Fix unsafe detour warning.\n"
   },
@@ -185,8 +207,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "UI",
     "source": {
-      "steam": "715565817",
-      "github": "https://github.com/FluffierThanThou/MedicalTab/releases/download/v0.16.1.2/Medical.Tab.rar"
+      "github": "https://github.com/FluffierThanThou/MedicalTab/releases/download/v0.16.1.2/Medical.Tab.rar",
+      "steam": "715565817"
     },
     "created": "2016-12-21T14:51:12+00:00",
     "changeLog": "add translation japanese and fix error (#8)\n"
@@ -203,8 +225,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Gameplay",
     "source": {
-      "steam": "708455313",
-      "github": "https://github.com/FluffierThanThou/Blueprints/releases/download/v0.16.1.9/Blueprints.rar"
+      "github": "https://github.com/FluffierThanThou/Blueprints/releases/download/v0.16.1.9/Blueprints.rar",
+      "steam": "708455313"
     },
     "created": "2017-02-13T21:48:53+00:00",
     "changeLog": "Update Chinese translations"
@@ -221,8 +243,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Gameplay",
     "source": {
-      "steam": "715565262",
-      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.16.1.8/Colony.Manager.rar"
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.16.1.8/Colony.Manager.rar",
+      "steam": "715565262"
     },
     "created": "2017-02-14T22:31:23+00:00",
     "changeLog": "add French translation (Thanks, MossieuLeBlanc)"
@@ -239,8 +261,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Gameplay",
     "source": {
-      "steam": "726244033",
-      "github": "https://github.com/FluffierThanThou/FluffyBreakdowns/releases/download/v0.16.1.9/Fluffy.Breakdowns.rar"
+      "github": "https://github.com/FluffierThanThou/FluffyBreakdowns/releases/download/v0.16.1.9/Fluffy.Breakdowns.rar",
+      "steam": "726244033"
     },
     "created": "2017-02-13T21:52:33+00:00",
     "changeLog": "Add Chinese translations (#11)\nadd readme and license"
@@ -257,8 +279,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "UI",
     "source": {
-      "steam": "715759739",
-      "github": "https://github.com/FluffierThanThou/FollowMe/releases/download/v0.16.0.2/Follow.Me.rar"
+      "github": "https://github.com/FluffierThanThou/FollowMe/releases/download/v0.16.0.2/Follow.Me.rar",
+      "steam": "715759739"
     },
     "created": "2017-02-07T16:58:19+00:00",
     "changeLog": "'fix' camera tracking for pawns to be smooth again\nadd readme and license"
@@ -275,8 +297,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "UI",
     "source": {
-      "steam": "709317151",
-      "github": "https://github.com/FluffierThanThou/RelationsTab/releases/download/v0.16.1.5/Relations.Tab.rar"
+      "github": "https://github.com/FluffierThanThou/RelationsTab/releases/download/v0.16.1.5/Relations.Tab.rar",
+      "steam": "709317151"
     },
     "created": "2017-02-13T22:00:17+00:00",
     "changeLog": "Add Chinese tanslations (#13)"
@@ -293,8 +315,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Gameplay",
     "source": {
-      "steam": "857164561",
-      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.5/Stack.Merger.rar"
+      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.5/Stack.Merger.rar",
+      "steam": "857164561"
     },
     "created": "2017-02-13T21:42:27+00:00",
     "changeLog": "Add Chinese translations"
@@ -311,8 +333,8 @@
     "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
     "category": "Content",
     "source": {
-      "steam": "853043503",
-      "github": "https://github.com/FluffierThanThou/StuffedFloors/releases/download/v0.16.0.8/Stuffed.Floors.rar"
+      "github": "https://github.com/FluffierThanThou/StuffedFloors/releases/download/v0.16.0.8/Stuffed.Floors.rar",
+      "steam": "853043503"
     },
     "relationships": {
       "requires": [
@@ -336,7 +358,8 @@
     "category": "Gameplay",
     "source": {
       "steam": "751049133",
-      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar"
+      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar",
+      "steam": "751049133"
     },
     "relationships": {
       "requires": [
@@ -359,7 +382,8 @@
     "category": "UI",
     "source": {
       "steam": "725219116",
-      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar"
+      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar",
+      "steam": "725219116"
     },
     "relationships": {
       "requires": [

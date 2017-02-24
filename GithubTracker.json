@@ -1,4 +1,21 @@
 [
+  // Fumblesneezes Mods
+  {
+    "repoOwner": "Fumblesneeze",
+    "repoName": "RimBackground",
+    "definition": {
+      "id": "Background",
+      "author": "Fumblesneeze",
+      "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
+      "category": "UI",
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
+
   // UnlimitedHugs Mods
   {
     "repoOwner": "UnlimitedHugs",
@@ -10,9 +27,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=28066",
       "issues": "https://ludeon.com/forums/index.php?topic=28066",
       "category": "Library",
-      "source": {
-        "steam": "818773962"
-      },
       "support": "https://www.patreon.com/UnlimitedHugs"
     }
   },
@@ -26,9 +40,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
       "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
       "category": "UI",
-      "source": {
-        "steam": "761421485"
-      },
       "relationships": {
         "requires": [ "HugsLib" ]
       },
@@ -45,9 +56,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=18073",
       "issues": "https://ludeon.com/forums/index.php?topic=18073",
       "category": "Gameplay",
-      "source": {
-        "steam": "761315214"
-      },
       "relationships": {
         "requires": [ "HugsLib" ]
       },
@@ -64,9 +72,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
       "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
       "category": "Gameplay",
-      "source": {
-        "steam": "761219125"
-      },
       "relationships": {
         "requires": [ "HugsLib" ]
       },
@@ -83,9 +88,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=17285",
       "issues": "https://ludeon.com/forums/index.php?topic=17285",
       "category": "Content",
-      "source": {
-        "steam": "761379469"
-      },
       "relationships": {
         "requires": [ "HugsLib" ]
       },
@@ -94,7 +96,7 @@
   },
 
   // Fluffys Mods
-  
+
   {
     "repoOwner": "FluffierThanThou",
     "repoName": "AnimalTab",
@@ -104,10 +106,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482475930483/12AF30180BEB0376F8480A7069612F6C67698CCA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "UI",
-      "source": {
-        "steam": "712141500"
-      }
+      "category": "UI"
     }
   },
   {
@@ -119,10 +118,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/159151301107195908/79FAC61B1A4C15A26E1DA2823F18CB1B760E0D38/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "Library",
-      "source": {
-        "steam": "852998459"
-      }
+      "category": "Library"
     }
   },
   {
@@ -134,9 +130,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
       "category": "Gameplay",
-      "source": {
-        "steam": "725153576"
-      },
       "relationships": {
         "requires": [
           "HugsLib"
@@ -152,10 +145,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "UI",
-      "source": {
-        "steam": "715565817"
-      }
+      "category": "UI"
     }
   },
   {
@@ -166,10 +156,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110030946051062/58FC0EE4BAD4739B4C758E1EE52CBF9E93F32948/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "Gameplay",
-      "source": {
-        "steam": "708455313"
-      }
+      "category": "Gameplay"
     }
   },
   {
@@ -180,10 +167,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "Gameplay",
-      "source": {
-        "steam": "715565262"
-      }
+      "category": "Gameplay"
     }
   },
   {
@@ -194,10 +178,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "Gameplay",
-      "source": {
-        "steam": "726244033"
-      }
+      "category": "Gameplay"
     }
   },
   {
@@ -208,10 +189,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110986852687950/CE5C43BDBEACFDBC0E7CBFD6AE1821C7CFCD8340/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "UI",
-      "source": {
-        "steam": "715759739"
-      }
+      "category": "UI"
     }
   },
   {
@@ -222,10 +200,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/455245034324421374/5A88953493B899469AFEB866B57222DB2265A5B6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "UI",
-      "source": {
-        "steam": "709317151"
-      }
+      "category": "UI"
     }
   },
   {
@@ -236,10 +211,7 @@
       "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
-      "category": "Gameplay",
-      "source": {
-        "steam": "857164561"
-      }
+      "category": "Gameplay"
     }
   },
   {
@@ -251,9 +223,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
       "category": "Content",
-      "source": {
-        "steam": "853043503"
-      },
       "relationships": {
         "requires": [
           "HugsLib",
@@ -271,9 +240,6 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
       "category": "Gameplay",
-      "source": {
-        "steam": "751049133"
-      },
       "relationships": {
         "requires": [
           "HugsLib"
@@ -290,14 +256,20 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
       "category": "UI",
-      "source": {
-        "steam": "725219116"
-      },
       "relationships": {
         "requires": [
           "HugsLib"
         ]
       }
+    }
+  },
+
+  // notfood's mods
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-MFO",
+    "definition": {
+     "category": "Library"
     }
   },
 ]
