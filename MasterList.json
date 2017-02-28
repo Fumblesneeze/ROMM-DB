@@ -1,27 +1,5 @@
 [
   {
-    "id": "Background",
-    "name": "Animated Background",
-    "version": "0.1.0",
-    "targetGameVersion": "0.16.1393",
-    "author": "Fumblesneeze",
-    "description": "Replaces the original Rimworld menu background with an animation.\\n\\nThe video was made by The Dee (https://www.youtube.com/watch?v=1YOiQ5Vrqe4), bug him for a better version!\\n\\nThis is a rather big download so be patient!",
-    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
-    "issues": "https://github.com/Fumblesneeze/RimBackground",
-    "category": "UI",
-    "source": {
-      "github": "https://api.github.com/repos/Fumblesneeze/RimBackground/zipball/v0.1",
-      "steam": "869600389"
-    },
-    "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
-    },
-    "created": "2017-02-22T12:50:52+00:00",
-    "changeLog": ""
-  },
-  {
     "id": "HugsLib",
     "name": "HugsLib",
     "version": "2.4.2",
@@ -358,8 +336,7 @@
     "category": "Gameplay",
     "source": {
       "steam": "751049133",
-      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar",
-      "steam": "751049133"
+      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar"
     },
     "relationships": {
       "requires": [
@@ -382,8 +359,7 @@
     "category": "UI",
     "source": {
       "steam": "725219116",
-      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar",
-      "steam": "725219116"
+      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar"
     },
     "relationships": {
       "requires": [
@@ -392,5 +368,909 @@
     },
     "created": "2017-02-14T07:03:23+00:00",
     "changeLog": "translate from DefMap to Dictionary when loading v0.16.1.x saves."
+  },
+  {
+    "id": "HugsLib",
+    "name": "HugsLib",
+    "version": "2.4.3",
+    "targetGameVersion": "0.16.1393",
+    "author": "UnlimitedHugs",
+    "description": "<color=orange><b>Important: </b> This mod should be one of the first to be loaded to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 2.4.3\n\t",
+    "preview": "http://i.imgur.com/W8wAiTm.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=28066",
+    "issues": "https://ludeon.com/forums/index.php?topic=28066",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v2.4.3/HugsLib_2.4.3.zip",
+      "steam": "818773962"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-02-26T13:32:07+00:00",
+    "changeLog": "- Log uploader should now work properly on Linux\n- Log uploader will now respect the log file path passed through the command line\n- Added Linux-specific privacy filters to the log uploader"
+  },
+  {
+    "id": "EdBPrepareCarefully",
+    "name": "EdB Prepare Carefully",
+    "version": "0.16.1-4",
+    "targetGameVersion": "0.16.1393",
+    "author": "EdB",
+    "description": "Customize your colonists, choose your gear and prepare carefully for your crash landing!\n\nIf you get a set of starting colonists that you like, save them as a preset so that you can start your game the same way next time.\n\n[Version 0.16.1.4]\n\t",
+    "preview": "https://github.com/edbmods/EdBPrepareCarefully/blob/develop/Resources/About/preview.png?raw=true",
+    "homePage": "https://ludeon.com/forums/index.php?topic=6261.0",
+    "issues": "https://github.com/edbmods/EdBPrepareCarefully/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/edbmods/EdBPrepareCarefully/releases/download/v0.16.1.4/EdBPrepareCarefully-0.16.1.4.zip"
+    },
+    "created": "2016-12-26T18:33:08+00:00",
+    "changeLog": "This is the latest release of the mod for RimWorld Alpha 16.\n\nNote that you must be running at least version 0.16.1393 of the game to use the mod.\n\nThis version includes additional compatibility fixes to make Prepare Carefully work better with other mods.\n\n**The first few releases for a new alpha always have bugs.  Please report any issues that you might run into.**\n\nTo install:\n1. Find your RimWorld `Mods` directory. \n2. Download the `EdBPrepareCarefully-0.16.1.4.zip` file.  Ignore the \"Source Code\" links.  You don't need those if you're just trying to install the mod.\n3. Extract its contents into the `Mods` directory.  Make sure that you don't accidentally \"double-extract\" the contents.  You should have a `Mods/EdBPrepareCarefully` directory, _not_ a `Mods/EdBPrepareCarefully/EdBPrepareCarefully` directory.\n"
+  },
+  {
+    "id": "Background",
+    "name": "Animated Background",
+    "version": "0.1.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fumblesneeze",
+    "description": "Replaces the original Rimworld menu background with an animation.\\n\\nThe video was made by The Dee (https://www.youtube.com/watch?v=1YOiQ5Vrqe4), bug him for a better version!\\n\\nThis is a rather big download so be patient!",
+    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
+    "homePage": "https://github.com/Fumblesneeze/RimBackground",
+    "issues": "https://github.com/Fumblesneeze/RimBackground/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/Fumblesneeze/RimBackground/releases/download/v0.1/Background.zip",
+      "steam": "869600389"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-22T12:50:52+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "RimIce",
+    "name": "Ice",
+    "version": "0.1.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Fumblesneeze",
+    "description": "Ice",
+    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimIce/master/Mod/About/Preview.png",
+    "homePage": "https://github.com/Fumblesneeze/RimIce",
+    "issues": "https://github.com/Fumblesneeze/RimIce/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Fumblesneeze/RimIce/releases/download/v0.1/RimIce.zip"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "Walls and Digging"
+  },
+  {
+    "id": "StepAway",
+    "name": "Step Away From The Medicine",
+    "version": "1.0.3",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Changes default medicine settings.",
+    "preview": "https://github.com/zorbathut/stepaway/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/StepAway",
+    "issues": "https://github.com/ZorbaTHut/StepAway/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/stepaway/releases/download/v1.0.3/StepAway-v1.0.3.zip",
+      "steam": "819520926"
+    },
+    "created": "2017-02-02T08:06:55+00:00",
+    "changeLog": "Fix some issues where playersettings could be set at invalid times. May fix incompatibility with Psychology."
+  },
+  {
+    "id": "ImTheWorkerNow",
+    "name": "Look At Me, I'm The Worker Now",
+    "version": "1.0.3",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Forcing jobs on pawns now cancels that job on other pawns.",
+    "preview": "https://github.com/zorbathut/imtheworkernow/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/ImTheWorkerNow",
+    "issues": "https://github.com/ZorbaTHut/ImTheWorkerNow/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/imtheworkernow/releases/download/v1.0.3/ImTheWorkerNow-v1.0.3.zip",
+      "steam": "810339752"
+    },
+    "created": "2017-01-18T22:40:43+00:00",
+    "changeLog": "- Remove some accidentally-included debug output\n- Attempt to handle an error that may or may not be related to Hospitality\n- Improve debug instrumentation in certain error conditions\n"
+  },
+  {
+    "id": "ICanFixIt",
+    "name": "I Can Fix It!",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Automatically places blueprints for destroyed player-owned buildings.",
+    "preview": "https://github.com/zorbathut/icanfixit/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/ICanFixIt",
+    "issues": "https://github.com/ZorbaTHut/ICanFixIt/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/icanfixit/releases/download/v1.0.2/ICanFixIt-v1.0.2.zip",
+      "steam": "817231829"
+    },
+    "created": "2017-01-16T06:57:14+00:00",
+    "changeLog": "Fix an issue where it would attempt to rebuild things that cannot be rebuilt (specifically, snowmen.)\n"
+  },
+  {
+    "id": "LetsBeHonestHere",
+    "name": "Let's Be Honest Here",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Space weed. Space. Weed.",
+    "preview": "https://github.com/zorbathut/letsbehonesthere/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/LetsBeHonestHere",
+    "issues": "https://github.com/ZorbaTHut/LetsBeHonestHere/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/letsbehonesthere/releases/download/v1.0.2/LetsBeHonestHere-v1.0.2.zip",
+      "steam": "811575354"
+    },
+    "created": "2017-01-08T07:24:37+00:00",
+    "changeLog": "Fix a missing translation message.\n"
+  },
+  {
+    "id": "CraftingHysteresis",
+    "name": "Crafting Hysteresis",
+    "version": "1.0.7",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Provides hysteresis control options for long-term crafting tasks.",
+    "preview": "https://github.com/zorbathut/craftinghysteresis/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/CraftingHysteresis",
+    "issues": "https://github.com/ZorbaTHut/CraftingHysteresis/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/craftinghysteresis/releases/download/v1.0.7/CraftingHysteresis-v1.0.7.zip",
+      "steam": "750111404"
+    },
+    "created": "2016-12-29T16:34:50+00:00",
+    "changeLog": "- Fix a missing hook for the tutorial\n- New feature - shift-click the +/- in the bill window, or the low-stock-threshold values in the bill details window, to change values more quickly\n- Add translation keys\n"
+  },
+  {
+    "id": "OSHACompliance",
+    "name": "OSHA Compliance",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Deters your colonists from standing in traps as they're being reset.",
+    "preview": "https://github.com/zorbathut/oshacompliance/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/OSHACompliance",
+    "issues": "https://github.com/ZorbaTHut/OSHACompliance/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/oshacompliance/releases/download/v1.0.2/OSHACompliance-v1.0.2.zip",
+      "steam": "785754949"
+    },
+    "created": "2016-12-29T15:17:52+00:00",
+    "changeLog": "Increase pathing penalty for armed traps slightly to avoid a common case where pawns would still take a shortcut across the trap.\n"
+  },
+  {
+    "id": "AWorldWithoutHat",
+    "name": "A World Without Hat",
+    "version": "1.0.1",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Removes hat graphics from pawn portraits (and only from those.)",
+    "preview": "https://github.com/zorbathut/aworldwithouthat/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/AWorldWithoutHat",
+    "issues": "https://github.com/ZorbaTHut/AWorldWithoutHat/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/aworldwithouthat/releases/download/v1.0.1/AWorldWithoutHat-v1.0.1.zip",
+      "steam": "821065788"
+    },
+    "created": "2016-12-20T18:42:09+00:00",
+    "changeLog": "A16 compatibility.\n"
+  },
+  {
+    "id": "Caerbannog",
+    "name": "The Mad Rabbits of Caerbannog",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Allows all animal types to show up in manhunter packs.",
+    "preview": "https://github.com/zorbathut/caerbannog/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/Caerbannog",
+    "issues": "https://github.com/ZorbaTHut/Caerbannog/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/caerbannog/releases/download/v1.1.0/Caerbannog-v1.1.0.zip",
+      "steam": "779592154"
+    },
+    "created": "2016-12-20T18:07:10+00:00",
+    "changeLog": "A16 compatibility.\n\nNote that this is a full rewrite of the mod; watch for bugs.\n"
+  },
+  {
+    "id": "SillyBuilder",
+    "name": "Silly Builder, Surgery is for Doctors",
+    "version": "1.0.1",
+    "targetGameVersion": "0.16.0",
+    "author": "ZorbaTHut",
+    "description": "Modifies the live mechanoid bill so that doctors will remove scyther limbs.",
+    "preview": "https://github.com/zorbathut/sillybuilder/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/SillyBuilder",
+    "issues": "https://github.com/ZorbaTHut/SillyBuilder/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/sillybuilder/releases/download/v1.0.1/SillyBuilder-v1.0.1.zip",
+      "steam": "814898788"
+    },
+    "created": "2016-12-20T17:48:01+00:00",
+    "changeLog": "A16 compatibility.\n"
+  },
+  {
+    "id": "ItsDangerous",
+    "name": "It's Dangerous to Come Along",
+    "version": "1.0.0",
+    "targetGameVersion": "0.15.0",
+    "author": "ZorbaTHut",
+    "description": "Assigned animals no longer follow drafted pawns.",
+    "preview": "https://github.com/zorbathut/itsdangerous/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/ItsDangerous",
+    "issues": "https://github.com/ZorbaTHut/ItsDangerous/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/itsdangerous/releases/download/v1.0.0/ItsDangerous-v1.0.0.zip",
+      "steam": "806725083"
+    },
+    "created": "2016-11-26T16:03:59+00:00",
+    "changeLog": "Initial release.\n"
+  },
+  {
+    "id": "Raindrops",
+    "name": "Raindrops No Longer Fall On My Head",
+    "version": "1.0.0",
+    "targetGameVersion": "0.15.0",
+    "author": "ZorbaTHut",
+    "description": "Prioritizes roof construction/destruction over object construction/destruction.",
+    "preview": "https://github.com/zorbathut/raindrops/blob/master/About/Preview.png?raw=true",
+    "homePage": "https://github.com/ZorbaTHut/Raindrops",
+    "issues": "https://github.com/ZorbaTHut/Raindrops/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/zorbathut/raindrops/releases/download/v1.0.0/Raindrops-v1.0.0.zip",
+      "steam": "775711693"
+    },
+    "created": "2016-10-06T08:47:10+00:00",
+    "changeLog": "Initial release.\n"
+  },
+  {
+    "id": "CarefulRaids",
+    "name": "Careful Raids",
+    "version": "1.0.1",
+    "targetGameVersion": "0.16.0",
+    "author": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "More careful raiders - can you handle them?\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/CarefulRaids/blob/master/Source/animation.gif?raw=true",
+    "homePage": "https://github.com/pardeike/CarefulRaids",
+    "issues": "https://github.com/pardeike/CarefulRaids/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/CarefulRaids/releases/download/v1.0.1/CarefulRaids.zip",
+      "steam": "864601386"
+    },
+    "created": "2017-02-24T00:27:08+00:00",
+    "changeLog": "Hi,\r\nthis release includes the latest Harmony patch lib and introduces correct behavior for raiders and colonists. Can you cheese your way out of those careful raiders?\r\n\r\nHave fun,\r\nAndreas Pardeike"
+  },
+  {
+    "id": "CameraPlus",
+    "name": "Camera+",
+    "version": "1.0.1",
+    "targetGameVersion": "0.16.0",
+    "author": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "You want more zoom and different paning?\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/CameraPlus",
+    "issues": "https://github.com/pardeike/CameraPlus/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/CameraPlus/releases/download/v1.0.1/CameraPlus.zip",
+      "steam": "867467808"
+    },
+    "created": "2017-02-19T20:57:20+00:00",
+    "changeLog": "This release fixes a slight problem with labels and other text not showing correctly when zoomed out."
+  },
+  {
+    "id": "AchtungMod",
+    "name": "Achtung!",
+    "version": "1.4.0",
+    "targetGameVersion": "0.16.0",
+    "author": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Command your colonists like a boss!\n\nAchtung! Mod enhances how you control RimWorld and reduces the number of clicks by half. And almost no dependencies in your save files (read more about this below).\n\nThese enhancements can be divided into the following areas:\n\n- Automatic drafting/undrafting of colonists\n\nWouldn't it be nice to not micro-manage the drafting status of your colonists? With Achtung! you can.\n\nWith Achtung! the context menu contains all possible actions regardless of the current drafting status of the selected colonist. Once you select an action Achtung! automatically changes the drafting status if necessary to execute the action.\n\n- Control multiple colonists at once\n\nSave time by issuing a command with more than one colonist selected. For example: select three brawlers and right click an enemy, then choose \"melee\". Done.\n\nAchtung! combines all possible actions into one MultiAction(tm) context menu and shows you how many colonists can execute a certain action by appending a multiplier at the end of the menu item.\n\n- Position your colonists like in the military\n\nThis is where the name \"Achtung!\" comes from. It's the german word used to get the attention of soldiers and which is usually followed by a line-up in front of the commander.\n\nWithin RimWorld in combat, you want your colonists neatly positioned along a line or equally spaced in all your door openings. This is really easy with Achtung! Select multiple colonists, and with the right mouse button, drag along a line. Achtung! will move your colonists to equally spaced positions in real time. 10 colonists into 10 doors? No problem!\n\n- Important tasks\n\nSome tasks are too important to be interrupted. Like cleaning that hospital room so nobody gets infected. That's why Achtung! has a few extra commands that will make sure that something is really done well. For now, this is \"Clean Room\", \"Fight Fire\", \"Sow Zone/Room\" and the new \"Auto Combat\". More are planned in the future.\n\nWhen you choose \"Clean Room\", the colonist(s) will start cleaning the room until you stop them or the room is really clean. They will check the room while cleaning so that it doesn't matter if other colonists might introduce new filth while the cleaning is ongoing.\n\nThe command \"Fight Fire\" works outside the home area and is useful if you don't want to extend the home area just to get rid of a fire.\n\nChoosing \"Sow Zone/Room\" will make sure that the zone selected or all growing inside a room will be sowed completely. Time consuming tasks like removing other large plants like trees or hauling away objects are not performed to avoid exhaustion.\n\nA completely novel feature is \"Auto Combat\". Achtung! has its own build in artificial intelligence that controls your colonists for you. All you have to do is to order a few colonists to their targets and they will get there on their own, keep a safe distance and shoot/position themselves intelligently until the job is done. Perfect for those occasions where you are busy dealing with a bigger issue. For now, this is an experimental feature and with more than a handful colonists or opponents will probably force your computer to its knees. But used smart it will be a useful feature!\n\n- Flexibility\n\nA few commands have different way to behave. Achtung! uses both: the ALT and the SHIFT key to modify the way it works. Hold SHIFT to move colonists relative to their current position. Hold ALT while right-clicking to draft your selected colonists before the operation and to suppress the context menu.\n\n-  Known errors and bugs\n\nAchtung! is developed with the user in mind. To stay compatible with other mods, Achtung! was developed to stay out of its way and does not overwrite any essential functions. Instead, it reuses existing functionality and probably works with 99% of other mods out of the box.\n\nHere are the current problems and their workarounds for the current version:\n\nAchtung! usually does not modify save state for saved games to avoid a dependency on it. However, a side effect of the provided custom jobs is that when save the game and your colonists are actively running an Achtung job this will be saved too thus creating a dependency to Achtung. Workaround: open the saved game with Achtung, cancel all Achtung jobs and save it again. This will \"clean\" the save and remove the dependency.\n\nThe jobs in Achtung have 1st priority (that's the whole point). They all force the colonist to work until done and if you don't keep an eye on them, they become unhappy or injured. Currently, there is a build-in prevention to avoid the worst but this option is not yet configurable and kicks only in as a last resort and cancels the job. But that's how we roll here at Achtung! Workaround: if you want the soft solution just schedule stuff and hope for the best ;-)\n\nThe new \"Auto Combat\" system is not optimized and will eat your CPU for breakfast. It probably will do stupid things and may not work as expected if you have exotic locations or mods that change the basic combat. Workaround: use it wisely and avoid too many colonists/enemies at the same time.\n\n-  Requirements\n\nAchtung! Mod works with RimWorld Alpha 14 and 15 and will get updated tightly with new RimWorld versions. I does not depend on any other mods and is known to work in any mod order you like.\n\n- Feedback\n\nWithout feedback, this mod would have never come so far. So please, send me feedback and rate and recommend my mod whenever possible. The three main places to do so are\n\n  - Ludeon Forums (https://ludeon.com/forums/index.php?topic=22130.0)\n  - Steam Workshop (http://steamcommunity.com/sharedfiles/filedetails/comments/730936602)\n  - GitHub (https://github.com/pardeike/RimWorld-Achtung-Mod)\n\n- FAQ\n\nAre there any videos showing Achtung! in action?\nYes, here's a youtube playlist: http://tinyurl.com/achtungmod\n\nDoes this alter my save files?\nNo, Achtung! changes only the interface and the user actions. Rimworld will warn you but you can simply ignore the warning. If you later decide to remove Achtung! your saved games will still work as before!\n\nIs this mod compatible with other mods?\nMost likely. I don't know of any mods altering the selection mechanism. The context menu is created in a general way so it will include actions from other mods without breaking.\n\nWhy is this called \"Achtung!\" ?\nIt's german for \"Attention!\" and used in the military as a command to line up soldiers.\n\nWhy do I need Auto Combat? Isn't this just the auto response thing already in the game?\nNot at all. For example: Once you get a raid or siege you cannot auto respond to it. First, those raiders are usually out of sight and second even if you get your colonists there they are usually drafted which means that they will just stand still once they're done. All this and a super smart positioning system will beat the living hell out of the build in auto response.\n\nI think this should work different/better. Are you open for changes or improvement requests?\nAwesome! Please send see the Feedback section or send me email to andreas@pardeike.net\n\n- License\n\nFree. As in free beer. Copy, learn and be respectful.\nPowered by Harmony Patch Library\n\n- Contact\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/RimWorld-Achtung-Mod",
+    "issues": "https://github.com/pardeike/RimWorld-Achtung-Mod/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/RimWorld-Achtung-Mod/releases/download/v1.4/AchtungMod.zip",
+      "steam": "730936602"
+    },
+    "created": "2017-02-19T23:06:35+00:00",
+    "changeLog": "This release is compatible with RimWorld A16. Enjoy."
+  },
+  {
+    "id": "ReverseCommands",
+    "name": "Reverse Commands",
+    "version": "0.5.0",
+    "targetGameVersion": "0.16.0",
+    "author": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Reverses the context menu so you can select something to interact with, followed by an action and the colonist that should execute that action. No need to select colonists first and much less scrolling through the map.\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/ReverseCommands/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/ReverseCommands",
+    "issues": "https://github.com/pardeike/ReverseCommands/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/ReverseCommands/releases/download/v0.5/ReverseCommands.zip",
+      "steam": "858744731"
+    },
+    "created": "2017-02-07T07:47:35+00:00",
+    "changeLog": "Enjoy!"
+  },
+  {
+    "id": "AcEnhancedCrafting",
+    "name": "AC-Enhanced Crafting",
+    "version": "1.131.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "v1.131\n  Provides enhanced bill capabilities and UI.",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/96095810326938276/053BF346838DF4A94AFD07B498905B2CBC09783F/",
+    "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedCrafting",
+    "issues": "https://github.com/AlcoholV/Rim.AcEnhancedCrafting/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AlcoholV/Rim.AcEnhancedCrafting/releases/download/v1.131/AcEnhancedCrafting.zip",
+      "steam": "809961552"
+    },
+    "created": "2017-01-12T02:52:10+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AcUnlimitedValidation",
+    "name": "Ac-Unlimited Validation",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "v1.01\nAllows to type every language and characters.\n  ",
+    "preview": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation/blob/master/Mods/AcUnlimitedValidation/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation",
+    "issues": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation/releases/download/1.01/AcUnlimitedValidation.zip",
+      "steam": "797452233"
+    },
+    "created": "2017-01-05T05:43:25+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AcEnhancedHauling",
+    "name": "AC-Enhanced Hauling",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "v1.03\nInstead of haul one by one, colonists haul as possible as they can and store to the nearest storage.\n\nIf a stockpile is farther than working ground or the colonists is incapable of hauling, they work as vanilla.\n  ",
+    "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mods/AcEnhancedHauling/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedHauling",
+    "issues": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/releases/download/1.01/AcEnhancedHauling.zip",
+      "steam": "796303006"
+    },
+    "created": "2017-01-01T01:27:16+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AcCannibbles",
+    "name": "Ac-Cannibbles",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "v1.01\nA Horrible mod(?) that adds foods for cannibbles.\nDon't to be stressed to distinguish between food and human meat.\n\t",
+    "preview": "https://github.com/AlcoholV/Rim.AcCannibbles/blob/master/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.AcCannibbles",
+    "issues": "https://github.com/AlcoholV/Rim.AcCannibbles/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/AlcoholV/Rim.AcCannibbles/zipball/1.01",
+      "steam": "804170072"
+    },
+    "created": "2017-01-02T02:35:09+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AcSmartSpeed",
+    "name": "AC-Smart Speed",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "Allows the use of ultra speed and change event speed multiplier.",
+    "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mod/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.AcSmartSpeed",
+    "issues": "https://github.com/AlcoholV/Rim.AcSmartSpeed/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/AlcoholV/Rim.AcSmartSpeed/releases/download/1.02/AcSmartSpeed.zip",
+      "steam": "803734444"
+    },
+    "created": "2016-12-22T20:06:59+00:00",
+    "changeLog": "Fix bug world map multiplier\n"
+  },
+  {
+    "id": "AcEnhancedStack",
+    "name": "AC-Enhanced Stack",
+    "version": "16.0.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "Capacity of every items stack increased 10 times.",
+    "preview": "https://github.com/AlcoholV/Rim.AcEnhancedStack/blob/master/Mod/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedStack",
+    "issues": "https://github.com/AlcoholV/Rim.AcEnhancedStack/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/AlcoholV/Rim.AcEnhancedStack/zipball/A16",
+      "steam": "804599351"
+    },
+    "created": "2016-12-22T17:47:50+00:00",
+    "changeLog": "- Log Items list\n- Add body parts\n- Update A16\n"
+  },
+  {
+    "id": "WhereIsRichSoil",
+    "name": "Where is rich soil?",
+    "version": "16.0.0",
+    "targetGameVersion": "0.16.0",
+    "author": "AlcoholV",
+    "description": "This mod changes original rich soil color to be darker to make it easier to find.",
+    "preview": "https://github.com/AlcoholV/Rim.WhereIsRichSoil/blob/master/About/preview.png?raw=true",
+    "homePage": "https://github.com/AlcoholV/Rim.WhereIsRichSoil",
+    "issues": "https://github.com/AlcoholV/Rim.WhereIsRichSoil/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/AlcoholV/Rim.WhereIsRichSoil/zipball/A16",
+      "steam": "783475829"
+    },
+    "created": "2016-12-13T09:38:34+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "ExtendedFabrics",
+    "name": "ExtendedFabrics",
+    "version": "1.4.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Skullywag",
+    "description": "Adds another step in fabric production, also makes Synthread and Hyperweave craftable.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedFabrics/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ExtendedFabrics",
+    "issues": "https://github.com/Skullywag/ExtendedFabrics/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ExtendedFabrics/zipball/ExtendedFabrics1.4"
+    },
+    "created": "2017-01-12T19:37:32+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "ExtendedStorage",
+    "name": "ExtendedStorageFluffy",
+    "version": "1.14.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Skullywag",
+    "description": "Adds additional storage buildings that multi stack items.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedStorage/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ExtendedStorage",
+    "issues": "https://github.com/Skullywag/ExtendedStorage/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ExtendedStorage/zipball/ExtendedStorage1.14"
+    },
+    "created": "2017-02-23T23:44:42+00:00",
+    "changeLog": "Added new auto item lock from Fluffy and new textures from Eldvarg"
+  },
+  {
+    "id": "PersonalShieldMKII",
+    "name": "PersonalShieldMKII",
+    "version": "1.6.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds an expensive personal shield that allows shooting from within, charges slower than vanilla melee shield.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/PersonalShieldMKII/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/PersonalShieldMKII",
+    "issues": "https://github.com/Skullywag/PersonalShieldMKII/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/PersonalShieldMKII/zipball/PersonalShieldMKII1.6"
+    },
+    "created": "2017-01-12T20:01:15+00:00",
+    "changeLog": "A16 update."
+  },
+  {
+    "id": "MuffaloOverhaul",
+    "name": "MuffaloOverhaul",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds the alpha muffalo as a male muffalo and backpacks for the pack versions.",
+    "homePage": "https://github.com/Skullywag/MuffaloOverhaul",
+    "issues": "https://github.com/Skullywag/MuffaloOverhaul/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/MuffaloOverhaul/zipball/MuffaloOverhaul-1.0"
+    },
+    "created": "2017-02-02T20:49:17+00:00",
+    "changeLog": "Initial A16 release."
+  },
+  {
+    "id": "DermalRegenerator",
+    "name": "DermalRegenerator",
+    "version": "1.9.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds a machine with the ability to repair skin damage.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/DermalRegenerator/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/DermalRegenerator",
+    "issues": "https://github.com/Skullywag/DermalRegenerator/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/DermalRegenerator/zipball/DermalRegenerator1.9"
+    },
+    "created": "2017-01-22T08:25:17+00:00",
+    "changeLog": "Recompiled to see if this is now working for other users, has always worked fine for me."
+  },
+  {
+    "id": "LessLethals",
+    "name": "LessLethals",
+    "version": "1.1.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds less lethal weapons to the game.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/LessLethals/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/LessLethals",
+    "issues": "https://github.com/Skullywag/LessLethals/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/LessLethals/zipball/LessLethals1.1"
+    },
+    "created": "2016-04-25T19:21:29+00:00",
+    "changeLog": "Alpha 13 update\n"
+  },
+  {
+    "id": "ArmourRepair",
+    "name": "ArmourRepair",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds the ability to \"repair\" power armour and shields at the machining workbench. Repairing is actually crafting a new set of armour using armour/shield as an ingredient, \n  so itll reroll the quality based on skill, costs quite a lot plasteel/uranium though.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ArmourRepair/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ArmourRepair",
+    "issues": "https://github.com/Skullywag/ArmourRepair/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ArmourRepair/zipball/ArmourRepair-1.1"
+    },
+    "created": "2017-01-12T19:28:02+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "BetterVents",
+    "name": "BetterVents",
+    "version": "1.3.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds vents that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BetterVents/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/BetterVents",
+    "issues": "https://github.com/Skullywag/BetterVents/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/BetterVents/zipball/BetterVents1.3"
+    },
+    "created": "2017-01-12T19:29:58+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "BetterCoolers",
+    "name": "BetterCoolers",
+    "version": "1.3.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds coolers that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BetterCoolers/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/BetterCoolers",
+    "issues": "https://github.com/Skullywag/BetterCoolers/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/BetterCoolers/zipball/BetterCoolers1.3"
+    },
+    "created": "2017-01-12T19:29:20+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "ExtendedMedicine",
+    "name": "ExtendedMedicine",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1393",
+    "author": "Skullywag",
+    "description": "Makes Glitterworld medicine craftable.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedMedicine/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ExtendedMedicine",
+    "issues": "https://github.com/Skullywag/ExtendedMedicine/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ExtendedMedicine/zipball/ExtendedMedicine1.5"
+    },
+    "created": "2017-01-12T19:42:39+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "AdditionalLighting",
+    "name": "AdditionalLighting",
+    "version": "1.10.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds some additonal light sources.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/AdditionalLighting/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/AdditionalLighting",
+    "issues": "https://github.com/Skullywag/AdditionalLighting/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/AdditionalLighting/zipball/AdditionalLighting1.10"
+    },
+    "created": "2017-01-12T19:23:43+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "BatteriesStuffed",
+    "name": "BatteriesStuffed",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1373",
+    "author": "Skullywag",
+    "description": "Changes vanilla batteries so that they can be made with stuff.\n  \n                            Storage  Efficiency  Beauty  Fires  Health  Explodes\nSteel battery:          1000      50%         -15       yes     100       yes\nSilver battery:         1000      70%         +5         yes     125       yes\nGold battery:          2500      80%         +10       yes     150       yes\nPlasteel battery:     1500      90%         -10        no      250        no\nUranium battery:    2000     100%         -20       no      200        no",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BatteriesStuffed/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/BatteriesStuffed",
+    "issues": "https://github.com/Skullywag/BatteriesStuffed/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/BatteriesStuffed/zipball/BatteriesStuffed-1.5"
+    },
+    "created": "2017-01-12T19:28:39+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "ConduitsStuffed",
+    "name": "ConduitsStuffed",
+    "version": "1.4.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Changes vanilla conduits so that they can be made with stuff.\n  \n                            Health      Flammable     Beauty\nSteel conduit:          80            20%               -2\nSilver conduit:         56            20%               -2\nGold conduit:          48            20%               -2\nPlasteel conduit:     225          10%               -2\nUranium conduit:     200          0%                -2",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ConduitsStuffed/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/ConduitsStuffed",
+    "issues": "https://github.com/Skullywag/ConduitsStuffed/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ConduitsStuffed/zipball/ConduitsStuffed1.4"
+    },
+    "created": "2017-01-12T19:30:54+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "PowerCell",
+    "name": "PowerCell",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds a drop to the crashed ship part which can be used to build a passive power generating structure.\n\nProduces 2000W of power but creates a lot of heat.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/PowerCell/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/PowerCell",
+    "issues": "https://github.com/Skullywag/PowerCell/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/PowerCell/zipball/PowerCell1.5"
+    },
+    "created": "2017-01-12T20:03:19+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "SmallSolarsStuffed",
+    "name": "SmallSolarsStuffed",
+    "version": "1.6.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Adds multpile sized, smaller than the vanilla solar panels that can be made with stuff.\n  \nMICRO 3X3          Energy          Health         Flammable         Beauty  \nSteel panel:           1300W           225               20%                 -10\nSilver panel:          1400W           158               20%                 -10\nGold panel:            1500W          135               20%                 -10\nPlasteel panel:       1700W          630               10%                 -10\nUranium panel:      1800W          560                 0%                  -10\n\nMINI 2X2\nSteel panel:           560W           100               20%                 -10\nSilver panel:          600W           70               20%                 -10\nGold panel:            640W          60               20%                 -10\nPlasteel panel:       700W          280               10%                 -10\nUranium panel:      740W          250                 0%                  -10\n\nSINGLE 1X1\nSteel panel:           135W           25               20%                 -10\nSilver panel:          145W           18               20%                 -10\nGold panel:            155W          15               20%                 -10\nPlasteel panel:       165W          70               10%                 -10\nUranium panel:      175W          62                 0%                  -10",
+    "preview": "https://raw.githubusercontent.com/Skullywag/SmallSolarsStuffed/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/SmallSolarsStuffed",
+    "issues": "https://github.com/Skullywag/SmallSolarsStuffed/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/SmallSolarsStuffed/zipball/SmallSolarsStuffed-1.6"
+    },
+    "created": "2017-01-12T20:04:52+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "ThermalsStuffed",
+    "name": "ThermalsStuffed",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1375",
+    "author": "Skullywag",
+    "description": "Changes vanilla thermal generators so that they can be made with stuff.\n  \n                                    Energy          Health         Flammable         Beauty  \nSteel generator:           3600W           500               20%                  -40\nSilver generator:          4200W           350               20%                  -40\nGold generator:            5000W          300               20%                  -40\nPlasteel generator:       5200W          1400             10%                  -40\nUranium generator:      6000W          1250               0%                  -40",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ThermalsStuffed/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/ThermalsStuffed",
+    "issues": "https://github.com/Skullywag/ThermalsStuffed/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ThermalsStuffed/zipball/ThermalsStuffed-1.5"
+    },
+    "created": "2017-01-12T20:05:53+00:00",
+    "changeLog": "A16 update\n"
+  },
+  {
+    "id": "PlasmaWeapons",
+    "name": "PlasmaWeapons",
+    "version": "1.6.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds plasma weapons, highly accurate energy weapons.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/PlasmaWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/PlasmaWeapons",
+    "issues": "https://github.com/Skullywag/PlasmaWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/PlasmaWeapons/zipball/PlasmaWeapons1.6"
+    },
+    "created": "2016-04-19T21:43:25+00:00",
+    "changeLog": "missed some stuff\n"
+  },
+  {
+    "id": "MeteoriteEvent",
+    "name": "MeteoriteEvent",
+    "version": "1.1.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds an event that makes meteorites crash into the Rimworld containing different resources.",
+    "homePage": "https://github.com/Skullywag/MeteoriteEvent",
+    "issues": "https://github.com/Skullywag/MeteoriteEvent/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/MeteoriteEvent/zipball/MeteoriteEvent1.1"
+    },
+    "created": "2016-04-25T19:27:09+00:00",
+    "changeLog": "Alpha 13 update\n"
+  },
+  {
+    "id": "MedievalShields",
+    "name": "MedievalShields",
+    "version": "1.10.0",
+    "targetGameVersion": "0.14.1234",
+    "author": "Skullywag",
+    "description": "Adds medieval shields to Rimworld.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/MedievalShields/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/MedievalShields",
+    "issues": "https://github.com/Skullywag/MedievalShields/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/MedievalShields/zipball/MedievalShields1.10"
+    },
+    "created": "2016-07-20T20:28:56+00:00",
+    "changeLog": "Alpha 14 update\n"
+  },
+  {
+    "id": "LaserWeapons",
+    "name": "LaserWeapons",
+    "version": "1.6.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds laser weapons which have a chance at stunning the target.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/LaserWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/LaserWeapons",
+    "issues": "https://github.com/Skullywag/LaserWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/LaserWeapons/zipball/LaserWeapons1.6"
+    },
+    "created": "2016-04-19T21:42:51+00:00",
+    "changeLog": "missed some stuff\n"
+  },
+  {
+    "id": "GaussWeapons",
+    "name": "GaussWeapons",
+    "version": "1.6.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds gauss weapons, highly accurate with lethal damage, slow to fire.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/GaussWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/GaussWeapons",
+    "issues": "https://github.com/Skullywag/GaussWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/GaussWeapons/zipball/GaussWeapons1.6"
+    },
+    "created": "2016-04-19T19:26:07+00:00",
+    "changeLog": "Alpha 13 update\n"
+  },
+  {
+    "id": "FlameWeapons",
+    "name": "FlameWeapons",
+    "version": "1.5.0",
+    "targetGameVersion": "0.13.0",
+    "author": "Skullywag",
+    "description": "Adds flame based weapons, wide spread panic will ensue!.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/FlameWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/FlameWeapons",
+    "issues": "https://github.com/Skullywag/FlameWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/FlameWeapons/zipball/FlameWeapons1.5"
+    },
+    "created": "2016-04-19T19:17:28+00:00",
+    "changeLog": "Alpha 13 update\n"
+  },
+  {
+    "id": "Embrasures",
+    "name": "Embrasures",
+    "version": "1.5.0",
+    "targetGameVersion": "0.14.1234",
+    "author": "Skullywag",
+    "description": "Adds walls which support roofs and can be fired through.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/Embrasures/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/Embrasures",
+    "issues": "https://github.com/Skullywag/Embrasures/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/Embrasures/zipball/Embrasures1.5"
+    },
+    "created": "2016-07-20T20:27:59+00:00",
+    "changeLog": "Alpha 14 update\n"
+  },
+  {
+    "id": "DefenceShield",
+    "name": "DefenceShield",
+    "version": "1.5.0",
+    "targetGameVersion": "0.14.1232",
+    "author": "Skullywag",
+    "description": "Adds static shield emplacements to defend against incoming projectiles.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/DefenceShield/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/DefenceShield",
+    "issues": "https://github.com/Skullywag/DefenceShield/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/DefenceShield/zipball/DefenceShield1.5"
+    },
+    "created": "2016-07-17T17:06:39+00:00",
+    "changeLog": "Alpha 14 update\n"
+  },
+  {
+    "id": "AlphaAnimals",
+    "name": "AlphaAnimals",
+    "version": "1.0.0",
+    "targetGameVersion": "0.15.1284",
+    "author": "Skullywag",
+    "description": "Adds multiple new animals to Rimworld.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/AlphaAnimals/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/AlphaAnimals",
+    "issues": "https://github.com/Skullywag/AlphaAnimals/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/AlphaAnimals/zipball/AlphaAnimals-1.0"
+    },
+    "created": "2016-10-02T08:54:59+00:00",
+    "changeLog": "Initial release.\n"
   }
 ]

@@ -5,7 +5,6 @@
     "repoName": "RimBackground",
     "definition": {
       "id": "Background",
-      "author": "Fumblesneeze",
       "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
       "category": "UI",
       "relationships": {
@@ -15,6 +14,21 @@
       }
     }
   },
+  {
+    "repoOwner": "Fumblesneeze",
+    "repoName": "RimIce",
+    "definition": {
+      "id": "RimIce",
+      "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimIce/master/Mod/About/Preview.png",
+      "category": "Content",
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
+
 
   // UnlimitedHugs Mods
   {
@@ -264,12 +278,416 @@
     }
   },
 
+
   // notfood's mods
   {
     "repoOwner": "notfood",
     "repoName": "Rimworld-MFO",
     "definition": {
-     "category": "Library"
+      "category": "Library"
+    }
+  },
+
+
+  // EdB's mods
+  {
+    "repoOwner": "edbmods",
+    "repoName": "EdBPrepareCarefully",
+    "definition": {
+      "author": "EdB",
+      "category": "Gameplay",
+      "preview": "https://github.com/edbmods/EdBPrepareCarefully/blob/develop/Resources/About/preview.png?raw=true",
+      "homePage": "https://ludeon.com/forums/index.php?topic=6261.0"
+    }
+  },
+
+
+  // ZorbaTHut's mods
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "StepAway",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/stepaway/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "ImTheWorkerNow",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/imtheworkernow/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "ICanFixIt",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/icanfixit/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "LetsBeHonestHere",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/letsbehonesthere/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "CraftingHysteresis",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/craftinghysteresis/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "OSHACompliance",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/oshacompliance/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "AWorldWithoutHat",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/aworldwithouthat/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "Caerbannog",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/caerbannog/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "SillyBuilder",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/sillybuilder/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "ItsDangerous",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/itsdangerous/blob/master/About/Preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "ZorbaTHut",
+    "repoName": "Raindrops",
+    "definition": {
+      "category": "Gameplay",
+      "preview": "https://github.com/zorbathut/raindrops/blob/master/About/Preview.png?raw=true"
+    }
+  },
+
+
+  //pardeike's mods
+  {
+    "repoOwner": "pardeike",
+    "repoName": "CarefulRaids",
+    "definition": {
+      "contact":  "andreas@pardeike.net",
+      "category": "Gameplay",
+      "preview": "https://github.com/pardeike/CarefulRaids/blob/master/Source/animation.gif?raw=true"
+    }
+  },
+  {
+    "repoOwner": "pardeike",
+    "repoName": "SameSpot",
+    "definition": {
+      "contact": "andreas@pardeike.net",
+      "category": "Gameplay",
+      "preview": "https://github.com/pardeike/SameSpot/blob/master/About/Preview.PNG?raw=true"
+    }
+  },
+  {
+    "repoOwner": "pardeike",
+    "repoName": "CameraPlus",
+    "definition": {
+      "contact": "andreas@pardeike.net",
+      "category": "Gameplay",
+      "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true"
+    }
+  },
+  {
+    "repoOwner": "pardeike",
+    "repoName": "RimWorld-Achtung-Mod",
+    "definition": {
+      "id": "AchtungMod",
+      "contact": "andreas@pardeike.net",
+      "category": "Gameplay",
+      "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true"
+    }
+  },
+  {
+    "repoOwner": "pardeike",
+    "repoName": "ReverseCommands",
+    "definition": {
+      "contact": "andreas@pardeike.net",
+      "category": "Gameplay",
+      "preview": "https://github.com/pardeike/ReverseCommands/blob/master/About/Preview.PNG?raw=true"
+    }
+  },
+
+  // AlcoholV's mods
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcEnhancedCrafting",
+    "definition": {
+      "id": "AcEnhancedCrafting",
+      "category": "Gameplay",
+      "preview": "http://images.akamai.steamusercontent.com/ugc/96095810326938276/053BF346838DF4A94AFD07B498905B2CBC09783F/"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcUnlimitedValidation",
+    "definition": {
+      "id": "AcUnlimitedValidation",
+      "category": "UI",
+      "preview": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation/blob/master/Mods/AcUnlimitedValidation/About/preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcEnhancedHauling",
+    "definition": {
+      "id": "AcEnhancedHauling",
+      "category": "Gameplay",
+      "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mods/AcEnhancedHauling/About/preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcCannibbles",
+    "definition": {
+      "id": "AcCannibbles",
+      "category": "Content",
+      "preview": "https://github.com/AlcoholV/Rim.AcCannibbles/blob/master/About/preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcSmartSpeed",
+    "definition": {
+      "id": "AcSmartSpeed",
+      "category": "UI",
+      "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mod/About/preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.AcEnhancedStack",
+    "definition": {
+      "id": "AcEnhancedStack",
+      "category": "Gameplay",
+      "preview": "https://github.com/AlcoholV/Rim.AcEnhancedStack/blob/master/Mod/About/preview.png?raw=true"
+    }
+  },
+  {
+    "repoOwner": "AlcoholV",
+    "repoName": "Rim.WhereIsRichSoil",
+    "definition": {
+      "id": "WhereIsRichSoil",
+      "category": "UI",
+      "preview": "https://github.com/AlcoholV/Rim.WhereIsRichSoil/blob/master/About/preview.png?raw=true"
+    }
+  },
+   
+
+  // Skullywag's mods
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ExtendedFabrics",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ExtendedStorage",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "PersonalShieldMKII",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "MuffaloOverhaul",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "DermalRegenerator",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "LessLethals",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ArmourRepair",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "BetterVents",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "BetterCoolers",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ExtendedMedicine",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "AdditionalLighting",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "BatteriesStuffed",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ConduitsStuffed",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "PowerCell",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "SmallSolarsStuffed",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "ThermalsStuffed",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "PlasmaWeapons",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "MeteoriteEvent",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "MedievalShields",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "LaserWeapons",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "GrowDesignators",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "GaussWeapons",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "FlameWeapons",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "Embrasures",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "DefenceShield",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Skullywag",
+    "repoName": "AlphaAnimals",
+    "definition": {
+      "category": "Content"
     }
   },
 ]
