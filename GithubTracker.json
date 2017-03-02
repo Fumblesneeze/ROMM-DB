@@ -36,7 +36,6 @@
     "repoName": "RimworldHugsLib",
     "definition": {
       "id": "HugsLib",
-      "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/W8wAiTm.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=28066",
       "issues": "https://ludeon.com/forums/index.php?topic=28066",
@@ -49,7 +48,6 @@
     "repoName": "RimworldAllowTool",
     "definition": {
       "id": "AllowTool",
-      "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/70nDp0b.jpg",
       "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
       "issues": "https://ludeon.com/forums/index.php?topic=17218.0",
@@ -65,7 +63,6 @@
     "repoName": "RimworldMapReroll",
     "definition": {
       "id": "MapReroll",
-      "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/I3Vz9TJ.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=18073",
       "issues": "https://ludeon.com/forums/index.php?topic=18073",
@@ -81,7 +78,6 @@
     "repoName": "RimworldDefensivePositions",
     "definition": {
       "id": "DefensivePositions",
-      "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/6478wKG.png",
       "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
       "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
@@ -97,7 +93,6 @@
     "repoName": "RimworldRemoteExplosives",
     "definition": {
       "id": "RemoteExplosives",
-      "author": "UnlimitedHugs",
       "preview": "http://i.imgur.com/Ou66S8o.gif",
       "homePage": "https://ludeon.com/forums/index.php?topic=17285",
       "issues": "https://ludeon.com/forums/index.php?topic=17285",
@@ -284,7 +279,76 @@
     "repoOwner": "notfood",
     "repoName": "Rimworld-MFO",
     "definition": {
+      "id":  "MFO",
+      "name": "Mod Friendly Overrides",
       "category": "Library"
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-SeedsPlease",
+    "definition": {
+      "id":  "SeedsPlease",
+      "name": "SeedsPlease!",
+      "category": "Content"
+    },
+    "relationships": {
+      "requires": [ "HugsLib", "MFO" ]
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-Miniaturisation",
+    "definition": {
+      "id":  "Miniaturisation",
+      "category": "Gameplay",
+      "source": {
+        "steam":  "751295960"
+      }
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-Enlighten",
+    "definition": {
+      "id":  "Enlighten",
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-Infused",
+    "releaseFilter":  "(?<!CombatRealism)$",
+    "definition": {
+      "id":  "Infused",
+      "category": "Gameplay",
+      "source": {
+        "steam":  "731287727"
+      }
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-Infused",
+    "releaseFilter":  "^(.*)\\sCombatRealism$",
+    "definition": {
+      "id":  "Infused-CombatRealism",
+      "category": "Gameplay",
+      "relationships": {
+        "patches": [ "Infused", "CombatRealism" ],
+        "contains":  [ "Infused" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "notfood",
+    "repoName": "Rimworld-Mending",
+    "definition": {
+      "id":  "Mending",
+      "category": "Gameplay",
+      "source": {
+        "steam":  "735241897"
+      }
     }
   },
 
@@ -687,6 +751,19 @@
     "repoOwner": "Skullywag",
     "repoName": "AlphaAnimals",
     "definition": {
+      "category": "Content"
+    }
+  },
+
+  // Morgloz's mods
+  {
+    "repoOwner": "Morgloz",
+    "repoName": "RimWorld-RedistHeat",
+    "definition": {
+      "id": "RedistHeat",
+      "name":  "Redist.Heat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=21770.0",
+      "issues": "https://ludeon.com/forums/index.php?topic=21770.0",
       "category": "Content"
     }
   },

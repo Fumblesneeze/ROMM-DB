@@ -1272,5 +1272,119 @@
     },
     "created": "2016-10-02T08:54:59+00:00",
     "changeLog": "Initial release.\n"
+  },
+  {
+    "id": "RedistHeat",
+    "name": "Redist.Heat",
+    "version": "0.1.0-v46a",
+    "targetGameVersion": "0.16.1393",
+    "author": "Morgloz",
+    "description": "\nThis mods adds small/medium/industrial versions of the vanilla temperature buildings.\nIt also adds a duct network to let you build complex systems for temperature control.\n\nCredits\n    -mrCarton, the author of \"Central Heating\"\n    -justarandomgeek, the author of \"Signals, you can't stop them!\"\n    -mrofa, who helped me in the pipe's graphic code\n    -Latta, the previous owner of the mod\n    ",
+    "preview": "https://raw.githubusercontent.com/Morgloz/RimWorld-RedistHeat/master/About/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=21770.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=21770.0",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Morgloz/RimWorld-RedistHeat/releases/download/v46a/RedistHeat_v46a.zip"
+    },
+    "created": "2017-02-19T20:55:35+00:00",
+    "changeLog": "Added Flow tooltip and nerfed intakes and outlets"
+  },
+  {
+    "id": "SeedsPlease",
+    "name": "SeedsPlease!",
+    "version": "0.16.1-1",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "Adds seeds for your immersion pleasure.\n\nRequires Mod Friendly Overrides.\n\nUpdated by NotFood for version Alpha 14\nUpdated by Skyarkhangel for version Alpha 13\n",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-SeedsPlease/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-SeedsPlease",
+    "issues": "https://github.com/notfood/Rimworld-SeedsPlease/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-SeedsPlease/releases/download/0.16.1.1/SeedsPlease_0.16.1.1.zip"
+    },
+    "created": "2017-01-18T01:25:59+00:00",
+    "changeLog": "- Balance for Seeds\n- Seeds for drug plants, they lack recipe to extract from leafs, it's intentional.\n- Mote timeout fix\n- parse_plant.py updated to handle plants behind research and put the seeds behind that research\n\nThe addons don't need update.\n"
+  },
+  {
+    "id": "Miniaturisation",
+    "name": "Miniaturisation",
+    "version": "0.16.1-1",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "\nShrink... everything!\n  ",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Miniaturisation/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-Miniaturisation",
+    "issues": "https://github.com/notfood/Rimworld-Miniaturisation/issues",
+    "category": "Gameplay",
+    "source": {
+      "steam": "751295960",
+      "github": "https://github.com/notfood/RimWorld-Miniaturisation/releases/download/0.16.1.1/Miniaturisation_0.16.1.1.zip"
+    },
+    "created": "2017-01-04T21:42:50+00:00",
+    "changeLog": "### Newest additions:\n- Hardcore SK production tables.\n- Combat Realism\n- Core Driller\n\n### Updates\n- Core\n- Vegetable Garden\n"
+  },
+  {
+    "id": "Mending",
+    "name": "Mending",
+    "version": "0.16.1-1-easymode",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "Repair the durability of items.",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Mending/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-Mending",
+    "issues": "https://github.com/notfood/Rimworld-Mending/issues",
+    "category": "Gameplay",
+    "source": {
+      "steam": "735241897",
+      "github": "https://github.com/notfood/RimWorld-Mending/releases/download/0.16.1.1-easymode/Mending_easymode_0.16.1.1.zip"
+    },
+    "created": "2017-01-04T02:56:00+00:00",
+    "changeLog": "- Removed Mending.SpecialThingFilterWorker, to recover your save use Safe Inside, can be found on steam or Mending thread. New saves don't have to do anything.\n- Removed Quality degradation from mending. Failure means flat hp damage.\n- XP gain increased when using any benches.\n"
+  },
+  {
+    "id": "Infused",
+    "name": "Infused",
+    "version": "0.16.2-0",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "Equipment enchantment\n",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Infused/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-Infused",
+    "issues": "https://github.com/notfood/Rimworld-Infused/issues",
+    "category": "Gameplay",
+    "source": {
+      "steam": "731287727",
+      "github": "https://github.com/notfood/RimWorld-Infused/releases/download/0.16.2.0/Infused-0.16.2.0.zip"
+    },
+    "created": "2017-01-06T00:58:26+00:00",
+    "changeLog": "- Infusion chance increased.\n- Russian translation fix\n- Messages can now be clicked to highlight the infused item\n"
+  },
+  {
+    "id": "Infused-CombatRealism",
+    "name": "Infused",
+    "version": "0.16.2-0",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "Equipment enchantment\n\nRequires CombatRealism\n",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Infused/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-Infused",
+    "issues": "https://github.com/notfood/Rimworld-Infused/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-Infused/releases/download/0.16.2.0-cr/Infused-CR_0.16.2.0.zip"
+    },
+    "relationships": {
+      "patches": [
+        "Infused",
+        "CombatRealism"
+      ],
+      "contains": [
+        "Infused"
+      ]
+    },
+    "created": "2017-01-06T00:59:10+00:00",
+    "changeLog": "Infused tailored for Combat Realism thanks to Skyarkhangel.\n"
   }
 ]
