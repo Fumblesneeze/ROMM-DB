@@ -1276,7 +1276,7 @@
   {
     "id": "RedistHeat",
     "name": "Redist.Heat",
-    "version": "0.1.0-v46a",
+    "version": "0.1.0-46a",
     "targetGameVersion": "0.16.1393",
     "author": "Morgloz",
     "description": "\nThis mods adds small/medium/industrial versions of the vanilla temperature buildings.\nIt also adds a duct network to let you build complex systems for temperature control.\n\nCredits\n    -mrCarton, the author of \"Central Heating\"\n    -justarandomgeek, the author of \"Signals, you can't stop them!\"\n    -mrofa, who helped me in the pipe's graphic code\n    -Latta, the previous owner of the mod\n    ",
@@ -1386,5 +1386,125 @@
     },
     "created": "2017-01-06T00:59:10+00:00",
     "changeLog": "Infused tailored for Combat Realism thanks to Skyarkhangel.\n"
+  },
+  {
+    "id": "ModListBackup",
+    "name": "Mod List Backup",
+    "version": "1.3.0",
+    "targetGameVersion": "0.16.0",
+    "author": "scuba156",
+    "description": "Backup and restore the currently loaded mods into 20 different nameable slots! Import a mod list from a save file! Never have to lose your mod order again!\nVersion: 1.3\n  ",
+    "preview": "https://raw.githubusercontent.com/scuba156/ModListBackup/master/ModListBackup/Output/ModListBackup/About/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=29420.msg297155",
+    "issues": "https://github.com/scuba156/ModListBackup/issues",
+    "category": "UI",
+    "source": {
+      "steam": "840043916",
+      "github": "https://github.com/scuba156/ModListBackup/releases/download/v1.3/ModListBackup.v.1.3.zip"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-01-22T14:03:42+00:00",
+    "changeLog": "### Version 1.3\r\n* add restart on close when a change has been made"
+  },
+  {
+    "id": "MFO",
+    "name": "Mod Friendly Overrides",
+    "version": "0.0.1-2017055+github",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "If it has a name, you can change it.",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-MFO/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-MFO",
+    "issues": "https://github.com/notfood/Rimworld-MFO/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-MFO/archive/master.zip"
+    },
+    "created": "2017-02-24T02:29:13+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "Enlighten",
+    "name": "Enlighten",
+    "version": "0.0.1-2016357+github",
+    "targetGameVersion": "0.16.0",
+    "author": "notfood",
+    "description": "You might want to build some lamps with this mod.\n  \t-In a \"Dark\" environment, your colonists will have a hard time moving.\n  \t-In a \"Brightly lit\" environment, your colonists will have a small bonus at movement and working.",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Enlighten/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-Enlighten",
+    "issues": "https://github.com/notfood/Rimworld-Enlighten/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-Enlighten/archive/master.zip"
+    },
+    "created": "2016-12-22T08:14:26+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SameSpot",
+    "name": "SameSpot",
+    "version": "0.0.1-2017005+github",
+    "targetGameVersion": "0.16.0",
+    "author": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Allows multiple colonists to be drafted at the same location\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/SameSpot/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/SameSpot",
+    "issues": "https://github.com/pardeike/SameSpot/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/SameSpot/archive/master.zip",
+      "steam": "834903021"
+    },
+    "created": "2017-01-05T03:54:44+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "GrowDesignators",
+    "name": "GrowDesignators",
+    "version": "0.0.1-2017013+github",
+    "targetGameVersion": "0.16.1373",
+    "author": "Skullywag",
+    "description": "Adds some extra designators for growing.",
+    "homePage": "https://github.com/Skullywag/GrowDesignators",
+    "issues": "https://github.com/Skullywag/GrowDesignators/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Skullywag/GrowDesignators/archive/master.zip"
+    },
+    "created": "2017-01-13T15:24:22+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "PersistentWorlds",
+    "name": "Persistent Worlds [WIP]",
+    "version": "0.0.1-2016363+github",
+    "targetGameVersion": "0.16.0",
+    "author": "scuba156",
+    "description": "Persistent Worlds aims to allow for persistent worlds across playthroughs.",
+    "preview": "https://raw.githubusercontent.com/scuba156/PersistentWorlds/master/src/Output/PersistentWorlds/About/preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=28360.msg286364",
+    "issues": "https://github.com/scuba156/PersistentWorlds/issues",
+    "category": "Gameplay",
+    "source": {
+      "steam": "828696032",
+      "github": "https://github.com/scuba156/PersistentWorlds/archive/master.zip"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2016-12-28T14:54:38+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
   }
 ]

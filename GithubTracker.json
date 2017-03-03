@@ -767,4 +767,34 @@
       "category": "Content"
     }
   },
+
+  // scuba156's mods
+  {
+    "repoOwner": "scuba156",
+    "repoName": "ModListBackup",
+    "definition": {
+      "homePage": "https://ludeon.com/forums/index.php?topic=29420.msg297155",
+      "category": "UI",
+      "source": {
+        "steam": "840043916"
+      },
+      "relationships": {
+        "requires":  [ "HugsLib" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "scuba156",
+    "repoName": "PersistentWorlds",
+    "definition": {
+      "homePage": "https://ludeon.com/forums/index.php?topic=28360.msg286364",
+      "category": "Gameplay",
+      "source": {
+        "steam": "828696032"
+      },
+      "relationships": {
+        "requires":  [ "HugsLib" ]
+      }
+    }
+  },
 ]
