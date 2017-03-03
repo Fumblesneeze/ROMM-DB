@@ -290,10 +290,10 @@
     "definition": {
       "id":  "SeedsPlease",
       "name": "SeedsPlease!",
-      "category": "Content"
-    },
+      "category": "Content",
     "relationships": {
       "requires": [ "HugsLib", "MFO" ]
+    }
     }
   },
   {

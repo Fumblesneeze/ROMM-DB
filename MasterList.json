@@ -1305,7 +1305,10 @@
       "github": "https://github.com/notfood/RimWorld-SeedsPlease/releases/download/0.16.1.1/SeedsPlease_0.16.1.1.zip"
     },
     "created": "2017-01-18T01:25:59+00:00",
-    "changeLog": "- Balance for Seeds\n- Seeds for drug plants, they lack recipe to extract from leafs, it's intentional.\n- Mote timeout fix\n- parse_plant.py updated to handle plants behind research and put the seeds behind that research\n\nThe addons don't need update.\n"
+    "changeLog": "- Balance for Seeds\n- Seeds for drug plants, they lack recipe to extract from leafs, it's intentional.\n- Mote timeout fix\n- parse_plant.py updated to handle plants behind research and put the seeds behind that research\n\nThe addons don't need update.\n",
+    "relationships": {
+      "requires": [ "HugsLib", "MFO" ]
+    }
   },
   {
     "id": "Miniaturisation",
