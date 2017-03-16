@@ -4,7 +4,7 @@
     "name": "HugsLib",
     "version": "2.4.2",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "<color=orange><b>Important: </b> This mod should be one of the first to be loaded to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 2.4.2\n\t",
     "preview": "http://i.imgur.com/W8wAiTm.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=28066",
@@ -23,7 +23,7 @@
     "name": "Allow Tool",
     "version": "2.5.4",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "Version: 2.5.4\n\n<size=20>Description</size>\nA set of tools to make handling forbidden items easier.\n\n<size=20>How to use</size>\nThe tools are located in the Architect menu, under the Orders tab. Hovering over each tool shows what it does and how to use it.\n\nEach tool can also be selected with a hotkey without opening the menu. See the Keyboard configuration panel in the options menu to customize the hotkeys.\n\t",
     "preview": "http://i.imgur.com/70nDp0b.jpg",
     "homePage": "https://ludeon.com/forums/index.php?topic=17218.0",
@@ -47,7 +47,7 @@
     "name": "Map Reroll",
     "version": "1.5.1",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "Version: 1.5.1\n\t\n<size=20>Description</size>\nAllows you to randomize your starting map to help you find one you like. Getting new positions for just the steam geysers is also possible.\n\n<size=20>How to use</size>\nStart a new game. In the top right corner of the screen you will find a button with red dice. Click that.\nUse \"Reroll Map\" to get an entirely new starting map or \"Reroll Geysers\" to get random new geyser positions on the current map.\nEach operation will cost you an amount of unmined resources from the map- both the cost and the amount of remaining resources are displayed in the window.\n\nNote, that rerolling becomes unavailable after naming your colony or loading it from a save file.\n\nIf you are using Community Core Library (CCL) you might want to temporarily disable the minimap, as it covers up the button.\n",
     "preview": "http://i.imgur.com/I3Vz9TJ.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=18073",
@@ -71,7 +71,7 @@
     "name": "Defensive Positions",
     "version": "1.3.3",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "Version: 1.3.3\n\t\n<size=20>Description</size>\nAllows your colonists to remember their position during base defense. You can send off your colonists to their positions with a single click.\n\t\t\n<size=20>How to use</size>\n<b>Set defensive positions for colonists</b>\n1) Draft your defenders and place them where you want them.\n2) With your defenders selected, hold the Shift key and click the Defensive position button (or press T).\nDone. The selected colonists will remember their held positions.\n\n<b>Send colonists to saved positions</b>\n1) Select your defenders.\n2) Click the Defensive position button (or press T).\nYour defenders will be drafted and will run to their saved positions.\n\n<b>Advanced mode</b>\nHold the Alt key and click the Defensive position button to switch between basic and advanced mode.\nAdvanced mode works exactly like Basic, but you have 4 positions to work with. Shift+click a slot to save a position, just click to send the selected pawns to the position they have been assigned under that number.\nPressing T is the same as clicking the first slot.\n\n<b>Squad hotkeys</b>\nColonists can be assigned to squads for easier selection. To assign, hold the Ctrl key and press 1-9 on the numeric keypad to assign the squad to that key. Press the numeric key of a squad to select the pawns, press again to focus on the squad location.\n\n<b>Utility hotkeys</b>\nThere are three other keys on the keypad for quick colonist management: press period to select all colonists on the map, undraft everyone by pressing divide, and press zero to send all colonists to their assigned defensive position.\n",
     "preview": "http://i.imgur.com/6478wKG.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
@@ -95,7 +95,7 @@
     "name": "Remote Explosives",
     "version": "1.11.2",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "Version: 1.11.2\n\t\n<size=20>Description</size>\nAn assortment of remotely detonated explosives for different purposes- from defending your base to mining, and much more.\nAlso includes several new researches and a workbench to manufacture your explosive goodies.\n\n<size=20>How to use</size>\nEverything you might want to build is available from the Explosives category in the Build menu. You can manufacture your own explosives, or buy them from traders- but at the very least the \"Remote Detonator\" research must be completed. With that, you can build the Explosives Workshop and the Remote Detonator.\nMake the explosive of your choice at the workshop, place it using the Build menu, make sure it's armed, then trigger it using the Remote Detonator. Multiple explosives can be triggered together.\n\n- If you research \"Remote Explosives Channels\" and upgrade your detonator, you can divide your placed explosives into groups, to be triggered separately.\n- The \"Auto replace\" toggle on the placed explosives allows your colonists to replace them after they are triggered.\n- The other research projects unlock the creation of different explosives- for mining, mechanoid defense, and other purposes. Read the research and item descriptions to learn more.\n\t",
     "preview": "http://i.imgur.com/Ou66S8o.gif",
     "homePage": "https://ludeon.com/forums/index.php?topic=17285",
@@ -119,7 +119,7 @@
     "name": "Animal Tab",
     "version": "0.16.1-6",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Adds extra functionality to the Animals tab \n\n<size=24>Important</size>\nDoes not require a new save game. \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Notes</size>\nFirst released back in A12 (or was it 11?) this mod vastly improved the vanilla animals tab. Evidently, Tynan agreed and the mod is now (mostly) part of the vanilla game. I still feel this mod looks better, and adds enough extra functionality (sorting, filters, renaming) to make it a worthwhile replacement. \n\n<size=24>Features</size>\nGender and lifestage icons on the animals tab. Easily keep track of your chickenfarm! \nButchery designation right from the animals tab. \nSort by name, gender, lifestage/age, and bodysize (meat). \nFilter by race, and a variety of attributes. \nRename (named) pets. Don’t like the name Buttercup for your Warg? Change it! \nMass assign masters, or assign all to bonded masters. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\nurty5656:    Introduction to the magic of reflection & translations, Korean translation\nrgponce:    Brazilian Portuguese translation\nfrenchiveruti:    \n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/445110482475930483/12AF30180BEB0376F8480A7069612F6C67698CCA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -137,7 +137,7 @@
     "name": "Architect Sense",
     "version": "0.16.1-4",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Allows modders to combine buildables in subcategories.\n\n<size=24>Important</size>\n<b>This is a functionality mod, it does nothing on its own</b> \nThis mod is intended to provide functionality to other modders, and does nothing without custom XML and/or C# code.\nIf you’re a modder, or want to try out subcategories, have a look at the Examples folder. \n\n<size=24>Features (for modders)</size>\nArchitect Sense allows you to group designators for buildings and terrains (e.g. the buttons in the architect menu) together.\nIt is simple to configure with DesignationSubCategoryDefs in XML (see the Examples folder), and also exposes a number of methods\nto handle dynamically creating categories, as well as finding and hiding individual designators.  \n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/159151301107195908/79FAC61B1A4C15A26E1DA2823F18CB1B760E0D38/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -155,7 +155,7 @@
     "name": "Area Unlocker",
     "version": "0.16.1-1",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Removes the (arbitrary) limit to the number of areas you can create. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b>\n\n<size=24>Notes</size>\nWhile this completely removes the limit on the number of areas you can create, the UI is untouched - and optimized for 5 areas per type. If you create too many areas, you may run into UI issues. This practical limit depends largely on your resolution. I have no plans to update these UI issues, as that would be a massive undertaking.\n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328006531/C1CE5598F006A9584201FDC8A8106F57998445FE/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -178,7 +178,7 @@
     "name": "Medical Tab",
     "version": "0.16.1-2",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Adds a comprehensive medical overview tab, showing your colonists’ health at a glance. \n\n<size=24>Important</size>\nDoes not require a new save game \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Features</size>\nMedical care designation \nSchedule operations \nSort by everything \n\n<size=24>Notes</size>\nDetecting which diseases/wounds/etc affect a certain body function is not as easy as one might expect it to be. There may be some inconsistencies in the labels associated with efficiency scores. If you encounter any, please leave a report so I can try and fix them. \n\n<size=24>Contributors</size>\nRacoon    German translation\nduduluu    Chinese translation\nMossieuLeBlanc    French translation\nkPherox    A16 update\n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -196,7 +196,7 @@
     "name": "Blueprints",
     "version": "0.16.1-9",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Blueprints allow the quick construction of repetitive rooms/areas. \n\n<size=24>Features</size>\n<b>Create blueprint</b>\nUse the ‘Create’ designator to drag over an area with existing constructions. Floors, walls and furniture will all be designated, and included in the blueprint. once created, a popup will appear with a default name, giving you the option to set a more meaningful name. \n\n<i>NOTE: Only constructions owned by you will be included, use the ‘Claim’ order if necessary.</i>\n\n<b>Place blueprint</b>\nOnce you’ve created a blueprint, you can use the new button to place copies of that blueprint. Blueprints can be rotated as normal. With a blueprint selected, you’ll see an outline of what will be build on the main view, and a list of items and total cost in the lower left info panel. In this panel, you can click on furniture and walls made of stuff to change what stuff should be used in their construction. \n\n<i>NOTE: You can shift-click with a designator selected to use the planning mode. In this case, any walls in the blueprint will be used to create a plan for your future rooms. This might be useful for mining out the required space. </i>\n\n<b>Rename, import & export blueprints</b>\nOnce you’ve created a blueprint, you can right click the blueprint button to rename, remove or export the blueprint. Exported blueprints will be saved in the same location as RimWorlds save games and config files, in a directory called “Blueprints”. If a blueprint has been exported, an option to remove and delete the exported blueprint will also appear. \nYou can import previously exported blueprints by right clicking the ‘Create’ button, and selecting the blueprint from the list of available blueprints. \n\n<i>NOTE: While you can import/export blueprints between games, be careful with doing so when a blueprint contains (modded) items that are not available in the current game. If you import a blueprint containing items that are unavailable, an error will pop up, and the offending item will be deleted from the blueprint. I’ve tried to make sure the rest of the blueprint is still usable, but your results may vary.</i>\n\n<size=24>Contributors</size>\n\nRaccoon & Haplo:    German translation\nduduluu:    Chinese translations\nrgponce:    Brazilian Portuguese translation\nBronytamin:    Russian translation\nNils de Lumière:    French translation\n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/445110030946051062/58FC0EE4BAD4739B4C758E1EE52CBF9E93F32948/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -214,7 +214,7 @@
     "name": "Colony Manager",
     "version": "0.16.1-8",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony. Set up production chains from raw resources to finished products, and your managers will make sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A16, and alpha 16 is a biggy for anything that is even slightly related to mods. In theory, each map you’re on should get it’s own instance of the manager - circumventing any complications with multiple maps. This also means Manager jobs are NOT shared across multiple maps. In practice, there’s so many changes that I’m pretty sure there’s going to be a few odd bugs. Please, if you find any, report them here.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n\n\nAssign ‘global’ bills, that will be assigned to workstations by your manager(s). \nSet start/stop conditions with the aid of a trigger. \nSelect which workstations bills should be assigned to by area and/or count, or select specific workstations. \nQuickly add jobs for ingredients in complex production chains \n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n\n\nImport & export jobs between colonies, or share them with others! (Will likely throw at least a few errors when different mods are loaded - always back up your save before importing jobs from another world) \n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Known Issues</size>\nSkills display on the colonist info pane gets cut off. This is an issue with the vanilla interface I’m not willing to change (it has too many possible conflicts). \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -232,7 +232,7 @@
     "name": "Fluffy Breakdowns",
     "version": "0.16.1-9",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Replaces random breakdowns with a maintenance requirement.\n\n<size=24>Important</size>\nThis mod requires HugsLib to be installed, and loaded before it.\n\n<size=24>Features</size>\nBuildings using components will now gradually deteriorate. The odds of a breakdown happening (and requiring replacement components), is directly linked to the amount of deterioration. \n\nTo keep your machinery in top shape, your colonists with the construction work enabled will periodically maintain components. As long as components are properly maintained, they cannot randomly break down. \n\n<size=24>Notes</size>\nI’m very interested in any feedback on how these changes affect the difficulty of the game. I’ve tried to balance it so that it’s not too hard/easy - but I’m just one person with one playstyle.\n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -250,7 +250,7 @@
     "name": "Follow Me",
     "version": "0.16.0-2",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Gives the camera tracking capabilities. \n\n<size=24>Features</size>\nPress the ‘Home’ key (default, can be changed with in-game keybinding settings) while any colonist, enemy, animal or item is selected, and the camera will follow them (including furniture and plants - but they tend to not move much). Alternatively, you can right click colonists in the Colonist Bar on top of the screen to toggle following.\n\n<b>Does not require a new save game</b>\nCan safely be enabled/disabled in ongoing saves.\n\n<size=24>Contributors</size>\n\nSkullyWag:    Help with/nagging about updates\nRaccoon:    German translation\nAlexSchrod:    Screen edge & Camera jump detection\n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/445110986852687950/CE5C43BDBEACFDBC0E7CBFD6AE1821C7CFCD8340/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -268,7 +268,7 @@
     "name": "Relations Tab",
     "version": "0.16.1-5",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Replaces the faction tab with a relations tab. The relations tab shows, in a very graphical way, relations between your colonists and with other factions. \n\n<size=24>Contributors</size>\n\nMossieurLeBlanc:    French translation\nJozay:    \nduduluu:    \n\ntag:Fluffylicious\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/455245034324421374/5A88953493B899469AFEB866B57222DB2265A5B6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -286,7 +286,7 @@
     "name": "Stack Merger",
     "version": "0.16.0-5",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Make your haulers understand that a tidy stockpile is an efficient stockpile.\n\n<size=24>Important</size>\nThis mod uses Harmony, a fancy new toy for modders. You don’t have to install harmony - it comes bundled with the mod, but if you encounter any errors, please let me know!\n\n<size=24>Features</size>\nAdds a low-priority hauling job that makes your haulers merge stacks in your stockpiles. Works per stockpile, so if items are in different stockpiles they will not be merged. \n\n<size=24>Issues</size>\nAs each storage building (e.g. vanilla racks, extended storage, deep storage, etc) count as a single stockpile (or technically, have their own SlotGroup - which for this mod is equivalent), stacks in different storage units will not be merged. \n\n<size=24>Notes</size>\nWhen I was playtesting this, Stockpile Efficiency was brought to my attention. These mods do pretty much exactly the same thing (in fact we both use the same vanilla methods for the actual hauling). The main difference is in how we keep track of what can be merged. Stockpile Efficiency searches for stacks that can potentially be merged whenever a pawn is looking for something to merge. Stack Merger keeps a permanent cache of stacks that can be merged. I haven’t run any benchmarks, but I expect my mod to have a mostly constant, relatively low cpu load. Stockpile Efficiency will have no load as long as pawns don’t have time to do the hauling jobs, but when they search for things to merge the cpu load will most likely be considerably larger. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -304,7 +304,7 @@
     "name": "Stuffed Floors",
     "version": "0.16.0-8",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Allows building floors out of stuff*.\n\n<size=24>Important</size>\nThis mod <i>requires</i> both HugsLib and Architect Sense to be loaded before it. HugsLib must be loaded before Architect Sense, and Architect Sense must be loaded before Stuffed Floors.\n\nYou can safely add this mod to you save games, but <i>you can not remove it</i> from save games. (If you really must do this, you’ll have to remove all built stuffed floors added by this mod first).\n\n<size=24>Features</size>\nThis mod does two things. First, using Architect Sense it provides a framework for modders to define their own stuffed floor types. Second, it uses this framework to create a number of new floors that are stuffed. \n\n<b>For players</b>\nAdds several floor types (borrowed with permission from Telkir’s More Floors, CuproPanda’s Extra Floors and Pravus’ Fences and Floors) in a variety of stone, wood and metal types.\n\nWorks great with other mods that add more resources, e.g. Minerals and Materials Kura’s Extra Minerals, Extended Woodworking, Vegetable Garden and GlitterTech. \n\nThis mod also organizes and where needed, removes the floors added by Vanilla RimWorld, More Floors, Extended Woodworking, Minerals and Materials, GlitterTech, More Furniture, Vegetable Garden and Floored.\n\n<b>For modders</b>\nAdds a custom FloorTypeDef that derives from TerrainDef, and allows modders to create floortypes by setting a texture (grayscale for best effect, will be coloured by stuff) and a list of stuffCategories to generate terrain defs for. The resulting designators will be placed together in a category, and any vanilla or other mod’s terrains made obsolete can also be provided in the XML, and will then be hidden for the user (but not removed, so it won’t break save games).\n\n<size=24>Known issues</size>\nWhile this mod will happily generate more floors for any mods that add materials to the metallic, stony and/or woody stuff types, it only cleans up the floors added by mods that are explicitly supported. Any other mods that add floor types may appear as duplicates. If you encounter such an issue, or know of mods that add more floors, please let me know! \n\n<size=24>Technical details</size>\n*: This mod doesn’t actually allow building stuffed floors. Rather, it spoofs this behaviour by generating TerrainDefs for each of the stuffDefs handed to it, and then using ArchitectSense to group these terrains together and give a user experience similar to stuff selection on buildings. This mod doesn’t do anything destructive, it doesn’t make any detours, and doesn’t remove any defs. It does however remove a number of designators from the architect in order to hide them from the user.\n\n<size=24>Contributors</size>\n\nTelkir:    Permission to use textures for many of the floors\nCuproPanda:    Permission to use textures for even more floors\nPravus:    Permission to use textures for yet more floors\nDarkSlayerEx:    Original idea, texture tweaks and moral support\nduduluu:    Chinese translations\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/159151765533634297/1DF9C77518325BEBC98F6C0CC9E49DD8B8EB62E0/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -328,7 +328,7 @@
     "name": "The Birds and the Bees",
     "version": "0.16.0-5",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Adds reproductive organs to the animals, and then you, raiders and time can take them away again. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b> \n\n<b>Does NOT require a new save game</b> \nThis mod uses CCL to dynamically change game data* when a game is loaded. Should be fine to use with any other mod that adds animals, races, relations, or anything else. \n\n<size=24>Features</size>\nAnimals (including humanoids) require reproductive organs to mate & and do lovin’. \n\n\nAdds reproductive organs to fleshy pawns (e.g., animals and colonists). \nSince reproductive organs are now a body part, they can be affected by external violence - including, but not limited to; gunfire, berserking colonists, frostbite, castration (neutering) and old age.\nReworks mating & lovin’ to take account of fertility stat. \n\n<size=24>Does this mod add the ability for colonists to have babies?</size>\n<i>No. Nor will I ever add this, so don’t ask.</i>\nThere’s a myriad of problems with adding colonist babies. There’s moral/ethical issues, but I don’t particularly care about those, I don’t see why making baby leather hats is worse than prisoner leather hats. \n\nWhat I do care about is gameplay. For me, two things are required to make babies actually fun. \n\nFirst, there needs to be systems around babies. If they’re just colonists or animals in behaviour, I don’t see the point. You’d have to have various interactions from parents with their children, amongst children, children with the environment, etc. etc. to really bring children alive. Then you’d also want to build in things like schools or at least some sort of internships/apprenticeships, the list goes on and on. \nThe problem with all of this is that it takes a huge amount of work - including a number of new gameplay mechanics. It’s something better suited for Tynan himself to add to the game. \n\nSecond, the timescale just doesn’t work. The average colony will last a couple of years, 10 if you’re in it for the long haul. Only rarely do colonies last longer than that. That would mean that there’s not really any room for progression, and I don’t see the fun in that. Adding cloning vats, time chambers, gro-quick drugs or whatever are weak solutions for a fundamental problem, and I don’t want to go that way. Changing the games timescale is pretty much impossible for mods to do. \n\n<i>TLDR; if you want babies, go ask Tynan.</i>\n\n<size=24>Contributors</size>\n\nkouyou:    Japanese translation\nDuduluu:    Chinese translations\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -351,7 +351,7 @@
     "name": "WorkTab",
     "version": "0.16.2-4",
     "targetGameVersion": "0.16.1393",
-    "author": "Fluffy",
+    "authors": "Fluffy",
     "description": "Provides a vastly more customizable work tab. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b>\nThis mod requires HugsLib to be loaded before it, or it will not function.\n\n<b>BETA release</b>\nThis should be considered a beta release. The basic functionality is confirmed to work, but there may be more elusive bugs still to be caught.\n\n<size=24>Features</size>\nVarious usability extentions to the ‘vanilla’ work tab; sorting by columns, toggling/changing priorities for entire columns at once, and creating presets. \n\nAn extra detailed ‘Dwarf Therapist’ mode, that allows you to set priorities for the individual tasks within each job. \n\nFinally, a time scheduler to set priorities for a given time slot only - allows you to designate a cleaning hour, or have your cook prepare meals right before dinner, etc. etc. \n\n<size=24>Notes</size>\nWith great power comes great responsibility. The default priorities of tasks within a job is set for a good reason; it’s a sensible default. Changing these can lead to deadlock situations, so use the detailed tab at your own risk! \n\nFinally, there will never be an ‘autolabor’ mode where a mod sets priorities for you. Due to the way the AI is handled (e.g. pawns actively look for work, instead of there being a ‘bulletin board’ of jobs that need doing), it’s not feasible to get the complete list of work that needs doing that would be needed to make this a reality, without extreme overhead and loads of special excpetion coding.\n\n<size=24>Contributors</size>\n\nBronytamin:    Russian translation\nEric Swanson:    \nDuduluu:    Chinese translations\n\n",
     "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328307906/1B8398044257B7B174A724EAA42C5C9FF02F8857/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
     "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -374,7 +374,7 @@
     "name": "HugsLib",
     "version": "2.4.3",
     "targetGameVersion": "0.16.1393",
-    "author": "UnlimitedHugs",
+    "authors": "UnlimitedHugs",
     "description": "<color=orange><b>Important: </b> This mod should be one of the first to be loaded to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 2.4.3\n\t",
     "preview": "http://i.imgur.com/W8wAiTm.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=28066",
@@ -393,7 +393,7 @@
     "name": "EdB Prepare Carefully",
     "version": "0.16.1-4",
     "targetGameVersion": "0.16.1393",
-    "author": "EdB",
+    "authors": "EdB",
     "description": "Customize your colonists, choose your gear and prepare carefully for your crash landing!\n\nIf you get a set of starting colonists that you like, save them as a preset so that you can start your game the same way next time.\n\n[Version 0.16.1.4]\n\t",
     "preview": "https://github.com/edbmods/EdBPrepareCarefully/blob/develop/Resources/About/preview.png?raw=true",
     "homePage": "https://ludeon.com/forums/index.php?topic=6261.0",
@@ -410,7 +410,7 @@
     "name": "Animated Background",
     "version": "0.1.0",
     "targetGameVersion": "0.16.1393",
-    "author": "Fumblesneeze",
+    "authors": "Fumblesneeze",
     "description": "Replaces the original Rimworld menu background with an animation.\\n\\nThe video was made by The Dee (https://www.youtube.com/watch?v=1YOiQ5Vrqe4), bug him for a better version!\\n\\nThis is a rather big download so be patient!",
     "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
     "homePage": "https://github.com/Fumblesneeze/RimBackground",
@@ -433,7 +433,7 @@
     "name": "Ice",
     "version": "0.1.0",
     "targetGameVersion": "0.16.1393",
-    "author": "Fumblesneeze",
+    "authors": "Fumblesneeze",
     "description": "Ice",
     "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimIce/master/Mod/About/Preview.png",
     "homePage": "https://github.com/Fumblesneeze/RimIce",
@@ -455,7 +455,7 @@
     "name": "Step Away From The Medicine",
     "version": "1.0.3",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Changes default medicine settings.",
     "preview": "https://github.com/zorbathut/stepaway/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/StepAway",
@@ -473,7 +473,7 @@
     "name": "Look At Me, I'm The Worker Now",
     "version": "1.0.3",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Forcing jobs on pawns now cancels that job on other pawns.",
     "preview": "https://github.com/zorbathut/imtheworkernow/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/ImTheWorkerNow",
@@ -491,7 +491,7 @@
     "name": "I Can Fix It!",
     "version": "1.0.2",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Automatically places blueprints for destroyed player-owned buildings.",
     "preview": "https://github.com/zorbathut/icanfixit/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/ICanFixIt",
@@ -509,7 +509,7 @@
     "name": "Let's Be Honest Here",
     "version": "1.0.2",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Space weed. Space. Weed.",
     "preview": "https://github.com/zorbathut/letsbehonesthere/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/LetsBeHonestHere",
@@ -527,7 +527,7 @@
     "name": "Crafting Hysteresis",
     "version": "1.0.7",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Provides hysteresis control options for long-term crafting tasks.",
     "preview": "https://github.com/zorbathut/craftinghysteresis/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/CraftingHysteresis",
@@ -545,7 +545,7 @@
     "name": "OSHA Compliance",
     "version": "1.0.2",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Deters your colonists from standing in traps as they're being reset.",
     "preview": "https://github.com/zorbathut/oshacompliance/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/OSHACompliance",
@@ -563,7 +563,7 @@
     "name": "A World Without Hat",
     "version": "1.0.1",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Removes hat graphics from pawn portraits (and only from those.)",
     "preview": "https://github.com/zorbathut/aworldwithouthat/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/AWorldWithoutHat",
@@ -581,7 +581,7 @@
     "name": "The Mad Rabbits of Caerbannog",
     "version": "1.1.0",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Allows all animal types to show up in manhunter packs.",
     "preview": "https://github.com/zorbathut/caerbannog/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/Caerbannog",
@@ -599,7 +599,7 @@
     "name": "Silly Builder, Surgery is for Doctors",
     "version": "1.0.1",
     "targetGameVersion": "0.16.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Modifies the live mechanoid bill so that doctors will remove scyther limbs.",
     "preview": "https://github.com/zorbathut/sillybuilder/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/SillyBuilder",
@@ -617,7 +617,7 @@
     "name": "It's Dangerous to Come Along",
     "version": "1.0.0",
     "targetGameVersion": "0.15.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Assigned animals no longer follow drafted pawns.",
     "preview": "https://github.com/zorbathut/itsdangerous/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/ItsDangerous",
@@ -635,7 +635,7 @@
     "name": "Raindrops No Longer Fall On My Head",
     "version": "1.0.0",
     "targetGameVersion": "0.15.0",
-    "author": "ZorbaTHut",
+    "authors": "ZorbaTHut",
     "description": "Prioritizes roof construction/destruction over object construction/destruction.",
     "preview": "https://github.com/zorbathut/raindrops/blob/master/About/Preview.png?raw=true",
     "homePage": "https://github.com/ZorbaTHut/Raindrops",
@@ -653,7 +653,7 @@
     "name": "Careful Raids",
     "version": "1.0.1",
     "targetGameVersion": "0.16.0",
-    "author": "pardeike",
+    "authors": "pardeike",
     "contact": "andreas@pardeike.net",
     "description": "More careful raiders - can you handle them?\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
     "preview": "https://github.com/pardeike/CarefulRaids/blob/master/Source/animation.gif?raw=true",
@@ -672,7 +672,7 @@
     "name": "Camera+",
     "version": "1.0.1",
     "targetGameVersion": "0.16.0",
-    "author": "pardeike",
+    "authors": "pardeike",
     "contact": "andreas@pardeike.net",
     "description": "You want more zoom and different paning?\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
     "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
@@ -691,7 +691,7 @@
     "name": "Achtung!",
     "version": "1.4.0",
     "targetGameVersion": "0.16.0",
-    "author": "pardeike",
+    "authors": "pardeike",
     "contact": "andreas@pardeike.net",
     "description": "Command your colonists like a boss!\n\nAchtung! Mod enhances how you control RimWorld and reduces the number of clicks by half. And almost no dependencies in your save files (read more about this below).\n\nThese enhancements can be divided into the following areas:\n\n- Automatic drafting/undrafting of colonists\n\nWouldn't it be nice to not micro-manage the drafting status of your colonists? With Achtung! you can.\n\nWith Achtung! the context menu contains all possible actions regardless of the current drafting status of the selected colonist. Once you select an action Achtung! automatically changes the drafting status if necessary to execute the action.\n\n- Control multiple colonists at once\n\nSave time by issuing a command with more than one colonist selected. For example: select three brawlers and right click an enemy, then choose \"melee\". Done.\n\nAchtung! combines all possible actions into one MultiAction(tm) context menu and shows you how many colonists can execute a certain action by appending a multiplier at the end of the menu item.\n\n- Position your colonists like in the military\n\nThis is where the name \"Achtung!\" comes from. It's the german word used to get the attention of soldiers and which is usually followed by a line-up in front of the commander.\n\nWithin RimWorld in combat, you want your colonists neatly positioned along a line or equally spaced in all your door openings. This is really easy with Achtung! Select multiple colonists, and with the right mouse button, drag along a line. Achtung! will move your colonists to equally spaced positions in real time. 10 colonists into 10 doors? No problem!\n\n- Important tasks\n\nSome tasks are too important to be interrupted. Like cleaning that hospital room so nobody gets infected. That's why Achtung! has a few extra commands that will make sure that something is really done well. For now, this is \"Clean Room\", \"Fight Fire\", \"Sow Zone/Room\" and the new \"Auto Combat\". More are planned in the future.\n\nWhen you choose \"Clean Room\", the colonist(s) will start cleaning the room until you stop them or the room is really clean. They will check the room while cleaning so that it doesn't matter if other colonists might introduce new filth while the cleaning is ongoing.\n\nThe command \"Fight Fire\" works outside the home area and is useful if you don't want to extend the home area just to get rid of a fire.\n\nChoosing \"Sow Zone/Room\" will make sure that the zone selected or all growing inside a room will be sowed completely. Time consuming tasks like removing other large plants like trees or hauling away objects are not performed to avoid exhaustion.\n\nA completely novel feature is \"Auto Combat\". Achtung! has its own build in artificial intelligence that controls your colonists for you. All you have to do is to order a few colonists to their targets and they will get there on their own, keep a safe distance and shoot/position themselves intelligently until the job is done. Perfect for those occasions where you are busy dealing with a bigger issue. For now, this is an experimental feature and with more than a handful colonists or opponents will probably force your computer to its knees. But used smart it will be a useful feature!\n\n- Flexibility\n\nA few commands have different way to behave. Achtung! uses both: the ALT and the SHIFT key to modify the way it works. Hold SHIFT to move colonists relative to their current position. Hold ALT while right-clicking to draft your selected colonists before the operation and to suppress the context menu.\n\n-  Known errors and bugs\n\nAchtung! is developed with the user in mind. To stay compatible with other mods, Achtung! was developed to stay out of its way and does not overwrite any essential functions. Instead, it reuses existing functionality and probably works with 99% of other mods out of the box.\n\nHere are the current problems and their workarounds for the current version:\n\nAchtung! usually does not modify save state for saved games to avoid a dependency on it. However, a side effect of the provided custom jobs is that when save the game and your colonists are actively running an Achtung job this will be saved too thus creating a dependency to Achtung. Workaround: open the saved game with Achtung, cancel all Achtung jobs and save it again. This will \"clean\" the save and remove the dependency.\n\nThe jobs in Achtung have 1st priority (that's the whole point). They all force the colonist to work until done and if you don't keep an eye on them, they become unhappy or injured. Currently, there is a build-in prevention to avoid the worst but this option is not yet configurable and kicks only in as a last resort and cancels the job. But that's how we roll here at Achtung! Workaround: if you want the soft solution just schedule stuff and hope for the best ;-)\n\nThe new \"Auto Combat\" system is not optimized and will eat your CPU for breakfast. It probably will do stupid things and may not work as expected if you have exotic locations or mods that change the basic combat. Workaround: use it wisely and avoid too many colonists/enemies at the same time.\n\n-  Requirements\n\nAchtung! Mod works with RimWorld Alpha 14 and 15 and will get updated tightly with new RimWorld versions. I does not depend on any other mods and is known to work in any mod order you like.\n\n- Feedback\n\nWithout feedback, this mod would have never come so far. So please, send me feedback and rate and recommend my mod whenever possible. The three main places to do so are\n\n  - Ludeon Forums (https://ludeon.com/forums/index.php?topic=22130.0)\n  - Steam Workshop (http://steamcommunity.com/sharedfiles/filedetails/comments/730936602)\n  - GitHub (https://github.com/pardeike/RimWorld-Achtung-Mod)\n\n- FAQ\n\nAre there any videos showing Achtung! in action?\nYes, here's a youtube playlist: http://tinyurl.com/achtungmod\n\nDoes this alter my save files?\nNo, Achtung! changes only the interface and the user actions. Rimworld will warn you but you can simply ignore the warning. If you later decide to remove Achtung! your saved games will still work as before!\n\nIs this mod compatible with other mods?\nMost likely. I don't know of any mods altering the selection mechanism. The context menu is created in a general way so it will include actions from other mods without breaking.\n\nWhy is this called \"Achtung!\" ?\nIt's german for \"Attention!\" and used in the military as a command to line up soldiers.\n\nWhy do I need Auto Combat? Isn't this just the auto response thing already in the game?\nNot at all. For example: Once you get a raid or siege you cannot auto respond to it. First, those raiders are usually out of sight and second even if you get your colonists there they are usually drafted which means that they will just stand still once they're done. All this and a super smart positioning system will beat the living hell out of the build in auto response.\n\nI think this should work different/better. Are you open for changes or improvement requests?\nAwesome! Please send see the Feedback section or send me email to andreas@pardeike.net\n\n- License\n\nFree. As in free beer. Copy, learn and be respectful.\nPowered by Harmony Patch Library\n\n- Contact\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
     "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
@@ -710,7 +710,7 @@
     "name": "Reverse Commands",
     "version": "0.5.0",
     "targetGameVersion": "0.16.0",
-    "author": "pardeike",
+    "authors": "pardeike",
     "contact": "andreas@pardeike.net",
     "description": "Reverses the context menu so you can select something to interact with, followed by an action and the colonist that should execute that action. No need to select colonists first and much less scrolling through the map.\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
     "preview": "https://github.com/pardeike/ReverseCommands/blob/master/About/Preview.PNG?raw=true",
@@ -729,7 +729,7 @@
     "name": "AC-Enhanced Crafting",
     "version": "1.131.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "v1.131\n  Provides enhanced bill capabilities and UI.",
     "preview": "http://images.akamai.steamusercontent.com/ugc/96095810326938276/053BF346838DF4A94AFD07B498905B2CBC09783F/",
     "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedCrafting",
@@ -747,7 +747,7 @@
     "name": "Ac-Unlimited Validation",
     "version": "1.1.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "v1.01\nAllows to type every language and characters.\n  ",
     "preview": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation/blob/master/Mods/AcUnlimitedValidation/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.AcUnlimitedValidation",
@@ -765,7 +765,7 @@
     "name": "AC-Enhanced Hauling",
     "version": "1.1.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "v1.03\nInstead of haul one by one, colonists haul as possible as they can and store to the nearest storage.\n\nIf a stockpile is farther than working ground or the colonists is incapable of hauling, they work as vanilla.\n  ",
     "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mods/AcEnhancedHauling/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedHauling",
@@ -783,7 +783,7 @@
     "name": "Ac-Cannibbles",
     "version": "1.1.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "v1.01\nA Horrible mod(?) that adds foods for cannibbles.\nDon't to be stressed to distinguish between food and human meat.\n\t",
     "preview": "https://github.com/AlcoholV/Rim.AcCannibbles/blob/master/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.AcCannibbles",
@@ -801,7 +801,7 @@
     "name": "AC-Smart Speed",
     "version": "1.2.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "Allows the use of ultra speed and change event speed multiplier.",
     "preview": "https://github.com/AlcoholV/Rim.AcEnhancedHauling/blob/master/Mod/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.AcSmartSpeed",
@@ -819,7 +819,7 @@
     "name": "AC-Enhanced Stack",
     "version": "16.0.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "Capacity of every items stack increased 10 times.",
     "preview": "https://github.com/AlcoholV/Rim.AcEnhancedStack/blob/master/Mod/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.AcEnhancedStack",
@@ -837,7 +837,7 @@
     "name": "Where is rich soil?",
     "version": "16.0.0",
     "targetGameVersion": "0.16.0",
-    "author": "AlcoholV",
+    "authors": "AlcoholV",
     "description": "This mod changes original rich soil color to be darker to make it easier to find.",
     "preview": "https://github.com/AlcoholV/Rim.WhereIsRichSoil/blob/master/About/preview.png?raw=true",
     "homePage": "https://github.com/AlcoholV/Rim.WhereIsRichSoil",
@@ -855,7 +855,7 @@
     "name": "ExtendedFabrics",
     "version": "1.4.0",
     "targetGameVersion": "0.16.1393",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds another step in fabric production, also makes Synthread and Hyperweave craftable.",
     "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedFabrics/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/ExtendedFabrics",
@@ -872,7 +872,7 @@
     "name": "ExtendedStorageFluffy",
     "version": "1.14.0",
     "targetGameVersion": "0.16.1393",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds additional storage buildings that multi stack items.",
     "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedStorage/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/ExtendedStorage",
@@ -889,7 +889,7 @@
     "name": "PersonalShieldMKII",
     "version": "1.6.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds an expensive personal shield that allows shooting from within, charges slower than vanilla melee shield.",
     "preview": "https://raw.githubusercontent.com/Skullywag/PersonalShieldMKII/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/PersonalShieldMKII",
@@ -906,7 +906,7 @@
     "name": "MuffaloOverhaul",
     "version": "1.0.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds the alpha muffalo as a male muffalo and backpacks for the pack versions.",
     "homePage": "https://github.com/Skullywag/MuffaloOverhaul",
     "issues": "https://github.com/Skullywag/MuffaloOverhaul/issues",
@@ -922,7 +922,7 @@
     "name": "DermalRegenerator",
     "version": "1.9.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds a machine with the ability to repair skin damage.",
     "preview": "https://raw.githubusercontent.com/Skullywag/DermalRegenerator/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/DermalRegenerator",
@@ -939,7 +939,7 @@
     "name": "LessLethals",
     "version": "1.1.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds less lethal weapons to the game.",
     "preview": "https://raw.githubusercontent.com/Skullywag/LessLethals/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/LessLethals",
@@ -956,7 +956,7 @@
     "name": "ArmourRepair",
     "version": "1.1.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds the ability to \"repair\" power armour and shields at the machining workbench. Repairing is actually crafting a new set of armour using armour/shield as an ingredient, \n  so itll reroll the quality based on skill, costs quite a lot plasteel/uranium though.",
     "preview": "https://raw.githubusercontent.com/Skullywag/ArmourRepair/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/ArmourRepair",
@@ -973,7 +973,7 @@
     "name": "BetterVents",
     "version": "1.3.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds vents that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
     "preview": "https://raw.githubusercontent.com/Skullywag/BetterVents/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/BetterVents",
@@ -990,7 +990,7 @@
     "name": "BetterCoolers",
     "version": "1.3.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds coolers that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
     "preview": "https://raw.githubusercontent.com/Skullywag/BetterCoolers/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/BetterCoolers",
@@ -1007,7 +1007,7 @@
     "name": "ExtendedMedicine",
     "version": "1.5.0",
     "targetGameVersion": "0.16.1393",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Makes Glitterworld medicine craftable.",
     "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedMedicine/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/ExtendedMedicine",
@@ -1024,7 +1024,7 @@
     "name": "AdditionalLighting",
     "version": "1.10.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds some additonal light sources.",
     "preview": "https://raw.githubusercontent.com/Skullywag/AdditionalLighting/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/AdditionalLighting",
@@ -1041,7 +1041,7 @@
     "name": "BatteriesStuffed",
     "version": "1.5.0",
     "targetGameVersion": "0.16.1373",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Changes vanilla batteries so that they can be made with stuff.\n  \n                            Storage  Efficiency  Beauty  Fires  Health  Explodes\nSteel battery:          1000      50%         -15       yes     100       yes\nSilver battery:         1000      70%         +5         yes     125       yes\nGold battery:          2500      80%         +10       yes     150       yes\nPlasteel battery:     1500      90%         -10        no      250        no\nUranium battery:    2000     100%         -20       no      200        no",
     "preview": "https://raw.githubusercontent.com/Skullywag/BatteriesStuffed/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/BatteriesStuffed",
@@ -1058,7 +1058,7 @@
     "name": "ConduitsStuffed",
     "version": "1.4.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Changes vanilla conduits so that they can be made with stuff.\n  \n                            Health      Flammable     Beauty\nSteel conduit:          80            20%               -2\nSilver conduit:         56            20%               -2\nGold conduit:          48            20%               -2\nPlasteel conduit:     225          10%               -2\nUranium conduit:     200          0%                -2",
     "preview": "https://raw.githubusercontent.com/Skullywag/ConduitsStuffed/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/ConduitsStuffed",
@@ -1075,7 +1075,7 @@
     "name": "PowerCell",
     "version": "1.5.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds a drop to the crashed ship part which can be used to build a passive power generating structure.\n\nProduces 2000W of power but creates a lot of heat.",
     "preview": "https://raw.githubusercontent.com/Skullywag/PowerCell/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/PowerCell",
@@ -1092,7 +1092,7 @@
     "name": "SmallSolarsStuffed",
     "version": "1.6.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds multpile sized, smaller than the vanilla solar panels that can be made with stuff.\n  \nMICRO 3X3          Energy          Health         Flammable         Beauty  \nSteel panel:           1300W           225               20%                 -10\nSilver panel:          1400W           158               20%                 -10\nGold panel:            1500W          135               20%                 -10\nPlasteel panel:       1700W          630               10%                 -10\nUranium panel:      1800W          560                 0%                  -10\n\nMINI 2X2\nSteel panel:           560W           100               20%                 -10\nSilver panel:          600W           70               20%                 -10\nGold panel:            640W          60               20%                 -10\nPlasteel panel:       700W          280               10%                 -10\nUranium panel:      740W          250                 0%                  -10\n\nSINGLE 1X1\nSteel panel:           135W           25               20%                 -10\nSilver panel:          145W           18               20%                 -10\nGold panel:            155W          15               20%                 -10\nPlasteel panel:       165W          70               10%                 -10\nUranium panel:      175W          62                 0%                  -10",
     "preview": "https://raw.githubusercontent.com/Skullywag/SmallSolarsStuffed/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/SmallSolarsStuffed",
@@ -1109,7 +1109,7 @@
     "name": "ThermalsStuffed",
     "version": "1.5.0",
     "targetGameVersion": "0.16.1375",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Changes vanilla thermal generators so that they can be made with stuff.\n  \n                                    Energy          Health         Flammable         Beauty  \nSteel generator:           3600W           500               20%                  -40\nSilver generator:          4200W           350               20%                  -40\nGold generator:            5000W          300               20%                  -40\nPlasteel generator:       5200W          1400             10%                  -40\nUranium generator:      6000W          1250               0%                  -40",
     "preview": "https://raw.githubusercontent.com/Skullywag/ThermalsStuffed/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/ThermalsStuffed",
@@ -1126,7 +1126,7 @@
     "name": "PlasmaWeapons",
     "version": "1.6.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds plasma weapons, highly accurate energy weapons.",
     "preview": "https://raw.githubusercontent.com/Skullywag/PlasmaWeapons/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/PlasmaWeapons",
@@ -1143,7 +1143,7 @@
     "name": "MeteoriteEvent",
     "version": "1.1.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds an event that makes meteorites crash into the Rimworld containing different resources.",
     "homePage": "https://github.com/Skullywag/MeteoriteEvent",
     "issues": "https://github.com/Skullywag/MeteoriteEvent/issues",
@@ -1159,7 +1159,7 @@
     "name": "MedievalShields",
     "version": "1.10.0",
     "targetGameVersion": "0.14.1234",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds medieval shields to Rimworld.",
     "preview": "https://raw.githubusercontent.com/Skullywag/MedievalShields/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/MedievalShields",
@@ -1176,7 +1176,7 @@
     "name": "LaserWeapons",
     "version": "1.6.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds laser weapons which have a chance at stunning the target.",
     "preview": "https://raw.githubusercontent.com/Skullywag/LaserWeapons/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/LaserWeapons",
@@ -1193,7 +1193,7 @@
     "name": "GaussWeapons",
     "version": "1.6.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds gauss weapons, highly accurate with lethal damage, slow to fire.",
     "preview": "https://raw.githubusercontent.com/Skullywag/GaussWeapons/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/GaussWeapons",
@@ -1210,7 +1210,7 @@
     "name": "FlameWeapons",
     "version": "1.5.0",
     "targetGameVersion": "0.13.0",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds flame based weapons, wide spread panic will ensue!.",
     "preview": "https://raw.githubusercontent.com/Skullywag/FlameWeapons/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/FlameWeapons",
@@ -1227,7 +1227,7 @@
     "name": "Embrasures",
     "version": "1.5.0",
     "targetGameVersion": "0.14.1234",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds walls which support roofs and can be fired through.",
     "preview": "https://raw.githubusercontent.com/Skullywag/Embrasures/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/Embrasures",
@@ -1244,7 +1244,7 @@
     "name": "DefenceShield",
     "version": "1.5.0",
     "targetGameVersion": "0.14.1232",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds static shield emplacements to defend against incoming projectiles.",
     "preview": "https://raw.githubusercontent.com/Skullywag/DefenceShield/master/About/Preview.png",
     "homePage": "https://github.com/Skullywag/DefenceShield",
@@ -1261,7 +1261,7 @@
     "name": "AlphaAnimals",
     "version": "1.0.0",
     "targetGameVersion": "0.15.1284",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds multiple new animals to Rimworld.",
     "preview": "https://raw.githubusercontent.com/Skullywag/AlphaAnimals/master/About/preview.png",
     "homePage": "https://github.com/Skullywag/AlphaAnimals",
@@ -1278,8 +1278,8 @@
     "name": "Redist.Heat",
     "version": "0.1.0-46a",
     "targetGameVersion": "0.16.1393",
-    "author": "Morgloz",
-    "description": "\nThis mods adds small/medium/industrial versions of the vanilla temperature buildings.\nIt also adds a duct network to let you build complex systems for temperature control.\n\nCredits\n    -mrCarton, the author of \"Central Heating\"\n    -justarandomgeek, the author of \"Signals, you can't stop them!\"\n    -mrofa, who helped me in the pipe's graphic code\n    -Latta, the previous owner of the mod\n    ",
+    "authors": "Morgloz",
+    "description": "\nThis mods adds small/medium/industrial versions of the vanilla temperature buildings.\nIt also adds a duct network to let you build complex systems for temperature control.\n\nCredits\n    -mrCarton, the authors of \"Central Heating\"\n    -justarandomgeek, the authors of \"Signals, you can't stop them!\"\n    -mrofa, who helped me in the pipe's graphic code\n    -Latta, the previous owner of the mod\n    ",
     "preview": "https://raw.githubusercontent.com/Morgloz/RimWorld-RedistHeat/master/About/Preview.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=21770.0",
     "issues": "https://ludeon.com/forums/index.php?topic=21770.0",
@@ -1295,7 +1295,7 @@
     "name": "SeedsPlease!",
     "version": "0.16.1-1",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "Adds seeds for your immersion pleasure.\n\nRequires Mod Friendly Overrides.\n\nUpdated by NotFood for version Alpha 14\nUpdated by Skyarkhangel for version Alpha 13\n",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-SeedsPlease/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-SeedsPlease",
@@ -1304,18 +1304,21 @@
     "source": {
       "github": "https://github.com/notfood/RimWorld-SeedsPlease/releases/download/0.16.1.1/SeedsPlease_0.16.1.1.zip"
     },
-    "created": "2017-01-18T01:25:59+00:00",
-    "changeLog": "- Balance for Seeds\n- Seeds for drug plants, they lack recipe to extract from leafs, it's intentional.\n- Mote timeout fix\n- parse_plant.py updated to handle plants behind research and put the seeds behind that research\n\nThe addons don't need update.\n",
     "relationships": {
-      "requires": [ "HugsLib", "MFO" ]
-    }
+      "requires": [
+        "HugsLib",
+        "MFO"
+      ]
+    },
+    "created": "2017-01-18T01:25:59+00:00",
+    "changeLog": "- Balance for Seeds\n- Seeds for drug plants, they lack recipe to extract from leafs, it's intentional.\n- Mote timeout fix\n- parse_plant.py updated to handle plants behind research and put the seeds behind that research\n\nThe addons don't need update.\n"
   },
   {
     "id": "Miniaturisation",
     "name": "Miniaturisation",
     "version": "0.16.1-1",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "\nShrink... everything!\n  ",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Miniaturisation/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-Miniaturisation",
@@ -1333,7 +1336,7 @@
     "name": "Mending",
     "version": "0.16.1-1-easymode",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "Repair the durability of items.",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Mending/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-Mending",
@@ -1351,7 +1354,7 @@
     "name": "Infused",
     "version": "0.16.2-0",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "Equipment enchantment\n",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Infused/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-Infused",
@@ -1369,7 +1372,7 @@
     "name": "Infused",
     "version": "0.16.2-0",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "Equipment enchantment\n\nRequires CombatRealism\n",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Infused/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-Infused",
@@ -1395,7 +1398,7 @@
     "name": "Mod List Backup",
     "version": "1.3.0",
     "targetGameVersion": "0.16.0",
-    "author": "scuba156",
+    "authors": "scuba156",
     "description": "Backup and restore the currently loaded mods into 20 different nameable slots! Import a mod list from a save file! Never have to lose your mod order again!\nVersion: 1.3\n  ",
     "preview": "https://raw.githubusercontent.com/scuba156/ModListBackup/master/ModListBackup/Output/ModListBackup/About/Preview.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=29420.msg297155",
@@ -1414,29 +1417,11 @@
     "changeLog": "### Version 1.3\r\n* add restart on close when a change has been made"
   },
   {
-    "id": "MFO",
-    "name": "Mod Friendly Overrides",
-    "version": "0.0.1-2017055+github",
-    "targetGameVersion": "0.16.0",
-    "author": "notfood",
-    "description": "If it has a name, you can change it.",
-    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-MFO/master/About/Preview.png",
-    "homePage": "https://github.com/notfood/Rimworld-MFO",
-    "issues": "https://github.com/notfood/Rimworld-MFO/issues",
-    "category": "Library",
-    "source": {
-      "github": "https://github.com/notfood/RimWorld-MFO/archive/master.zip"
-    },
-    "created": "2017-02-24T02:29:13+00:00",
-    "changeLog": "Commit to github",
-    "preRelease": true
-  },
-  {
     "id": "Enlighten",
     "name": "Enlighten",
     "version": "0.0.1-2016357+github",
     "targetGameVersion": "0.16.0",
-    "author": "notfood",
+    "authors": "notfood",
     "description": "You might want to build some lamps with this mod.\n  \t-In a \"Dark\" environment, your colonists will have a hard time moving.\n  \t-In a \"Brightly lit\" environment, your colonists will have a small bonus at movement and working.",
     "preview": "https://raw.githubusercontent.com/notfood/RimWorld-Enlighten/master/About/Preview.png",
     "homePage": "https://github.com/notfood/Rimworld-Enlighten",
@@ -1454,7 +1439,7 @@
     "name": "SameSpot",
     "version": "0.0.1-2017005+github",
     "targetGameVersion": "0.16.0",
-    "author": "pardeike",
+    "authors": "pardeike",
     "contact": "andreas@pardeike.net",
     "description": "Allows multiple colonists to be drafted at the same location\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
     "preview": "https://github.com/pardeike/SameSpot/blob/master/About/Preview.PNG?raw=true",
@@ -1474,7 +1459,7 @@
     "name": "GrowDesignators",
     "version": "0.0.1-2017013+github",
     "targetGameVersion": "0.16.1373",
-    "author": "Skullywag",
+    "authors": "Skullywag",
     "description": "Adds some extra designators for growing.",
     "homePage": "https://github.com/Skullywag/GrowDesignators",
     "issues": "https://github.com/Skullywag/GrowDesignators/issues",
@@ -1491,7 +1476,7 @@
     "name": "Persistent Worlds [WIP]",
     "version": "0.0.1-2016363+github",
     "targetGameVersion": "0.16.0",
-    "author": "scuba156",
+    "authors": "scuba156",
     "description": "Persistent Worlds aims to allow for persistent worlds across playthroughs.",
     "preview": "https://raw.githubusercontent.com/scuba156/PersistentWorlds/master/src/Output/PersistentWorlds/About/preview.png",
     "homePage": "https://ludeon.com/forums/index.php?topic=28360.msg286364",
@@ -1509,5 +1494,999 @@
     "created": "2016-12-28T14:54:38+00:00",
     "changeLog": "Commit to github",
     "preRelease": true
+  },
+  {
+    "id": "VECOBloodAndPain",
+    "name": "VE-CO Blood and Pain",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Aristocat",
+    "description": "\n\n- Injuries cause bleeding three times more.\n\n- Injuries cause twice more pain and thrice for non-bleeding injuries(ex, bruises).\n\n- Blood loss causes pain and more severe conscious lose.\n\n- Punctured organs now cause three times severe bleeding. (In vanilla punctuered kidney, lungs and liver etc doesn't cause additional blood loss, only heart and neck does.)\n\n- Go Juice pain reduction increased to 80% from 10%, and now increase blood filtration and blood pumping.\n\n- Severed body parts now cause extreme pain and bleed.\n\n",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+    "issues": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain/releases/download/1.02/VE-CO.Blood.and.Pain.1.02.rar"
+    },
+    "relationships": {
+      "requires": [
+        "MFO"
+      ]
+    },
+    "created": "2017-02-25T07:31:36+00:00",
+    "changeLog": "Fixed : Blood loss no longer kills pawn with conscious loss debuff i.e. diseases.\nDecreased blood loss rate of missing body part a bit.\n"
+  },
+  {
+    "id": "VECOBloodAndPainEasy",
+    "name": "VE-CO Blood and Pain",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Aristocat",
+    "description": "\n\n- Injuries cause bleeding three times more.\n\n- Injuries cause twice more pain and thrice for non-bleeding injuries(ex, bruises).\n\n- Blood loss causes pain and more severe conscious lose.\n\n- Punctured organs now cause three times severe bleeding. (In vanilla punctuered kidney, lungs and liver etc doesn't cause additional blood loss, only heart and neck does.)\n\n- Go Juice pain reduction increased to 80% from 10%, and now increase blood filtration and blood pumping.\n\n- Severed body parts now cause extreme pain and bleed.\n\n",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+    "issues": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain-Easy/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain-Easy/releases/download/1.02/VE-CO.Blood.and.Pain.1.02.rar"
+    },
+    "relationships": {
+      "requires": [
+        "MFO"
+      ],
+      "contains": [
+        "VECOBloodAndPain"
+      ]
+    },
+    "created": "2017-02-25T15:28:19+00:00",
+    "changeLog": "Fixed : Blood loss no longer kills pawn with conscious loss debuff i.e. diseases.\n"
+  },
+  {
+    "id": "VECOBodyDamageDistribution",
+    "name": "VE-CO Better Body Damage Distribution",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Aristocat",
+    "description": "\n\n- Hit chance(coverage) of the torso has been increased.\n\n- Attacks that hit torso are more likely puncture organ.\n\n- Legs and arms are less likely hit and shoulders are more likely hit.\n\n- Shoulders are now considered torso by armor and protected by bullet vest.\n\n- Coverage of eyes, hands, feet, fingers and toes has been significantly decreased.\n\n",
+    "preview": "https://raw.githubusercontent.com/AristocatHAHA/VE-CO---Better-Body-Damage-Distribution/master/VE-CO Better Body Damage Distribution/About/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+    "issues": "https://github.com/AristocatHAHA/VE-CO---Better-Body-Damage-Distribution/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AristocatHAHA/VE-CO---Better-Body-Damage-Distribution/releases/download/1.0/VE-CO.Better.Body.Damage.Distribution.1.0.rar"
+    },
+    "relationships": {
+      "requires": [
+        "MFO"
+      ]
+    },
+    "created": "2017-02-25T07:31:32+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "VECOTougherBody",
+    "name": "VE-CO Tougher Body",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Aristocat",
+    "description": "\n\n- Hit point of most body parts has been increased by 30% to 50% exception to head and organs.\n\n- Torso 40 to 60. Arms and Legs 30 to 40. Hands and feet 20 to 30. Bones(Radius, pelvis, femur and tibia.) 25 to 35.\n\n",
+    "preview": "https://raw.githubusercontent.com/AristocatHAHA/VE-CO---Tougher-Body/master/VE-CO Tougher Body/About/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+    "issues": "https://github.com/AristocatHAHA/VE-CO---Tougher-Body/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AristocatHAHA/VE-CO---Tougher-Body/releases/download/1.0/VE-CO.Tougher.Body.1.0.rar"
+    },
+    "relationships": {
+      "requires": [
+        "MFO"
+      ]
+    },
+    "created": "2017-02-25T07:31:34+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "VECOTougherAnimals",
+    "name": "VE-CO Tougher Animals",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Aristocat",
+    "description": "\n\n- Hit point of most body parts of animals has been increased except head and organs.\n\n- Body 40 to 70. Legs 30 to 50. Paws and hoofs 10 to 40. Further modified by health scale.\n\n- Healthscale, Bodysize and Drawsize of Wolves and Wargs increased.\n\n- Insects does not benefit from changes above.\n\n",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+    "issues": "https://github.com/AristocatHAHA/VE-CO---Tougher-Animals/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/AristocatHAHA/VE-CO---Tougher-Animals/releases/download/1.0/VE-CO.Tougher.Animals.1.0.rar"
+    },
+    "relationships": {
+      "requires": [
+        "MFO"
+      ]
+    },
+    "created": "2017-03-01T17:53:49+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "SaveGameFix",
+    "name": "Large Map Save Game Fix",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fumblesneeze",
+    "description": "\nFixes the \"OutOfMemory\" Exception when saving huge maps with a lot of mods installed.\n\nThis is done by replacing a method with a less memory hungry one, so there's no guarantee it couldn't still happen, just less likely.\n  ",
+    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimSaveGameFix/master/SaveGameFix/About/Preview.png",
+    "homePage": "https://github.com/Fumblesneeze/RimSaveGameFix",
+    "issues": "https://github.com/Fumblesneeze/RimSaveGameFix/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://github.com/Fumblesneeze/RimSaveGameFix/releases/download/1.0/SaveGameFix.zip",
+      "steam": "876729369"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-03-04T15:32:55+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "MFO",
+    "name": "Mod Friendly Overrides",
+    "version": "0.0.1-2017063+github",
+    "targetGameVersion": "0.16.0",
+    "authors": "notfood",
+    "description": "If it has a name, you can change it.",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-MFO/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-MFO",
+    "issues": "https://github.com/notfood/Rimworld-MFO/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-MFO/archive/master.zip"
+    },
+    "created": "2017-03-04T13:07:42+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SmarterScheduling",
+    "name": "SmarterScheduling",
+    "version": "0.0.1-2017062+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Automatically manages your Pawn's Sleep, Joy, and Work cycles.",
+    "homePage": "https://github.com/maarxx/SmarterScheduling",
+    "issues": "https://github.com/maarxx/SmarterScheduling/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/SmarterScheduling/archive/master.zip"
+    },
+    "created": "2017-03-03T04:21:40+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ED-Embrasures",
+    "name": "ED-Embrasures",
+    "version": "4.0.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.02\n\t\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nAdds embrasures for that can be shot through, while blocking passage.\n\nThis is an issue with raiders not targeting people behind Embrasures caused by optimisation in the vanilla targeting. I strongly advise that you look into the mod \"I've Got You In My Sights\" that is a fix for this issue and helps greatly to balance Embrasures. Thanks to DonationBox, spdskatr and Brrainz for working on this.\nhttps://ludeon.com/forums/index.php?topic=30573.0\n\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Embrasures/master/ED-Embrasures/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Embrasures",
+    "issues": "https://github.com/jaxxa/ED-Embrasures/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Embrasures/releases/download/04.00.02/ED-Embrasures_04.00.02.zip",
+      "steam": "722085442"
+    },
+    "created": "2017-03-04T22:43:44+00:00",
+    "changeLog": "04.00.02\r\n* Adding Information about \"I've Got You In My Sights\" mod https://ludeon.com/forums/index.php?topic=30573.0"
+  },
+  {
+    "id": "ED-LaserDrill",
+    "name": "ED-Laser Drill",
+    "version": "4.0.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.01\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nAdds a Laser Drill that allows the creation of new steam vents, and a Laser laserFill that allows you to remove unwanted steam vents.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-LaserDrill/master/ED-LaserDrill/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-LaserDrill",
+    "issues": "https://github.com/jaxxa/ED-LaserDrill/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-LaserDrill/releases/download/04.00.01/ED-LaserDrill_04.00.01.zip",
+      "steam": "722086956"
+    },
+    "created": "2017-01-14T04:27:53+00:00",
+    "changeLog": "04.00.01\n*Converting WorkToMake to WorkToBuild\n"
+  },
+  {
+    "id": "ED-CheatReactor",
+    "name": "ED-CheatReactor",
+    "version": "3.0.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 03.00.01\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nAdds a Reactor that produces a lot of Power, is Built Instantly and for Free. \nIt goes without saying that this is in no way balanced and should only be used for testing or cheating.\n\nI know that there is a debug power option in the menu, but I find this more helpful for testing some things.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-CheatReactor/master/ED-CheatReactor/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-CheatReactor",
+    "issues": "https://github.com/jaxxa/ED-CheatReactor/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-CheatReactor/releases/download/03.00.01/ED-CheatReactor_03.00.01.zip",
+      "steam": "710101929"
+    },
+    "created": "2017-01-14T03:46:47+00:00",
+    "changeLog": "03.00.01\n*Converting WorkToMake to WorkToBuild\n"
+  },
+  {
+    "id": "ED-ReverseCycleCooler",
+    "name": "ED-ReverseCycleCooler",
+    "version": "4.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.00\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nMod allows the Cooler to work as a Reverse Cycle Air Conditioner. It can be used to Cool a Room as it can in the base game, it can now additionally be used to Heat a room, in heating mode it will output heat into its target room while dumping cool ait in its output. It can additionally be set to Automatic so that it will Heat or Cool a room to a target Temperature. \nAdditionally the mod adds a button that allows you to rotate already placed coolers in case it has been placed incorrectly.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-ReverseCycleCooler/master/ED-ReverseCycleCooler/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-ReverseCycleCooler",
+    "issues": "https://github.com/jaxxa/ED-ReverseCycleCooler/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-ReverseCycleCooler/releases/download/04.00.00/ED-ReverseCycleCooler_04.00.00.zip",
+      "steam": "722092523"
+    },
+    "created": "2017-01-21T02:35:26+00:00",
+    "changeLog": "Alpha 16 Update\n"
+  },
+  {
+    "id": "ED-OmniGel",
+    "name": "ED-OmniGel",
+    "version": "3.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 03.00.00\n\t\nAdds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal\n\nRecipes:\n\nThe following are the resources that are available from the various levels of the replicator.\n\nMK1:\n10 OmniGel -> 1 ChunkSlag\n10 OmniGel -> 1 ChunkRock \n\nMK2:\n40 OmniGel -> 20 Steel\n40 OmniGel -> 30 Silver\n30 OmniGel -> 3 Gold\n\nMK3:\n60 OmniGel -> 4 plasteel\n60 OmniGel -> 10 Uranium\n50 OmniGel -> 10 Jade\n\n40 OmniGel -> 2 Medicine\n40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine\n\n\n",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-OmniGel/master/ED-OmniGel/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-OmniGel",
+    "issues": "https://github.com/jaxxa/ED-OmniGel/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-OmniGel/releases/download/03.00.00/ED-OmniGel_03.00.00.7z",
+      "steam": "722088674"
+    },
+    "created": "2017-02-23T21:02:38+00:00",
+    "changeLog": "03.00.00\n- Alpha 16 Update\n"
+  },
+  {
+    "id": "ED-ReinforcedStuff",
+    "name": "ED-ReinforcedStuff",
+    "version": "3.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 03.00.00\n\t\nAdds a Reinforced version of some Stuff. This allows for stronger constructions. Reinforced stuff has 10x the hitpoints but at 10x build time. Reinforced Stuff is made from 10 Normal Stuff in a Molecular Reinforcement Compressor. Currently Reinforced Stuff can be made from Steel, Plasteel, Wood, Stone, Silver, Gold, Uranium and Jade . \n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-ReinforcedStuff/master/ED-ReinforcedStuff/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-ReinforcedStuff",
+    "issues": "https://github.com/jaxxa/ED-ReinforcedStuff/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-ReinforcedStuff/releases/download/03.00.00/ED-ReinforcedStuff_03.00.00.zip",
+      "steam": "722090464"
+    },
+    "created": "2017-02-25T03:28:46+00:00",
+    "changeLog": "Update to Alpha 16\n"
+  },
+  {
+    "id": "ED-Plant24H",
+    "name": "ED-Plants24H",
+    "version": "4.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.00\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThe module changes the plants to grow 24 Hours a day. In the base game plants will rest at night time and stop growing, regardless of the light levels. This removed that restriction so plants will keep growing, if all the other conditions such as light are still met, allowing your sunlamps to effectively increase the growing speed.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Plant24H/master/ED-Plant24H/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Plant24H",
+    "issues": "https://github.com/jaxxa/ED-Plant24H/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Plant24H/releases/download/04.00.00/ED-Plant24H_04.00.00.zip"
+    },
+    "created": "2017-03-05T00:43:42+00:00",
+    "changeLog": "04.00.00\r\n* Update to Alpha 16\r\n* Now using Harmony Library"
+  },
+  {
+    "id": "ED-SafeTraps",
+    "name": "ED-SafeTraps",
+    "version": "2.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "jaxxa",
+    "description": "Version: 02.00.00\n\t\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThis mods modifies traps so that they will no longer be triggered by colonists.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-SafeTraps/master/ED-SafeTraps/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-SafeTraps",
+    "issues": "https://github.com/jaxxa/ED-SafeTraps/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-SafeTraps/releases/download/02.00.00/ED-SafeTraps_02.00.00.zip",
+      "steam": "736483249"
+    },
+    "created": "2017-03-05T00:35:08+00:00",
+    "changeLog": " Alpha 16 Update"
+  },
+  {
+    "id": "ED-TurretControl",
+    "name": "ED-TurretControl",
+    "version": "2.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "jaxxa",
+    "description": "Version: 02.00.00\n\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nAllows Commands for Force Attack to be given to Turrets.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-TurretControl/master/ED-TurretControl/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-TurretControl",
+    "issues": "https://github.com/jaxxa/ED-TurretControl/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-TurretControl/releases/download/02.00.00/ED-TurretControl_02.00.00.zip",
+      "steam": "736482875"
+    },
+    "created": "2017-03-05T00:03:30+00:00",
+    "changeLog": "Alpha 16 Update"
+  },
+  {
+    "id": "ED-Shields",
+    "name": "ED-Shields",
+    "version": "1.0.2",
+    "authors": "jaxxa",
+    "description": "\nThis mod allows you to place shield generators. They are expensive and power hungry but can really strengthen your defences. The standard shields will stop projectiles that try to enter it, but allow weapons to be fired out.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Shields/master/ED-Shields/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Shields",
+    "issues": "https://github.com/jaxxa/ED-Shields/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Shields/releases/download/01.00.02/ED-Shields_01.00.02.zip"
+    },
+    "relationships": {
+      "alternatives": [
+        "ED-ShieldsBasic"
+      ]
+    },
+    "created": "2016-04-29T11:40:19+00:00",
+    "changeLog": "01.00.02\n*Fix for Fully charged shields not losing Strength when Power is lost.\n",
+    "deprecated": true
+  },
+  {
+    "id": "ED-ShieldsBasic",
+    "name": "ED-ShieldsBasic",
+    "version": "3.0.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 03.00.02\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\nThis mod allows you to place shield generators. They are expensive and power hungry but can really strengthen your defences. The standard shields will stop projectiles that try to enter it, but allow weapons to be fired out.\n\nCredits:\n* Darker: Origional Mod http://ludeon.com/forums/index.php?topic=2677.msg24772#msg24772\n* Rilamus: Providing Art\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-ShieldsBasic/master/ED-ShieldsBasic/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-ShieldsBasic",
+    "issues": "https://github.com/jaxxa/ED-ShieldsBasic/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-ShieldsBasic/releases/download/03.00.02/ED-ShieldsBasic_03.00.02.zip",
+      "steam": "726884610"
+    },
+    "relationships": {
+      "after": [
+        "CombatRealism"
+      ],
+      "contains": [
+        "ED-Shields"
+      ]
+    },
+    "created": "2017-02-23T21:12:53+00:00",
+    "changeLog": "03.00.02\r\n- Shields now Require Components\r\n"
+  },
+  {
+    "id": "ED-Shields-CR",
+    "name": "ED-Shields-CR",
+    "version": "3.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 03.00.00\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\nPlease Use that Thread for Discussion / Feedback that would like me to reply to. \nIdeally Bugs should be logged on GitHub although in the discussion thread is also fine.\n\t\nRequires: ED-ShieldsBasic, CombatRealism\t\n  * CombatRealism-1.6.9.4\n  * ED-ShieldsBasic 03.00.00\n\t\nModifies the Shields from ED-ShieldsBasic to intercept the projectiles fired by weapons from Combat Realism.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Shields-CR/master/ED-Shields-CR/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Shields-CR",
+    "issues": "https://github.com/jaxxa/ED-Shields-CR/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Shields-CR/releases/download/03.00.00/ED-Shields-CR_03.00.00.zip"
+    },
+    "relationships": {
+      "patches": [
+        "CombatRealism",
+        "ED-ShieldsBasic"
+      ]
+    },
+    "created": "2017-01-21T03:08:06+00:00",
+    "changeLog": "03.00.00\nUpdating to:\n- Rimworld A16\n- CombatRealism-1.6.9.4\n- ED-ShieldsBasic 03.00.00\n"
+  },
+  {
+    "id": "BetterPathfinding",
+    "name": "Better Pathfinding",
+    "version": "1.5.2",
+    "targetGameVersion": "0.16.1385",
+    "authors": "Zhentar",
+    "description": "Improved pathfinding logic so pawns will pick optimal paths, at a minimal added performance cost!",
+    "homePage": "https://github.com/Zhentar/BetterPathfinding",
+    "issues": "https://github.com/Zhentar/BetterPathfinding/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://github.com/Zhentar/BetterPathfinding/releases/download/1.5.2/Better.Pathfinding.v1.5.2.zip"
+    },
+    "relationships": {
+      "compatible": [
+        "PathAvoid"
+      ]
+    },
+    "created": "2017-02-22T14:37:09+00:00",
+    "changeLog": "- Fixed index out of bounds error\n"
+  },
+  {
+    "id": "AutoFlicker",
+    "name": "Auto Flick Sun Lamps",
+    "version": "1.1.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "Zhentar",
+    "description": "\n    Adds an option to sun lamps and power switches to automatically flag themselves to be flicked on in the morning and off at night.\n  ",
+    "preview": "https://raw.githubusercontent.com/Zhentar/AutoFlicker/master/About/Preview.png",
+    "homePage": "https://github.com/Zhentar/AutoFlicker",
+    "issues": "https://github.com/Zhentar/AutoFlicker/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/Zhentar/AutoFlicker/releases/download/v1.1.1/AutoFlicker.zip"
+    },
+    "created": "2017-02-13T14:37:16+00:00",
+    "changeLog": "- Fix error logged when minified\n"
+  },
+  {
+    "id": "ZhentarFix",
+    "name": "Zhentar's Vanilla Fixes",
+    "version": "0.1.0-1.5alpha",
+    "targetGameVersion": "0.16.0",
+    "authors": "Zhentar",
+    "description": "Various Vanilla bug fixes",
+    "preview": "https://raw.githubusercontent.com/Zhentar/ZhentarFix/master/About/Preview.png",
+    "homePage": "https://github.com/Zhentar/ZhentarFix",
+    "issues": "https://github.com/Zhentar/ZhentarFix/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://github.com/Zhentar/ZhentarFix/releases/download/v1.5alpha/ZhentarFix1.5_alpha.zip"
+    },
+    "created": "2017-01-29T20:50:11+00:00",
+    "changeLog": "- Hopefully fixes, or at least mitigates, memory leak\n"
+  },
+  {
+    "id": "ZhentarTweaks",
+    "name": "Zhentar's Vanilla Tweaks",
+    "version": "1.4.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "Zhentar",
+    "description": "Various tweaks to Vanilla behaviors",
+    "preview": "https://raw.githubusercontent.com/Zhentar/ZhentarTweaks/master/About/Preview.png",
+    "homePage": "https://github.com/Zhentar/ZhentarTweaks",
+    "issues": "https://github.com/Zhentar/ZhentarTweaks/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://github.com/Zhentar/ZhentarTweaks/releases/download/v1.4/ZhentarTweaks.v1.4.zip"
+    },
+    "created": "2017-02-03T15:11:49+00:00",
+    "changeLog": "- Added a trade/caravan load dialog sorter for $ per kg, so you can easily pick out what is best to load your caravan with\n- Added a trade/caravan load dialog sorter for material, so you can easily find all of your crappy cloth apparel to sell.\n- Added a market value filter for stockpiles, bills, and outfits.\n"
+  },
+  {
+    "id": "RoofSupportTool",
+    "name": "Roof Support Tool",
+    "version": "0.0.1-2017048+github",
+    "targetGameVersion": "0.16.0",
+    "authors": "Rock5",
+    "description": "\n      Displays roof support range and can place plan to show radius.\n    \n      [Version 16.0]\n    ",
+    "preview": "https://raw.githubusercontent.com/Rock5/RoofSupportTool/master/About/Preview.png",
+    "homePage": "https://github.com/Rock5/RoofSupportTool",
+    "issues": "https://github.com/Rock5/RoofSupportTool/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/Rock5/RoofSupportTool/archive/master.zip"
+    },
+    "created": "2017-02-17T14:18:17+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "BetterTerrain",
+    "name": "Better Terrain",
+    "version": "0.0.1-2017052+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "tenbom",
+    "description": "\n    Better Terrain for Rimworld.\n\t0.0615\n\t\tThis.\n\t0.061\n\t\tbetter hard stone (renamed to Mountain) scattering.\n\t\tRecolored a couple rocks to be easier to pick out from hard stone.\n\t0.06\n\t\tstone chunks are placed behind trees!\n\t\tpeople and animals are too for testings sake, feedback plz.\n\t\tupdating art in Tropical Forest, 1/2~ way done atm.\n\t\t15%~ more mountains in mountainous terrain\n\t\t\n\t\tFinished: Temperate Forest\n\t\tFunctional:Arid Shrublands, Boreal Forest, Tropical Forest, Tundra.\n\t\t\n  ",
+    "preview": "https://raw.githubusercontent.com/tenbom/BetterTerrain/master/About/Preview.png",
+    "homePage": "https://github.com/tenbom/BetterTerrain",
+    "issues": "https://github.com/tenbom/BetterTerrain/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/tenbom/BetterTerrain/archive/master.zip",
+      "steam": "732569232"
+    },
+    "created": "2017-02-21T05:12:45+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nEnables the addition and visualization of humanoid alien races. This is a cosmetic framework only, any aliens added will behave just like humans for now.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/erdelf/AlienRaces/releases/download/A16_v1.1/AlienRace.zip",
+      "steam": "839005762"
+    },
+    "created": "2017-01-29T17:23:27+00:00",
+    "changeLog": "Custom DrawSize\nDozens of other Patches\n"
+  },
+  {
+    "id": "PrisonerRansom",
+    "name": "PrisonerRansom (A16)",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\n(This mod includes some CCL code. Thanks to 1000101. As soon as CCL comes out, it will be required.)\n  \nThis mod allows you to demand ransom for inprisoned pawns for silver at the comms console.\nIt will give you a slight relationship boost.\nLeaders are, of course, worth more and will likely be more friendly to you after that.\n\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/PrisonerRansom/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/PrisonerRansom",
+    "issues": "https://github.com/erdelf/PrisonerRansom/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/PrisonerRansom/zipball/1.1",
+      "steam": "794038005"
+    },
+    "created": "2017-02-05T03:57:04+00:00",
+    "changeLog": "Detour removed and hugslib is now optionable\n"
+  },
+  {
+    "id": "HealingGun",
+    "name": "Healing Gun",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "This mod introduces a new Healing Gun to the Game. \\nAfter beeing developed in a collaboration between famous medical scientist Angela Ziegler and weapon developer Torbjörn Lindholm this weapon got famous through the use by the sharpshooter Ana Amari. Alltough the original gun got destroyed in a war, parts of the plans were recovered. \\nThis weapon is complicated and requires a lot of work and materials.. but it provides instant healing during fights. \\nThe plans of the weapons have to be researched in order to use it. \\n \\nThe healing is locked at six injuries per shot and two injuries per bodyparts. Scars and old wounds won't be healed by this gun. \\nThis gun also can't regrow parts of the body or help with diseases. It is purely made to tend to injuries during battle.\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/HealingGun/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/HealingGun",
+    "issues": "https://github.com/erdelf/HealingGun/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/HealingGun/zipball/1.1",
+      "steam": "762399195"
+    },
+    "created": "2017-02-05T02:10:42+00:00",
+    "changeLog": "Added Harmony which allowed me to add automatic targeting without any further complications.\n"
+  },
+  {
+    "id": "MountainMiner",
+    "name": "Mountain Miner (A16)",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nThis mod adds a Mountain Miner.\nThe mountain miner is a hand-operated machine used to mine out the area above the tunneling level. \nAllows for rock roof removal and produces chunks in the process.\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/MountainMiner/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/MountainMiner",
+    "issues": "https://github.com/erdelf/MountainMiner/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/MountainMiner/zipball/1.0",
+      "steam": "794450222"
+    },
+    "created": "2017-01-27T23:45:27+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "PermaDeathName",
+    "name": "PermaDeathNameFixer (A16)",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\n  (This mod includes some CCL code. Thanks to 1000101. As soon as CCL comes out, it will be required.)\n  \n  This mod fixes the permadeath savefile name to the colony name. It will do that when you name your colony and it will check everytime you load the save, so you can even apply it to saves that are already named.\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/PermaDeathName/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/PermaDeathName",
+    "issues": "https://github.com/erdelf/PermaDeathName/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/PermaDeathName/zipball/1.0",
+      "steam": "763575600"
+    },
+    "created": "2017-01-28T00:17:25+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "RedAlert",
+    "name": "RedAlert (A16)",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nThis mod adds an alarm button that, when flicked, changes all GlowerComps (mostly lamps) to red.\nIf you switch it again, the old colors come back.\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/RedAlert/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/RedAlert",
+    "issues": "https://github.com/erdelf/RedAlert/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/RedAlert/zipball/1.0",
+      "steam": "794886246"
+    },
+    "created": "2017-01-27T23:46:17+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "MinePlan",
+    "name": "MinePlan Designator A16",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "Adds two designators to switch mining and planning designations.\nSavegame compatible.\n",
+    "preview": "https://raw.githubusercontent.com/erdelf/MinePlan/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/MinePlan",
+    "issues": "https://github.com/erdelf/MinePlan/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/MinePlan/zipball/1.0",
+      "steam": "803172563"
+    },
+    "created": "2017-01-27T23:45:09+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "StoneTypeDecimator",
+    "name": "Stone Type Decimator",
+    "version": "1.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "G3Kappa",
+    "description": "\n\tThis is a simple mod which changes vanilla map generation slightly, by replacing every stone (optionally including chunks and buildings) with the one that naturally occurred the most.\n\t",
+    "homePage": "https://ludeon.com/forums/index.php?topic=30626.msg312554#msg312554",
+    "issues": "https://github.com/G3Kappa/Rimworld_StoneTypeDecimator/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/G3Kappa/Rimworld_StoneTypeDecimator/releases/download/v1.0/StoneTypeDecimator.7z"
+    },
+    "created": "2017-02-17T16:23:47+00:00",
+    "changeLog": "The core functionality as described on the forums.\n"
+  },
+  {
+    "id": "ABC_Suit",
+    "name": "Toxic Fallout Protection Suit",
+    "version": "1.4.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Chaia",
+    "description": "Adds a protection suit against toxic fallout and modding capability for your own protection stuff (check the forum thread).",
+    "preview": "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=21408.0",
+    "issues": "https://github.com/Chaia/ABC_Suit/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Chaia/ABC_Suit/releases/download/V1.4/ABC_Suit_1.4.rar",
+      "steam": "731878767"
+    },
+    "created": "2016-07-15T21:27:56+00:00",
+    "changeLog": "Changelog:\n- Updated for Rimworld 0.16\n- Tynan added some vanilla modifier to the toxic buildup thingy, so this mod could be reduced to a xml-only mod (for now!)\n- As CLL is no longer updated, Foodstuff had to go away for this update until I find another solution for it.\n"
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races 2.0",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nA framework for the creation of new alien races in Rimworld\n\nIf you ever thought that the racial diversity in rimworld is... not that diverse and you want to change that, you came to the right place. This framework allows to easily add new humanoid races without any C# knowledge, purely in xml.\n\n\nFeature Overview\n  -  Custom graphics with weighted skin and hair color selection\n  -  Changing graphics with lifestages\n  -  Drawing Tails\n  -  Integration in the starting pawns, as well as slaves and refugees\n  -  Gender distribution\n  -  Backstories\n  -  Drawsize (independent from race size)\n  -  Support for genderless races\n  -  Optional immunity to aging related body problems\n  -  Optional forced traits\n  -  Customizable thoughts, with specific configurations for eating and butchering humanlikes\n  -  Modifiable relation chances\n  -  Race restricted clothing, weapons, research projects, buildings, bills and plants.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/erdelf/AlienRaces/releases/download/a16_v1.2/AlienRaceNew.zip"
+    },
+    "created": "2017-03-11T23:59:53+00:00",
+    "changeLog": "Complete rewrite... have fun ^^"
+  },
+  {
+    "id": "Industrialisation",
+    "name": "Industrialisation",
+    "version": "0.16.0-3",
+    "targetGameVersion": "0.16.1393",
+    "authors": "RimWorld-zh",
+    "description": "Adds some heavy industries to the game.\n\nOriginal authors: eatKenny  \nCurrent Maintainer: duduluu  \n\n# Features\n\nNew stuff:  \n - concrete  \n - high-grade steel  \n - copper  \n - aluminium\n\nNew bench:\n - concrete mixer\n - electric arc furnace\n - deep mine\n\nNew power building:  \n - industrial cable\n - industrial battery\n - nuclear power plant\n\nNew trader ship:\n - deep space mining ship\n\nTips: To build a deep mine, you must buy a Skydriller to create a mine hole.  \n(The Skydriller looks like a walkie-talkie, just use it like a grenade - hit the grand, than the plasma beam will make a mine hole.)\n\n# License\n\nIndustrialisation mod is distributed under the [MIT License](https://opensource.org/licenses/MIT).",
+    "preview": "https://raw.githubusercontent.com/RimWorld-zh/eatKenny-Industrialisation/master/About/Preview.png",
+    "homePage": "https://github.com/RimWorld-zh/eatKenny-Industrialisation",
+    "issues": "https://github.com/RimWorld-zh/eatKenny-Industrialisation/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/RimWorld-zh/eatKenny-Industrialisation/releases/download/v0.16.0.3/eatKenny_Industrialisation_0.16.0.3.rar",
+      "steam": "863827593"
+    },
+    "created": "2017-02-24T12:32:47+00:00",
+    "changeLog": "Remove Concrete from storage category 'Resource'.\n"
+  },
+  {
+    "id": "TiberiumRim",
+    "name": "Tiberium Rim",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Telefonmast",
+    "description": "\n\t\t-----Transmission Begin-----\n\t\tWelcome back Commander.\n\t\tTiberium has spread across space. \n\t\tHumanity thought they could flee from earth \n\t\tas it was becoming crystalized.\n\t\tBut now it is back, closer than ever.\n\t\tNow get on this Rimworld and get it under control.\n\t\tYour people are counting on you.\n\t\t-----Transmisson End-----\n\t",
+    "preview": "https://raw.githubusercontent.com/Profugo-Barbatus/TiberiumRim/master/Assets/Preview.png",
+    "homePage": "https://github.com/Profugo-Barbatus/TiberiumRim",
+    "issues": "https://github.com/Profugo-Barbatus/TiberiumRim/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/Profugo-Barbatus/TiberiumRim/releases/download/1.2.0/TiberiumRim_1.2.A16.zip"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-02-19T20:35:10+00:00",
+    "changeLog": "Tiberium Rim 1.2 Release for A16.\n\nPlease see https://ludeon.com/forums/index.php?topic=28843.0 for more details about the mod.\n"
+  },
+  {
+    "id": "CombatRealism",
+    "name": "Combat Realism",
+    "version": "1.6.9-final",
+    "targetGameVersion": "0.16.1386",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.6.9.8 update by Skyarkhangel, Killface, Mrofa, Spoonshortage, duncanburke, Thorbane for A15-A16\n\t\t\t\t\t\n\t\nAn extensive overhaul of the game's combat to make it more realistic.\nIt doesn't Require Community Core Library version.\n\t",
+    "preview": "https://raw.githubusercontent.com/ProfoundDarkness/CombatRealism/master/About/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=27374.0",
+    "issues": "https://github.com/ProfoundDarkness/CombatRealism/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://api.github.com/repos/ProfoundDarkness/CombatRealism/zipball/Final1",
+      "steam": "797691970"
+    },
+    "relationships": {
+      "alternatives": [
+        "CombatExtended"
+      ],
+      "contains": [
+        "Achtung"
+      ]
+    },
+    "created": "2017-02-28T14:14:02+00:00",
+    "changeLog": "At the request of Skullywag since I had a fork lying around I packaged a release.  This is based on fixes and updates as of February 12 2017, the last time I worked on this fork.  Hopefully this will tide people over until CombatExtended has a release.\n"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.0.1-2017054+github",
+    "targetGameVersion": "0.16.1386",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
+    },
+    "relationships": {
+      "conflicts": [
+        "CombatRealism"
+      ],
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-02-23T15:58:41+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "StackMerger",
+    "name": "Stack Merger",
+    "version": "0.16.0-7",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fluffy",
+    "description": "Make your haulers understand that a tidy stockpile is an efficient stockpile.\n\n<size=24>Important</size>\nThis mod uses Harmony, a fancy new toy for modders. You don’t have to install harmony as it comes bundled with the mod, but if you encounter any errors, please let me know!\n\n<size=24>Features</size>\nAdds a low-priority hauling job that makes your haulers merge stacks in your stockpiles. Works per stockpile, so if items are in different stockpiles they will not be merged. \n\n<size=24>Issues</size>\nAs each storage building (e.g. vanilla racks, extended storage, deep storage, etc) count as a single stockpile (or technically, have their own SlotGroup - which for this mod is equivalent), stacks in different storage units will not be merged. \n\n<size=24>Notes</size>\nWhen I was playtesting this, Stockpile Efficiency was brought to my attention. These mods do pretty much exactly the same thing (in fact we both use the same vanilla methods for the actual hauling). The main difference is in how we keep track of what can be merged. Stockpile Efficiency searches for stacks that can potentially be merged whenever a pawn is looking for something to merge. Stack Merger keeps a permanent cache of stacks that can be merged. I haven’t run any benchmarks, but I expect my mod to have a mostly constant, relatively low cpu load. Stockpile Efficiency will have no load as long as pawns don’t have time to do the hauling jobs, but when they search for things to merge the cpu load will most likely be considerably larger. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.7/Stack.Merger.rar",
+      "steam": "857164561"
+    },
+    "created": "2017-03-15T20:32:09+00:00",
+    "changeLog": "Update harmony to 1.0.9-rc1"
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races 2.0",
+    "version": "2.1.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nA framework for the creation of new alien races in Rimworld\n\nIf you ever thought that the racial diversity in rimworld is... not that diverse and you want to change that, you came to the right place. This framework allows to easily add new humanoid races without any C# knowledge, purely in xml.\n\n\nFeature Overview\n  -  Custom graphics with weighted skin and hair color selection\n  -  Changing graphics with lifestages\n  -  Drawing Tails\n  -  Integration in the starting pawns, as well as slaves and refugees\n  -  Gender distribution\n  -  Backstories\n  -  Drawsize (independent from race size)\n  -  Support for genderless races\n  -  Optional immunity to aging related body problems\n  -  Optional forced traits\n  -  Customizable thoughts, with specific configurations for eating and butchering humanlikes\n  -  Modifiable relation chances\n  -  Race restricted clothing, weapons, research projects, buildings, bills and plants.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/erdelf/AlienRaces/releases/download/v2.1/AlienRace.zip",
+      "steam": "839005762"
+    },
+    "created": "2017-03-13T15:30:03+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.0.1-2017074+github",
+    "targetGameVersion": "0.16.1386",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
+    },
+    "relationships": {
+      "conflicts": [
+        "CombatRealism"
+      ],
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-03-15T20:42:36+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ColonistBarKF",
+    "name": "Colonist Bar KF 0.16.2.2",
+    "version": "0.16.2-2",
+    "targetGameVersion": "0.16.1386",
+    "authors": "Killface",
+    "description": "\n    More options for the Colonist Bar, including new status icons and a mood bar.\n\n    Allows custom placement of the bar, as well as advanced scaling and sorting functionality.\n    All options available with Right Mouse Button click on any icon.\n    FollowMe™ functionality via Middle Mouse Button click.\n\n    Includes a modified version of the mood bar from 'MuzzyUtils™' by muzzy\n    Includes 'FollowMe™' functionality by Fluffy with updated code by alexschrod\n    Includes 'ZoomToMouse™' functionality by Fluffy\n    Includes an updated and expanded version of 'Pawn State Icons™' by Dan Sadler\n\n    Chinese translation by duduluu\n  ",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_ColonistBarKF/A16/About/preview.png",
+    "homePage": "https://github.com/Killface1980/RW_ColonistBarKF",
+    "issues": "https://github.com/Killface1980/RW_ColonistBarKF/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_ColonistBarKF/zipball/0.16.2.2",
+      "steam": "729908976"
+    },
+    "relationships": {
+      "contains": [
+        "FollowMe"
+      ]
+    },
+    "created": "2017-01-08T09:08:34+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "FacialStuff",
+    "name": "Facial Stuff 0.16.1.0",
+    "version": "0.16.2",
+    "targetGameVersion": "0.16.1386",
+    "authors": "Killface",
+    "description": "\n    This mod aims to provide more visual individuality for your colonists.\n    - 10 newly defined skin colors instead of the vanilla 6.\n    - hair genetics according to real life.\n    - includes a few selected trend colors of 5501.\n    - 30+ different beards.\n    - new eyes and brows for both sexes.\n    - Added vanilla hair styles with 10 steps of hair loss.\n    - Hair is merged on the head graphic, thus visible with worn hats.\n\n    + includes a modified version of 'Spoonshortage's Rimworld Hairstyles 1.2' by spoonshortage\n    + includes a modified version of 'Nackblad Inc Rimhair 1.1' by nackblad\n    \n    Special thanks to Fluffy for the FaceStyling bench (adapted from 'Clutter')\n    Uses the detour code from Orion's 'Hospitality'\n\n    2016-10-14 - updated tribal hairs from NackbladIncRimhair\n    2016-12-15 - updated Spoon's hairs\n  ",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_FacialStuff/A16/About/preview.png",
+    "homePage": "https://github.com/Killface1980/RW_FacialStuff",
+    "issues": "https://github.com/Killface1980/RW_FacialStuff/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_FacialStuff/zipball/0.16.2",
+      "steam": "818322128"
+    },
+    "created": "2017-01-06T14:09:23+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "Herzblatt",
+    "name": "Herzblatt",
+    "version": "0.16.0",
+    "targetGameVersion": "0.16.1385",
+    "authors": "Killface",
+    "description": "\nModifies the opinion and attraction of:\n    - ugly pawns\n    - creepy breathing pawns\n    - annoying voice pawns\n    - disfigured pawns\ntowards each other so that they show more empathy.\nNo outcasts among outcasts.\n\nAlso deaf / blind pawns are not botherered by certain traits.\n\nAlso adds bisexuality to RimWorld. Bisexual pawns have no preference and can choose both genders as partner.\nAfter the Psychology mod also added bisexuality, this mod's main feature is the mood offset for socially not accepted pawns towards each other. Just load this mod after Psychology.\n ",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_Herzblatt/master/About/Preview.png",
+    "homePage": "https://github.com/Killface1980/RW_Herzblatt",
+    "issues": "https://github.com/Killface1980/RW_Herzblatt/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_Herzblatt/zipball/0.16.0",
+      "steam": "747417081"
+    },
+    "created": "2016-12-23T19:37:32+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "Outfitter_Infused",
+    "name": "Outfitter A16 - Infused",
+    "version": "0.16.0",
+    "targetGameVersion": "0.16.1386",
+    "authors": "Killface",
+    "description": "Patch for Outfitter A16 + Infused. Load order: Infused, Outfitter, this mod.\n  ",
+    "homePage": "https://github.com/Killface1980/RW_Outfitter_Infused",
+    "issues": "https://github.com/Killface1980/RW_Outfitter_Infused/issues",
+    "category": "Patch",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_Outfitter_Infused/zipball/0.16.0",
+      "steam": "818051679"
+    },
+    "relationships": {
+      "patches": [
+        "Infused",
+        "Outfitter"
+      ]
+    },
+    "created": "2016-12-14T09:37:02+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "StorageSearch",
+    "name": "Patch - Storage Search + AllowFresh",
+    "version": "0.16.0",
+    "targetGameVersion": "0.16.1388",
+    "authors": "meonester, Killface",
+    "description": "\n    Enables the \"Allow Fresh\" filter from muzzy utils in StorageSearch.\n    Load it after StorageSearch.\n  ",
+    "preview": "https://raw.githubusercontent.com/Killface1980/StorageSearch/A16/About/preview.png",
+    "homePage": "https://github.com/Killface1980/StorageSearch",
+    "issues": "https://github.com/Killface1980/StorageSearch/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/Killface1980/StorageSearch/releases/download/0.16.0/Patch_A16_StorageSearch.AllowFresh.zip",
+      "steam": "771073854"
+    },
+    "created": "2016-12-21T17:02:54+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "Outfitter",
+    "name": "Outfitter 0.16.0.2",
+    "version": "0.16.0-2",
+    "targetGameVersion": "0.16.1386",
+    "authors": "Fluffy, Killface",
+    "description": "\n    Allows pawns to factor in all kinds of gear stat offsets other than just armor.\n    - Defaults to sensible priorities based on work types assigned and map seasonal temperatures.\n    - Allows you to finetune, add and/or remove priorities.\n    - Takes personal traits like temperature preference or mental states into account.\n    - No naked pawns!\n\n    Original version of 'Outfitter™' by Fluffy. Original version of 'AutoEquip™' by soulkata.\n    This is a fusion of both mods.\n\n    Patch for the Infused mod:\n    http://steamcommunity.com/sharedfiles/filedetails/?id=818051679\n    or\n    https://github.com/Killface1980/RW_Outfitter_Infused/releases\n  ",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_Outfitter/A16/About/Preview.png",
+    "homePage": "https://github.com/Killface1980/RW_Outfitter",
+    "issues": "https://github.com/Killface1980/RW_Outfitter/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_Outfitter/zipball/0.16.0.2",
+      "steam": "738206572"
+    },
+    "created": "2017-01-11T22:06:56+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "StackMerger",
+    "name": "Stack Merger",
+    "version": "0.16.0-8",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fluffy",
+    "description": "Make your haulers understand that a tidy stockpile is an efficient stockpile.\n\n<size=24>Important</size>\nThis mod uses Harmony, a fancy new toy for modders. You don’t have to install harmony as it comes bundled with the mod, but if you encounter any errors, please let me know!\n\n<size=24>Features</size>\nAdds a low-priority hauling job that makes your haulers merge stacks in your stockpiles. Works per stockpile, so if items are in different stockpiles they will not be merged. \n\n<size=24>Issues</size>\nAs each storage building (e.g. vanilla racks, extended storage, deep storage, etc) count as a single stockpile (or technically, have their own SlotGroup - which for this mod is equivalent), stacks in different storage units will not be merged. \n\n<size=24>Notes</size>\nWhen I was playtesting this, Stockpile Efficiency was brought to my attention. These mods do pretty much exactly the same thing (in fact we both use the same vanilla methods for the actual hauling). The main difference is in how we keep track of what can be merged. Stockpile Efficiency searches for stacks that can potentially be merged whenever a pawn is looking for something to merge. Stack Merger keeps a permanent cache of stacks that can be merged. I haven’t run any benchmarks, but I expect my mod to have a mostly constant, relatively low cpu load. Stockpile Efficiency will have no load as long as pawns don’t have time to do the hauling jobs, but when they search for things to merge the cpu load will most likely be considerably larger. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.8/Stack.Merger.rar",
+      "steam": "857164561"
+    },
+    "created": "2017-03-16T19:30:58+00:00",
+    "changeLog": "update harmony to 1.0.9-rc2"
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races 2.0",
+    "version": "2.1.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nA framework for the creation of new alien races in Rimworld\n\nIf you ever thought that the racial diversity in rimworld is... not that diverse and you want to change that, you came to the right place. This framework allows to easily add new humanoid races without any C# knowledge, purely in xml.\n\n\nFeature Overview\n  -  Custom graphics with weighted skin and hair color selection\n  -  Changing graphics with lifestages\n  -  Drawing Tails\n  -  Integration in the starting pawns, as well as slaves and refugees\n  -  Gender distribution\n  -  Backstories\n  -  Drawsize (independent from race size)\n  -  Support for genderless races\n  -  Optional immunity to aging related body problems\n  -  Optional forced traits\n  -  Customizable thoughts, with specific configurations for eating and butchering humanlikes\n  -  Modifiable relation chances\n  -  Race restricted clothing, weapons, research projects, buildings, bills and plants.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/erdelf/AlienRaces/releases/download/v2.1.1/AlienRace.zip",
+      "steam": "839005762"
+    },
+    "created": "2017-03-16T19:45:57+00:00",
+    "changeLog": "Misc. fixes"
   }
 ]

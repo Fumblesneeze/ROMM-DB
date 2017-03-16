@@ -28,6 +28,19 @@
       }
     }
   },
+  {
+    "repoOwner": "Fumblesneeze",
+    "repoName": "RimSaveGameFix",
+    "definition": {
+      "id": "SaveGameFix",
+      "category": "Patch",
+      "relationships": {
+        "requires": [
+          "HugsLib"
+        ]
+      }
+    }
+  },
 
 
   // UnlimitedHugs Mods
@@ -111,7 +124,7 @@
     "repoName": "AnimalTab",
     "definition": {
       "id": "AnimalTab",
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482475930483/12AF30180BEB0376F8480A7069612F6C67698CCA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -123,7 +136,7 @@
     "repoName": "RW_ArchitectSense",
     "definition": {
       "id": "ArchitectSense",
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/159151301107195908/79FAC61B1A4C15A26E1DA2823F18CB1B760E0D38/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -134,7 +147,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "AreaUnlocker",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328006531/C1CE5598F006A9584201FDC8A8106F57998445FE/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -150,7 +163,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "MedicalTab",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -161,7 +174,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "Blueprints",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110030946051062/58FC0EE4BAD4739B4C758E1EE52CBF9E93F32948/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -172,7 +185,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "ColonyManager",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -183,7 +196,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "FluffyBreakdowns",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -194,7 +207,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "FollowMe",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/445110986852687950/CE5C43BDBEACFDBC0E7CBFD6AE1821C7CFCD8340/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -205,7 +218,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "RelationsTab",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/455245034324421374/5A88953493B899469AFEB866B57222DB2265A5B6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -216,7 +229,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "StackMerger",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -227,7 +240,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "StuffedFloors",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/159151765533634297/1DF9C77518325BEBC98F6C0CC9E49DD8B8EB62E0/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -244,7 +257,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "BirdsAndBees",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -260,7 +273,7 @@
     "repoOwner": "FluffierThanThou",
     "repoName": "WorkTab",
     "definition": {
-      "author": "Fluffy",
+      "authors": "Fluffy",
       "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328307906/1B8398044257B7B174A724EAA42C5C9FF02F8857/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
       "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
       "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
@@ -279,7 +292,7 @@
     "repoOwner": "notfood",
     "repoName": "Rimworld-MFO",
     "definition": {
-      "id":  "MFO",
+      "id": "MFO",
       "name": "Mod Friendly Overrides",
       "category": "Library"
     }
@@ -288,22 +301,22 @@
     "repoOwner": "notfood",
     "repoName": "Rimworld-SeedsPlease",
     "definition": {
-      "id":  "SeedsPlease",
+      "id": "SeedsPlease",
       "name": "SeedsPlease!",
       "category": "Content",
-    "relationships": {
-      "requires": [ "HugsLib", "MFO" ]
-    }
+      "relationships": {
+        "requires": [ "HugsLib", "MFO" ]
+      }
     }
   },
   {
     "repoOwner": "notfood",
     "repoName": "Rimworld-Miniaturisation",
     "definition": {
-      "id":  "Miniaturisation",
+      "id": "Miniaturisation",
       "category": "Gameplay",
       "source": {
-        "steam":  "751295960"
+        "steam": "751295960"
       }
     }
   },
@@ -311,32 +324,32 @@
     "repoOwner": "notfood",
     "repoName": "Rimworld-Enlighten",
     "definition": {
-      "id":  "Enlighten",
+      "id": "Enlighten",
       "category": "Gameplay"
     }
   },
   {
     "repoOwner": "notfood",
     "repoName": "Rimworld-Infused",
-    "releaseFilter":  "(?<!CombatRealism)$",
+    "releaseFilter": "(?<!CombatRealism)$",
     "definition": {
-      "id":  "Infused",
+      "id": "Infused",
       "category": "Gameplay",
       "source": {
-        "steam":  "731287727"
+        "steam": "731287727"
       }
     }
   },
   {
     "repoOwner": "notfood",
     "repoName": "Rimworld-Infused",
-    "releaseFilter":  "^(.*)\\sCombatRealism$",
+    "releaseFilter": "^(.*)\\sCombatRealism$",
     "definition": {
-      "id":  "Infused-CombatRealism",
+      "id": "Infused-CombatRealism",
       "category": "Gameplay",
       "relationships": {
         "patches": [ "Infused", "CombatRealism" ],
-        "contains":  [ "Infused" ]
+        "contains": [ "Infused" ]
       }
     }
   },
@@ -344,10 +357,10 @@
     "repoOwner": "notfood",
     "repoName": "Rimworld-Mending",
     "definition": {
-      "id":  "Mending",
+      "id": "Mending",
       "category": "Gameplay",
       "source": {
-        "steam":  "735241897"
+        "steam": "735241897"
       }
     }
   },
@@ -358,7 +371,7 @@
     "repoOwner": "edbmods",
     "repoName": "EdBPrepareCarefully",
     "definition": {
-      "author": "EdB",
+      "authors": "EdB",
       "category": "Gameplay",
       "preview": "https://github.com/edbmods/EdBPrepareCarefully/blob/develop/Resources/About/preview.png?raw=true",
       "homePage": "https://ludeon.com/forums/index.php?topic=6261.0"
@@ -462,7 +475,7 @@
     "repoOwner": "pardeike",
     "repoName": "CarefulRaids",
     "definition": {
-      "contact":  "andreas@pardeike.net",
+      "contact": "andreas@pardeike.net",
       "category": "Gameplay",
       "preview": "https://github.com/pardeike/CarefulRaids/blob/master/Source/animation.gif?raw=true"
     }
@@ -569,7 +582,7 @@
       "preview": "https://github.com/AlcoholV/Rim.WhereIsRichSoil/blob/master/About/preview.png?raw=true"
     }
   },
-   
+
 
   // Skullywag's mods
   {
@@ -761,7 +774,7 @@
     "repoName": "RimWorld-RedistHeat",
     "definition": {
       "id": "RedistHeat",
-      "name":  "Redist.Heat",
+      "name": "Redist.Heat",
       "homePage": "https://ludeon.com/forums/index.php?topic=21770.0",
       "issues": "https://ludeon.com/forums/index.php?topic=21770.0",
       "category": "Content"
@@ -779,7 +792,7 @@
         "steam": "840043916"
       },
       "relationships": {
-        "requires":  [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       }
     }
   },
@@ -793,8 +806,412 @@
         "steam": "828696032"
       },
       "relationships": {
-        "requires":  [ "HugsLib" ]
+        "requires": [ "HugsLib" ]
       }
+    }
+  },
+
+
+
+  // Aristocat's mods
+  {
+    "repoOwner": "AristocatHAHA",
+    "repoName": "VE-CO---Blood-and-Pain",
+    "definition": {
+      "id": "VECOBloodAndPain",
+      "authors": "Aristocat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+      "category": "Gameplay",
+      "relationships": {
+        "requires": [ "MFO" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "AristocatHAHA",
+    "repoName": "VE-CO---Blood-and-Pain-Easy",
+    "definition": {
+      "id": "VECOBloodAndPainEasy",
+      "authors": "Aristocat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+      "category": "Gameplay",
+      "relationships": {
+        "requires": [ "MFO" ],
+        "contains": [ "VECOBloodAndPain" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "AristocatHAHA",
+    "repoName": "VE-CO---Better-Body-Damage-Distribution",
+    "definition": {
+      "id": "VECOBodyDamageDistribution",
+      "authors": "Aristocat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+      "category": "Gameplay",
+      "relationships": {
+        "requires": [ "MFO" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "AristocatHAHA",
+    "repoName": "VE-CO---Tougher-Body",
+    "definition": {
+      "id": "VECOTougherBody",
+      "authors": "Aristocat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+      "category": "Gameplay",
+      "relationships": {
+        "requires": [ "MFO" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "AristocatHAHA",
+    "repoName": "VE-CO---Tougher-Animals",
+    "definition": {
+      "id": "VECOTougherAnimals",
+      "authors": "Aristocat",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30799.0",
+      "category": "Gameplay",
+      "relationships": {
+        "requires": [ "MFO" ]
+      }
+    }
+  },
+
+  // maarxx's mods
+  {
+    "repoOwner": "maarxx",
+    "repoName": "SmarterScheduling",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  
+  // jaxxa's mods
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-Embrasures",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-LaserDrill",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-Shields",
+    "definition": {
+      "category": "Content",
+      "deprecated":  true,
+      "relationships": {
+        "alternatives":  [ "ED-ShieldsBasic" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-ShieldsBasic",
+    "definition": {
+      "category": "Content",
+      "relationships": {
+        "contains": [ "ED-Shields" ],
+        "after":  [ "CombatRealism" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-Shields-CR",
+    "definition": {
+      "category": "Content",
+      "relationships": {
+        "patches": [ "CombatRealism", "ED-ShieldsBasic" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-CheatReactor",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-ReverseCycleCooler",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-OmniGel",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-ReinforcedStuff",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-Plant24H",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-SafeTraps",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "jaxxa",
+    "repoName": "ED-TurretControl",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  
+  // Zhentar's mods
+  {
+    "repoOwner": "Zhentar",
+    "repoName": "BetterPathfinding",
+    "definition": {
+      "category": "Patch",
+      "relationships": {
+        "compatible": [ "PathAvoid" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "Zhentar",
+    "repoName": "ZhentarTweaks",
+    "definition": {
+      "category": "Patch",
+      "contains":  [ "AreaUnlocker" ]
+    }
+  },
+  {
+    "repoOwner": "Zhentar",
+    "repoName": "AutoFlicker",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "Zhentar",
+    "repoName": "ZhentarFix",
+    "definition": {
+      "category": "Patch"
+    }
+  },
+  
+  // Rock5's mods
+  {
+    "repoOwner": "Rock5",
+    "repoName": "RoofSupportTool",
+    "definition": {
+      "category": "UI"
+    }
+  },
+  
+  // tenbom's mods
+  {
+    "repoOwner": "tenbom",
+    "repoName": "BetterTerrain",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "AlienRaces",
+    "definition": {
+      "category": "Library"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "PrisonerRansom",
+    "definition": {
+      "category": "Gameplay"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "HealingGun",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "MountainMiner",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "PermaDeathName",
+    "definition": {
+      "category": "Patch"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "RedAlert",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "MinePlan",
+    "definition": {
+      "category": "UI"
+    }
+  },
+  {
+    "repoOwner": "erdelf",
+    "repoName": "HealingGun",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  
+  // G3Kappa's mods
+  {
+    "repoOwner": "G3Kappa",
+    "repoName": "Rimworld_StoneTypeDecimator",
+    "definition": {
+      "id": "StoneTypeDecimator",
+      "category": "Gameplay",
+      "homePage": "https://ludeon.com/forums/index.php?topic=30626.msg312554#msg312554"
+    }
+  },
+  
+  // Chaia's mods
+  {
+    "repoOwner": "Chaia",
+    "repoName": "ABC_Suit",
+    "definition": {
+      "category": "Content",
+      "homePage": "https://ludeon.com/forums/index.php?topic=21408.0",
+      "preview":  "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png"
+    }
+  },
+  
+  // eatKenny's mods
+  {
+    "repoOwner": "RimWorld-zh",
+    "repoName": "eatKenny-Industrialisation",
+    "definition": {
+      "id": "Industrialisation",
+      "authors":  "eatKenny",
+      "category": "Content"
+    }
+  },
+  
+  // Telefonmast's mods
+  {
+    "repoOwner": "Profugo-Barbatus",
+    "repoName": "TiberiumRim",
+    "definition": {
+      "authors":  "Telefonmast",
+      "category": "Overhaul",
+      "relationships": {
+        "requires": [ "HugsLib" ]
+      }
+    }
+  },
+  
+  // NoImageAvailable's mods
+  {
+    "repoOwner": "NoImageAvailable",
+    "repoName": "CombatExtended",
+    "definition": {
+      "category": "Overhaul",
+      "relationships": {
+        "contains": [ "Achtung", "CombatRealism" ],
+        "conflicts":  [ "CombatRealism" ]
+      }
+    }
+  },
+  
+  // Killface's mods
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "RW_ColonistBarKF",
+    "definition": {
+      "id": "ColonistBarKF",
+      "authors": "Killface",
+      "category": "UI",
+      "relationships": {
+        "contains": [ "FollowMe" ],
+      }
+    }
+  },
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "RW_FacialStuff",
+    "definition": {
+      "id": "FacialStuff",
+      "authors": "Killface",
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "RW_Herzblatt",
+    "definition": {
+      "id": "Herzblatt",
+      "authors": "Killface",
+      "category": "Patch"
+    }
+  },
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "RW_Outfitter_Infused",
+    "definition": {
+      "id": "Outfitter_Infused",
+      "authors": "Killface",
+      "category": "Patch",
+      "relationships": {
+        "patches":  [ "Infused", "Outfitter" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "StorageSearch",
+    "definition": {
+      "authors": "meonester, Killface",
+      "category": "UI"
+    }
+  },
+  {
+    "repoOwner": "Killface1980",
+    "repoName": "RW_Outfitter",
+    "definition": {
+      "id":  "Outfitter",
+      "authors": "Fluffy, Killface",
+      "category": "Gameplay"
     }
   },
 ]
