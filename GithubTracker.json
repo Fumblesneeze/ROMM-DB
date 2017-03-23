@@ -1209,9 +1209,21 @@
     "repoOwner": "Killface1980",
     "repoName": "RW_Outfitter",
     "definition": {
-      "id":  "Outfitter",
+      "id": "Outfitter",
       "authors": "Fluffy, Killface",
       "category": "Gameplay"
     }
   },
+
+  
+  //// liebasam's mods
+  //{
+  //  "repoOwner": "liebasam",
+  //  "repoName": "rimworld-mods",
+  //  "definition": {
+  //    "id":  "well-that-was-rude",
+  //    "authors": "liebsam",
+  //    "category": "Gameplay"
+  //  }
+  //},
 ]

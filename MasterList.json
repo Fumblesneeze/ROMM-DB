@@ -2488,5 +2488,211 @@
     },
     "created": "2017-03-16T19:45:57+00:00",
     "changeLog": "Misc. fixes"
+  },
+  {
+    "id": "StackMerger",
+    "name": "Stack Merger",
+    "version": "0.16.0-9",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fluffy",
+    "description": "Make your haulers understand that a tidy stockpile is an efficient stockpile.\n\n<size=24>Important</size>\nThis mod uses Harmony, a fancy new toy for modders. You don’t have to install harmony as it comes bundled with the mod, but if you encounter any errors, please let me know!\n\n<size=24>Features</size>\nAdds a low-priority hauling job that makes your haulers merge stacks in your stockpiles. Works per stockpile, so if items are in different stockpiles they will not be merged. \n\n<size=24>Issues</size>\nAs each storage building (e.g. vanilla racks, extended storage, deep storage, etc) count as a single stockpile (or technically, have their own SlotGroup - which for this mod is equivalent), stacks in different storage units will not be merged. \n\n<size=24>Notes</size>\nWhen I was playtesting this, Stockpile Efficiency was brought to my attention. These mods do pretty much exactly the same thing (in fact we both use the same vanilla methods for the actual hauling). The main difference is in how we keep track of what can be merged. Stockpile Efficiency searches for stacks that can potentially be merged whenever a pawn is looking for something to merge. Stack Merger keeps a permanent cache of stacks that can be merged. I haven’t run any benchmarks, but I expect my mod to have a mostly constant, relatively low cpu load. Stockpile Efficiency will have no load as long as pawns don’t have time to do the hauling jobs, but when they search for things to merge the cpu load will most likely be considerably larger. \n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159152094128640970/EB14A9CE1C2652C9CA100B2BBD13992B0ECDD7E6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/StackMerger/releases/download/v0.16.0.9/Stack.Merger.rar",
+      "steam": "857164561"
+    },
+    "created": "2017-03-17T21:26:57+00:00",
+    "changeLog": "Update harmony to 1.0.9. add harmony checker"
+  },
+  {
+    "id": "BirdsAndBees",
+    "name": "The Birds and the Bees",
+    "version": "0.16.0-6",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fluffy",
+    "description": "Adds reproductive organs to the animals, and then you, raiders and time can take them away again. \n\n<size=24>Important</size>\n<b>Requires HugsLib</b> \n\n<b>Does NOT require a new save game</b> \nThis mod uses CCL to dynamically change game data* when a game is loaded. Should be fine to use with any other mod that adds animals, races, relations, or anything else. \n\n<size=24>Features</size>\nAnimals (including humanoids) require reproductive organs to mate & and do lovin’. \n\n\nAdds reproductive organs to fleshy pawns (e.g., animals and colonists). \nSince reproductive organs are now a body part, they can be affected by external violence - including, but not limited to; gunfire, berserking colonists, frostbite, castration (neutering) and old age.\nReworks mating & lovin’ to take account of fertility stat. \n\n<size=24>Does this mod add the ability for colonists to have babies?</size>\n<i>No. Nor will I ever add this, so don’t ask.</i>\nThere’s a myriad of problems with adding colonist babies. There’s moral/ethical issues, but I don’t particularly care about those, I don’t see why making baby leather hats is worse than prisoner leather hats. \n\nWhat I do care about is gameplay. For me, two things are required to make babies actually fun. \n\nFirst, there needs to be systems around babies. If they’re just colonists or animals in behaviour, I don’t see the point. You’d have to have various interactions from parents with their children, amongst children, children with the environment, etc. etc. to really bring children alive. Then you’d also want to build in things like schools or at least some sort of internships/apprenticeships, the list goes on and on. \nThe problem with all of this is that it takes a huge amount of work - including a number of new gameplay mechanics. It’s something better suited for Tynan himself to add to the game. \n\nSecond, the timescale just doesn’t work. The average colony will last a couple of years, 10 if you’re in it for the long haul. Only rarely do colonies last longer than that. That would mean that there’s not really any room for progression, and I don’t see the fun in that. Adding cloning vats, time chambers, gro-quick drugs or whatever are weak solutions for a fundamental problem, and I don’t want to go that way. Changing the games timescale is pretty much impossible for mods to do. \n\n<i>TLDR; if you want babies, go ask Tynan.</i>\n\n<size=24>Contributors</size>\n\nkouyou:    Japanese translation\nDuduluu:    Chinese translations\n\n",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.6/The.Birds.and.the.Bees.rar",
+      "steam": "751049133"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib"
+      ]
+    },
+    "created": "2017-03-17T21:21:00+00:00",
+    "changeLog": "Update harmony to 1.0.9, add harmony checker"
+  },
+  {
+    "id": "SameSpot",
+    "name": "SameSpot",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.0",
+    "authors": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Allows multiple colonists to be drafted at the same location\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/SameSpot/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/SameSpot",
+    "issues": "https://github.com/pardeike/SameSpot/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/SameSpot/releases/download/v1.0.2/SameSpot.zip",
+      "steam": "834903021"
+    },
+    "created": "2017-03-17T01:00:01+00:00",
+    "changeLog": "First public release. Enjoy!"
+  },
+  {
+    "id": "CameraPlus",
+    "name": "Camera+",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.0",
+    "authors": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "You want more zoom and different paning?\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/CameraPlus",
+    "issues": "https://github.com/pardeike/CameraPlus/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/CameraPlus/releases/download/v1.0.2/CameraPlus.zip",
+      "steam": "867467808"
+    },
+    "created": "2017-03-17T00:58:15+00:00",
+    "changeLog": "This release uses Harmony 1.0.9. Enjoy!"
+  },
+  {
+    "id": "AchtungMod",
+    "name": "Achtung!",
+    "version": "1.4.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Command your colonists like a boss!\n\nAchtung! Mod enhances how you control RimWorld and reduces the number of clicks by half. And almost no dependencies in your save files (read more about this below).\n\nThese enhancements can be divided into the following areas:\n\n- Automatic drafting/undrafting of colonists\n\nWouldn't it be nice to not micro-manage the drafting status of your colonists? With Achtung! you can.\n\nWith Achtung! the context menu contains all possible actions regardless of the current drafting status of the selected colonist. Once you select an action Achtung! automatically changes the drafting status if necessary to execute the action.\n\n- Control multiple colonists at once\n\nSave time by issuing a command with more than one colonist selected. For example: select three brawlers and right click an enemy, then choose \"melee\". Done.\n\nAchtung! combines all possible actions into one MultiAction(tm) context menu and shows you how many colonists can execute a certain action by appending a multiplier at the end of the menu item.\n\n- Position your colonists like in the military\n\nThis is where the name \"Achtung!\" comes from. It's the german word used to get the attention of soldiers and which is usually followed by a line-up in front of the commander.\n\nWithin RimWorld in combat, you want your colonists neatly positioned along a line or equally spaced in all your door openings. This is really easy with Achtung! Select multiple colonists, and with the right mouse button, drag along a line. Achtung! will move your colonists to equally spaced positions in real time. 10 colonists into 10 doors? No problem!\n\n- Important tasks\n\nSome tasks are too important to be interrupted. Like cleaning that hospital room so nobody gets infected. That's why Achtung! has a few extra commands that will make sure that something is really done well. For now, this is \"Clean Room\", \"Fight Fire\", \"Sow Zone/Room\" and the new \"Auto Combat\". More are planned in the future.\n\nWhen you choose \"Clean Room\", the colonist(s) will start cleaning the room until you stop them or the room is really clean. They will check the room while cleaning so that it doesn't matter if other colonists might introduce new filth while the cleaning is ongoing.\n\nThe command \"Fight Fire\" works outside the home area and is useful if you don't want to extend the home area just to get rid of a fire.\n\nChoosing \"Sow Zone/Room\" will make sure that the zone selected or all growing inside a room will be sowed completely. Time consuming tasks like removing other large plants like trees or hauling away objects are not performed to avoid exhaustion.\n\nA completely novel feature is \"Auto Combat\". Achtung! has its own build in artificial intelligence that controls your colonists for you. All you have to do is to order a few colonists to their targets and they will get there on their own, keep a safe distance and shoot/position themselves intelligently until the job is done. Perfect for those occasions where you are busy dealing with a bigger issue. For now, this is an experimental feature and with more than a handful colonists or opponents will probably force your computer to its knees. But used smart it will be a useful feature!\n\n- Flexibility\n\nA few commands have different way to behave. Achtung! uses both: the ALT and the SHIFT key to modify the way it works. Hold SHIFT to move colonists relative to their current position. Hold ALT while right-clicking to draft your selected colonists before the operation and to suppress the context menu.\n\n-  Known errors and bugs\n\nAchtung! is developed with the user in mind. To stay compatible with other mods, Achtung! was developed to stay out of its way and does not overwrite any essential functions. Instead, it reuses existing functionality and probably works with 99% of other mods out of the box.\n\nHere are the current problems and their workarounds for the current version:\n\nAchtung! usually does not modify save state for saved games to avoid a dependency on it. However, a side effect of the provided custom jobs is that when save the game and your colonists are actively running an Achtung job this will be saved too thus creating a dependency to Achtung. Workaround: open the saved game with Achtung, cancel all Achtung jobs and save it again. This will \"clean\" the save and remove the dependency.\n\nThe jobs in Achtung have 1st priority (that's the whole point). They all force the colonist to work until done and if you don't keep an eye on them, they become unhappy or injured. Currently, there is a build-in prevention to avoid the worst but this option is not yet configurable and kicks only in as a last resort and cancels the job. But that's how we roll here at Achtung! Workaround: if you want the soft solution just schedule stuff and hope for the best ;-)\n\nThe new \"Auto Combat\" system is not optimized and will eat your CPU for breakfast. It probably will do stupid things and may not work as expected if you have exotic locations or mods that change the basic combat. Workaround: use it wisely and avoid too many colonists/enemies at the same time.\n\n-  Requirements\n\nAchtung! Mod works with RimWorld Alpha 14 and 15 and will get updated tightly with new RimWorld versions. I does not depend on any other mods and is known to work in any mod order you like.\n\n- Feedback\n\nWithout feedback, this mod would have never come so far. So please, send me feedback and rate and recommend my mod whenever possible. The three main places to do so are\n\n  - Ludeon Forums (https://ludeon.com/forums/index.php?topic=22130.0)\n  - Steam Workshop (http://steamcommunity.com/sharedfiles/filedetails/comments/730936602)\n  - GitHub (https://github.com/pardeike/RimWorld-Achtung-Mod)\n\n- FAQ\n\nAre there any videos showing Achtung! in action?\nYes, here's a youtube playlist: http://tinyurl.com/achtungmod\n\nDoes this alter my save files?\nNo, Achtung! changes only the interface and the user actions. Rimworld will warn you but you can simply ignore the warning. If you later decide to remove Achtung! your saved games will still work as before!\n\nIs this mod compatible with other mods?\nMost likely. I don't know of any mods altering the selection mechanism. The context menu is created in a general way so it will include actions from other mods without breaking.\n\nWhy is this called \"Achtung!\" ?\nIt's german for \"Attention!\" and used in the military as a command to line up soldiers.\n\nWhy do I need Auto Combat? Isn't this just the auto response thing already in the game?\nNot at all. For example: Once you get a raid or siege you cannot auto respond to it. First, those raiders are usually out of sight and second even if you get your colonists there they are usually drafted which means that they will just stand still once they're done. All this and a super smart positioning system will beat the living hell out of the build in auto response.\n\nI think this should work different/better. Are you open for changes or improvement requests?\nAwesome! Please send see the Feedback section or send me email to andreas@pardeike.net\n\n- License\n\nFree. As in free beer. Copy, learn and be respectful.\nPowered by Harmony Patch Library\n\n- Contact\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/CameraPlus/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/RimWorld-Achtung-Mod",
+    "issues": "https://github.com/pardeike/RimWorld-Achtung-Mod/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/RimWorld-Achtung-Mod/releases/download/v1.4.1/AchtungMod.zip",
+      "steam": "730936602"
+    },
+    "created": "2017-03-17T00:51:00+00:00",
+    "changeLog": "This is a maintenance release that adds Harmony 1.0.9 and a toggle key to invert hold/not-hold for the context-menu. Enjoy!"
+  },
+  {
+    "id": "ReverseCommands",
+    "name": "Reverse Commands",
+    "version": "0.5.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "pardeike",
+    "contact": "andreas@pardeike.net",
+    "description": "Reverses the context menu so you can select something to interact with, followed by an action and the colonist that should execute that action. No need to select colonists first and much less scrolling through the map.\n\nPowered by Harmony Patch Library\n\nAndreas Pardeike\nEmail: andreas@pardeike.net\nSteam: pardeike\nTwitter: @pardeike",
+    "preview": "https://github.com/pardeike/ReverseCommands/blob/master/About/Preview.PNG?raw=true",
+    "homePage": "https://github.com/pardeike/ReverseCommands",
+    "issues": "https://github.com/pardeike/ReverseCommands/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/pardeike/ReverseCommands/releases/download/v0.5.1/ReverseCommands.zip",
+      "steam": "858744731"
+    },
+    "created": "2017-03-17T00:59:29+00:00",
+    "changeLog": "Maintenance update for Harmony 1.0.9. Enjoy!"
+  },
+  {
+    "id": "ED-Plant24H",
+    "name": "ED-Plants24H",
+    "version": "4.0.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.01\n\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\t\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThe module changes the plants to grow 24 Hours a day. In the base game plants will rest at night time and stop growing, regardless of the light levels. This removed that restriction so plants will keep growing, if all the other conditions such as light are still met, allowing your sunlamps to effectively increase the growing speed.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Plant24H/master/ED-Plant24H/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Plant24H",
+    "issues": "https://github.com/jaxxa/ED-Plant24H/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Plant24H/releases/download/04.00.01/ED-Plant24H_04.00.01.zip"
+    },
+    "created": "2017-03-19T20:28:15+00:00",
+    "changeLog": "Updating Harmony Version"
+  },
+  {
+    "id": "ED-SafeTraps",
+    "name": "ED-SafeTraps",
+    "version": "2.0.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "jaxxa",
+    "description": "Version: 02.00.01\n\t\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThis mods modifies traps so that they will no longer be triggered by colonists.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-SafeTraps/master/ED-SafeTraps/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-SafeTraps",
+    "issues": "https://github.com/jaxxa/ED-SafeTraps/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-SafeTraps/releases/download/02.00.01/ED-SafeTraps_02.00.01.zip",
+      "steam": "736483249"
+    },
+    "created": "2017-03-19T20:21:57+00:00",
+    "changeLog": "Updating Harmony Version"
+  },
+  {
+    "id": "ED-TurretControl",
+    "name": "ED-TurretControl",
+    "version": "2.0.1",
+    "targetGameVersion": "0.16.0",
+    "authors": "jaxxa",
+    "description": "Version: 02.00.01\n\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nAllows Commands for Force Attack to be given to Turrets.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-TurretControl/master/ED-TurretControl/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-TurretControl",
+    "issues": "https://github.com/jaxxa/ED-TurretControl/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-TurretControl/releases/download/02.00.01/ED-TurretControl_02.00.01.zip",
+      "steam": "736482875"
+    },
+    "created": "2017-03-19T20:25:41+00:00",
+    "changeLog": "Updating Harmony Version"
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races 2.0",
+    "version": "2.1.2",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nA framework for the creation of new alien races in Rimworld\n\nIf you ever thought that the racial diversity in rimworld is... not that diverse and you want to change that, you came to the right place. This framework allows to easily add new humanoid races without any C# knowledge, purely in xml.\n\n\nFeature Overview\n  -  Custom graphics with weighted skin and hair color selection\n  -  Changing graphics with lifestages\n  -  Drawing Tails\n  -  Integration in the starting pawns, as well as slaves and refugees\n  -  Gender distribution\n  -  Backstories\n  -  Drawsize (independent from race size)\n  -  Support for genderless races\n  -  Optional immunity to aging related body problems\n  -  Optional forced traits\n  -  Customizable thoughts, with specific configurations for eating and butchering humanlikes\n  -  Modifiable relation chances\n  -  Race restricted clothing, weapons, research projects, buildings, bills and plants.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/AlienRaces/zipball/v2.1.2",
+      "steam": "839005762"
+    },
+    "created": "2017-03-16T19:45:57+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AlienRaces",
+    "name": "Humanoid Alien Races 2.0",
+    "version": "2.1.4",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\nA framework for the creation of new alien races in Rimworld\n\nIf you ever thought that the racial diversity in rimworld is... not that diverse and you want to change that, you came to the right place. This framework allows to easily add new humanoid races without any C# knowledge, purely in xml.\n\n\nFeature Overview\n  -  Custom graphics with weighted skin and hair color selection\n  -  Changing graphics with lifestages\n  -  Drawing Tails\n  -  Integration in the starting pawns, as well as slaves and refugees\n  -  Gender distribution\n  -  Backstories\n  -  Drawsize (independent from race size)\n  -  Support for genderless races\n  -  Optional immunity to aging related body problems\n  -  Optional forced traits\n  -  Customizable thoughts, with specific configurations for eating and butchering humanlikes\n  -  Modifiable relation chances\n  -  Race restricted clothing, weapons, research projects, buildings, bills and plants.\n\t",
+    "preview": "https://raw.githubusercontent.com/erdelf/AlienRaces/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/AlienRaces",
+    "issues": "https://github.com/erdelf/AlienRaces/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/erdelf/AlienRaces/releases/download/v2.1.4/AlienRace.zip",
+      "steam": "839005762"
+    },
+    "created": "2017-03-21T23:20:26+00:00",
+    "changeLog": ""
   }
 ]
