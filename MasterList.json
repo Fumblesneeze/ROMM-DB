@@ -2694,5 +2694,176 @@
     },
     "created": "2017-03-21T23:20:26+00:00",
     "changeLog": ""
+  },
+  {
+    "id": "PrisonerRansom",
+    "name": "PrisonerRansom",
+    "version": "1.2.0",
+    "targetGameVersion": "0.16.0",
+    "authors": "erdelf",
+    "description": "\n(This mod includes some CCL code. Thanks to 1000101. As soon as CCL comes out, it will be required.)\n  \nThis mod allows you to demand ransom for inprisoned pawns for silver at the comms console.\nIt will give you a slight relationship boost.\nLeaders are, of course, worth more and will likely be more friendly to you after that.\n\n    ",
+    "preview": "https://raw.githubusercontent.com/erdelf/PrisonerRansom/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/PrisonerRansom",
+    "issues": "https://github.com/erdelf/PrisonerRansom/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/PrisonerRansom/zipball/v1.2",
+      "steam": "794038005"
+    },
+    "created": "2017-03-17T04:55:15+00:00",
+    "changeLog": "harmony update and minor bug fix"
+  },
+  {
+    "id": "FactoryFramework",
+    "name": "SS Factory Framework",
+    "version": "0.0.1-2017069+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "spdskatr",
+    "description": "Framework mod to pull my factory machinery mods together with respect to compatibility. Does not add any new items.",
+    "preview": "https://raw.githubusercontent.com/spdskatr/FactoryFramework/master/About/Preview.png",
+    "homePage": "https://github.com/spdskatr/FactoryFramework",
+    "issues": "https://github.com/spdskatr/FactoryFramework/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/FactoryFramework/archive/master.zip"
+    },
+    "created": "2017-03-10T09:53:20+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "MassStorage",
+    "name": "SS Mass Storage",
+    "version": "0.0.1-2017081+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "spdskatr",
+    "description": "Mass storage for your boatloads of single items. Top secret transcendent research",
+    "preview": "https://raw.githubusercontent.com/spdskatr/MassStorage/master/About/Preview.png",
+    "homePage": "https://github.com/spdskatr/MassStorage",
+    "issues": "https://github.com/spdskatr/MassStorage/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/MassStorage/archive/master.zip",
+      "steam": "888809584"
+    },
+    "relationships": {
+      "requires": [
+        "FactoryFramework"
+      ]
+    },
+    "created": "2017-03-22T11:12:37+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "AnimalStations",
+    "name": "SS Animal Station",
+    "version": "0.0.1-2017069+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "spdskatr",
+    "description": "Adds animal stations that can take care of your animals by automatically shearing wool / harvesting milk. Double as feeding boxes.",
+    "preview": "https://raw.githubusercontent.com/spdskatr/AnimalStations/master/About/Preview.png",
+    "homePage": "https://github.com/spdskatr/AnimalStations",
+    "issues": "https://github.com/spdskatr/AnimalStations/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/AnimalStations/archive/master.zip"
+    },
+    "relationships": {
+      "requires": [
+        "FactoryFramework"
+      ]
+    },
+    "created": "2017-03-10T10:01:47+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SSClocks",
+    "name": "SS Clocks",
+    "version": "0.0.1-2017057+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "spdskatr",
+    "description": "A mod that adds clocks which display time in 12h format, as well as being more accurate.",
+    "preview": "https://raw.githubusercontent.com/spdskatr/SSClocks/master/About/Preview.png",
+    "homePage": "https://github.com/spdskatr/SSClocks",
+    "issues": "https://github.com/spdskatr/SSClocks/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/SSClocks/archive/master.zip"
+    },
+    "created": "2017-02-26T01:45:01+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SSLightningRod",
+    "name": "SS Lightning Rod",
+    "version": "0.0.1-2017042+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "spdskatr",
+    "description": "Adds a lightning rod that can direct lightning bolts away from the colony's precious buildings.\\n\\nSpecial thanks to Sera for the amazing lightning rod texture!",
+    "preview": "https://raw.githubusercontent.com/spdskatr/SSLightningRod/master/About/Preview.PNG",
+    "homePage": "https://github.com/spdskatr/SSLightningRod",
+    "issues": "https://github.com/spdskatr/SSLightningRod/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/SSLightningRod/archive/master.zip",
+      "steam": "861583047"
+    },
+    "created": "2017-02-11T06:51:04+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SmarterScheduling",
+    "name": "SmarterScheduling",
+    "version": "0.0.1-2017083+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Automatically manages your Pawn's Sleep, Joy, and Work cycles.",
+    "homePage": "https://github.com/maarxx/SmarterScheduling",
+    "issues": "https://github.com/maarxx/SmarterScheduling/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/SmarterScheduling/archive/master.zip"
+    },
+    "created": "2017-03-24T03:48:35+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "OrganizedResearchTab",
+    "name": "Organized Research Tab",
+    "version": "1.1.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Lazevedo",
+    "description": "Organized research projects in the Research Tab.\n  \n  Changelog for version 1.1\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\n  - Better looks",
+    "preview": "https://raw.githubusercontent.com/L4zevedo/OrganizedResearchTab/master/About/Preview.png",
+    "homePage": "https://github.com/L4zevedo/OrganizedResearchTab",
+    "issues": "https://github.com/L4zevedo/OrganizedResearchTab/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/L4zevedo/OrganizedResearchTab/releases/download/v1.1/OrganizedResearchTab.zip"
+    },
+    "created": "2017-03-26T07:01:47+00:00",
+    "changeLog": "Changelog for version 1.1\r\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\r\n  - Better looks"
+  },
+  {
+    "id": "OrganizedResearchTab",
+    "name": "Organized Research Tab",
+    "version": "1.0.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Lazevedo",
+    "description": "Organized research projects in the Research Tab.\n  \n  Changelog for version 1.1\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\n  - Better looks",
+    "preview": "https://raw.githubusercontent.com/L4zevedo/OrganizedResearchTab/master/About/Preview.png",
+    "homePage": "https://github.com/L4zevedo/OrganizedResearchTab",
+    "issues": "https://github.com/L4zevedo/OrganizedResearchTab/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/L4zevedo/OrganizedResearchTab/releases/download/v1.0.2/OrganizedResearchTab.zip"
+    },
+    "created": "2017-03-15T07:01:47+00:00",
+    "changeLog": "Changelog for version 1.0.2\\r\\n  - - Projects are now a little bit vertically tighter to avoid some cases of crop on the bottom of the window. Projects that need 4 lines of text to display might still have the last line partially cropped, but that is only one that I know of (damn you \"Vancidium\" and \"advanced components\"). Those very specific cases will be treated in a later date."
   }
 ]

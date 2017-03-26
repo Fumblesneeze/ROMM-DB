@@ -889,7 +889,7 @@
       "category": "Gameplay"
     }
   },
-  
+
   // jaxxa's mods
   {
     "repoOwner": "jaxxa",
@@ -910,9 +910,9 @@
     "repoName": "ED-Shields",
     "definition": {
       "category": "Content",
-      "deprecated":  true,
+      "deprecated": true,
       "relationships": {
-        "alternatives":  [ "ED-ShieldsBasic" ]
+        "alternatives": [ "ED-ShieldsBasic" ]
       }
     }
   },
@@ -923,7 +923,7 @@
       "category": "Content",
       "relationships": {
         "contains": [ "ED-Shields" ],
-        "after":  [ "CombatRealism" ]
+        "after": [ "CombatRealism" ]
       }
     }
   },
@@ -986,7 +986,7 @@
       "category": "Gameplay"
     }
   },
-  
+
   // Zhentar's mods
   {
     "repoOwner": "Zhentar",
@@ -1003,7 +1003,7 @@
     "repoName": "ZhentarTweaks",
     "definition": {
       "category": "Patch",
-      "contains":  [ "AreaUnlocker" ]
+      "contains": [ "AreaUnlocker" ]
     }
   },
   {
@@ -1020,7 +1020,7 @@
       "category": "Patch"
     }
   },
-  
+
   // Rock5's mods
   {
     "repoOwner": "Rock5",
@@ -1029,7 +1029,7 @@
       "category": "UI"
     }
   },
-  
+
   // tenbom's mods
   {
     "repoOwner": "tenbom",
@@ -1094,7 +1094,7 @@
       "category": "Content"
     }
   },
-  
+
   // G3Kappa's mods
   {
     "repoOwner": "G3Kappa",
@@ -1105,7 +1105,7 @@
       "homePage": "https://ludeon.com/forums/index.php?topic=30626.msg312554#msg312554"
     }
   },
-  
+
   // Chaia's mods
   {
     "repoOwner": "Chaia",
@@ -1113,34 +1113,34 @@
     "definition": {
       "category": "Content",
       "homePage": "https://ludeon.com/forums/index.php?topic=21408.0",
-      "preview":  "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png"
+      "preview": "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png"
     }
   },
-  
+
   // eatKenny's mods
   {
     "repoOwner": "RimWorld-zh",
     "repoName": "eatKenny-Industrialisation",
     "definition": {
       "id": "Industrialisation",
-      "authors":  "eatKenny",
+      "authors": "eatKenny",
       "category": "Content"
     }
   },
-  
+
   // Telefonmast's mods
   {
     "repoOwner": "Profugo-Barbatus",
     "repoName": "TiberiumRim",
     "definition": {
-      "authors":  "Telefonmast",
+      "authors": "Telefonmast",
       "category": "Overhaul",
       "relationships": {
         "requires": [ "HugsLib" ]
       }
     }
   },
-  
+
   // NoImageAvailable's mods
   {
     "repoOwner": "NoImageAvailable",
@@ -1149,11 +1149,11 @@
       "category": "Overhaul",
       "relationships": {
         "contains": [ "Achtung", "CombatRealism" ],
-        "conflicts":  [ "CombatRealism" ]
+        "conflicts": [ "CombatRealism" ]
       }
     }
   },
-  
+
   // Killface's mods
   {
     "repoOwner": "Killface1980",
@@ -1163,7 +1163,7 @@
       "authors": "Killface",
       "category": "UI",
       "relationships": {
-        "contains": [ "FollowMe" ],
+        "contains": [ "FollowMe" ]
       }
     }
   },
@@ -1193,7 +1193,7 @@
       "authors": "Killface",
       "category": "Patch",
       "relationships": {
-        "patches":  [ "Infused", "Outfitter" ]
+        "patches": [ "Infused", "Outfitter" ]
       }
     }
   },
@@ -1215,7 +1215,7 @@
     }
   },
 
-  
+
   //// liebasam's mods
   //{
   //  "repoOwner": "liebasam",
@@ -1226,4 +1226,57 @@
   //    "category": "Gameplay"
   //  }
   //},
+  // spdskatr's mods
+  {
+    "repoOwner": "spdskatr",
+    "repoName": "FactoryFramework",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "spdskatr",
+    "repoName": "MassStorage",
+    "definition": {
+      "category": "Content",
+      "relationships": {
+        "requires": [ "FactoryFramework" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "spdskatr",
+    "repoName": "AnimalStations",
+    "definition": {
+      "category": "Content",
+      "relationships": {
+        "requires": [ "FactoryFramework" ]
+      }
+    }
+  },
+  {
+    "repoOwner": "spdskatr",
+    "repoName": "SSClocks",
+    "definition": {
+      "category": "Content"
+    }
+  },
+  {
+    "repoOwner": "spdskatr",
+    "repoName": "SSLightningRod",
+    "definition": {
+      "category": "Content"
+    }
+  },
+
+
+  // Lazevedo's mods
+  {
+    "repoOwner": "L4zevedo",
+    "repoName": "OrganizedResearchTab",
+    "definition": {
+      "authors": "Lazevedo",
+      "category": "UI"
+    }
+  }
 ]
