@@ -16,10 +16,16 @@
   },
   {
     "repoOwner": "Fumblesneeze",
+    "repoName": "RimBetterSpeed",
+    "definition": {
+      "id": "BetterSpeed"
+    }
+  },
+  {
+    "repoOwner": "Fumblesneeze",
     "repoName": "RimIce",
     "definition": {
-      "id": "RimIce",
-      "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimIce/master/Mod/About/Preview.png",
+      "id": "Ice",
       "category": "Content",
       "relationships": {
         "requires": [
@@ -1038,6 +1044,9 @@
       "category": "Gameplay"
     }
   },
+
+
+  // erdelf's mods
   {
     "repoOwner": "erdelf",
     "repoName": "AlienRaces",
@@ -1277,6 +1286,25 @@
     "definition": {
       "authors": "Lazevedo",
       "category": "UI"
+    }
+  },
+
+  // KiameV's mods
+  {
+    "repoOwner": "KiameV",
+    "repoName": "rimworld-impassablemapmaker",
+    "definition": {
+      "id": "ImpassableMapMaker",
+      "category": "Gameplay"
+    }
+  },
+
+  // Granitecosmos' mods
+  {
+    "repoOwner": "Granitecosmos",
+    "repoName": "ModularPowerArmor",
+    "definition": {
+      "category": "Content"
     }
   }
 ]

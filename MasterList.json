@@ -34,9 +34,7 @@
       "steam": "761421485"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2017-01-04T13:56:19+00:00",
@@ -58,9 +56,7 @@
       "steam": "761315214"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2017-01-14T05:04:30+00:00",
@@ -82,9 +78,7 @@
       "steam": "761219125"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2016-12-26T23:23:06+00:00",
@@ -106,9 +100,7 @@
       "steam": "761379469"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "support": "https://www.patreon.com/UnlimitedHugs",
     "created": "2017-02-16T18:39:06+00:00",
@@ -166,9 +158,7 @@
       "steam": "725153576"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2016-12-26T11:42:15+00:00",
     "changeLog": "Fix unsafe detour warning.\n"
@@ -339,9 +329,7 @@
       "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.16.0.5/The.Birds.and.the.Bees.rar"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2017-02-13T21:36:53+00:00",
     "changeLog": "Add Chinese translations"
@@ -362,9 +350,7 @@
       "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.16.2.4/WorkTab.rar"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2017-02-14T07:03:23+00:00",
     "changeLog": "translate from DefMap to Dictionary when loading v0.16.1.x saves."
@@ -421,15 +407,14 @@
       "steam": "869600389"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
+    "support": "https://www.patreon.com/schweigert",
     "created": "2017-02-22T12:50:52+00:00",
     "changeLog": ""
   },
   {
-    "id": "RimIce",
+    "id": "Ice",
     "name": "Ice",
     "version": "0.1.0",
     "targetGameVersion": "0.16.1393",
@@ -443,10 +428,9 @@
       "github": "https://github.com/Fumblesneeze/RimIce/releases/download/v0.1/RimIce.zip"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
+    "support": "https://www.patreon.com/schweigert",
     "created": "2017-02-22T23:05:24+00:00",
     "changeLog": "Walls and Digging"
   },
@@ -1386,9 +1370,7 @@
         "Infused",
         "CombatRealism"
       ],
-      "contains": [
-        "Infused"
-      ]
+      "contains": "Infused"
     },
     "created": "2017-01-06T00:59:10+00:00",
     "changeLog": "Infused tailored for Combat Realism thanks to Skyarkhangel.\n"
@@ -1409,9 +1391,7 @@
       "github": "https://github.com/scuba156/ModListBackup/releases/download/v1.3/ModListBackup.v.1.3.zip"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2017-01-22T14:03:42+00:00",
     "changeLog": "### Version 1.3\r\n* add restart on close when a change has been made"
@@ -1487,9 +1467,7 @@
       "github": "https://github.com/scuba156/PersistentWorlds/archive/master.zip"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2016-12-28T14:54:38+00:00",
     "changeLog": "Commit to github",
@@ -1509,9 +1487,7 @@
       "github": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain/releases/download/1.02/VE-CO.Blood.and.Pain.1.02.rar"
     },
     "relationships": {
-      "requires": [
-        "MFO"
-      ]
+      "requires": "MFO"
     },
     "created": "2017-02-25T07:31:36+00:00",
     "changeLog": "Fixed : Blood loss no longer kills pawn with conscious loss debuff i.e. diseases.\nDecreased blood loss rate of missing body part a bit.\n"
@@ -1530,12 +1506,8 @@
       "github": "https://github.com/AristocatHAHA/VE-CO---Blood-and-Pain-Easy/releases/download/1.02/VE-CO.Blood.and.Pain.1.02.rar"
     },
     "relationships": {
-      "requires": [
-        "MFO"
-      ],
-      "contains": [
-        "VECOBloodAndPain"
-      ]
+      "requires": "MFO",
+      "contains": "VECOBloodAndPain"
     },
     "created": "2017-02-25T15:28:19+00:00",
     "changeLog": "Fixed : Blood loss no longer kills pawn with conscious loss debuff i.e. diseases.\n"
@@ -1555,9 +1527,7 @@
       "github": "https://github.com/AristocatHAHA/VE-CO---Better-Body-Damage-Distribution/releases/download/1.0/VE-CO.Better.Body.Damage.Distribution.1.0.rar"
     },
     "relationships": {
-      "requires": [
-        "MFO"
-      ]
+      "requires": "MFO"
     },
     "created": "2017-02-25T07:31:32+00:00",
     "changeLog": ""
@@ -1577,9 +1547,7 @@
       "github": "https://github.com/AristocatHAHA/VE-CO---Tougher-Body/releases/download/1.0/VE-CO.Tougher.Body.1.0.rar"
     },
     "relationships": {
-      "requires": [
-        "MFO"
-      ]
+      "requires": "MFO"
     },
     "created": "2017-02-25T07:31:34+00:00",
     "changeLog": ""
@@ -1598,9 +1566,7 @@
       "github": "https://github.com/AristocatHAHA/VE-CO---Tougher-Animals/releases/download/1.0/VE-CO.Tougher.Animals.1.0.rar"
     },
     "relationships": {
-      "requires": [
-        "MFO"
-      ]
+      "requires": "MFO"
     },
     "created": "2017-03-01T17:53:49+00:00",
     "changeLog": ""
@@ -1621,10 +1587,9 @@
       "steam": "876729369"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
+    "support": "https://www.patreon.com/schweigert",
     "created": "2017-03-04T15:32:55+00:00",
     "changeLog": ""
   },
@@ -1838,9 +1803,7 @@
       "github": "https://github.com/jaxxa/ED-Shields/releases/download/01.00.02/ED-Shields_01.00.02.zip"
     },
     "relationships": {
-      "alternatives": [
-        "ED-ShieldsBasic"
-      ]
+      "alternatives": "ED-ShieldsBasic"
     },
     "created": "2016-04-29T11:40:19+00:00",
     "changeLog": "01.00.02\n*Fix for Fully charged shields not losing Strength when Power is lost.\n",
@@ -1862,12 +1825,8 @@
       "steam": "726884610"
     },
     "relationships": {
-      "after": [
-        "CombatRealism"
-      ],
-      "contains": [
-        "ED-Shields"
-      ]
+      "after": "CombatRealism",
+      "contains": "ED-Shields"
     },
     "created": "2017-02-23T21:12:53+00:00",
     "changeLog": "03.00.02\r\n- Shields now Require Components\r\n"
@@ -1909,9 +1868,7 @@
       "github": "https://github.com/Zhentar/BetterPathfinding/releases/download/1.5.2/Better.Pathfinding.v1.5.2.zip"
     },
     "relationships": {
-      "compatible": [
-        "PathAvoid"
-      ]
+      "compatible": "PathAvoid"
     },
     "created": "2017-02-22T14:37:09+00:00",
     "changeLog": "- Fixed index out of bounds error\n"
@@ -2214,9 +2171,7 @@
       "github": "https://github.com/Profugo-Barbatus/TiberiumRim/releases/download/1.2.0/TiberiumRim_1.2.A16.zip"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2017-02-19T20:35:10+00:00",
     "changeLog": "Tiberium Rim 1.2 Release for A16.\n\nPlease see https://ludeon.com/forums/index.php?topic=28843.0 for more details about the mod.\n"
@@ -2237,12 +2192,8 @@
       "steam": "797691970"
     },
     "relationships": {
-      "alternatives": [
-        "CombatExtended"
-      ],
-      "contains": [
-        "Achtung"
-      ]
+      "alternatives": "CombatExtended",
+      "contains": "Achtung"
     },
     "created": "2017-02-28T14:14:02+00:00",
     "changeLog": "At the request of Skullywag since I had a fork lying around I packaged a release.  This is based on fixes and updates as of February 12 2017, the last time I worked on this fork.  Hopefully this will tide people over until CombatExtended has a release.\n"
@@ -2261,9 +2212,7 @@
       "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
     },
     "relationships": {
-      "conflicts": [
-        "CombatRealism"
-      ],
+      "conflicts": "CombatRealism",
       "contains": [
         "Achtung",
         "CombatRealism"
@@ -2323,9 +2272,7 @@
       "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
     },
     "relationships": {
-      "conflicts": [
-        "CombatRealism"
-      ],
+      "conflicts": "CombatRealism",
       "contains": [
         "Achtung",
         "CombatRealism"
@@ -2351,9 +2298,7 @@
       "steam": "729908976"
     },
     "relationships": {
-      "contains": [
-        "FollowMe"
-      ]
+      "contains": "FollowMe"
     },
     "created": "2017-01-08T09:08:34+00:00",
     "changeLog": ""
@@ -2523,9 +2468,7 @@
       "steam": "751049133"
     },
     "relationships": {
-      "requires": [
-        "HugsLib"
-      ]
+      "requires": "HugsLib"
     },
     "created": "2017-03-17T21:21:00+00:00",
     "changeLog": "Update harmony to 1.0.9, add harmony checker"
@@ -2747,9 +2690,7 @@
       "steam": "888809584"
     },
     "relationships": {
-      "requires": [
-        "FactoryFramework"
-      ]
+      "requires": "FactoryFramework"
     },
     "created": "2017-03-22T11:12:37+00:00",
     "changeLog": "Commit to github",
@@ -2770,9 +2711,7 @@
       "github": "https://github.com/spdskatr/AnimalStations/archive/master.zip"
     },
     "relationships": {
-      "requires": [
-        "FactoryFramework"
-      ]
+      "requires": "FactoryFramework"
     },
     "created": "2017-03-10T10:01:47+00:00",
     "changeLog": "Commit to github",
@@ -2865,5 +2804,237 @@
     },
     "created": "2017-03-15T07:01:47+00:00",
     "changeLog": "Changelog for version 1.0.2\\r\\n  - - Projects are now a little bit vertically tighter to avoid some cases of crop on the bottom of the window. Projects that need 4 lines of text to display might still have the last line partially cropped, but that is only one that I know of (damn you \"Vancidium\" and \"advanced components\"). Those very specific cases will be treated in a later date."
+  },
+  {
+    "id": "OrganizedResearchTab",
+    "name": "Organized Research Tab",
+    "version": "1.1.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Lazevedo",
+    "description": "Organized research projects in the Research Tab.\n  \n  Changelog for version 1.1.1\n  - Fixed an issue that was causing crashes\n  \n  Changelog for version 1.1.0\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\n  - Better looks",
+    "preview": "https://raw.githubusercontent.com/L4zevedo/OrganizedResearchTab/master/About/Preview.png",
+    "homePage": "https://github.com/L4zevedo/OrganizedResearchTab",
+    "issues": "https://github.com/L4zevedo/OrganizedResearchTab/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/L4zevedo/OrganizedResearchTab/releases/download/v1.1.1/OrganizedResearchTab.zip",
+      "steam": "882641145"
+    },
+    "created": "2017-03-28T01:26:37+00:00",
+    "changeLog": "Changelog for version 1.1.1\r\n  - Fixed an issue that was causing crashes\r\n\r\nChangelog for version 1.1.0\r\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\r\n  - Better looks"
+  },
+  {
+    "id": "OrganizedResearchTab",
+    "name": "Organized Research Tab",
+    "version": "1.1.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Lazevedo",
+    "description": "Organized research projects in the Research Tab.\n  \n  Changelog for version 1.1.2\n  - Performance improvements\n  \n  Changelog for version 1.1.1\n  - Fixed an issue that was causing crashes\n  \n  Changelog for version 1.1.0\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\n  - Better looks",
+    "preview": "https://raw.githubusercontent.com/L4zevedo/OrganizedResearchTab/master/About/Preview.png",
+    "homePage": "https://github.com/L4zevedo/OrganizedResearchTab",
+    "issues": "https://github.com/L4zevedo/OrganizedResearchTab/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/L4zevedo/OrganizedResearchTab/releases/download/v1.1.2/OrganizedResearchTab.zip",
+      "steam": "882641145"
+    },
+    "created": "2017-03-28T03:11:18+00:00",
+    "changeLog": "Changelog for version 1.1.2\r\n  - Performance improvements\r\n  \r\n  Changelog for version 1.1.1\r\n  - Fixed an issue that was causing crashes\r\n  \r\n  Changelog for version 1.1.0\r\n  - Calculations are now done in a thread separate from Main Thread, so no more impact on loading time\r\n  - Better looks"
+  },
+  {
+    "id": "ImpassableMapMaker",
+    "version": "20170328.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "KiameV",
+    "preview": "https://raw.githubusercontent.com/KiameV/rimworld-impassablemapmaker/master/Source/About/Preview.png",
+    "homePage": "https://github.com/KiameV/rimworld-impassablemapmaker",
+    "issues": "https://github.com/KiameV/rimworld-impassablemapmaker/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/KiameV/rimworld-impassablemapmaker/releases/download/20170328/ImpassableMapMaker.zip",
+      "steam": "893071910"
+    },
+    "created": "2017-03-28T06:53:29+00:00",
+    "changeLog": "Allows settlements on Impassable tiles.\r\n\r\nCan either start a new game on an Impassable tile or with a current game travel (via caravan or drop ship) to an impassable tile.\r\n\r\nMost Impassable maps will have one open area. This mod is not meant for casual play and these maps really should not be starting maps either. This is intended to add something a little different.\r\n\r\nWorld pathing will still avoid Impassable tiles but telling a caravan to travel to an Impassable tile will force them to go there.\r\n\r\nLet me know if anything seems amiss."
+  },
+  {
+    "id": "BetterSpeed",
+    "name": "Better Speed",
+    "version": "0.0.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fumblesneeze",
+    "description": "Tweaks speed settings globally and adds a new carry weight penalty mechanic:\r\n\r\n- Pawns will walk slower the more they carry\r\n- Pawns generally walk faster\r\n- Pawns generally shoot faster\r\n- Doors generally open faster\r\n\r\nAll the settings are customizable in the game using the mod settings.\r\n\r\nRequires HugsLib to be installed and loaded previously.\r\n\r\nMade using Harmony.\r\n\r\nIcon 'Stopwatch' By Gregor Cresnar (The Noun Project)",
+    "shortDescription": "Tweaks various speed settings in the game like walking, carrying or shooting.",
+    "preview": "http://github.com/Fumblesneeze/RimBetterSpeed/blob/master/BetterSpeed/About/Preview.png?raw=true",
+    "homePage": "https://github.com/Fumblesneeze/RimBetterSpeed",
+    "issues": "https://github.com/Fumblesneeze/RimBetterSpeed/Issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/Fumblesneeze/RimBetterSpeed/releases/download/v0.0.1/BetterSpeed.zip",
+      "steam": "894046543"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "support": "https://www.patreon.com/schweigert",
+    "created": "2017-03-29T17:15:03.0218191+02:00",
+    "changeLog": "Initial Version"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.0.1-2017090+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-03-31T11:31:08+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ImpassableMapMaker",
+    "version": "20170329.0.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "KiameV",
+    "preview": "https://raw.githubusercontent.com/KiameV/rimworld-impassablemapmaker/master/Source/About/Preview.png",
+    "homePage": "https://github.com/KiameV/rimworld-impassablemapmaker",
+    "issues": "https://github.com/KiameV/rimworld-impassablemapmaker/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/KiameV/rimworld-impassablemapmaker/releases/download/20170329/ImpassableMapMaker.zip",
+      "steam": "893071910"
+    },
+    "created": "2017-03-29T20:55:36+00:00",
+    "changeLog": "[ImpassableMapMaker.zip](https://github.com/KiameV/rimworld-impassablemapmaker/files/880351/ImpassableMapMaker.zip)\r\n"
+  },
+  {
+    "id": "MapReroll",
+    "name": "Map Reroll",
+    "version": "1.5.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "UnlimitedHugs",
+    "description": "Version: 1.5.2\n\t\n<size=20>Description</size>\nAllows you to randomize your starting map to help you find one you like. Getting new positions for just the steam geysers is also possible.\n\n<size=20>How to use</size>\nStart a new game. In the top right corner of the screen you will find a button with red dice. Click that.\nUse \"Reroll Map\" to get an entirely new starting map or \"Reroll Geysers\" to get random new geyser positions on the current map.\nEach operation will cost you an amount of unmined resources from the map- both the cost and the amount of remaining resources are displayed in the window.\n\nNote, that rerolling becomes unavailable after naming your colony or loading it from a save file.\n\nIf you are using Community Core Library (CCL) you might want to temporarily disable the minimap, as it covers up the button.\n",
+    "preview": "http://i.imgur.com/I3Vz9TJ.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=18073",
+    "issues": "https://ludeon.com/forums/index.php?topic=18073",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldMapReroll/releases/download/v1.5.2/MapReroll_1.5.2.zip",
+      "steam": "761315214"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-04-03T04:40:59+00:00",
+    "changeLog": "- Deterministic rerolls: rerolling on the same seed and tile will produce the same sequence of maps\n- Fixed interface issues when scaling is above 1x\n- Colonists on rerolled maps will now remember their pod landing for artistic purposes\n- Added Chinese translation"
+  },
+  {
+    "id": "DefensivePositions",
+    "name": "Defensive Positions",
+    "version": "1.3.4",
+    "targetGameVersion": "0.16.1393",
+    "authors": "UnlimitedHugs",
+    "description": "Version: 1.3.4\n\t\n<size=20>Description</size>\nAllows your colonists to remember their position during base defense. You can send off your colonists to their positions with a single click.\n\t\t\n<size=20>How to use</size>\n<b>Set defensive positions for colonists</b>\n1) Draft your defenders and place them where you want them.\n2) With your defenders selected, hold the Shift key and click the Defensive position button (or press T).\nDone. The selected colonists will remember their held positions.\n\n<b>Send colonists to saved positions</b>\n1) Select your defenders.\n2) Click the Defensive position button (or press T).\nYour defenders will be drafted and will run to their saved positions.\n\n<b>Advanced mode</b>\nHold the Alt key and click the Defensive position button to switch between basic and advanced mode.\nAdvanced mode works exactly like Basic, but you have 4 positions to work with. Shift+click a slot to save a position, just click to send the selected pawns to the position they have been assigned under that number.\nPressing T is the same as clicking the first slot.\n\n<b>Squad hotkeys</b>\nColonists can be assigned to squads for easier selection. To assign, hold the Ctrl key and press 1-9 on the numeric keypad to assign the squad to that key. Press the numeric key of a squad to select the pawns, press again to focus on the squad location.\n\n<b>Utility hotkeys</b>\nThere are three other keys on the keypad for quick colonist management: press period to select all colonists on the map, undraft everyone by pressing divide, and press zero to send all colonists to their assigned defensive position.\n",
+    "preview": "http://i.imgur.com/6478wKG.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=25535.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=25535.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldDefensivePositions/releases/download/v1.3.4/DefensivePositions_1.3.4.zip",
+      "steam": "761219125"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-04-03T05:34:39+00:00",
+    "changeLog": "- Updated both Chinese translations"
+  },
+  {
+    "id": "RemoteExplosives",
+    "name": "Remote Explosives",
+    "version": "1.11.3",
+    "targetGameVersion": "0.16.1393",
+    "authors": "UnlimitedHugs",
+    "description": "Version: 1.11.3\n\t\n<size=20>Description</size>\nAn assortment of remotely detonated explosives for different purposes- from defending your base to mining, and much more.\nAlso includes several new researches and a workbench to manufacture your explosive goodies.\n\n<size=20>How to use</size>\nEverything you might want to build is available from the Explosives category in the Build menu. You can manufacture your own explosives, or buy them from traders- but at the very least the \"Remote Detonator\" research must be completed. With that, you can build the Explosives Workshop and the Remote Detonator.\nMake the explosive of your choice at the workshop, place it using the Build menu, make sure it's armed, then trigger it using the Remote Detonator. Multiple explosives can be triggered together.\n\n- If you research \"Remote Explosives Channels\" and upgrade your detonator, you can divide your placed explosives into groups, to be triggered separately.\n- The \"Auto replace\" toggle on the placed explosives allows your colonists to replace them after they are triggered.\n- The other research projects unlock the creation of different explosives- for mining, mechanoid defense, and other purposes. Read the research and item descriptions to learn more.\n\t",
+    "preview": "http://i.imgur.com/Ou66S8o.gif",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17285",
+    "issues": "https://ludeon.com/forums/index.php?topic=17285",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.11.3/RemoteExplosives_1.11.3.zip",
+      "steam": "761379469"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-04-03T05:13:40+00:00",
+    "changeLog": "- Updated both Chinese translations"
+  },
+  {
+    "id": "ModularPowerArmor",
+    "name": "Modular Power Armor",
+    "version": "1.0.16-0+0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Granitecosmos",
+    "description": "Adds Modular Power Armor as well as tweaks original Power Armor recipe. Also slightly changes Mechanoid disassembly drops.",
+    "homePage": "https://github.com/Granitecosmos/ModularPowerArmor",
+    "issues": "https://github.com/Granitecosmos/ModularPowerArmor/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Granitecosmos/ModularPowerArmor/zipball/1.0.16.0.0"
+    },
+    "created": "2017-03-14T10:22:30+00:00",
+    "changeLog": "- Initial release\r\n- A16 compatibility"
+  },
+  {
+    "id": "Ice",
+    "name": "Ice",
+    "version": "0.1.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Fumblesneeze",
+    "description": "Adds Ice to Rimworld.\r\n* Ice Blocks can only be dug from ice terrain\r\n* Build Ice Walls & Ice Sculptures\r\n* Ice buildings deteriorate in temperatures above freezing\r\n* Lakes freeze in winter and during cold snaps\r\ntodo:\r\n* Dynamically add ice to traders\r\n* Price of ice depending on current temperature\r\n* Ice blocks cooling rooms\r\n\r\nNeeds HugsLib to be loaded before. Uses Harmony.\r\nLoad after Better Terrain and Fertile Fields if they are present.\r\n\r\nRecommended: Refactored Work Priorities (set repair threshhold so colonists don't go crazy repairing 99% walls)\r\n",
+    "shortDescription": "Make ice walls and sculptures, let lakes freeze in winter",
+    "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimIce/master/Mod/About/Preview.png",
+    "homePage": "https://github.com/Fumblesneeze/RimIce",
+    "issues": "https://github.com/Fumblesneeze/RimIce/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Fumblesneeze/RimIce/releases/download/v0.1.2/Ice.zip"
+    },
+    "relationships": {
+      "requires": "HugsLib",
+      "conflicts": [
+        "Bridges",
+        "FishIndustry"
+      ],
+      "after": [
+        "FertileFields",
+        "BetterTerrain"
+      ],
+      "compatible": [
+        "FertileFields",
+        "BetterTerrain"
+      ]
+    },
+    "languages": "English",
+    "support": "https://www.patreon.com/schweigert",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "Compatibility with Fertile Fields and Better Terrain"
   }
 ]
