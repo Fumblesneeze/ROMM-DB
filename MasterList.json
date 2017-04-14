@@ -3036,5 +3036,154 @@
     "support": "https://www.patreon.com/schweigert",
     "created": "2017-02-22T23:05:24+00:00",
     "changeLog": "Compatibility with Fertile Fields and Better Terrain"
+  },
+  {
+    "id": "SmarterScheduling",
+    "name": "SmarterScheduling",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Automatically manages your Pawn's Sleep, Joy, and Work cycles.",
+    "homePage": "https://github.com/maarxx/SmarterScheduling",
+    "issues": "https://github.com/maarxx/SmarterScheduling/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/SmarterScheduling/archive/master.zip"
+    },
+    "created": "2017-04-12T19:59:54+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.0.1-2017099+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/archive/master.zip"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-04-09T12:20:08+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "HuntingAlert",
+    "name": "Hunting Alert",
+    "version": "0.16",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "Gives you a warning when an animal is hunting a member of your faction.",
+    "shortDescription": "Gives you a warning when an animal is hunting a member of your faction.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "Gameplay",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=17564"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "A16: no changes."
+  },
+  {
+    "id": "NewZoneTools",
+    "name": "New Zone Tools",
+    "version": "0.16",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "Chequer pattern cancel, soil grow zone, and replace existing wall tools.",
+    "shortDescription": "Chequer pattern cancel, soil grow zone, and replace existing wall tools.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "UI",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=17583"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "A16: no changes."
+  },
+  {
+    "id": "FriendlyBerserk",
+    "name": "Friendly Berserk",
+    "version": "0.16",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "Berserk pawns will no longer be hostile to their own faction.",
+    "shortDescription": "Berserk pawns will no longer be hostile to their own faction.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "Gameplay",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=17589"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "A16: no changes."
+  },
+  {
+    "id": "PatientSanity",
+    "name": "Patient Sanity",
+    "version": "0.16",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "Fixes colonist AI so they actually stay in bed when needing treated. Added emergency flag to rescue and non critical doctoring.\r\nNote: This mod changes the humanlike thinktree, so will conflict with another mod which does also.",
+    "shortDescription": "Fixes colonist AI so they actually stay in bed when needing treated. Added emergency flag to rescue and non critical doctoring.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "Gameplay",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=17601"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "a16: Swapped doctoring and patient priority in the work tab so that doctors do not go to bed and wait until someone else treats them instead of treating others first.\r\nVanilla behaviour is now to not consume corpses until 40% malnutrition, so I have removed the get food changes from the previous version.\r\nNote: Doctors feeding patients is unchanged code wise in a16. Until this is fixed they will probably be happily feeding people corpses as they sleep.\r\n\r\nTo clarify the intended behaviour this mod is attempting:\r\n\r\nPawns will go to rest whenever they need any form of treatment, as long as the patient work type is ticked.\r\nNeeding any treatment is now classed as an emergency, so they should not wander off changing their clothes, eating, or sitting alone at a table 'socialising' for several hours before they do so.\r\n\r\nPawns will stay in bed resting whenever they are sick or injured even when they do not need to be treated right at that moment if the bed rest work type is ticked.\r\nUnticking bed rest while keeping patient work type ticked should result in them only staying in bed resting until they are treated, and then going back to work immediately after."
+  },
+  {
+    "id": "PandoraDark",
+    "name": "Pandora Dark",
+    "version": "0.16",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "A sister storyteller to Cassandra Classic, but with greatly increasing raid sizes.",
+    "shortDescription": "A sister storyteller to Cassandra Classic, but with greatly increasing raid sizes.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "Gameplay",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=18076"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "a16: Added a basic new colony protection to limit huge raid sizes in newly founded colonies.\r\nNote that caravan ambushes, like refugee chased raids are not affected by Pandora's increased raid scaling.\r\nReduced Pyrrha's raid frequency a little further"
+  },
+  {
+    "id": "SlightlyIncreasedDifficulty",
+    "name": "Slightly Increased Difficulty",
+    "version": "0.16.1",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Britnoth",
+    "description": "My ongoing attempt to make the AI slightly less hapless.\r\nChanges to raider weapon loadouts, tactics, ship part behaviour and so on.\r\n\r\nNote: This mod is intended to improve the vanilla gameplay experience. Using it with other mods that add factions or increase raid sizes can result in very dangerous raids. It is also more of a Work In Progress unlike my other mods.",
+    "shortDescription": "My ongoing attempt to make the AI slightly less hapless.",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=17094.0",
+    "category": "Gameplay",
+    "source": {
+      "forum": "https://ludeon.com/forums/index.php?action=dlattach;topic=17094.0;attach=19258"
+    },
+    "languages": "English",
+    "created": "2017-02-22T23:05:24+00:00",
+    "changeLog": "16.1: Fixed psychic ships drone to function again (please test it works), tweak to sieges to stop them walking across the map instead of building their mortars (I am informed a full fix is in the next alpha)."
   }
 ]
