@@ -3081,7 +3081,7 @@
   {
     "id": "HuntingAlert",
     "name": "Hunting Alert",
-    "version": "0.16",
+    "version": "0.16.0",
     "targetGameVersion": "0.16.1393",
     "authors": "Britnoth",
     "description": "Gives you a warning when an animal is hunting a member of your faction.",
@@ -3099,7 +3099,7 @@
   {
     "id": "NewZoneTools",
     "name": "New Zone Tools",
-    "version": "0.16",
+    "version": "0.16.0",
     "targetGameVersion": "0.16.1393",
     "authors": "Britnoth",
     "description": "Chequer pattern cancel, soil grow zone, and replace existing wall tools.",
@@ -3117,7 +3117,7 @@
   {
     "id": "FriendlyBerserk",
     "name": "Friendly Berserk",
-    "version": "0.16",
+    "version": "0.16.0",
     "targetGameVersion": "0.16.1393",
     "authors": "Britnoth",
     "description": "Berserk pawns will no longer be hostile to their own faction.",
@@ -3135,7 +3135,7 @@
   {
     "id": "PatientSanity",
     "name": "Patient Sanity",
-    "version": "0.16",
+    "version": "0.16.0",
     "targetGameVersion": "0.16.1393",
     "authors": "Britnoth",
     "description": "Fixes colonist AI so they actually stay in bed when needing treated. Added emergency flag to rescue and non critical doctoring.\r\nNote: This mod changes the humanlike thinktree, so will conflict with another mod which does also.",
@@ -3153,7 +3153,7 @@
   {
     "id": "PandoraDark",
     "name": "Pandora Dark",
-    "version": "0.16",
+    "version": "0.16.0",
     "targetGameVersion": "0.16.1393",
     "authors": "Britnoth",
     "description": "A sister storyteller to Cassandra Classic, but with greatly increasing raid sizes.",
@@ -3185,5 +3185,414 @@
     "languages": "English",
     "created": "2017-02-22T23:05:24+00:00",
     "changeLog": "16.1: Fixed psychic ships drone to function again (please test it works), tweak to sieges to stop them walking across the map instead of building their mortars (I am informed a full fix is in the next alpha)."
+  },
+  {
+    "id": "AnimalCollabProject",
+    "name": "AnimalCollabProj",
+    "version": "0.0.1-2017053+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "thirite",
+    "description": "Null description",
+    "homePage": "https://github.com/thirite/AnimalCollabProject",
+    "issues": "https://github.com/thirite/AnimalCollabProject/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/thirite/AnimalCollabProject/archive/master.zip"
+    },
+    "created": "2017-02-22T12:21:46+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "Hospitality",
+    "name": "Hospitality A16",
+    "version": "0.1.0-A16a",
+    "targetGameVersion": "0.16.1393",
+    "authors": "OrionFive",
+    "description": "Allows you to recruit visitors. At a price, of course. \n\nYou can also improve your relationship with visiting factions and make some money with satisfied guests.\n\n\nErrors and bugs: If you get errors, most likely Hospitality is clashing with another mod you're using, or you forgot to install / enable the Community Core Library.\n\nSo to help me fix bugs, please describe clearly what happened. Also please upload the output_log.txt file from Rimworld's data folder or enable the developer console and upload a screenshot of the first error you're getting. If you think it might be conflicting with another mod, please list the mods you're using in the order they get loaded. \n\nMore information about this mod can be found at the Rimworld forum: https://ludeon.com/forums/index.php?topic=11444.0\n  ",
+    "preview": "https://raw.githubusercontent.com/OrionFive/Hospitality/develop/About/Preview.png",
+    "homePage": "https://github.com/OrionFive/Hospitality",
+    "issues": "https://github.com/OrionFive/Hospitality/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/OrionFive/Hospitality/zipball/A16a",
+      "steam": "753498552"
+    },
+    "created": "2017-01-02T12:24:14+00:00",
+    "changeLog": "Here it is. And on Steam.\n"
+  },
+  {
+    "id": "MoreMechanoids",
+    "name": "More Mechanoids",
+    "version": "0.0.1-2017008+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "OrionFive",
+    "description": "A new mechanical threat has risen! \n  \n  Features:\n  - Crawler\n  - Skullywag\n  - Flamebot\n  - Mammoth\n  - Assaulter\n  - Charge stations\n  - Converting crawlers, scythers, centipedes and skullywags to useful helpers using the machining bench\n  ",
+    "preview": "https://raw.githubusercontent.com/OrionFive/MoreMechanoids/develop/About/Preview.png",
+    "homePage": "https://github.com/OrionFive/MoreMechanoids",
+    "issues": "https://github.com/OrionFive/MoreMechanoids/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/OrionFive/MoreMechanoids/archive/master.zip"
+    },
+    "created": "2017-01-08T15:18:43+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "PrioritizedHauling",
+    "name": "PrioritizedHauling",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Allows you to specify certain types of objects to be hauled at higher priority, in a customizable order.",
+    "homePage": "https://github.com/maarxx/PrioritizedHauling",
+    "issues": "https://github.com/maarxx/PrioritizedHauling/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/PrioritizedHauling/archive/master.zip"
+    },
+    "created": "2017-04-12T19:53:42+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "BulkAssigner",
+    "name": "BulkAssigner",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Provides some functions for bulk manipulation of assign functions, such as Hostility Reponse Mode, Outfit, Drug Policy, and Allowed Areas.",
+    "homePage": "https://github.com/maarxx/BulkAssigner",
+    "issues": "https://github.com/maarxx/BulkAssigner/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/BulkAssigner/archive/master.zip"
+    },
+    "created": "2017-04-12T19:56:19+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "MoreAlerts",
+    "name": "MoreAlerts",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Offers more Alerts in the righthand sidebar that players might be interested in.",
+    "homePage": "https://github.com/maarxx/MoreAlerts",
+    "issues": "https://github.com/maarxx/MoreAlerts/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/MoreAlerts/archive/master.zip"
+    },
+    "created": "2017-04-12T19:57:17+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "InjuryNotifier",
+    "name": "InjuryNotifier",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Notifies you when a Pawn suffers a permanent Injury.",
+    "homePage": "https://github.com/maarxx/InjuryNotifier",
+    "issues": "https://github.com/maarxx/InjuryNotifier/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/InjuryNotifier/archive/master.zip"
+    },
+    "created": "2017-04-12T19:58:02+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "UberMicro",
+    "name": "UberMicro",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Provides button in-game to toggle mode on and off. When mode is on, then it pauses game and gives letter notification whenever a prioritized job is complete. Useful in emergency situations.",
+    "homePage": "https://github.com/maarxx/UberMicro",
+    "issues": "https://github.com/maarxx/UberMicro/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/UberMicro/archive/master.zip"
+    },
+    "created": "2017-04-12T19:59:00+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ToxicFalloutManager",
+    "name": "ToxicFalloutManager",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Automatically manages Allowed Area in response to Toxic Fallout.",
+    "homePage": "https://github.com/maarxx/ToxicFalloutManager",
+    "issues": "https://github.com/maarxx/ToxicFalloutManager/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/ToxicFalloutManager/archive/master.zip"
+    },
+    "created": "2017-04-12T20:01:03+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ExtraClothes",
+    "name": "ExtraClothes",
+    "version": "0.0.1-2017102+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Provides additional duplicate Clothing items, identical to Vanilla, intended for managing Devilstrand.",
+    "homePage": "https://github.com/maarxx/ExtraClothes",
+    "issues": "https://github.com/maarxx/ExtraClothes/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/ExtraClothes/archive/master.zip"
+    },
+    "created": "2017-04-12T20:01:45+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ED-Plant24H",
+    "name": "ED-Plants24H",
+    "version": "4.0.2",
+    "targetGameVersion": "0.16.1393",
+    "authors": "jaxxa",
+    "description": "Version: 04.00.02\n\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\t\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThe module changes the plants to grow 24 Hours a day. In the base game plants will rest at night time and stop growing, regardless of the light levels. This removed that restriction so plants will keep growing, if all the other conditions such as light are still met, allowing your sunlamps to effectively increase the growing speed.\n\t",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Plant24H/master/ED-Plant24H/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Plant24H",
+    "issues": "https://github.com/jaxxa/ED-Plant24H/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Plant24H/releases/download/04.00.02/ED-Plant24H_04.00.02.zip",
+      "steam": "730817198"
+    },
+    "created": "2017-04-17T11:17:52+00:00",
+    "changeLog": "04.00.02\r\n * Updating To Harmony 1.0.9.1"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.1.0-beta",
+    "targetGameVersion": "0.16.1393",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://api.github.com/repos/NoImageAvailable/CombatExtended/zipball/v0.1.0-beta"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-04-16T14:02:24+00:00",
+    "changeLog": "First testing release. All major feature additions for 1.0 are in and mostly working, but almost no balancing or bugtesting has been done so far.\r\n\r\nRequires HugsLib"
+  },
+  {
+    "id": "ABC_Suit",
+    "name": "Toxic Fallout Protection Suit",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Chaia",
+    "description": "Adds a protection suit against toxic fallout and modding capability for your own protection stuff (check the forum thread).",
+    "preview": "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=21408.0",
+    "issues": "https://github.com/Chaia/ABC_Suit/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Chaia/ABC_Suit/releases/download/V1.5/ABC_Suit.V1_5.rar",
+      "steam": "731878767"
+    },
+    "created": "2016-07-15T21:27:56+00:00",
+    "changeLog": "Changelog:\r\n\r\n- ToxAway is available again\r\n- Added in a Hediff, which reduces toxic sensitivity, but with some drawbacks\r\n-> ToxAway currently reduces 0.25 toxic sensitivity per pill and each pill last 0.25 days. If you take more pills at once, the duration and effects will stack/rise.\r\n-> Overdosing ToxAway will lead to kidney and liver damage\r\n- ToxAway can be crafted after some mid-game research, but is kinda cheap to craft right now compared to the other good drugs (probably going to nerf that)\r\n"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.2.1-beta",
+    "targetGameVersion": "0.16.1393",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.2.1\n\t\n\tExtends combat mechanics to make it deeper and more tactical.\n\t",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://api.github.com/repos/NoImageAvailable/CombatExtended/zipball/v0.2.1-beta"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-04-25T17:19:08+00:00",
+    "changeLog": "Various fixes to reported bugs."
+  },
+  {
+    "id": "LimitlessSelection",
+    "name": "LimitlessSelection",
+    "version": "0.0.1-2017120+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "maarxx",
+    "description": "Removes the limit of only selecting 80 things at a time.",
+    "homePage": "https://github.com/maarxx/LimitlessSelection",
+    "issues": "https://github.com/maarxx/LimitlessSelection/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/maarxx/LimitlessSelection/archive/master.zip"
+    },
+    "created": "2017-04-30T19:54:19+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "WarOrphans",
+    "name": "War Orphans",
+    "version": "0.1.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "keylocke",
+    "description": "\nthese war orphans claim to be the children of the raiders you killed and turned into leather hats. however, everybody knows there are no kids in rimworld. dundundunnn.. \n\nthey're actually synth-noids (synth mechanoid infiltrators) they join to spy on you, then they eat your food and break your hearts. (they only eat human food)\n\nlifestages :\n-orphan : 0-4yrs (baby)\n-waif/urchin : 5-9yrs (juvenile)\n-maid/butler : 10-15yrs (juvenile late)\n-lady/lord : 16yrs-above (adult)\n\nthey convert what they eat into chemfuel. \nmilking them gives you chemfuel. they excrete it like vomit. (adult lifestage)\n\ntheir mecha-organoid body sheds plasteel. \nshearing them gives you plasteel. like peeling tree bark. (adult lifestage)\n\nbutchering gives you steel, plasteel, components, meat, and leather. \n(proof that they are machines disguised as humans)\n\nthey produce mechanoid sounds while in combat. \n(more proof of their mechanoidness)\n\nthey are pack animals and can carry your stuffses when joining a caravan, so you can use them to smuggle and trade smokeleaf to neighboring factions or whatever.\n\t\t",
+    "preview": "https://raw.githubusercontent.com/keylocke/WarOrphans/master/About/Preview.png",
+    "homePage": "https://github.com/keylocke/WarOrphans",
+    "issues": "https://github.com/keylocke/WarOrphans/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/keylocke/WarOrphans/zipball/0.1"
+    },
+    "created": "2017-04-21T12:29:22+00:00",
+    "changeLog": "fake hoomans"
+  },
+  {
+    "id": "RealFOW",
+    "name": "Real Fog of War",
+    "version": "0.1.19-a16+201703051825",
+    "targetGameVersion": "0.16.1393",
+    "authors": "lukakama",
+    "description": "This mod adds a real Fog of War based on Field of Views, to limit visiblity and interaction of elements on the map, for both player and AI.",
+    "preview": "https://raw.githubusercontent.com/lukakama/rimworld-mod-real-fow/master/About/Preview.png",
+    "homePage": "https://github.com/lukakama/rimworld-mod-real-fow",
+    "issues": "https://github.com/lukakama/rimworld-mod-real-fow/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/lukakama/rimworld-mod-real-fow/releases/download/v0.1.19.a16.201703051825/RealFoW.v0.1.19.a16.201703051825.zip",
+      "steam": "836245605"
+    },
+    "created": "2017-03-05T17:21:40+00:00",
+    "changeLog": "Performance improvements."
+  },
+  {
+    "id": "Medivac",
+    "name": "WM Medivac",
+    "version": "0.0.1-2017006+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Wishmaster01",
+    "description": "\n<color=orange><b>Requires HugsLib.</b></color> \n\nAdds few improvements related to medical care.\n\n<color=orange><b>Medivac</b></color> \n\t\t\nLoad downed pawns into pods.\n\n<color=orange><b>Enhanced medical bed selection</b></color>\n\t\t\nColonists will try to get to the best medical bed for operation. \nThis means: Bed < Bed with vital monitor < Medical bed with vital monitor < Any non-vanilla bed that's even better.\n\t\nIf they don't need tending nor to gain immunity however, they will leave the best medical beds free.\n\t\n<color=orange><b>Emergency:</b></color> \n\t\t\nIf your pawn needs urgent tending (severe blood loss), he will find the closest bed instead.\n  ",
+    "homePage": "https://github.com/Wishmaster01/Medivac",
+    "issues": "https://github.com/Wishmaster01/Medivac/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Wishmaster01/Medivac/archive/master.zip"
+    },
+    "created": "2017-01-06T14:59:26+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SyncGrowth",
+    "name": "Sync growth",
+    "version": "0.0.1-2017002+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Wishmaster01",
+    "description": "\n<color=orange><b>Requires HugsLib.</b></color> \n\nHelps your crops to be mature at the same time by redistributing the growth rate.\nPlants must not exceed 8% of grown gap. \n  ",
+    "homePage": "https://github.com/Wishmaster01/SyncGrowth",
+    "issues": "https://github.com/Wishmaster01/SyncGrowth/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/Wishmaster01/SyncGrowth/archive/master.zip"
+    },
+    "created": "2017-01-02T22:27:24+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "SmarterFoodSelection",
+    "name": "WM Smarter food selection",
+    "version": "0.0.1-2017076+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Wishmaster01",
+    "description": "\n<size=18><color=orange><b>Requires HugsLib.</b></color></size>\n\n<b>Allows you to restrict the foods of your pawns (prisoners, animals, ascetic, cannibal).</b>\n\t\t\n<b>Assign and customize your food policies.</b>\n\n<b>Better food selection algorithm.</b>\n\n<b>Upgraded and smarter nutrient paste dispenser. </b>\n\t\t\nWill pick ingredients in this order: raw bad > raw tasty > insect meat > human meat.\nThe NPD will prioritize human meat for cannibals, and human meat then insect meat for animals.\n\n<b>More... </b>\n\nMore information on the web link.\n\nVersion 2.0a\n\n<size=18><color=orange><b>Credits</b></color> </size>\n\n* UnlimitedHugs for HugsLib and for assistance.\n  ",
+    "preview": "https://raw.githubusercontent.com/Wishmaster01/Smarter.food.selection/master/About/preview.png",
+    "homePage": "https://github.com/Wishmaster01/Smarter.food.selection",
+    "issues": "https://github.com/Wishmaster01/Smarter.food.selection/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/Wishmaster01/Smarter.food.selection/archive/master.zip"
+    },
+    "created": "2017-03-17T23:30:03+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "TooManyLeathers",
+    "name": "WM Too Many Leathers",
+    "version": "0.0.1-2017103+github",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Wishmaster01",
+    "description": "\n<color=orange><b>Requires HugsLib.</b></color> \n\n\t\tMerges all identicals leathers into tiered leathers.\n\t\n  ",
+    "homePage": "https://github.com/Wishmaster01/too_many_leathers",
+    "issues": "https://github.com/Wishmaster01/too_many_leathers/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Wishmaster01/too_many_leathers/archive/master.zip"
+    },
+    "created": "2017-04-13T01:36:24+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "OHU-Dropships",
+    "name": "OHU Ships",
+    "version": "1.5.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Cpt-Ohu",
+    "description": "A mod that adds aircraft for suborbital jumps to the game. ",
+    "preview": "https://raw.githubusercontent.com/Cpt-Ohu/OHU-Dropships/master/About/Preview.png",
+    "homePage": "https://github.com/Cpt-Ohu/OHU-Dropships",
+    "issues": "https://github.com/Cpt-Ohu/OHU-Dropships/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Cpt-Ohu/OHU-Dropships/zipball/v1.05"
+    },
+    "created": "2017-04-29T06:25:22+00:00",
+    "changeLog": "Stop pawns from wandering after loading a ship"
+  },
+  {
+    "id": "Warhammer40k-Corruption",
+    "name": "Corruption",
+    "version": "0.86.0",
+    "targetGameVersion": "0.16.1393",
+    "authors": "Cpt-Ohu",
+    "description": "A Warhammer 40k conversion mod. For now this is a proof of concept mod with a lot of placeholders and half-implemented features.\n\nV 0.86",
+    "preview": "https://raw.githubusercontent.com/Cpt-Ohu/Warhammer40k-Corruption/master/About/Preview.png",
+    "homePage": "https://github.com/Cpt-Ohu/Warhammer40k-Corruption",
+    "issues": "https://github.com/Cpt-Ohu/Warhammer40k-Corruption/issues",
+    "category": "TotalConversion",
+    "source": {
+      "github": "https://api.github.com/repos/Cpt-Ohu/Warhammer40k-Corruption/zipball/v0.86"
+    },
+    "created": "2017-04-29T12:56:37+00:00",
+    "changeLog": "Bugfixing"
   }
 ]
