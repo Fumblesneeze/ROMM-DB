@@ -1451,5 +1451,69 @@
         "definition": {
             "category": "TotalConversion"
         }
-    }
+    },
+
+    // indented-automation's mods
+    {
+        "repoOwner": "indented-automation",
+        "repoName": "ExtendedWoodworking",
+        "definition": {
+            "category": "Content"
+        }
+    },
+
+    // PeteTimesSix's mods
+    {
+        "repoOwner": "PeteTimesSix",
+        "repoName": "SimpleSidearms",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+
+    // Tammabanana's mods
+    {
+        "repoOwner": "Tammabanana",
+        "repoName": "Smoked-Meat",
+        "definition": {
+            "id": "SmokedMeat",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Tammabanana",
+        "repoName": "Kitchen-Counter",
+        "definition": {
+            "id": "KitchenCounter",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Tammabanana",
+        "repoName": "Travel-Rations--MREs",
+        "definition": {
+            "id": "TravelRations",
+            "authors": "Tammabanana, A Friend",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Tammabanana",
+        "repoName": "Pygmy-Muffalos",
+        "definition": {
+            "id": "PygmyMuffalos",
+            "authors": "Tammabanana, Spoonshortage",
+            "category": "Content"
+        }
+    },
+
+    // Caminha's mods
+    {
+        "repoOwner": "Caminha",
+        "repoName": "RW-ExtendedTraits",
+        "definition": {
+            "id": "ExtendedTraits",
+            "category": "Content"
+        }
+    },
 ]
