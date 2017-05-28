@@ -523,6 +523,14 @@
             "preview": "https://github.com/pardeike/ReverseCommands/blob/master/About/Preview.PNG?raw=true"
         }
     },
+    {
+        "repoOwner": "pardeike",
+        "repoName": "Zombieland",
+        "definition": {
+            "contact": "andreas@pardeike.net",
+            "category": "Gameplay"
+        }
+    },
 
     // AlcoholV's mods
     {
@@ -1516,4 +1524,166 @@
             "category": "Content"
         }
     },
+
+    // jecrell's mods
+    {
+        "repoOwner": "jecrell",
+        "repoName": "JecsTools",
+        "definition": {
+            "category": "Library"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Star-Wars---The-Force",
+        "definition": {
+            "id": "SWTheForce",
+            "category": "Gameplay",
+            "relationships": {
+                "requires": "JecTools"
+            }
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Star-Wars---Factions",
+        "definition": {
+            "id": "SWFactions",
+            "category": "Gameplay",
+            "relationships": {
+                "requires": "JecTools"
+            }
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Star-Wars---Fully-Functional-Lightsabers",
+        "definition": {
+            "id": "SWLightsabers",
+            "category": "Content",
+            "relationships": {
+                "requires": "JecTools"
+            }
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Star-Wars---Fully-Functional-Lightsabers",
+        "definition": {
+            "id": "SWLightsabers",
+            "category": "Content",
+            "relationships": {
+                "requires": "JecTools"
+            }
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Cults",
+        "definition": {
+            "id": "COCCults",
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Elder-Things",
+        "definition": {
+            "id": "COCElderThings",
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Cosmic-Horrors",
+        "definition": {
+            "id": "COCCosmicHorrors",
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Industrial-Age",
+        "definition": {
+            "id": "COCIndustrialAge",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Cults-Blood-of-Uvhash",
+        "definition": {
+            "id": "COCCultsBloodOfUvhash",
+            "category": "Content",
+            "relationships": {
+                "requires": "COCCults"
+            }
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Factions",
+        "definition": {
+            "id": "COCFactions",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "jecrell",
+        "repoName": "Call-of-Cthulhu---Straitjackets",
+        "definition": {
+            "id": "COCStraitjackets",
+            "category": "Content"
+        }
+    },
+
+    // MatchSG's mods
+    {
+        "repoOwner": "MatchSG",
+        "repoName": "RoofSupport",
+        "definition": {
+            "category": "Content"
+        }
+    },
+
+    // Ratysz's mods
+    {
+        "repoOwner": "Ratysz",
+        "repoName": "MadSkills",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "Ratysz",
+        "repoName": "RT_PowerSwitch",
+        "definition": {
+            "id": "RTPowerSwitch",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Ratysz",
+        "repoName": "RT_QuantumStorage",
+        "definition": {
+            "id": "RTQuantumStorage",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Ratysz",
+        "repoName": "RT_Fuse",
+        "definition": {
+            "id": "RTFuse",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "Ratysz",
+        "repoName": "RT_SolarFlareShield",
+        "definition": {
+            "id": "RTSolarFlareShield",
+            "category": "Content"
+        }
+    }
 ]
