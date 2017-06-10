@@ -824,6 +824,18 @@
             }
         }
     },
+    {
+        "repoOwner": "scuba156",
+        "repoName": "VerifyStartA17",
+        "definition": {
+            "id": "VerifyStart",
+            "authors": "TheUbie, scuba156",
+            "category": "Gameplay",
+            "relationships": {
+                "compatible": "EdBPrepareCarefully"
+            }
+        }
+    },
 
 
 
@@ -1218,13 +1230,35 @@
     {
         "repoOwner": "NoImageAvailable",
         "repoName": "CombatExtended",
+        "fileFilter": "^((?!Guns).)*$",
         "definition": {
             "category": "Overhaul",
             "relationships": {
                 "contains": [ "Achtung", "CombatRealism" ],
-                "conflicts": [ "CombatRealism" ]
+                "conflicts": [ "CombatRealism" ],
+                "recommends": [ "CEGuns" ]
             }
         }
+    },
+    {
+        "repoOwner": "NoImageAvailable",
+        "repoName": "CombatExtended",
+        "fileFilter": "Guns",
+        "definition": {
+            "id": "CEGuns",
+            "category": "Content",
+            "relationships": {
+                "requires": [ "CombatExtended" ]
+            }
+        }
+    },
+    {
+        "repoOwner": "NoImageAvailable",
+        "repoName": "MassGraves"
+    },
+    {
+        "repoOwner": "NoImageAvailable",
+        "repoName": "Wolfpack"
     },
 
     // Killface's mods
@@ -1684,6 +1718,202 @@
         "definition": {
             "id": "RTSolarFlareShield",
             "category": "Content"
+        }
+    },
+
+    // DrZhivago1's mods
+    {
+        "repoOwner": "DrZhivago1",
+        "repoName": "RollingTable",
+        "fileFilter": "^A16.RollingTable\\.rar$",
+        "definition": {
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "DrZhivago1",
+        "repoName": "RollingTable",
+        "fileFilter": "^A16.RollingTable_SK\\.rar$",
+        "definition": {
+            "id": "RollingTableSK",
+            "category": "Content",
+            "relationships": {
+                "patches": [ "RollingTable", "HardcoreSK" ],
+                "contains": [ "RollingTable" ]
+            }
+        }
+    },
+    {
+        "repoOwner": "DrZhivago1",
+        "repoName": "RollingTable",
+        "fileFilter": "^A17.RollingTable\\.rar$",
+        "definition": {
+            "targetGameVersion": "0.17.0",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "DrZhivago1",
+        "repoName": "RollingTable",
+        "fileFilter": "^A17.RollingTable_SK\\.rar$",
+        "definition": {
+            "id": "RollingTableSK",
+            "targetGameVersion": "0.17.0",
+            "category": "Content",
+            "relationships": {
+                "patches": [ "RollingTable", "HardcoreSK" ],
+                "contains": [ "RollingTable" ]
+            }
+        }
+    },
+
+    // bkjohnson's mods
+    {
+        "repoOwner": "bkjohnson",
+        "repoName": "HaulingRobots",
+        "definition": {
+            "category": "Content",
+            "relationships": {
+                "requires": "BaseRobots"
+            }
+        }
+    },
+    {
+        "repoOwner": "bkjohnson",
+        "repoName": "CleaningRobots",
+        "definition": {
+            "category": "Content",
+            "relationships": {
+                "requires": "BaseRobots"
+            }
+
+        }
+    },
+    {
+        "repoOwner": "bkjohnson",
+        "repoName": "BaseRobots",
+        "definition": {
+            "category": "Library"
+        }
+    },
+
+
+    // Xen's mods
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "AnimalCollabProjectA17",
+        "definition": {
+            "id": "AnimalCollab",
+            "authors": "Xen, Thirite",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "RaccRace",
+        "definition": {
+            "authors": "Xen",
+            "category": "Content",
+            "relationships": {
+                "requires": "AlienRaces"
+            }
+        }
+    },
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "XennRaceA17",
+        "definition": {
+            "id": "XennRace",
+            "authors": "Xen",
+            "category": "Content",
+            "relationships": {
+                "requires": "AlienRaces"
+            }
+        }
+    },
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "XennRBSE",
+        "definition": {
+            "authors": "Xen",
+            "category": "Patch",
+            "relationships": {
+                "patches": [ "XennRace", "RBSE" ]
+            }
+        }
+    },
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "XennEPOE",
+        "definition": {
+            "authors": "Xen",
+            "category": "Patch",
+            "relationships": {
+                "patches": [ "XennRace", "EPOE" ]
+            }
+        }
+    },
+    {
+        "repoOwner": "XenEmpireAdmin",
+        "repoName": "XenRoads",
+        "definition": {
+            "authors": "Xen",
+            "category": "Gameplay"
+        }
+    },
+
+    // kaptain-kavern's mods
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "Corrected-Workgivers",
+        "definition": {
+            "id": "CorrectedWorkgivers",
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "ADogSaid",
+        "definition": {
+            "authors": "Latta, kaptain_kavern, spoonshortage",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "DESurgeries",
+        "definition": {
+            "authors": "DarknessEyes, kaptain_kavern, Aristocat",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "CraftableMolotovCocktails"
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "Less-Rebuff",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "Campfires-Can-Cremate-Corpses",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "kaptain-kavern",
+        "repoName": "EPOE-LimbHarvesting",
+        "definition": {
+            "id": "EPOELimbHarvesting",
+            "category": "Gameplay",
+            "relationships": {
+                "requires": "EPOE"
+            }
         }
     }
 ]
