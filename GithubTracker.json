@@ -1318,7 +1318,10 @@
         "definition": {
             "id": "Outfitter",
             "authors": "Fluffy, Killface",
-            "category": "Gameplay"
+            "category": "Gameplay",
+            "relationships": {
+                "requires": "HugsLib"
+            }
         }
     },
 
@@ -1914,6 +1917,99 @@
             "relationships": {
                 "requires": "EPOE"
             }
+        }
+    },
+
+    // cuproPanda's mods
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "ZEN"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "QRY"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "EXP"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "CPD"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "AJO"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "STN"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "CAL"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "WIN"
+    },
+    {
+        "repoOwner": "cuproPanda",
+        "repoName": "POW"
+    },
+
+    // Dingo's mods
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "HandMeThatBrick",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "RefactoredWorkPriorities",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "AutocloseEventNotifications",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "CooksCanRefuel",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "GrenadeFixRearmed",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+    {
+        "repoOwner": "DingoDjango",
+        "repoName": "ReasonableLamps",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
+
+    // Indeed's mods
+    {
+        "repoOwner": "IndeedPlusPlus",
+        "repoName": "RimworldStackXXL",
+        "definition": {
+            "id": "StackXXL",
+            "authors": "Indeed",
+            "category": "Gameplay"
         }
     }
 ]

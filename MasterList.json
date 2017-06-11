@@ -3082,24 +3082,6 @@
     "preRelease": true
   },
   {
-    "id": "ED-Plant24H",
-    "name": "ED-Plants24H",
-    "version": "4.0.2",
-    "targetGameVersion": "0.16.1393",
-    "authors": "jaxxa",
-    "description": "Version: 04.00.02\n\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\t\nThis mod used the Harmony Library. The .dll of the Library is included in the download, you do not need to install it separately.\nhttps://github.com/pardeike/Harmony\nhttps://ludeon.com/forums/index.php?topic=29517.0\n\nThe module changes the plants to grow 24 Hours a day. In the base game plants will rest at night time and stop growing, regardless of the light levels. This removed that restriction so plants will keep growing, if all the other conditions such as light are still met, allowing your sunlamps to effectively increase the growing speed.\n\t",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Plant24H/master/ED-Plant24H/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-Plant24H",
-    "issues": "https://github.com/jaxxa/ED-Plant24H/issues",
-    "category": "Gameplay",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-Plant24H/releases/download/04.00.02/ED-Plant24H_04.00.02.zip",
-      "steam": "730817198"
-    },
-    "created": "2017-04-17T11:17:52+00:00",
-    "changeLog": "04.00.02\r\n * Updating To Harmony 1.0.9.1"
-  },
-  {
     "id": "CombatExtended",
     "name": "Combat Extended",
     "version": "0.1.0-beta",
@@ -5084,6 +5066,9 @@
       "github": "https://api.github.com/repos/Killface1980/RW_Outfitter/zipball/0.17.1",
       "steam": "738206572"
     },
+    "relationships": {
+      "requires": "HugsLib"
+    },
     "created": "2017-05-26T14:31:50+00:00",
     "changeLog": "requires HugsLib"
   },
@@ -6306,136 +6291,6 @@
     "changeLog": "- Fix Install Names"
   },
   {
-    "id": "ED-Embrasures",
-    "name": "ED-Embrasures",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\n\t\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nAdds embrasures for that can be shot through, while blocking passage.\n\nThere is an issue with raiders not targeting people behind Embrasures caused by optimisation in the vanilla targeting. I strongly advise that you look into the mod \"I've Got You In My Sights\" that is a fix for this issue and helps greatly to balance Embrasures. Thanks to DonationBox, spdskatr and Brrainz for working on this.\nhttps://ludeon.com/forums/index.php?topic=30573.0",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Embrasures/master/ED-Embrasures/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-Embrasures",
-    "issues": "https://github.com/jaxxa/ED-Embrasures/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-Embrasures/releases/download/0.17.0/ED-Embrasures_0.17.0.zip",
-      "steam": "722085442"
-    },
-    "created": "2017-05-28T21:53:24+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
-    "id": "ED-LaserDrill",
-    "name": "ED-Laser Drill",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nAdds a Laser Drill that allows the creation of new steam vents, and a Laser Filler that allows you to remove unwanted steam vents.",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-LaserDrill/master/ED-LaserDrill/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-LaserDrill",
-    "issues": "https://github.com/jaxxa/ED-LaserDrill/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-LaserDrill/releases/download/0.17.0/ED-LaserDrill_0.17.0.zip",
-      "steam": "722086956"
-    },
-    "created": "2017-06-04T03:54:09+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
-    "id": "ED-Shields",
-    "name": "ED-ShieldsBasic",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.1546",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nThis mod allows you to place shield generators. They are expensive and power hungry but can really strengthen your defences. The standard shields will stop projectiles that try to enter it, but allow weapons to be fired out.\n\nCredits:\n* Darker: Origional Mod http://ludeon.com/forums/index.php?topic=2677.msg24772#msg24772\n* Rilamus: Providing Art",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Shields/master/ED-Shields/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-Shields",
-    "issues": "https://github.com/jaxxa/ED-Shields/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-Shields/releases/download/ShieldsBasic_0.17.0/ED-ShieldsBasic_0.17.0.zip",
-      "steam": "726884610"
-    },
-    "relationships": {
-      "alternatives": "ED-ShieldsBasic"
-    },
-    "created": "2017-06-04T04:25:35+00:00",
-    "changeLog": "Alpha 17 Update of ShieldsBasic Mod",
-    "deprecated": true
-  },
-  {
-    "id": "ED-CheatReactor",
-    "name": "ED-CheatReactor",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nAdds a Reactor that produces a lot of Power, is Built Instantly and for Free. \nIt goes without saying that this is in no way balanced and should only be used for testing or cheating.\n\nI know that there is a debug power option in the menu, but I find this more helpful for testing.",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-CheatReactor/master/ED-CheatReactor/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-CheatReactor",
-    "issues": "https://github.com/jaxxa/ED-CheatReactor/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-CheatReactor/releases/download/0.17.0/ED-CheatReactor_0.17.0.zip",
-      "steam": "710101929"
-    },
-    "created": "2017-05-28T21:22:33+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
-    "id": "ED-ReverseCycleCooler",
-    "name": "ED-ReverseCycleCooler",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nMod allows the Cooler to work as a Reverse Cycle Air Conditioner. It can be used to Cool a Room as it can in the base game, it can now additionally be used to Heat a room, in heating mode it will output heat into its target room while dumping cool ait in its output. It can additionally be set to Automatic so that it will Heat or Cool a room to a target Temperature. \nAdditionally the mod adds a button that allows you to rotate already placed coolers in case it has been placed incorrectly.",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-ReverseCycleCooler/master/ED-ReverseCycleCooler/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-ReverseCycleCooler",
-    "issues": "https://github.com/jaxxa/ED-ReverseCycleCooler/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-ReverseCycleCooler/releases/download/0.17.0/ED-ReverseCycleCooler_0.17.0.zip",
-      "steam": "722092523"
-    },
-    "created": "2017-06-04T04:01:02+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
-    "id": "ED-OmniGel",
-    "name": "ED-OmniGel",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\n\nAdds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal\n\nRecipes:\n\nThe following are the resources that are available from the various levels of the replicator.\n\nMK1:\n10 OmniGel -> 1 ChunkSlag\n10 OmniGel -> 1 ChunkRock \n\nMK2:\n40 OmniGel -> 20 Steel\n40 OmniGel -> 30 Silver\n30 OmniGel -> 3 Gold\n\nMK3:\n60 OmniGel -> 4 plasteel\n60 OmniGel -> 10 Uranium\n50 OmniGel -> 10 Jade\n\n40 OmniGel -> 2 Medicine\n40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-OmniGel/master/ED-OmniGel/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-OmniGel",
-    "issues": "https://github.com/jaxxa/ED-OmniGel/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-OmniGel/releases/download/0.17.0/ED-OmniGel_0.17.0.zip",
-      "steam": "722088674"
-    },
-    "created": "2017-05-28T22:05:48+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
-    "id": "ED-ReinforcedStuff",
-    "name": "ED-ReinforcedStuff",
-    "version": "0.17.0",
-    "targetGameVersion": "0.17.0",
-    "authors": "jaxxa",
-    "description": "Version: 0.17.0\n\t\nAdds a Reinforced version of some Stuff. This allows for stronger constructions. Reinforced stuff has 10x the hitpoints but at 10x build time. Reinforced Stuff is made from 10 Normal Stuff in a Molecular Reinforcement Compressor. Currently Reinforced Stuff can be made from Steel, Plasteel, Wood, Stone, Silver, Gold, Uranium and Jade .",
-    "preview": "https://raw.githubusercontent.com/jaxxa/ED-ReinforcedStuff/master/ED-ReinforcedStuff/About/Preview.png",
-    "homePage": "https://github.com/jaxxa/ED-ReinforcedStuff",
-    "issues": "https://github.com/jaxxa/ED-ReinforcedStuff/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/jaxxa/ED-ReinforcedStuff/releases/download/0.17.0/ED-ReinforcedStuff_0.17.0.zip",
-      "steam": "722090464"
-    },
-    "created": "2017-06-04T03:57:52+00:00",
-    "changeLog": "Alpha 17 Update"
-  },
-  {
     "id": "AlienRaces",
     "name": "Humanoid Alien Races 2.0",
     "version": "2.1.5",
@@ -6887,7 +6742,7 @@
     "changeLog": "Alpha 17 Update"
   },
   {
-    "id": "EDLaserdrill",
+    "id": "EDLaserDrill",
     "name": "ED-Laser Drill",
     "version": "0.17.0",
     "targetGameVersion": "0.17.0",
@@ -7510,5 +7365,503 @@
     },
     "created": "2017-06-09T16:06:50+00:00",
     "changeLog": "Initial release of the mod"
+  },
+  {
+    "id": "MVT",
+    "name": "More Vanilla Turrets",
+    "version": "1.8.5",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Marnador",
+    "description": "A little mod that adds more turret variations with the attempt to keep their vanilla art style along with some careful balancing.",
+    "shortDescription": "A little mod that adds more turret variations with the attempt to keep their vanilla art style along with some careful balancing.",
+    "preview": "http://img.photobucket.com/albums/v166/sod.x/MVT-logo_1.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=9521.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=9521.0",
+    "category": "Content",
+    "source": {
+      "dropbox": "https://www.dropbox.com/s/xpok21jhe3h6u7t/More%20Vanilla%20Turrets1.8.5A17.zip?dl=0",
+      "steam": "730528968"
+    },
+    "created": "2017-05-24T17:42:46+00:00",
+    "changeLog": "*Added research tabs for less cluttered research.\n*Fixed turret heads sometimes spawning in pirate camps as loot."
+  },
+  {
+    "id": "QualityBuilder",
+    "name": "Quality Builder",
+    "version": "1.0.6",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Hatti",
+    "description": "With QualityBuilder all buildings that have quality (beds, tables etc) will only be build by the best builder to ensure the best outgoing quality. Every other constructor will be able to bring in the materials, but only the best one will build it.\r\n\r\nIf you know Skilledbuilder, you know that QualityBuilder do the same thing?!\r\n\r\nWhy use QualityBuilder if there is already a mod that makes this?\r\n\r\nWith QualityBuilder you are able to set a minimum quality you want on a Object you want to build.\r\nTired of placing, deconstructing and replacing 100 of beds just to get some decent ones? This has an end now! You can set the minimum quality you want to get from you selected objects.\r\n\r\nIf the finished object does not met your minimum quality requirements, it will get deconstructed and replaced in same position and same stuff.\r\n",
+    "preview": "http://fs5.directupload.net/images/160830/hxjvjxea.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=25188.msg257433#msg257433",
+    "issues": "https://ludeon.com/forums/index.php?topic=25188.msg257433#msg257433",
+    "category": "Gameplay",
+    "source": {
+      "dropbox": "https://www.dropbox.com/s/0jgcy7tzu5qntcz/QualityBuilder.rar",
+      "steam": "754637870"
+    },
+    "created": "2017-05-24T17:42:46+00:00",
+    "changeLog": "Fixed issue that nothing with QualityBuilder designation will be build, if the best constructor is incapable of moving or manipulation. The next best constructor will build instead."
+  },
+  {
+    "id": "RTWeaponPack",
+    "name": "RT's Weapon Pack ",
+    "version": "0.17.1-05282017",
+    "targetGameVersion": "0.17.1546",
+    "authors": "rhtstm",
+    "description": "This mod adds a ton of new weapons for colonists to craft, trade, and fight with.\r\nNote:\r\n✔New weapons are well balanced to fit with the default weapons as best as they can.\r\n✔Each update will contain at least 1 new weapon, plus bug fix and balance tweaks. \r\n✔Please report if any errors occurred!\r\n",
+    "shortDescription": "This mod adds a ton of new weapons for colonists to craft, trade, and fight with.",
+    "preview": "http://i.imgur.com/SxIHePN.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=25272.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=25272.0",
+    "category": "Content",
+    "source": {
+      "dropbox": "https://www.dropbox.com/s/59k8zpv3y2n0rg0/RT%27s%20Weapon%20Pack05282017.zip?dl=0",
+      "steam": "730899625"
+    },
+    "created": "2017-05-28T17:42:46+00:00",
+    "changeLog": "Steyr SSG 08 Sniper Rifle\r\nSound Fx\r\nWeapon Stats adjust\r\nEquipped weapon offset stats (Some weapon now have positive/negative stat attributes)"
+  },
+  {
+    "id": "Hospitality",
+    "name": "Hospitality",
+    "version": "1.8.5",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Orion",
+    "description": "Have you been wondering what the point of visiting factions is? Look no further, this mod is the answer.\r\n\r\n- Convince visitors to join your faction!\r\n- Increase faction relationships!\r\n- Treat visitors well by providing them with rooms, guest beds and joy activities!\r\n- Sell junk by placing it in their rooms!\r\n- Rescued characters can decide to join you!\r\n- Joining wanderers or refugees are firstly selected from related / well-known characters!\r\n\r\nYou can improve relationships by having your colonists entertain your guests. In return, using silver to improve relationships now gets more expensive every time you do it.\r\n\r\nIn order to recruit a guest, you have to increase their trust in your colonists. Hanging out with them will help, and having someone with a high social skill try and recruit them is required as well. The difficulty is based on how many colonists you already have. Once successful, they will join your faction right away.\r\n\r\nGuests stay in their selected area. Make sure you create an area specifically for guests (this is done with the area tools, just as with animals). \r\n\r\nTo please a visiting faction provide quality guest beds, joy objects, and a pretty environment. If they liked their stay, they might leave silver or items for you. It also affects your relationship with that faction. If the relationship with a visiting faction is high, they will also bring more silver and more items.\r\n\r\nIf you have items lying around in the guest area, guests will buy them if they like the item and have the money.\r\n",
+    "preview": "http://ufo2.site44.com/Hospitality/Preview.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=11444.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=11444.0",
+    "category": "Gameplay",
+    "source": {
+      "dropbox": "https://www.dropbox.com/sh/jmpa0g3vc9avvff/AAAW6s3ThNnHw1SPtuSPLp2Sa?dl=0",
+      "steam": "753498552"
+    },
+    "created": "2017-05-24T17:42:46+00:00",
+    "changeLog": "- Fix: Added check against interacting too quickly\r\n- Tweak: Pawns close to base will count towards colonists for guests\r\n- Fix: Attempt at fixing pawns spawning not as guests\r\n- Fix: Beds now stay selected after toggling guest mode\r\n- New: French translation included"
+  },
+  {
+    "id": "EPOE",
+    "name": "Expanded Prosthetics and Organ Engineering 2.0",
+    "version": "2.0.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Ykara",
+    "description": "Overview:\nThis mod gives you the ability to craft your own prostheses and artificial organs. Starting with basic prostheses like a peg leg or a hook hand, you can research everything you can think about: Simple prostheses like the vanilla ones and some new, bionic body parts and even advanced bionics. But to get advanced bionics you have to do plenty of research and they're also pretty expensive to craft. \nIf you tend to lose your organs, this mod helps, too! You can research and craft surrogate and synthetic organs, so you never have to miss your kidney again! The mod is pretty big, there's enough work to do, so even in endgame there's something new to research, to craft and to buy available.\n \nCurrent main features:\n4 new workbenches \nCraft prostheses! There's a wide array from hook hands to exoskeleton suits and even brain implants!\nMany new parts like hook hands, a silent jaw, a brain stimulator, bionic spines, bionic hands and feet, advanced bionic eyes, medical ribs, exoskeleton suits, auxiliary AIs, cornea implants and many more!\nCraft organs! Go from rudimentary surrogate organs to high tech synthetic organs!\nCure brain damage using late game brain implants!\nTreat bad backs!\nFix scars!\nGive uranium a purpose! Upgrade bionics with this totally harmless material!\nStill not advanced enough? Buy rare Glitterworld Parts from traders\nNew traders: The textile trader and the prostheses trader!\nTons of new research projects!\nBe Frankenstein! Harvest organs and install them somewhere else!\nNot brutal enough? Mince spare natural body parts at the butcher table!\nAll prostheses have their own category and trade tag: Basic prostheses, simple prostheses...\n\nWhat you can do:\nI'd really appreciate it if you guys could give me feedback\nReport bugs!\nSuggest new parts or features!\nHave fun!",
+    "preview": "https://steamuserimages-a.akamaihd.net/ugc/771651451521118568/0F01F2166F61F2E9E97F38E769C0DD6AD0B65097/",
+    "homePage": "https://ludeon.com/forums/index.php?topic=10571.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=10571.0",
+    "category": "Content",
+    "source": {
+      "dropbox": "https://www.dropbox.com/s/ht38v1tktefipca/EPOE%202.0.zip?dl=0",
+      "steam": "725956940"
+    },
+    "created": "2017-05-24T17:42:46+00:00",
+    "changeLog": "2.0 - A New Beginning! (24.05.2017)\n*  Restructured the workbenches and condensed them to 4\n*  Added a whole new range of new and even more advanced implants: Glitterworld Parts!\n*  Readded the option to mend scars!\n*  Removed Vancidium and replaced it with Uranium \n*  Replaced advanced components with energized components\n*  Added the option to install AI persona cores\n*  All items now have fitting colors\n*  Added the light detector\n*  Removed the option to harvest eyes\n*  Prosthetics Research now has its own tab!\n*  AI-Chip and Brain Stimulator are now implants\n*  Reworked the golden eye\n*  Energized components now have an unfinished item\n*  Adjusted absolutely all market values\n*  Finally renamed the artificial heart to synthetic heart\n*  Some miscellaneous description or recipe fixes\n"
+  },
+  {
+    "id": "ColonyManager",
+    "name": "Colony Manager",
+    "version": "0.17.1-7",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony, making sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A17, and there were a lot of changes. For now, the Production and Import & Export tabs have been disabled. The production tab will likely be permanently removed, and migrated to be it’s own mod. Import & Export has been buggy for a while, and needs to be rebuild.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n == removed ==\n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n == disabled ==\n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\nLauri7x3:    German translation\n\n<size=24>Version</size>\nThis is version v0.17.1.7",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.17.1.7/Colony.Manager.zip",
+      "steam": "715565262"
+    },
+    "created": "2017-06-10T17:06:49+00:00",
+    "changeLog": "refactor area cleaning code in an attempt to alleviate #45\nadd forbid option to manager benches\nrefactor toil (again), implement progressbar\nsplit up 'delay' and actual manage action so interrupted work doesn't get insta-completed.\ncheesy 'fix' for #57\nsort huntables by name, properly inject new huntables\nshow animals that are NOT hidden. ugh.\nadd count insect meat toggle, slightly refactor the way thingfilters are handled and stored.\ncheck if animals are hidden before adding them to hunting options"
+  },
+  {
+    "id": "BaseRobots",
+    "name": "Base Robots",
+    "version": "0.17.1-2",
+    "targetGameVersion": "0.17.0",
+    "authors": "bkjohnson",
+    "description": "This is meant to be used by other modders who want to create their own custom robots.\n\nSpecial thanks to Haplo_X1 - I relied heavily on his mod Misc. Robots",
+    "preview": "https://raw.githubusercontent.com/bkjohnson/BaseRobots/master/About/Preview.png",
+    "homePage": "https://github.com/bkjohnson/BaseRobots",
+    "issues": "https://github.com/bkjohnson/BaseRobots/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://api.github.com/repos/bkjohnson/BaseRobots/zipball/v0.17.1.2"
+    },
+    "created": "2017-06-06T04:49:54+00:00",
+    "changeLog": "+ Fix exhaustion bug\r\n+ Assign robots a default name so they can perform art w/o issue"
+  },
+  {
+    "id": "ColonyManager",
+    "name": "Colony Manager",
+    "version": "0.17.1-8",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony, making sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A17, and there were a lot of changes. For now, the Production and Import & Export tabs have been disabled. The production tab will likely be permanently removed, and migrated to be it’s own mod. Import & Export has been buggy for a while, and needs to be rebuild.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n == removed ==\n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n == disabled ==\n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\nLauri7x3:    German translation\n\n<size=24>Version</size>\nThis is version v0.17.1.8",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.17.1.8/Colony.Manager.zip",
+      "steam": "715565262"
+    },
+    "created": "2017-06-10T20:10:51+00:00",
+    "changeLog": "some extra null checking, should resolve #83"
+  },
+  {
+    "id": "WorkTab",
+    "name": "Work Tab",
+    "version": "0.17.0-6",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Provides a vastly more customizable work tab. \n\n<size=24>Important</size>\n<b>BETA release</b>\nThis should be considered a beta release. The basic functionality is confirmed to work, but there may be more elusive bugs still to be caught.\n\n<size=24>Features</size>\nVarious usability extentions to the ‘vanilla’ work tab; \n\n\nWork types can be expanded to allow you to set priorities for the individual tasks within each work type. \nTime scheduler to set priorities for a given time slot only - allows you to designate a cleaning hour, or have your cook prepare meals right before dinner, etc. etc. \nUp to 9 priority levels (configurable)\nVarious small UX tweaks, e.g. scrolling to increase/decrease/toggle priorities.\n\n<size=24>Notes</size>\nWith great power comes great responsibility. The default priorities of tasks within a job is set for a good reason; it’s a sensible default. Changing these can lead to deadlock situations, so change the priorities of individual jobs at your own risk! \n\nFinally, there will never be an ‘autolabour’ mode where a mod sets priorities for you. Due to the way the AI is handled (e.g. pawns actively look for work, instead of there being a ‘bulletin board’ of jobs that need doing), it’s not feasible to get the complete list of work that needs doing that would be needed to make this a reality, without extreme overhead and loads of special exception coding.\n\n<size=24>Contributors</size>\n\nBronytamin:    Russian translation\nDuduluu:    Chinese translation\nEric Swanson:    Help with time-dependent tooltips\nDoctorVanGogh:    Help with typos in build script\n\n<size=24>Version</size>\nThis is version v0.17.0.6",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/455245034328307906/1B8398044257B7B174A724EAA42C5C9FF02F8857/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/WorkTab/releases/download/v0.17.0.6/Work.Tab.zip",
+      "steam": "725219116"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "created": "2017-06-10T22:20:34+00:00",
+    "changeLog": "hook up timed priorities backend\n16x16 icons are just better.\nstart implementing maintab drawer"
+  },
+  {
+    "id": "ZEN",
+    "name": "Zen Garden",
+    "version": "17.6.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds decorative garden stuff.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/ZEN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/ZEN",
+    "issues": "https://github.com/cuproPanda/ZEN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/ZEN/zipball/17.06",
+      "steam": "936490768"
+    },
+    "created": "2017-06-05T22:09:53+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "QRY",
+    "name": "Quarry",
+    "version": "17.21.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds a quarry for mining in flat terrain.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/QRY/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/QRY",
+    "issues": "https://github.com/cuproPanda/QRY/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/QRY/zipball/17.21"
+    },
+    "created": "2017-06-10T16:08:03+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "EXP",
+    "name": "Expanded Power",
+    "version": "17.15.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new power features and expands existing ones.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/EXP/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/EXP",
+    "issues": "https://github.com/cuproPanda/EXP/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/EXP/zipball/17.15",
+      "steam": "936490335"
+    },
+    "created": "2017-06-09T19:54:39+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CPD",
+    "name": "Cupro's Drinks",
+    "version": "17.24.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Allows brewing of sodas, alcohol, and other drinks.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CPD/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CPD",
+    "issues": "https://github.com/cuproPanda/CPD/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CPD/zipball/17.24",
+      "steam": "936487181"
+    },
+    "created": "2017-06-03T21:55:50+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "AJO",
+    "name": "Additional Joy Objects",
+    "version": "17.11.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new objects and activities that bring joy to colonists.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/AJO/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/AJO",
+    "issues": "https://github.com/cuproPanda/AJO/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/AJO/zipball/17.011",
+      "steam": "936486725"
+    },
+    "created": "2017-06-09T19:54:07+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.12.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.12",
+      "steam": "936487414"
+    },
+    "created": "2017-06-04T19:40:06+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CAL",
+    "name": "Cupro's Alloys",
+    "version": "17.5.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new ores and alloyed metals for creating buildings, weapons, and art.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CAL/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CAL",
+    "issues": "https://github.com/cuproPanda/CAL/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CAL/zipball/17.05",
+      "steam": "936486992"
+    },
+    "created": "2017-06-03T21:55:32+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "WIN",
+    "name": "Windows",
+    "version": "17.2.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds windows to the game, allowing sunlight to pass through walls. Windows can provide enough sunlight to grow crops.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/WIN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/WIN",
+    "issues": "https://github.com/cuproPanda/WIN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/WIN/zipball/17.02",
+      "steam": "939878084"
+    },
+    "created": "2017-06-09T09:09:23+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "POW",
+    "name": "Powerless!",
+    "version": "17.24.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new features for an early colony or one without power.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/POW/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/POW",
+    "issues": "https://github.com/cuproPanda/POW/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/POW/zipball/17.24",
+      "steam": "936490437"
+    },
+    "created": "2017-06-09T13:49:44+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "HandMeThatBrick",
+    "name": "Hand Me That Brick",
+    "version": "2.2.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "Colonists assigned to Hauling will deliver resources to blueprints and construction frames.\n\nHaulers won't actively construct if they are not assigned to construction.\n\nYou may toggle this behaviour by going into <color=orange>Options > Mod Settings</color>.",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/HandMeThatBrick/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/HandMeThatBrick",
+    "issues": "https://github.com/DingoDjango/HandMeThatBrick/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/HandMeThatBrick/releases/download/a17_v2.2.17/Hand.Me.That.Brick.zip",
+      "steam": "776679895"
+    },
+    "created": "2017-06-03T21:35:26+00:00",
+    "changeLog": "Recompiled assembly to make sure it works with the latest A17 hotfix."
+  },
+  {
+    "id": "RefactoredWorkPriorities",
+    "name": "Refactored Work Priorities",
+    "version": "3.2.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "Grants you additional control over colonists, including some tweaks to their work priorities and schedules.\n\nThe mod includes an options menu (<color=orange>Options > Mod Settings</color>).",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/RefactoredWorkPriorities/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/RefactoredWorkPriorities",
+    "issues": "https://github.com/DingoDjango/RefactoredWorkPriorities/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/RefactoredWorkPriorities/releases/download/a17_v3.2.17/Refactored.Work.Priorities.zip",
+      "steam": "774989162"
+    },
+    "created": "2017-06-08T04:06:54+00:00",
+    "changeLog": "Reworked the A17 release to include some of the A16 features. Used the Mod class as a base and provided a menu in Mod Settings.\r\n\r\n- Injured animals will be fed by handlers instead of doctors.\r\n- Removing roofs prioritised above building roofs.\r\n- Custom repair threshold - you decide when repairs should be made.\r\n- Prioritise rottables - haul corn, meals etc. as a high priority.\r\n- Prioritise deterioratables - haul items as a high priority.\r\n- Set an item HP threshold to avoid prioritising items with low HP.\r\n\r\nAssembly version 3.2.17"
+  },
+  {
+    "id": "AutocloseEventNotifications",
+    "name": "Autoclose Event Notifications",
+    "version": "2.2.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "Ever get tired of right-clicking those notifications like \"New Lovers\" or \"Eclipse\"?\n\nThis mod automatically closes old notifications (default: after 12 in-game hours).\n\nBy default, only good (blue) and non-urgent (yellow) notifications are closed.\n\nYou can configure every aspect of the mod by going into <color=orange>Options > Mod Settings</color>.",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/AutocloseEventNotifications/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/AutocloseEventNotifications",
+    "issues": "https://github.com/DingoDjango/AutocloseEventNotifications/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/AutocloseEventNotifications/releases/download/a17_v2.2.17/Autoclose.Event.Notifications.zip",
+      "steam": "789311421"
+    },
+    "created": "2017-06-03T21:34:12+00:00",
+    "changeLog": "Recompiled assembly to make sure it works with the latest A17 hotfix."
+  },
+  {
+    "id": "CooksCanRefuel",
+    "name": "Cooks Can Refuel",
+    "version": "2.2.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "Allows cooks to refuel any fuel-powered food production workstations (including those added by mods).\n\nNo more chefs being lazy because your haulers are busy!",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/CooksCanRefuel/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/CooksCanRefuel",
+    "issues": "https://github.com/DingoDjango/CooksCanRefuel/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/CooksCanRefuel/releases/download/a17_v2.2.17/Cooks.Can.Refuel.zip",
+      "steam": "781383672"
+    },
+    "created": "2017-06-03T21:34:34+00:00",
+    "changeLog": "Recompiled assembly to make sure it works with the latest A17 hotfix."
+  },
+  {
+    "id": "GrenadeFixRearmed",
+    "name": "Grenade Fix: Rearmed",
+    "version": "2.2.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "This mod dynamically injects a minimum range to any weapon with an explosive projectile.\n\nAffects grenades, launchers, etc. including weapons added by mods.*\n\nThe minimum range is slightly larger than the weapon's explosion radius, ensuring that pawns won't explode themselves by accident.\n\n*If the weapon already has a safe minimum range (e.g. mortars) it will not be affected.",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/GrenadeFixRearmed/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/GrenadeFixRearmed",
+    "issues": "https://github.com/DingoDjango/GrenadeFixRearmed/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/GrenadeFixRearmed/releases/download/a17_v2.2.17/Grenade.Fix.Rearmed.zip",
+      "steam": "797360572"
+    },
+    "created": "2017-06-03T21:35:00+00:00",
+    "changeLog": "Recompiled assembly to make sure it works with the latest A17 hotfix."
+  },
+  {
+    "id": "ReasonableLamps",
+    "name": "Reasonable Lamps",
+    "version": "0.15.1284",
+    "targetGameVersion": "0.15.0",
+    "authors": "DingoDjango",
+    "description": "Tweaks lamps and sun lamps.\n\tStandings lamp power cost: 75 -> 30\n\tSun lamp work-to-make: 6 -> 11\n\tSun lamp steel cost: 25 -> 40\n\tSun lamp power cost: 1600 -> 800",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/ReasonableLamps/master/About/preview.png",
+    "homePage": "https://github.com/DingoDjango/ReasonableLamps",
+    "issues": "https://github.com/DingoDjango/ReasonableLamps/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/ReasonableLamps/releases/download/0.15.1284/A15c.Reasonable.Lamps.zip",
+      "steam": "763458250"
+    },
+    "created": "2016-09-14T11:33:59+00:00",
+    "changeLog": "Initial release.\n\nStandings lamp power cost: 75 -> 30\nSun lamp work-to-make: 6 -> 11\nSun lamp steel cost: 25 -> 40\nSun lamp power cost: 1600 -> 800\n"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.17.1-1",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.17.1.1\\n\\nExtends combat mechanics to make them deeper and more tactical.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.1/CombatExtended.zip"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "recommends": "CEGuns",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-06-10T22:53:14+00:00",
+    "changeLog": "- Removed manual targeting from auto-turrets.\r\n- Disabled regular pirates from spawning with doomsday and triple rocket launchers. Only heavies should use those.\r\n- Slightly buffed RPG-7 thermobaric rockets, 90mm HE shells.\r\n- Fixed RPG-7 frag grenades having wrong bulk\r\n\r\n### Mod compatibility\r\n- Added new patch operations FindMod and MakeGunCECompatible for mod makers\r\n- Added EPOE patch"
+  },
+  {
+    "id": "CEGuns",
+    "name": "Combat Extended Guns",
+    "version": "0.17.1-1",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 1.0\\n\\nAdds new guns to utilize CE mechanics.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.1/CombatExtendedGuns.zip"
+    },
+    "relationships": {
+      "requires": "CombatExtended"
+    },
+    "created": "2017-06-10T22:53:14+00:00",
+    "changeLog": "- Removed manual targeting from auto-turrets.\r\n- Disabled regular pirates from spawning with doomsday and triple rocket launchers. Only heavies should use those.\r\n- Slightly buffed RPG-7 thermobaric rockets, 90mm HE shells.\r\n- Fixed RPG-7 frag grenades having wrong bulk\r\n\r\n### Mod compatibility\r\n- Added new patch operations FindMod and MakeGunCECompatible for mod makers\r\n- Added EPOE patch"
+  },
+  {
+    "id": "StackXXL",
+    "name": "Stack XXL",
+    "version": "1.3.0-A17",
+    "targetGameVersion": "0.17.1536",
+    "authors": "Indeed",
+    "description": "Stack XXL\n\nIncrease the stack sizes however you wish!\nWant 10x, 20x or even 100x? Want to set different stack sizes for meat, meals and resources?\nYou came to the right place!\n\nRequirement: HugsLib\n\nIMPORTANT: PLEASE RESTRAT YOUR GAME AFTER CHANGING MOD SETTINGS!\n\n- Set stack size multipliers. Want 10x or 100x? you name it!\n- Set multiplier specified to each category. For example you can make meat stack to 750 (10x) while making meals stack to 300 (30x), maybe to balance thing out.",
+    "preview": "https://raw.githubusercontent.com/IndeedPlusPlus/RimworldStackXXL/master/RimworldStackXXL/Resources/About/Preview.png",
+    "homePage": "https://github.com/IndeedPlusPlus/RimworldStackXXL",
+    "issues": "https://github.com/IndeedPlusPlus/RimworldStackXXL/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/IndeedPlusPlus/RimworldStackXXL/releases/download/v1.3-A17/StackXXL.zip",
+      "steam": "826366050"
+    },
+    "created": "2017-05-15T14:46:24+00:00",
+    "changeLog": "- Simplified Chinese / Traditional Chinese Language support. by @BiscuitMiner \r\n- A17 update by @kPherox "
   }
 ]
