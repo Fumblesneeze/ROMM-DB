@@ -305,6 +305,24 @@
     },
     {
         "repoOwner": "notfood",
+        "repoName": "Rimworld-ResearchPal",
+        "definition": {
+            "id": "ResearchPal",
+            "category": "UI",
+            "authors": "Fluffy, Skyarkhangel, NotFood"
+        }
+    },
+    {
+        "repoOwner": "notfood",
+        "repoName": "Rimworld-HelpTab",
+        "definition": {
+            "id": "HelpTab",
+            "category": "UI",
+            "authors": "Fluffy, Skyarkhangel, NotFood"
+        }
+    },
+    {
+        "repoOwner": "notfood",
         "repoName": "Rimworld-SeedsPlease",
         "definition": {
             "id": "SeedsPlease",
@@ -1378,6 +1396,13 @@
             "category": "Content"
         }
     },
+    {
+        "repoOwner": "spdskatr",
+        "repoName": "ResearchableStatUpgrades",
+        "definition": {
+            "category": "Gameplay"
+        }
+    },
 
 
     // Lazevedo's mods
@@ -1739,6 +1764,7 @@
         "fileFilter": "^A16.RollingTable_SK\\.rar$",
         "definition": {
             "id": "RollingTableSK",
+            "name": "Rolling Table (Hardcore SK)",
             "category": "Content",
             "relationships": {
                 "patches": [ "RollingTable", "HardcoreSK" ],
@@ -1896,6 +1922,10 @@
     },
     {
         "repoOwner": "kaptain-kavern",
+        "repoName": "CK_AnimalPlant_Pack"
+    },
+    {
+        "repoOwner": "kaptain-kavern",
         "repoName": "Less-Rebuff",
         "definition": {
             "category": "Gameplay"
@@ -2010,6 +2040,76 @@
             "id": "StackXXL",
             "authors": "Indeed",
             "category": "Gameplay"
+        }
+    },
+
+    // sam's mods
+    {
+        "repoOwner": "sam23694",
+        "repoName": "GlitterTech",
+        "definition": {
+            "authors": "Sam",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "sam23694",
+        "repoName": "GlitterTechNS",
+        "definition": {
+            "authors": "Sam",
+            "category": "Content",
+            "relationships": {
+                "contains": "GlitterTech",
+                "alternatives": "GlitterTech"
+            }
+        }
+    },
+    {
+        "repoOwner": "sam23694",
+        "repoName": "TilledSoil",
+        "definition": {
+            "authors": "Sam",
+            "category": "Content"
+        }
+    },
+    {
+        "repoOwner": "sam23694",
+        "repoName": "DyeVat",
+        "definition": {
+            "authors": "Sam",
+            "category": "Content"
+        }
+    },
+
+    // jkluch's mods
+    {
+        "repoOwner": "jkluch",
+        "repoName": "HaulToStack",
+        "definition": {
+            "id": "HaulToStack",
+            "authors": "ItsComcastic",
+            "category": "Gameplay",
+            "source": {
+                "steam": "949498803"
+            },
+            "relationships": {
+                "requires": "HugsLib"
+            }
+        }
+    },
+
+    // yliankuo's mods
+    {
+        "repoOwner": "yliankuo",
+        "repoName": "WaterPower",
+        "definition": {
+            "category": "Content",
+            "source": {
+                "steam": "934418281"
+            },
+            "relationships": {
+                "requires": "HugsLib"
+            }
         }
     }
 ]

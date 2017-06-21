@@ -955,6 +955,23 @@
   {
     "id": "BetterVents",
     "name": "BetterVents",
+    "version": "1.3.1",
+    "targetGameVersion": "0.17.0-unofficial",
+    "authors": "Skullywag",
+    "description": "Adds vents that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BetterVents/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/BetterVents",
+    "issues": "https://github.com/Skullywag/BetterVents/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/spdskatr/BetterVents/archive/master.zip"
+    },
+    "created": "2017-01-12T19:29:58+00:00",
+    "changeLog": "A17 update\n"
+  },
+  {
+    "id": "BetterVents",
+    "name": "BetterVents",
     "version": "1.3.0",
     "targetGameVersion": "0.16.1375",
     "authors": "Skullywag",
@@ -5314,30 +5331,6 @@
     "changeLog": "A table for rolling smokeleaf doobies. Produce in x1, x5, or x10.\r\n\r\nNew textures, Hardcore SK A16/17, and A17 early release version is attached."
   },
   {
-    "id": "RollingTableSK",
-    "name": "Rolling Table",
-    "version": "3.0.0",
-    "targetGameVersion": "0.16.1393",
-    "authors": "DrZhivago1",
-    "description": "\nA table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.\n\nCredits:\nXen- for helping me realize I was missing defs\nilawz- for texture modifications\n ",
-    "preview": "https://raw.githubusercontent.com/DrZhivago1/RollingTable/master/RollingTable/About/Preview.png",
-    "homePage": "https://github.com/DrZhivago1/RollingTable",
-    "issues": "https://github.com/DrZhivago1/RollingTable/issues",
-    "category": "Content",
-    "source": {
-      "github": "https://github.com/DrZhivago1/RollingTable/releases/download/v3.0/A16.RollingTable_SK.rar"
-    },
-    "relationships": {
-      "patches": [
-        "RollingTable",
-        "HardcoreSK"
-      ],
-      "contains": "RollingTable"
-    },
-    "created": "2017-05-05T11:59:33+00:00",
-    "changeLog": "A table for rolling smokeleaf doobies. Produce in x1, x5, or x10.\r\n\r\nNew textures, Hardcore SK A16/17, and A17 early release version is attached."
-  },
-  {
     "id": "RollingTable",
     "name": "Rolling Table",
     "version": "3.0.0",
@@ -5351,12 +5344,15 @@
     "source": {
       "github": "https://github.com/DrZhivago1/RollingTable/releases/download/v3.0/A17.RollingTable.rar"
     },
+    "relationships": {
+      "after": "VegetableGarden"
+    },
     "created": "2017-05-05T11:59:33+00:00",
     "changeLog": "A table for rolling smokeleaf doobies. Produce in x1, x5, or x10.\r\n\r\nNew textures, Hardcore SK A16/17, and A17 early release version is attached."
   },
   {
     "id": "RollingTableSK",
-    "name": "Rolling Table",
+    "name": "Rolling Table (Hardcore SK)",
     "version": "3.0.0",
     "targetGameVersion": "0.17.0",
     "authors": "DrZhivago1",
@@ -7863,5 +7859,977 @@
     },
     "created": "2017-05-15T14:46:24+00:00",
     "changeLog": "- Simplified Chinese / Traditional Chinese Language support. by @BiscuitMiner \r\n- A17 update by @kPherox "
+  },
+  {
+    "id": "GlitterTech",
+    "name": "Glitter Tech",
+    "version": "0.17.1546",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Sam",
+    "description": "Version 1.45 - GlitterTech adds a ton of shiny new and futuristic items found on the richer developed Glitter worlds. But, this expensive and illegal tech attracts attention of Glitter world Commandos.",
+    "preview": "https://raw.githubusercontent.com/sam23694/GlitterTech/master/About/Preview.png",
+    "homePage": "https://github.com/sam23694/GlitterTech",
+    "issues": "https://github.com/sam23694/GlitterTech/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/sam23694/GlitterTech/zipball/0.17.1546",
+      "steam": "725576127"
+    },
+    "created": "2017-06-09T02:53:51+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "GlitterTechNS",
+    "name": "Glitter Tech (No Surgery)",
+    "version": "0.17.1546",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Sam",
+    "description": "Version 1.45 - GlitterTech adds a ton of shiny new and futuristic items found on the richer developed Glitter worlds. But, this expensive and illegal tech attracts attention of Glitter world Commandos. This version has no advanced surgery for compatibility with other(better) mods.",
+    "preview": "https://raw.githubusercontent.com/sam23694/GlitterTechNS/master/About/Preview.png",
+    "homePage": "https://github.com/sam23694/GlitterTechNS",
+    "issues": "https://github.com/sam23694/GlitterTechNS/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/sam23694/GlitterTechNS/zipball/0.17.1546",
+      "steam": "725657237"
+    },
+    "relationships": {
+      "alternatives": "GlitterTech",
+      "contains": "GlitterTech"
+    },
+    "created": "2017-06-08T07:35:50+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "VegetableGarden",
+    "name": "Vegetable Garden",
+    "version": "5.4.4",
+    "targetGameVersion": "0.17.1546",
+    "authors": "dismar",
+    "description": "The vegetable garden adds new tiers of plants to research and grow. New meals, ways to cook them, some for health, and some for joy. New drugs. Food preservation. Cloth and leather production. New medicines production. Resources that can be renewed. And Tools used to enhance the way you grow and produce plants in the game.",
+    "preview": "https://steamuserimages-a.akamaihd.net/ugc/766021951999758757/ADE829228A7A877466C97178A2776F69BFDB128F/",
+    "homePage": "https://ludeon.com/forums/index.php?topic=12934.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=12934.0",
+    "category": "Content",
+    "source": {
+      "dropbox": "https://www.dropbox.com/s/a8gxe6ya04nfkqm/Vegetable%20Garden%205.4%20build%204.zip?dl=0",
+      "steam": "932240696"
+    },
+    "relationships": {
+      "compatible": [
+        "SeedsPlease",
+        "CPD"
+      ]
+    },
+    "support": "https://ko-fi.com/A4051PBT",
+    "created": "2017-06-08T07:35:50+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "TilledSoil",
+    "name": "Tilled Soil",
+    "version": "0.17.1546",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Sam",
+    "description": "A simple mod that adds tilled soil, the constructable version of rich soil.",
+    "shortDescription": "A simple mod that adds tilled soil, the constructable version of rich soil.",
+    "preview": "https://raw.githubusercontent.com/sam23694/TilledSoil/master/About/Preview.png",
+    "homePage": "https://github.com/sam23694/TilledSoil",
+    "issues": "https://github.com/sam23694/TilledSoil/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/sam23694/TilledSoil/zipball/0.17.1546",
+      "steam": "725747149"
+    },
+    "created": "2017-06-08T09:52:35+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "DyeVat",
+    "name": "Dye Vat",
+    "version": "0.17.1546",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Sam",
+    "description": "Adds a Dye Vat and the recipes to dye cloth.",
+    "shortDescription": "Adds a Dye Vat and the recipes to dye cloth.",
+    "preview": "https://raw.githubusercontent.com/sam23694/DyeVat/master/About/Preview.png",
+    "homePage": "https://github.com/sam23694/DyeVat",
+    "issues": "https://github.com/sam23694/DyeVat/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/sam23694/DyeVat/zipball/0.17.1546",
+      "steam": "740002420"
+    },
+    "created": "2017-06-08T07:29:58+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "StuffedFloors",
+    "name": "Stuffed Floors",
+    "version": "0.17.1-3",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Allows building floors out of stuff*.\n\n<size=24>Important</size>\nThis mod <i>requires</i> Architect Sense to be loaded before it. \n\nYou can safely add this mod to you save games, but <i>you can not remove it</i> from save games. (If you really must do this, you’ll have to remove all built stuffed floors added by this mod first).\n\n<size=24>Features</size>\nThis mod does two things. First, using Architect Sense it provides a framework for modders to define their own stuffed floor types. Second, it uses this framework to create a number of new floors that are stuffed. \n\n<b>For players</b>\nAdds several floor types (borrowed with permission from Telkir’s More Floors, CuproPanda’s Extra Floors and Pravus’ Fences and Floors) in a variety of stone, wood and metal types.\n\nWorks great with other mods that add more resources, e.g. Minerals and Materials Kura’s Extra Minerals, Extended Woodworking, Vegetable Garden and GlitterTech. \n\nThis mod also organizes and where needed, removes the floors added by Vanilla RimWorld, More Floors, Extended Woodworking, Minerals and Materials, GlitterTech, More Furniture, Vegetable Garden and Floored.\n\n<b>For modders</b>\nAdds a custom FloorTypeDef that derives from TerrainDef, and allows modders to create floortypes by setting a texture (grayscale for best effect, will be coloured by stuff) and a list of stuffCategories to generate terrain defs for. The resulting designators will be placed together in a category, and any vanilla or other mod’s terrains made obsolete can also be provided in the XML, and will then be hidden for the user (but not removed, so it won’t break save games).\n\n<size=24>Known issues</size>\nWhile this mod will happily generate more floors for any mods that add materials to the metallic, stony and/or woody stuff types, it only cleans up the floors added by mods that are explicitly supported. Any other mods that add floor types may appear as duplicates. If you encounter such an issue, or know of mods that add more floors, please let me know! \n\nDue to the extremely heavy-handed approach Erdelfs’ MinePlan Designator uses to inject his designators, <b>MinePlan Designator is incompatible with Architect Sense, and thus also with Stuffed Floors</b>.\n\n<size=24>Technical details</size>\n*: This mod doesn’t actually allow building stuffed floors. Rather, it spoofs this behaviour by generating TerrainDefs for each of the stuffDefs handed to it, and then using ArchitectSense to group these terrains together and give a user experience similar to stuff selection on buildings. This mod doesn’t do anything destructive, it doesn’t make any detours, and doesn’t remove any defs. It does however remove a number of designators from the architect in order to hide them from the user.\n\n<size=24>Powered by Harmony</size>\n\n\n<size=24>Contributors</size>\n\nTelkir:    Permission to use textures for many of the floors\nCuproPanda:    Permission to use textures for even more floors\nPravus:    Permission to use textures for yet more floors\nDarkSlayerEx:    Original idea, texture tweaks and moral support\nduduluu:    Chinese translations\nDoctorVanGogh:    Add Extended Woodworking + Vegetable Garden obsoletions\n\n<size=24>Version</size>\nThis is version v0.17.1.3",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/159151765533634297/1DF9C77518325BEBC98F6C0CC9E49DD8B8EB62E0/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/StuffedFloors/releases/download/v0.17.1.3/Stuffed.Floors.zip",
+      "steam": "853043503"
+    },
+    "relationships": {
+      "requires": [
+        "HugsLib",
+        "ArchitectSense"
+      ]
+    },
+    "created": "2017-06-12T19:47:17+00:00",
+    "changeLog": "Add Extended Woodworking + Vegetable Garden extra floors to obsoletion list (#6)"
+  },
+  {
+    "id": "SWTheForce",
+    "name": "Star Wars - The Force",
+    "version": "1.17.11",
+    "targetGameVersion": "0.17.0",
+    "authors": "jecrell",
+    "description": "Version 1.17.0.12\n\n\tThanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.\n\n\tProgramming by Jecrell.\n\tAssets and XML by Xen.\n\tLogo/Art designed by Harrison Gaushell (harrisongaushell.com)\n\n\tContributors:\n\tNackblad (Art)\n\tCpt. Ohu (Code - Ability Verb)\n\n\tPatreon Patrons:\n\tJedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black",
+    "preview": "https://raw.githubusercontent.com/jecrell/Star-Wars---The-Force/master/About/Preview.png",
+    "homePage": "https://github.com/jecrell/Star-Wars---The-Force",
+    "issues": "https://github.com/jecrell/Star-Wars---The-Force/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/jecrell/Star-Wars---The-Force/zipball/1.17.11",
+      "steam": "918226861"
+    },
+    "relationships": {
+      "requires": "JecTools"
+    },
+    "created": "2017-06-13T13:23:29+00:00",
+    "changeLog": "-Added Jedi hoods a few iterations ago.\r\n-Fixed an issue with the hoods due to a capitalization issue in the files."
+  },
+  {
+    "id": "ZEN",
+    "name": "Zen Garden",
+    "version": "17.7.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds decorative garden stuff.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/ZEN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/ZEN",
+    "issues": "https://github.com/cuproPanda/ZEN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/ZEN/zipball/17.07",
+      "steam": "936490768"
+    },
+    "created": "2017-06-12T07:54:25+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "QRY",
+    "name": "Quarry",
+    "version": "17.32.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds a quarry for mining in flat terrain.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/QRY/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/QRY",
+    "issues": "https://github.com/cuproPanda/QRY/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/QRY/zipball/17.32",
+      "steam": "942690136"
+    },
+    "created": "2017-06-13T06:20:57+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "EXP",
+    "name": "Expanded Power",
+    "version": "17.18.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new power features and expands existing ones.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/EXP/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/EXP",
+    "issues": "https://github.com/cuproPanda/EXP/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/EXP/zipball/17.18",
+      "steam": "936490335"
+    },
+    "created": "2017-06-12T19:18:56+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CPD",
+    "name": "Cupro's Drinks",
+    "version": "17.25.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Allows brewing of sodas, alcohol, and other drinks.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CPD/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CPD",
+    "issues": "https://github.com/cuproPanda/CPD/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CPD/zipball/17.25",
+      "steam": "936487181"
+    },
+    "created": "2017-06-12T19:18:31+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.13.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.13",
+      "steam": "936487414"
+    },
+    "created": "2017-06-12T19:19:53+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CAL",
+    "name": "Cupro's Alloys",
+    "version": "17.7.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new ores and alloyed metals for creating buildings, weapons, and art.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CAL/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CAL",
+    "issues": "https://github.com/cuproPanda/CAL/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CAL/zipball/17.07",
+      "steam": "936486992"
+    },
+    "created": "2017-06-12T19:17:49+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "WIN",
+    "name": "Windows",
+    "version": "17.4.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds windows to the game, allowing sunlight to pass through walls. Windows can provide enough sunlight to grow crops.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/WIN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/WIN",
+    "issues": "https://github.com/cuproPanda/WIN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/WIN/zipball/17.04",
+      "steam": "939878084"
+    },
+    "created": "2017-06-13T07:08:04+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "POW",
+    "name": "Powerless!",
+    "version": "17.27.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new features for an early colony or one without power.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/POW/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/POW",
+    "issues": "https://github.com/cuproPanda/POW/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/POW/zipball/17.27",
+      "steam": "936490437"
+    },
+    "created": "2017-06-12T22:57:42+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "RefactoredWorkPriorities",
+    "name": "Refactored Work Priorities",
+    "version": "3.3.17",
+    "targetGameVersion": "0.17.0",
+    "authors": "DingoDjango",
+    "description": "Grants you additional control over colonists, including some tweaks to their work priorities and schedules.\n\nThe mod includes an options menu (<color=orange>Options > Mod Settings</color>).",
+    "preview": "https://raw.githubusercontent.com/DingoDjango/RefactoredWorkPriorities/master/About/Preview.png",
+    "homePage": "https://github.com/DingoDjango/RefactoredWorkPriorities",
+    "issues": "https://github.com/DingoDjango/RefactoredWorkPriorities/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/DingoDjango/RefactoredWorkPriorities/releases/download/a17_v3.3.17/Refactored.Work.Priorities.zip",
+      "steam": "774989162"
+    },
+    "created": "2017-06-12T12:57:18+00:00",
+    "changeLog": "- Changed preview image.\r\n\r\n- Fixed users not being able to force repair when right clicking a building.\r\n\r\n- Added a Repair designator:\r\n* Used to flag buildings that will not be automatically repaired due to the current Repair Threshold setting.\r\n* Flagged buildings will ignore the threshold.\r\n* The designator will be removed when the building's current HP reaches its Maximum HP.\r\n\r\n- Added a Repair keybinding to the Architect section of the keybindings menu.\r\n\r\n- Repair icon courtesy of mrofa (credits can be found in the Steam Workshop page or Ludeon forums thread).\r\n\r\n- Minor code consistency changes."
+  },
+  {
+    "id": "HugsLib",
+    "name": "HugsLib",
+    "version": "3.1.1",
+    "targetGameVersion": "0.17.0",
+    "authors": "UnlimitedHugs",
+    "description": "<color=orange><b>Important: </b> This mod should be loaded right after Core to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 3.1.1",
+    "preview": "http://i.imgur.com/W8wAiTm.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=28066",
+    "issues": "https://ludeon.com/forums/index.php?topic=28066",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v3.1.1/HugsLib_3.1.1.zip",
+      "steam": "818773962"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-06-13T16:30:53+00:00",
+    "changeLog": "- Added ModBase.MapGenerated callback\n- Log uploader fix when running in low integrity mode\n- Updated translations: Russian, Spanish"
+  },
+  {
+    "id": "CPD",
+    "name": "Cupro's Drinks",
+    "version": "17.26.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Allows brewing of sodas, alcohol, and other drinks.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CPD/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CPD",
+    "issues": "https://github.com/cuproPanda/CPD/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CPD/zipball/17.26",
+      "steam": "936487181"
+    },
+    "created": "2017-06-13T20:30:27+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.14.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.14",
+      "steam": "936487414"
+    },
+    "created": "2017-06-13T20:31:24+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "POW",
+    "name": "Powerless!",
+    "version": "17.28.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new features for an early colony or one without power.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/POW/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/POW",
+    "issues": "https://github.com/cuproPanda/POW/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/POW/zipball/17.28",
+      "steam": "936490437"
+    },
+    "created": "2017-06-13T20:30:59+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "MedicalTab",
+    "name": "Medical Tab",
+    "version": "0.17.1-4",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Adds a comprehensive medical overview tab, showing your colonists’ health at a glance. \n\n<size=24>Important</size>\nDoes not require a new save game \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Note</size>\nThe medical tab was rebuild from the ground up for A17. That means many improvements, but possibly also some new bugs. Please let me know if you found any bugs, weird behaviours, or have a suggestion.\n\n<size=24>Features</size>\nShows vital medical statistics for Colonists, Animals, Prisoners, Visitors and Hostiles*.\nMedical care designation, including mass and default assignments\nOverview of bleeding rates, pain and infection/disease/immunity progress\nSee efficiency on all capabilities\nSchedule new operations and see planned operations\nSort by everything \n\n*: The hostile tab will by default only show downed hostiles, as I consider showing all hostiles cheating. There’s a toggle in the mod options to show all hostiles instead.\n\n<size=24>Powered by Harmony</size>\n\n\n<size=24>Contributors</size>\n\nRacoon:    German translation\nduduluu:    Chinese translation\nMossieuLeBlanc:    French translation\nkPherox:    A16 update\nBronytamin:    \nWNJStudio:    Updated chinese translation\n\n<size=24>Version</size>\nThis is version v0.17.1.4",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/MedicalTab/releases/download/v0.17.1.4/Medical.Tab.zip",
+      "steam": "715565817"
+    },
+    "created": "2017-06-14T19:17:50+00:00",
+    "changeLog": "add some null checks to part tag checks"
+  },
+  {
+    "id": "ColonyManager",
+    "name": "Colony Manager",
+    "version": "0.17.1-9",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony, making sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A17, and there were a lot of changes. For now, the Production and Import & Export tabs have been disabled. The production tab will likely be permanently removed, and migrated to be it’s own mod. Import & Export has been buggy for a while, and needs to be rebuild.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n == removed ==\n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n == disabled ==\n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\nLauri7x3:    German translation\nWell-sp:    Russian translation (update)\n\n<size=24>Version</size>\nThis is version v0.17.1.9",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.17.1.9/Colony.Manager.zip",
+      "steam": "715565262"
+    },
+    "created": "2017-06-14T19:27:59+00:00",
+    "changeLog": "update Russian translation"
+  },
+  {
+    "id": "FluffyBreakdowns",
+    "name": "Fluffy Breakdowns",
+    "version": "0.17.1-7",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Replaces random breakdowns with a maintenance requirement.\n\n<size=24>Features</size>\nBuildings using components will now gradually deteriorate. The odds of a breakdown happening (and requiring replacement components), is directly linked to the amount of deterioration. \n\nTo keep your machinery in top shape, your colonists with the construction work enabled will periodically maintain components. As long as components are properly maintained, they cannot randomly break down. \n\n<size=24>Notes</size>\nI’m very interested in any feedback on how these changes affect the difficulty of the game. I’ve tried to balance it so that it’s not too hard/easy - but I’m just one person with one playstyle.\n\n<size=24>Powered by Harmony</size>\n\n\n<size=24>Contributors</size>\n\nduduluu:    Chinese translations\nGabriel David:    Brazilian Portuguese translation\nWell-sp:    Russian translation\n\n<size=24>Version</size>\nThis is version v0.17.1.7",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/448490044326547742/66B52217CFB4689D309EC9CF0CB1FD5CE58A12BA/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/FluffyBreakdowns/releases/download/v0.17.1.7/Fluffy.Breakdowns.zip",
+      "steam": "726244033"
+    },
+    "created": "2017-06-14T19:23:37+00:00",
+    "changeLog": "add Russian translation (thanks Well-sp)\nadd the ability to manipulate as a job requirement"
+  },
+  {
+    "id": "EdBPrepareCarefully",
+    "name": "EdB Prepare Carefully",
+    "version": "0.17.1-6",
+    "targetGameVersion": "0.17.1557",
+    "authors": "EdB",
+    "description": "Customize your colonists, choose your gear and prepare carefully for your crash landing!\n\nIf you get a set of starting colonists that you like, save them as a preset so that you can start your game the same way next time.\n\n[Version 0.17.1.6]",
+    "preview": "https://github.com/edbmods/EdBPrepareCarefully/blob/develop/Resources/About/preview.png?raw=true",
+    "homePage": "https://ludeon.com/forums/index.php?topic=6261.0",
+    "issues": "https://github.com/edbmods/EdBPrepareCarefully/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/edbmods/EdBPrepareCarefully/releases/download/v0.17.1.6/EdBPrepareCarefully-0.17.1.6.zip"
+    },
+    "created": "2017-06-17T03:46:21+00:00",
+    "changeLog": "This is the latest release of the mod for RimWorld Alpha 17.  It includes bug fixes for issues that were in the previous version, along with a new user interface for managing implants and bionics.\r\n\r\nYou should be running at least version 0.17.1557 of the game to use this release of mod.\r\n\r\nTo install:\r\n1. Download the `EdBPrepareCarefully-0.17.1.6.zip` file.  Ignore the \"Source Code\" links.  You don't need those if you're just trying to install the mod.\r\n2. Find your RimWorld `Mods` directory. \r\n3. Extract the contents of the downloaded zip into the `Mods` directory.  Make sure that you don't accidentally \"double-extract\" the contents.  You should have a `Mods/EdBPrepareCarefully` directory, _not_ a `Mods/EdBPrepareCarefully/EdBPrepareCarefully` directory.\r\n4. If you're using Steam, be sure to disable the workshop version of the mod if you've subscribed to it.  It's very important that you only have the Alpha 17 version of the mod enabled when playing Alpha 17 and that you only have the Alpha 16 version of the mod enabled when you're playing Alpha 16.  Never have more than one version of Prepare Carefully enabled at the same time."
+  },
+  {
+    "id": "EDEmbrasures",
+    "name": "ED-Embrasures",
+    "version": "0.17.1",
+    "targetGameVersion": "0.17.0",
+    "authors": "jaxxa",
+    "description": "Version: 0.17.1\n\t\nDiscussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995\n\nAdds embrasures for that can be shot through, while blocking passage.",
+    "preview": "https://raw.githubusercontent.com/jaxxa/ED-Embrasures/master/ED-Embrasures/About/Preview.png",
+    "homePage": "https://github.com/jaxxa/ED-Embrasures",
+    "issues": "https://github.com/jaxxa/ED-Embrasures/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/jaxxa/ED-Embrasures/releases/download/0.17.1/ED-Embrasures_0.17.1.zip",
+      "steam": "722085442"
+    },
+    "created": "2017-06-12T07:34:29+00:00",
+    "changeLog": "0.17.1\r\n* Removing targeting fix information.\r\n* Graphical Pass."
+  },
+  {
+    "id": "Industrialisation",
+    "name": "Industrialisation",
+    "version": "0.17.0-6",
+    "targetGameVersion": "0.17.1557",
+    "authors": "eatKenny",
+    "description": "Adds some heavy industries to the game.\n\nOriginal Author: eatKenny  \nCurrent Maintainer: duduluu  \n\n<color=#ffee58><b>Compatible with existing save and other mods, enjoy it.</b></color>\n\n<color=#ffee58><b>How to build a deep mine:</b></color>\n 1. Buy a 'skydriller callmaker'\n 2. Install and active it\n 3. Wait for the plasma beam to make a 'mine hole'\n 4. Build a 'deep mine' on the mine hole\n\n<color=#ffee58><b>New stuff:</b></color>\n - concrete  \n - high-grade steel  \n - copper  \n - aluminium\n\n<color=#ffee58><b>New bench:</b></color>\n - concrete mixer\n - electric arc furnace\n - deep mine (require research: deep drilling)\n\n<color=#ffee58><b>New power building:</b></color>\n - industrial cable\n - industrial battery\n - nuclear power plant\n\n<color=#ffee58><b>New trader ship:</b></color>\n - deep space mining ship\n\n<color=#ffee58><b>License</b></color>\n - Source code: MIT License https://opensource.org/licenses/MIT\n - Artwork: CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/",
+    "preview": "https://raw.githubusercontent.com/RimWorld-zh/eatKenny-Industrialisation/master/About/Preview.png",
+    "homePage": "https://github.com/RimWorld-zh/eatKenny-Industrialisation",
+    "issues": "https://github.com/RimWorld-zh/eatKenny-Industrialisation/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/RimWorld-zh/eatKenny-Industrialisation/releases/download/v0.17.0.6/Industrialisation_0.17.0.6.rar",
+      "steam": "863827593"
+    },
+    "created": "2017-06-18T12:41:37+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "JecsTools",
+    "name": "JecsTools",
+    "version": "1.0.4-9",
+    "targetGameVersion": "0.17.0",
+    "authors": "jecrell",
+    "description": "[1.0.4.9] Adds modding components to RimWorld: vehicles, spell casting, weapon slots, oversized weapons, and more!\n\nNote to players: This mod will not change your game, but rather it lets modders do more, so you can have an even more amazing RimWorld experience.\n\nNote to modders: This mod is filled with lots of tools that allow you to do many new and different things in RimWorld. Check out RoxxPloxx's guide for more info here: https://github.com/roxxploxx/RimWorldModGuide/wiki\n\nTotal list of components:\n\nCompAbilityUser\n - Adds spell/ability casting to humanlikes.\n\nCompActivatableEffect\n - Adds an activation graphic for weapons (e.g. lightsaber beam).\n\nCompDeflector\n - Allows the ability to knock projectiles to melee weapons.\n\nCompExtraSounds\n - Allows extra melee sounds to weapons.\n\nCompLumbering\n - Makes a staggered walking animation. (e.g. ATST walking effect)\n\nCompOversizedWeapon\n - Allows weapons with graphic sizes that can be bigger than RimWorld's limits.\n\nCompSlotLoadable\n - Adds slots to objects that can be filled to have effects. (e.g. different ammo types for guns, crystals for lightsabers)\n\nCompToggleDef (by Roxxploxx)\n- Allows for something to despawn, change its def, and respawn.\n\nCompVehicle (Experimental)\n - Allows for a pawn to be treated as a vehicle that can be loaded with pilots, gunners, crew, and passengers.\n\nCompInstalledPart (WIP)\n- Allows installation and uninstallation of things onto other things. This is particularly useful for weapons on vehicles.\n\nAdditions by roxxploxx.\nAdditions and transpilers by Erdelf.",
+    "preview": "https://raw.githubusercontent.com/jecrell/JecsTools/master/About/Preview.png",
+    "homePage": "https://github.com/jecrell/JecsTools",
+    "issues": "https://github.com/jecrell/JecsTools/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://api.github.com/repos/jecrell/JecsTools/zipball/1.0.4.9",
+      "steam": "932008009"
+    },
+    "created": "2017-06-14T15:14:01+00:00",
+    "changeLog": "Special thanks to Erdelf for being the hero that we all need and helping to patch this issue for DRM-Free users.\r\nIf issues persist, please let us know."
+  },
+  {
+    "id": "ZEN",
+    "name": "Zen Garden",
+    "version": "17.10.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds decorative garden stuff.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/ZEN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/ZEN",
+    "issues": "https://github.com/cuproPanda/ZEN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/ZEN/zipball/17.10",
+      "steam": "936490768"
+    },
+    "created": "2017-06-18T01:52:54+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.20.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.20",
+      "steam": "936487414"
+    },
+    "created": "2017-06-18T17:21:52+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CPD",
+    "name": "Cupro's Drinks",
+    "version": "17.28.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Allows brewing of sodas, alcohol, and other drinks.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CPD/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CPD",
+    "issues": "https://github.com/cuproPanda/CPD/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CPD/zipball/17.28",
+      "steam": "936487181"
+    },
+    "created": "2017-06-18T21:37:23+00:00",
+    "changeLog": "Barrels no longer consume more ingredients than they can hold"
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.21.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.21",
+      "steam": "936487414"
+    },
+    "created": "2017-06-18T19:03:55+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "HaulToStack",
+    "name": "HaulToStack",
+    "version": "0.0.1-2017169+github",
+    "targetGameVersion": "0.17.0",
+    "authors": "ItsComcastic",
+    "description": "<size=16>Version 0.17</size>\nInstead of hauling to random tiles your pawn *should* always haul to a stack if it has room on it\n  \n<size=16>Features</size>\nHaulers will check for an existing stack to add it's haul item onto.  Haulers no longer reserve the haul-to tile meaning multiple pawns can haul to the same tile at once.\n\n<size=16>(Potential) Issues</size>\nThis overwrites the builtin JobDriver_HaulToCell.  If any other mods overwrite the JobDriver for hauling this mod will throw errors.  This mod should be compatible with most other mods but let me know if you have any issues.\n\n<size=16>Recommendations</size>\nInstall Stack Merger by Fluffy in addition to this mod.  On rare occasions pawns could haul items that don't have an existing stock pile into different tiles.  Both pawns will look for a location to place the item at the same time.  If nothing exists they may pick different tiles for placing.  Fluffy's mod will handle those use cases.",
+    "preview": "https://raw.githubusercontent.com/jkluch/HaulToStack/master/Mods/HaulToStack/About/Preview.png",
+    "homePage": "https://github.com/jkluch/HaulToStack",
+    "issues": "https://github.com/jkluch/HaulToStack/issues",
+    "category": "Gameplay",
+    "source": {
+      "steam": "949498803",
+      "github": "https://github.com/jkluch/HaulToStack/archive/master.zip"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "created": "2017-06-18T06:33:15+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ABCSuit",
+    "name": "Toxic Fallout Protection Suit",
+    "version": "1.6.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Chaia",
+    "description": "Adds a protection suit against toxic fallout and modding capability for your own protection stuff (check the forum thread).",
+    "preview": "http://www.bilder-upload.eu/upload/ac0c7c-1468575296.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=21408.0",
+    "issues": "https://github.com/Chaia/ABC_Suit/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/Chaia/ABC_Suit/releases/download/V1.6/ABC_Suit.V1_6.rar",
+      "steam": "731878767"
+    },
+    "created": "2016-07-15T21:27:56+00:00",
+    "changeLog": "Changelog:\r\n\r\n- Updated to 0.17\r\n- Stages of ToxAway are now corrected (taking one ToxAway will only give low dose of it)\r\n- PowerArmor_AddOn now uses the vanilla method of altering defs. \r\nThis makes my AddOn compatible with other mods changing the power armor, unless they replace the whole <equippedStatOffsets> after my mod worked on it."
+  },
+  {
+    "id": "CKAnimalPlantPack",
+    "name": "CK -Tropical Animal and Plant Pack",
+    "version": "0.17.1",
+    "targetGameVersion": "0.17.0",
+    "authors": "kaptain-kavern",
+    "description": "The purpose of this mod is to add a significant amount of new animals and plants to the Tropical Rainforest Biome and increase it's fauna and flora diversity.",
+    "homePage": "https://github.com/kaptain-kavern/CK_AnimalPlant_Pack",
+    "issues": "https://github.com/kaptain-kavern/CK_AnimalPlant_Pack/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/kaptain-kavern/CK_AnimalPlant_Pack/releases/download/0.17.1/TropiCK_AnimalPlant_Pack.zip"
+    },
+    "created": "2017-06-17T13:56:56+00:00",
+    "changeLog": "## What changed?\r\n\r\n- Correcting the harvest bug by vastly reducing the time for harvest **Mahagonny Tree** & **Fig Strangler**\r\n- Added **Pith Helmet**\r\n_Protect from the Sun (as the cowboy hat) and give a little bonus in plant harvesting/cutting_\r\n![Pith Helmet](https://raw.githubusercontent.com/kaptain-kavern/CK_AnimalPlant_Pack/master/Textures/Things/Pawn/Humanlike/Apparel/SafariHat/SafariHat_front.png)\r\n- Added **2 modded floors**. Intended to be **used as path/track** in the forest (_Or to prepare an area for future construction_)\r\n_Both have no cost in material but can only be constructed on vegetation or diggable soil, respectively_\r\n\r\n![Trampled plants track](http://i.imgur.com/F30MMuT.jpg)\r\n\r\n__________\r\n\r\n## Patch/Addon\r\n\r\n- _[ADogSaid-Compatibility-Patch.zip](https://github.com/kaptain-kavern/CK_AnimalPlant_Pack/releases/download/0.17.0/ADogSaid-Compatibility-Patch.zip)_"
+  },
+  {
+    "id": "ResearchableStatUpgrades",
+    "name": "SS Researchable Stat Upgrades",
+    "version": "0.0.1-2017151+github",
+    "targetGameVersion": "0.17.1546",
+    "authors": "spdskatr",
+    "description": "Adds stat upgrades that can be researched.",
+    "preview": "https://raw.githubusercontent.com/spdskatr/ResearchableStatUpgrades/master/About/Preview.png",
+    "homePage": "https://github.com/spdskatr/ResearchableStatUpgrades",
+    "issues": "https://github.com/spdskatr/ResearchableStatUpgrades/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/spdskatr/ResearchableStatUpgrades/archive/master.zip",
+      "steam": "936594912"
+    },
+    "created": "2017-05-31T10:31:52+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "WaterPower",
+    "name": "Water Power",
+    "version": "0.0.1-2017167+github",
+    "targetGameVersion": "0.17.1546",
+    "authors": "yliankuo",
+    "description": "Adds new power generation buildings that use hydropower.\n        \n        Additions:\n        \n        Underwater Power Cable:\n            Designed to built underwater, as such is unbuildable on land. Cost: 2 Steel.\n            \n        Water Turbine:\n            Designed to generate power from river tiles. Increased power output during\n            rain/thunderstorms. Can only be built in deep moving water tiles.\n            \n        Tidal Plant:\n            Designed to generate from the ocean. Power output can be boosted by up to 300%\n            from the use of Tidal Turbines (10 max). Can only be built in shallow ocean\n            water tiles. Requires Tidal Power research.\n            \n        Tidal Turbine:\n            Boosts the power output of the tidal plant by 20%, boost can be stacked up to\n            10 times. Can only be built in ocean tiles. Requires Tidal Power research.\n            \n        Lighthouse:\n            Misc. building that produces light in a large area, only built on ocean tiles.\n            \n        v1.1.0\n        -Rebalanced/Reworked Water Turbine image/requirements/cost/output\n        -Added Tidal Plant and Tidal Turbines\n        -Added Lighthouse\n        v1.0.2\n        -Underwater Power Cables no longer block path\n        v1.0.1\n        -Balancing issues, modified power output from different water tiles.\n        -Added Electricity research requirement.\n        v1.0.0\n        -Initial Release\n        \n        Credits:\n        -Swenzi: Coding Mechanics\n        -Zairya: Textures\n        -Skratchey: Sounds\n        -DrizzlyBear: Bug Testing",
+    "preview": "https://raw.githubusercontent.com/yliankuo/WaterPower/master/WaterPower/About/preview.png",
+    "homePage": "https://github.com/yliankuo/WaterPower",
+    "issues": "https://github.com/yliankuo/WaterPower/issues",
+    "category": "Content",
+    "source": {
+      "steam": "934418281",
+      "github": "https://github.com/yliankuo/WaterPower/archive/master.zip"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "created": "2017-06-16T16:48:13+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "ResearchPal",
+    "name": "ResearchPal",
+    "version": "0.17.1-2",
+    "targetGameVersion": "0.17.0",
+    "authors": "Fluffy, Skyarkhangel, NotFood",
+    "description": "Making researching a breeze!\n    \nCredits:\n A17 Update by NotFood\n A16 Update by Skyarkhangel\n Original mod by Fluffy",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-ResearchPal/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-ResearchPal",
+    "issues": "https://github.com/notfood/Rimworld-ResearchPal/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-ResearchPal/releases/download/0.17.1.2/ResearchPal_0.17.1.2.zip"
+    },
+    "created": "2017-06-17T16:52:20+00:00",
+    "changeLog": "- Pause option\r\n- Show tech level for researches above current tech.\r\n"
+  },
+  {
+    "id": "HelpTab",
+    "name": "HelpTab",
+    "version": "0.17.1-1",
+    "targetGameVersion": "0.17.0",
+    "authors": "Fluffy, Skyarkhangel, NotFood",
+    "description": "A comprehensive help database \n    \nCredits:\n A17 Update by NotFood\n A16 Update by Skyarkhangel\n Original mod by Fluffy",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-HelpTab/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-HelpTab",
+    "issues": "https://github.com/notfood/Rimworld-HelpTab/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-HelpTab/releases/download/0.17.1.1/HelpTab_0.17.1.1.zip"
+    },
+    "created": "2017-06-15T00:51:00+00:00",
+    "changeLog": "- Fix for larger GUI scales."
+  },
+  {
+    "id": "COCCosmicHorrors",
+    "name": "Call of Cthulhu - Cosmic Horrors",
+    "version": "0.0.1-2017170+github",
+    "targetGameVersion": "0.17.0",
+    "authors": "jecrell",
+    "description": "V1.17.0.1\nContributors:\nJunkyard Joe (Writer)\ndrynyn (Writer)\nspoonshortage (Artist)\nWant to contribute? Get in touch with us in the workshop or Ludeon forums.\n\t\nThis is an attempt to create the minor races of H.P. Lovecraft's weird fiction mythos in the RimWorld engine. They behave the same as hostile factions that raid colonies such as mechanoids or insectoids. They are deadlier, however.\n\t\n\tCurrently Included Monsters:\n\t   *Star-Spawn of Cthulhu\n\t   *Shoggoths\n\t   *Mi-Go\n\t   *Deep Ones\n\t   *Star Vampire\n\t   *Dark Young\n\t   *NEW - Chthonian\n\t\n\tIncidents:\n\t   *Monster Raids\n\t   *Dark Young Herd\n\t   *Invisible Star Vampire Attack\n\t   *Chthonian Pit\n\t\n\tNotes:\n\tEach monster has its own unique anatomical skeletons, organs, and body parts. Some special powers were given to psionic beasts.\n\tEach monster has special sound effects.\n\tMore creatures will be added in updates in the future.\n\tSince I am one person, I can't attest to how balanced the monsters are, and I am definitely looking for feedback from player experiences. Let me know how they are in your game.\n\t\n\tV1.5 Update:\n\t\t*Chthonians\n\t\n\tV1.4 Update:\n\t\t*A16 Update\n\t\n\tV1.3 Update:\n\t    *Cosmic Horror Life Cycles\n\t\t*Cosmic Horror Insanity Loss Aura\n\t\t*Cosmic Horror Observed Moodlet\n\t\t*Greater Deep Ones\n\tV1.2 Update:\n\t\t*Star Vampires added as well as a Star Vampire incident.\n\t\n\tV1.1 Update:\n\t\t*Added strange meats to the game. These can be crafted from the butchers and cooked into strange meals. These meals are not recommended to be consumed by sane individuals wanting to keep their sanity intact.\n\t\t*Added leathers for all cosmic horrors.\n\t\n\tHave fun!",
+    "preview": "https://raw.githubusercontent.com/jecrell/Call-of-Cthulhu---Cosmic-Horrors/master/About/Preview.png",
+    "homePage": "https://github.com/jecrell/Call-of-Cthulhu---Cosmic-Horrors",
+    "issues": "https://github.com/jecrell/Call-of-Cthulhu---Cosmic-Horrors/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/jecrell/Call-of-Cthulhu---Cosmic-Horrors/archive/master.zip",
+      "steam": "765890823"
+    },
+    "created": "2017-06-19T05:04:31+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "CorrectedWorkgivers",
+    "name": "Corrected WorkGivers",
+    "version": "0.17.1",
+    "targetGameVersion": "0.17.0",
+    "authors": "kaptain-kavern",
+    "description": "Re-introduce the old \"Repair\" worktype, so now Construction and Repair are two different skills in the work-planner.\n\nAlso contain a XML patches that makes \"Stone Cutting\" depending on the \"Construction skill\" and bring back the old \"Repair\" worktype\n\nBe cautious to plan your work priorities accordingly.",
+    "homePage": "https://github.com/kaptain-kavern/Corrected-Workgivers",
+    "issues": "https://github.com/kaptain-kavern/Corrected-Workgivers/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/kaptain-kavern/Corrected-Workgivers/releases/download/0.17.1/Corrected-Workgivers.zip"
+    },
+    "created": "2017-06-19T03:27:59+00:00",
+    "changeLog": "Re-introduce the old \"Repair\" work type, so now Construction and Repair are two different skills in the work-planner.\r\n\r\n<p align=\"center\"><img src=\"http://i.imgur.com/KQCqT1o.jpg?2\" alt=\"Preview\"/></p>\r\n\r\n"
+  },
+  {
+    "id": "CAL",
+    "name": "Cupro's Alloys",
+    "version": "17.8.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new ores and alloyed metals for creating buildings, weapons, and art.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CAL/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CAL",
+    "issues": "https://github.com/cuproPanda/CAL/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CAL/zipball/17.08",
+      "steam": "936486992"
+    },
+    "created": "2017-06-19T00:01:05+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "ExtendedFabrics",
+    "name": "Extended Fabrics",
+    "version": "1.5.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "Skullywag",
+    "description": "Adds another step in fabric production, also makes Synthread and Hyperweave craftable.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedFabrics/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ExtendedFabrics",
+    "issues": "https://github.com/Skullywag/ExtendedFabrics/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ExtendedFabrics/zipball/ExtendedFabrics1.5"
+    },
+    "created": "2017-06-19T19:42:27+00:00",
+    "changeLog": "A17 Update.\r\n\r\nThanks Kap!"
+  },
+  {
+    "id": "ExtendedStorage",
+    "name": "Extended Storage Fluffy Harmonised",
+    "version": "2.1.0",
+    "targetGameVersion": "0.17.1554",
+    "authors": "Skullywag",
+    "description": "Adds additional storage buildings that multi stack items. Auto sort by Fluffy, Harmony by spdskatr",
+    "preview": "https://raw.githubusercontent.com/Skullywag/ExtendedStorage/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/ExtendedStorage",
+    "issues": "https://github.com/Skullywag/ExtendedStorage/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/ExtendedStorage/zipball/ExtendedStorage2.1"
+    },
+    "created": "2017-06-19T20:23:08+00:00",
+    "changeLog": "A17.\r\n\r\nFixed map and debug."
+  },
+  {
+    "id": "PersonalShieldMKII",
+    "name": "PersonalShieldMKII",
+    "version": "1.7.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "Skullywag",
+    "description": "Adds an expensive personal shield that allows shooting from within, charges slower than vanilla melee shield.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/PersonalShieldMKII/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/PersonalShieldMKII",
+    "issues": "https://github.com/Skullywag/PersonalShieldMKII/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/PersonalShieldMKII/zipball/PersonalShieldMKII1.7"
+    },
+    "created": "2017-06-19T19:46:00+00:00",
+    "changeLog": "A17 Release\r\n\r\nThanks Xen."
+  },
+  {
+    "id": "BetterVents",
+    "name": "Better Vents",
+    "version": "1.4.0",
+    "targetGameVersion": "0.17.1554",
+    "authors": "Skullywag",
+    "description": "Adds vents that sit inside walls and look friggin beautiful doing it, thank Latta for this. Updated to A17 by Spdskatr",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BetterVents/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/BetterVents",
+    "issues": "https://github.com/Skullywag/BetterVents/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/BetterVents/zipball/BetterVents1.4"
+    },
+    "created": "2017-06-19T19:41:22+00:00",
+    "changeLog": "A17 Update.\r\n\r\nThanks spdskatr."
+  },
+  {
+    "id": "LaserWeapons",
+    "name": "Laser Weapons",
+    "version": "1.7.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "Skullywag",
+    "description": "Adds laser weapons which have a chance at stunning the target.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/LaserWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/LaserWeapons",
+    "issues": "https://github.com/Skullywag/LaserWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/LaserWeapons/zipball/LaserWeapons1.7"
+    },
+    "created": "2017-06-19T19:43:18+00:00",
+    "changeLog": "A17 release\r\n\r\nThanks Xen."
+  },
+  {
+    "id": "GaussWeapons",
+    "name": "Gauss Weapons",
+    "version": "1.7.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "Skullywag",
+    "description": "Adds gauss weapons, highly accurate with lethal damage, slow to fire.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/GaussWeapons/master/About/preview.png",
+    "homePage": "https://github.com/Skullywag/GaussWeapons",
+    "issues": "https://github.com/Skullywag/GaussWeapons/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/GaussWeapons/zipball/GaussWeapons1.7"
+    },
+    "created": "2017-06-19T19:43:09+00:00",
+    "changeLog": "A17 Update\r\n\r\nThanks Xen."
+  },
+  {
+    "id": "VerifyStart",
+    "name": "Verify Start by scuba156",
+    "version": "1.1.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "TheUbie, scuba156",
+    "description": "A mod that checks your colonists stats before you press the button to start your adventure. This is compatible with EdB's Prepare Carefully Mod.\n\n    Based on Verify Start v1.1.2 by TheUbie\n\n    Version 1.1.0",
+    "preview": "https://raw.githubusercontent.com/scuba156/VerifyStartA17/master/VerifyStartA17/Output/VerifyStartA17/About/Preview.png",
+    "homePage": "https://github.com/scuba156/VerifyStartA17",
+    "issues": "https://github.com/scuba156/VerifyStartA17/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/scuba156/VerifyStartA17/releases/download/v1.1/VerifyStartA17.v1.1.zip"
+    },
+    "relationships": {
+      "compatible": "EdBPrepareCarefully"
+    },
+    "created": "2017-06-19T10:59:45+00:00",
+    "changeLog": "- Updated for Prepare Carefully now using Harmony\r\n- Clean up"
+  },
+  {
+    "id": "OHUDropships",
+    "name": "OHU Ships",
+    "version": "1.3.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Cpt-Ohu",
+    "description": "Version 1.3 A mod that adds aircraft for suborbital jumps to the game.",
+    "preview": "https://raw.githubusercontent.com/Cpt-Ohu/OHU-Dropships/master/About/Preview.png",
+    "homePage": "https://github.com/Cpt-Ohu/OHU-Dropships",
+    "issues": "https://github.com/Cpt-Ohu/OHU-Dropships/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Cpt-Ohu/OHU-Dropships/zipball/v1.3"
+    },
+    "created": "2017-06-20T04:54:15+00:00",
+    "changeLog": "This is the first relase since the Update to A17."
+  },
+  {
+    "id": "Warhammer40kCorruption",
+    "name": "Corruption",
+    "version": "0.89.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Cpt-Ohu",
+    "description": "Unstable A17 branch. A Warhammer 40k conversion mod. Unstable version. For now this is a proof of concept mod with a lot of placeholders and half-implemented features.",
+    "preview": "https://raw.githubusercontent.com/Cpt-Ohu/Warhammer40k-Corruption/master/About/Preview.png",
+    "homePage": "https://github.com/Cpt-Ohu/Warhammer40k-Corruption",
+    "issues": "https://github.com/Cpt-Ohu/Warhammer40k-Corruption/issues",
+    "category": "TotalConversion",
+    "source": {
+      "github": "https://api.github.com/repos/Cpt-Ohu/Warhammer40k-Corruption/zipball/v0.89"
+    },
+    "created": "2017-06-19T21:45:00+00:00",
+    "changeLog": "This is the first A17 release from an unstable branch. Expect errors and weird behaviour."
+  },
+  {
+    "id": "CorrectedWorkgivers",
+    "name": "Corrected WorkGivers",
+    "version": "0.17.2",
+    "targetGameVersion": "0.17.0",
+    "authors": "kaptain-kavern",
+    "description": "Re-introduce the old \"Repair\" work type, so now Construction and Repair are two different skills in the work-planner.\n\nMoves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing. As a counterbalance, trees can \"harvest fail\".\n\nAlso contain a XML patches that makes \"Stone Cutting\" depending on the \"Construction skill\" and bring back the old \"Repair\" work type.\n\n=====================================================================\n\n- Be cautious to plan your work priorities accordingly.\n- Note that now harvesting wood on tree can fail.\n- I highly recommend mixing it with XeoNovaDan's \"Plant cutting is for growers\" which shows the relevant skills. - Mehni",
+    "homePage": "https://github.com/kaptain-kavern/Corrected-Workgivers",
+    "issues": "https://github.com/kaptain-kavern/Corrected-Workgivers/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/kaptain-kavern/Corrected-Workgivers/releases/download/0.17.2/Corrected-Workgivers.zip"
+    },
+    "created": "2017-06-19T21:15:46+00:00",
+    "changeLog": "Moves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing.     \r\nAs a counterbalance, trees can \"harvest fail\"."
+  },
+  {
+    "id": "ZEN",
+    "name": "Zen Garden",
+    "version": "17.11.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds decorative garden stuff.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/ZEN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/ZEN",
+    "issues": "https://github.com/cuproPanda/ZEN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/ZEN/zipball/17.11",
+      "steam": "936490768"
+    },
+    "created": "2017-06-20T21:41:41+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "EXP",
+    "name": "Expanded Power",
+    "version": "17.19.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new power features and expands existing ones.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/EXP/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/EXP",
+    "issues": "https://github.com/cuproPanda/EXP/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/EXP/zipball/17.19",
+      "steam": "936490335"
+    },
+    "created": "2017-06-20T21:50:34+00:00",
+    "changeLog": ""
   }
 ]
