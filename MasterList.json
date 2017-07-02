@@ -8831,5 +8831,552 @@
     },
     "created": "2017-06-20T21:50:34+00:00",
     "changeLog": ""
+  },
+  {
+    "id": "MedicalTab",
+    "name": "Medical Tab",
+    "version": "0.17.1-5",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Adds a comprehensive medical overview tab, showing your colonists’ health at a glance. \n\n<size=24>Important</size>\nDoes not require a new save game \nCan safely be enabled/disabled in ongoing saves. \n\n<size=24>Note</size>\nThe medical tab was rebuild from the ground up for A17. That means many improvements, but possibly also some new bugs. Please let me know if you found any bugs, weird behaviours, or have a suggestion.\n\n<size=24>Features</size>\nShows vital medical statistics for Colonists, Animals, Prisoners, Visitors and Hostiles*.\nMedical care designation, including mass and default assignments\nOverview of bleeding rates, pain and infection/disease/immunity progress\nSee efficiency on all capabilities\nSchedule new operations and see planned operations\nSort by everything \n\n*: The hostile tab will by default only show downed hostiles, as I consider showing all hostiles cheating. There’s a toggle in the mod options to show all hostiles instead.\n\n<size=24>Powered by Harmony</size>\n\n\n<size=24>Contributors</size>\n\nRacoon:    German translation\nduduluu:    Chinese translation\nMossieuLeBlanc:    French translation\nkPherox:    A16 update\nBronytamin:    \nWNJStudio:    Updated chinese translation\n\n<size=24>Version</size>\nThis is version v0.17.1.5",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496101305/9CA1CAE01E5A7764577B2E71C0ED9128B7C71931/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "UI",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/MedicalTab/releases/download/v0.17.1.5/Medical.Tab.zip",
+      "steam": "715565817"
+    },
+    "created": "2017-06-22T21:49:17+00:00",
+    "changeLog": "Patch PawnColumnDef_Capacity and Update Chinese translations (#16)"
+  },
+  {
+    "id": "ColonyManager",
+    "name": "Colony Manager",
+    "version": "0.17.1-10",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Colony Manager allows you to make colonists do the more tedious parts of managing a colony, making sure you’re never out of vital resources again*. \n\n<size=24>Important</size>\n<b>Requires a new save game.</b>\nAdds a worktype, which is stored in the world, which means you need to start a new game after adding/removing this mod. \n\n<b>BETA VERSION</b>\nThis is the first release on A17, and there were a lot of changes. For now, the Production and Import & Export tabs have been disabled. The production tab will likely be permanently removed, and migrated to be it’s own mod. Import & Export has been buggy for a while, and needs to be rebuild.\n\n<size=24>Features</size>\n<b>Production Jobs</b>\n == removed ==\n\n<b>Hunting jobs</b>\n\n\nSet a target for meat, and never worry about designating hunting manually again! \nSet an area to clear of all predators - keep your home area safe! \n\n<b>Forestry jobs</b>\n\n\nSet a target for wood, and never worry about designating lumber manually again! \nAutomatically clear wind turbine catchment areas to ensure they’re working at maximum efficiency. \nSet an area to clear of all vegetation - make sure there’s no possible cover or retreat for any hostiles that dare attack you. \n\n<b>Livestock jobs</b>\n\n\nSet a target for animals (for four separate age/sex combinations), and pawns will auto-butcher and/or tame to manage your herd. \nRestrict animals to specific areas (for example to separate male/female animals and prevent breeding). \nAuto-butcher, tame and train according to your specifications. \n\n<b>Overview</b>\n\n\nClear overview of all jobs \nShow stock and designated levels for the last day, month and year \nShow pawns capable of a job, and set work status \nPrioritize jobs, the manager will handle prioritizing jobs on worktables (however standard priority ordering across worktables still applies). \n\n<b>Import & Export</b>\n == disabled ==\n\n<size=24>How does it work?</size>\nYou can manually set bills in the new Manager tab on the bottom of the screen. Once set, a colonist with the manager skill and worktype enabled will go to a manager station to figure out the best way to hand out jobs to individual workstations \nPeriodically, the manager will check if the assigned bills are still up-to-date, and make changes or delete bills where required. The manager will not touch bills that are set manually, nor will managers create jobs. You’re still the overlord. \nIn theory there is no real limit to the number of global bills that can be set. \n\n<size=24>Notes</size>\nRequires a new save. Adds a worktype, which in my tests gave errors on old savegames. \nShould work perfectly fine with other mods that add bills, assuming they do nothing too fancy/weird. (I’ve tested with various modpacks - screenshots were taken with the ModVarietyPack.) \n\n<size=24>Contributors</size>\n\nKapTaiN KaVerN:    Minifiable research benches\nMoumix3:    Research tweaks\nduduluu:    Chinese translation\nKirill:    \nMossieuLeBlanc:    French translation\nLauri7x3:    German translation\nWell-sp:    Russian translation (update)\n\n<size=24>Version</size>\nThis is version v0.17.1.10",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/445110482496098098/702508D5CD92C83E3446A1C28AE12A4555647E11/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/ColonyManager/releases/download/v0.17.1.10/Colony.Manager.zip",
+      "steam": "715565262"
+    },
+    "created": "2017-06-22T21:42:28+00:00",
+    "changeLog": "Update Chinese translations (#84)"
+  },
+  {
+    "id": "BirdsAndBees",
+    "name": "The Birds and the Bees",
+    "version": "0.17.1-6",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Fluffy",
+    "description": "Adds reproductive organs to the animals, and then you, raiders and time can take them away again. \n\n<b>Does NOT require a new save game</b> \nShould be fine to use with any other mod that adds animals, races, relations, or anything else. However, you can’t remove the mod from a game.\n\n<size=24>Features</size>\nAnimals (including humanoids) require reproductive organs to mate & and do lovin’. \n\n\nAdds reproductive organs to fleshy pawns (e.g., animals and colonists). \nSince reproductive organs are now a body part, they can be affected by external violence - including, but not limited to; gunfire, berserking colonists, frostbite, castration (neutering) and old age.\nReworks mating & lovin’ to take account of fertility stat. \n\n<size=24>Powered by Harmony</size>\n\n\n<size=24>Does this mod add the ability for colonists to have babies?</size>\n<i>No. Nor will I ever add this, so don’t ask.</i>\nThere’s a myriad of problems with adding colonist babies. There’s moral/ethical issues, but I don’t particularly care about those, I don’t see why making baby leather hats is worse than prisoner leather hats. \n\nWhat I do care about is gameplay. For me, two things are required to make babies actually fun. \n\nFirst, there needs to be systems around babies. If they’re just colonists or animals in behaviour, I don’t see the point. You’d have to have various interactions from parents with their children, amongst children, children with the environment, etc. etc. to really bring children alive. Then you’d also want to build in things like schools or at least some sort of internships/apprenticeships, the list goes on and on. \nThe problem with all of this is that it takes a huge amount of work - including a number of new gameplay mechanics. It’s something better suited for Tynan himself to add to the game. \n\nSecond, the timescale just doesn’t work. The average colony will last a couple of years, 10 if you’re in it for the long haul. Only rarely do colonies last longer than that. That would mean that there’s not really any room for progression, and I don’t see the fun in that. Adding cloning vats, time chambers, gro-quick drugs or whatever are weak solutions for a fundamental problem, and I don’t want to go that way. Changing the games timescale is pretty much impossible for mods to do. \n\n<i>TLDR; if you want babies, go ask Tynan.</i>\n\n<size=24>Contributors</size>\n\nkouyou:    Japanese translation\nDuduluu:    Chinese translations\n\n<size=24>Version</size>\nThis is version v0.17.1.6",
+    "preview": "http://images.akamai.steamusercontent.com/ugc/450745254171416572/333EC4B0B4EFA3887D2FB3B730D06E91E91943E3/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|637:358&composite-to%3D%2A%2C%2A%7C637%3A358&background-color=black",
+    "homePage": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "issues": "https://ludeon.com/forums/index.php?topic=16120.0",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/FluffierThanThou/BirdsAndBees/releases/download/v0.17.1.6/The.Birds.and.the.Bees.zip",
+      "steam": "751049133"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "created": "2017-06-22T21:40:30+00:00",
+    "changeLog": "Update Chinese translations (#15)"
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.17.1-2",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.17.1.2\\n\\nExtends combat mechanics to make them deeper and more tactical.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.2/CombatExtended.zip"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "recommends": "CEGuns",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-06-22T12:50:05+00:00",
+    "changeLog": "## Balance\r\n- Refactored ranged accuracy formula. Guns now have significantly less range error at close range, which was making them miss downed animals from point blank a lot.\r\n- Lead error and recoil increased across the board.\r\n- Aiming accuracy and weapon handling stats now have post-process curves, so a level 20 shooter with bionics will no longer have literally perfect accuracy and nail you with a 10-round burst snapshot from across the map.\r\n- Added new \"Prometheum-soaked\" hediff to Prometheum-based weapons. Upon hitting they apply the hediff, which increases flammability and automatically creates fire on pawn. Prometheum-soaked pawns cannot be extinguished fully until hediff is gone.\r\n- EMP weapons no longer deal secondary electrical damage. Instead all EMP damage applies 25% of its value as electrical to organics, 100% to Mechanoids.\r\n- Slightly nerfed charged ammo armor penetration.\r\n- Increased scarring rates for internal organs.\r\n- Rebalanced auto-turret accuracy. Regular auto-turrets now have significantly lower accuracy. Advanced turrets have better accuracy but still less than before.\r\n- Reduced auto-turret magazine capacity 200->100\r\n- Reduced the damage to weapon from parrying attacks.\r\n- Reduced fragmentation range of explosives by ~50%\r\n\r\n## Armor\r\n- Hard armor now always takes at least 1 point of damage from attacks, so high-quality power armor and plasteel shields are no longer literally invincible.\r\n- Power armor HP increased by 50%.\r\n- Advanced helmet reverted to pre-A17 recipe. Now stuffless, made from steel and Devilstrand.\r\n- Renamed advanced helmet to composite helmet.\r\n- Slightly decreased advanced helmet HP (in line with composite vest).\r\n- Power armor now requires Devilstrand to craft.\r\n\r\n## Crafting\r\n- Rebalanced weapon crafting costs and work to make. Increased component cost for more advanced firearms such as belt-fed MG's. Weapons with plastic parts now require chemfuel as ingredient.\r\n- Post-WWII era firearms now require new advanced firearms research to craft. Ammo still unlocks at machining.\r\n- Charge ammo requires charged shot research to craft.\r\n\r\n## Loadouts and inventory\r\n- Reverted assign tab UI to old button graphics for more space efficiency.\r\n- Refactored inventory generation. Most NPC's now have a chance to generate with faction-appropriate shields if they have a one-handed weapon, as well as sidearms and random ammo for all their ranged weapons.\r\n- Rebalanced raider weapon money and tags. Should no longer see random pirates carrying Doomsday launchers and M60's all the time.\r\n- Tribals can now spawn grenadiers which use stick bombs for sapping.\r\n- Drugs can now be ordered ingested directly from inventory, same as meals.\r\n\r\n## Other improvements\r\n- Hunters will now maintain optimal firing range if animal moves away and chase down fleeing animals.\r\n- Hunters will cut throat of downed animals (boomrats/boomalopes are still executed from range).\r\n- Using one-time use weapons like grenades or rocket launchers will now automatically equip another weapon, preferably of same type.\r\n- Ammo is now displayed in categorized resource list.\r\n- Weapon caliber and magazine stats are now listed under weapon stats, rather than item description. This should also fix a bug where weapons would not display those things in Prepare Carefully info-menu.\r\n- Grenades and binoculars now ignore partial cover obstructions when determining line of sight.\r\n\r\n## Compatibility\r\n- Added patch for Vanilla-Friendly Weapon Expansion.\r\n- Added patch for Hand and Footwear mod.\r\n- Added patch for Apparello\r\n\r\n## Bug fixes\r\n- Fixed various XML errors with weapon stats.\r\n- Fixed bows having wrong crafting materials.\r\n- Fixed various bugs with auto-turret ammo selection.\r\n- Fixed bullets hitting their shooter if target was in same tile as them.\r\n- Fixed bullets sometimes phasing through walls.\r\n- Fixed pawns with bionic arm being unable to equip shield.\r\n- Fixed various bugs with loadout pickups not working properly.\r\n- Misc other fixes."
+  },
+  {
+    "id": "CEGuns",
+    "name": "Combat Extended",
+    "version": "0.17.1-2",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.17.1.2\\n\\nExtends combat mechanics to make them deeper and more tactical.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.2/CombatExtended.zip"
+    },
+    "relationships": {
+      "requires": "CombatExtended"
+    },
+    "created": "2017-06-22T12:50:05+00:00",
+    "changeLog": "## Balance\r\n- Refactored ranged accuracy formula. Guns now have significantly less range error at close range, which was making them miss downed animals from point blank a lot.\r\n- Lead error and recoil increased across the board.\r\n- Aiming accuracy and weapon handling stats now have post-process curves, so a level 20 shooter with bionics will no longer have literally perfect accuracy and nail you with a 10-round burst snapshot from across the map.\r\n- Added new \"Prometheum-soaked\" hediff to Prometheum-based weapons. Upon hitting they apply the hediff, which increases flammability and automatically creates fire on pawn. Prometheum-soaked pawns cannot be extinguished fully until hediff is gone.\r\n- EMP weapons no longer deal secondary electrical damage. Instead all EMP damage applies 25% of its value as electrical to organics, 100% to Mechanoids.\r\n- Slightly nerfed charged ammo armor penetration.\r\n- Increased scarring rates for internal organs.\r\n- Rebalanced auto-turret accuracy. Regular auto-turrets now have significantly lower accuracy. Advanced turrets have better accuracy but still less than before.\r\n- Reduced auto-turret magazine capacity 200->100\r\n- Reduced the damage to weapon from parrying attacks.\r\n- Reduced fragmentation range of explosives by ~50%\r\n\r\n## Armor\r\n- Hard armor now always takes at least 1 point of damage from attacks, so high-quality power armor and plasteel shields are no longer literally invincible.\r\n- Power armor HP increased by 50%.\r\n- Advanced helmet reverted to pre-A17 recipe. Now stuffless, made from steel and Devilstrand.\r\n- Renamed advanced helmet to composite helmet.\r\n- Slightly decreased advanced helmet HP (in line with composite vest).\r\n- Power armor now requires Devilstrand to craft.\r\n\r\n## Crafting\r\n- Rebalanced weapon crafting costs and work to make. Increased component cost for more advanced firearms such as belt-fed MG's. Weapons with plastic parts now require chemfuel as ingredient.\r\n- Post-WWII era firearms now require new advanced firearms research to craft. Ammo still unlocks at machining.\r\n- Charge ammo requires charged shot research to craft.\r\n\r\n## Loadouts and inventory\r\n- Reverted assign tab UI to old button graphics for more space efficiency.\r\n- Refactored inventory generation. Most NPC's now have a chance to generate with faction-appropriate shields if they have a one-handed weapon, as well as sidearms and random ammo for all their ranged weapons.\r\n- Rebalanced raider weapon money and tags. Should no longer see random pirates carrying Doomsday launchers and M60's all the time.\r\n- Tribals can now spawn grenadiers which use stick bombs for sapping.\r\n- Drugs can now be ordered ingested directly from inventory, same as meals.\r\n\r\n## Other improvements\r\n- Hunters will now maintain optimal firing range if animal moves away and chase down fleeing animals.\r\n- Hunters will cut throat of downed animals (boomrats/boomalopes are still executed from range).\r\n- Using one-time use weapons like grenades or rocket launchers will now automatically equip another weapon, preferably of same type.\r\n- Ammo is now displayed in categorized resource list.\r\n- Weapon caliber and magazine stats are now listed under weapon stats, rather than item description. This should also fix a bug where weapons would not display those things in Prepare Carefully info-menu.\r\n- Grenades and binoculars now ignore partial cover obstructions when determining line of sight.\r\n\r\n## Compatibility\r\n- Added patch for Vanilla-Friendly Weapon Expansion.\r\n- Added patch for Hand and Footwear mod.\r\n- Added patch for Apparello\r\n\r\n## Bug fixes\r\n- Fixed various XML errors with weapon stats.\r\n- Fixed bows having wrong crafting materials.\r\n- Fixed various bugs with auto-turret ammo selection.\r\n- Fixed bullets hitting their shooter if target was in same tile as them.\r\n- Fixed bullets sometimes phasing through walls.\r\n- Fixed pawns with bionic arm being unable to equip shield.\r\n- Fixed various bugs with loadout pickups not working properly.\r\n- Misc other fixes."
+  },
+  {
+    "id": "FacialStuff",
+    "name": "Facial Stuff 0.17.2.4",
+    "version": "0.17.2-4",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Killface",
+    "description": "This mod aims to provide more visual individuality for your colonists.\n    - 13 newly defined skin colors instead of the vanilla 6.\n    - hair genetics according to real life.\n    - includes a few selected trend colors of 5501.\n    - 30+ different beards.\n    - new eyes and brows for both sexes.\n    - Added vanilla hair styles with 10 steps of hair loss.\n    - Hair is merged on the head graphic, thus visible with worn hats.\n\n    + includes a modified version of 'Spoonshortage's Rimworld Hairstyles 1.2' by spoonshortage\n    + includes a modified version of 'Nackblad Inc Rimhair 1.1' by nackblad\n    \n    REQUIRES HUGSLIB\n    \n    Special thanks to Fluffy for the FaceStyling bench (adapted from 'Clutter')\n    Uses the detour code from Orion's 'Hospitality A15'\n\n    2017-05-17 - 0.17.1 added basic integration for other species, faces are now added via def patch\n    2016-12-15 - updated Spoon's hairs\n    2016-10-14 - updated tribal hairs from NackbladIncRimhair",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_FacialStuff/A17/About/preview.png",
+    "homePage": "https://github.com/Killface1980/RW_FacialStuff",
+    "issues": "https://github.com/Killface1980/RW_FacialStuff/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_FacialStuff/zipball/0.17.2.4",
+      "steam": "818322128"
+    },
+    "created": "2017-06-12T19:38:08+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "ModularPowerArmor",
+    "name": "Modular Power Armor",
+    "version": "0.1.0-1.0.17b.0.0",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Granitecosmos",
+    "description": "Adds Modular Power Armor as well as tweaks original Power Armor recipe. Also slightly changes Mechanoid disassembly drops.",
+    "homePage": "https://github.com/Granitecosmos/ModularPowerArmor",
+    "issues": "https://github.com/Granitecosmos/ModularPowerArmor/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Granitecosmos/ModularPowerArmor/zipball/1.0.17b.0.0"
+    },
+    "created": "2017-06-21T23:37:11+00:00",
+    "changeLog": "- Updated for A17b\r\n- Switched to patching for editing vanilla defs"
+  },
+  {
+    "id": "SimpleSidearms",
+    "name": "Simple sidearms",
+    "version": "1.2.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "PeteTimesSix",
+    "description": "With the invention of pockets comes the idea of bringing EVEN MORE WEAPONS. Because your snipers are getting really tired of getting shanked.\n\nSee forum thread for details.\nhttps://ludeon.com/forums/index.php?topic=32497.0\n\nHugsLib for A17 required. Get it here:\nhttps://github.com/UnlimitedHugs/RimworldHugsLib/releases",
+    "preview": "https://raw.githubusercontent.com/PeteTimesSix/SimpleSidearms/master/About/preview.png",
+    "homePage": "https://github.com/PeteTimesSix/SimpleSidearms",
+    "issues": "https://github.com/PeteTimesSix/SimpleSidearms/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/PeteTimesSix/SimpleSidearms/zipball/v1.2.0",
+      "steam": "927155256"
+    },
+    "created": "2017-06-21T20:07:59+00:00",
+    "changeLog": "Added learning helper popups!\r\n\r\n-fixed mechonoids again\r\n-investigated in-combat sidearm recovery (not this way)\r\n-added in-combat switching back to primary weapon"
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.22.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.22",
+      "steam": "936487414"
+    },
+    "created": "2017-06-22T05:04:55+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "RemoteExplosives",
+    "name": "Remote Explosives",
+    "version": "1.12.3",
+    "targetGameVersion": "0.17.0",
+    "authors": "UnlimitedHugs",
+    "description": "Version: 1.12.3\n\t\n<size=20>Description</size>\nAn assortment of remotely detonated explosives for different purposes- from defending your base to mining, and much more.\nAlso includes several new researches and a workbench to manufacture your explosive goodies.\n\n<size=20>How to use</size>\nEverything you might want to build is available from the Explosives category in the Build menu. You can manufacture your own explosives, or buy them from traders- but at the very least the \"Remote Detonator\" research must be completed. With that, you can build the Explosives Workshop and the Remote Detonator.\nMake the explosive of your choice at the workshop, place it using the Build menu, make sure it's armed, then trigger it using the Remote Detonator. Multiple explosives can be triggered together.\n\n- If you research \"Remote Explosives Channels\" and upgrade your detonator, you can divide your placed explosives into groups, to be triggered separately.\n- The \"Auto replace\" toggle on the placed explosives allows your colonists to replace them after they are triggered.\n- The other research projects unlock the creation of different explosives- for mining, mechanoid defense, and other purposes. Read the research and item descriptions to learn more.",
+    "preview": "http://i.imgur.com/Ou66S8o.gif",
+    "homePage": "https://ludeon.com/forums/index.php?topic=17285",
+    "issues": "https://ludeon.com/forums/index.php?topic=17285",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldRemoteExplosives/releases/download/v1.12.3/RemoteExplosives_1.12.3.zip",
+      "steam": "761379469"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-06-23T00:54:45+00:00",
+    "changeLog": "- Fixed the sleeping gas becoming inert after loading a saved game"
+  },
+  {
+    "id": "BetterCoolers",
+    "name": "BetterCoolers",
+    "version": "1.4.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Skullywag",
+    "description": "Adds coolers that sit inside walls and look friggin beautiful doing it, thank Latta for this.",
+    "preview": "https://raw.githubusercontent.com/Skullywag/BetterCoolers/master/About/Preview.png",
+    "homePage": "https://github.com/Skullywag/BetterCoolers",
+    "issues": "https://github.com/Skullywag/BetterCoolers/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Skullywag/BetterCoolers/zipball/BetterCoolers1.4"
+    },
+    "created": "2017-06-24T18:57:04+00:00",
+    "changeLog": "A17 Update."
+  },
+  {
+    "id": "CombatExtended",
+    "name": "Combat Extended",
+    "version": "0.17.1-3",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.17.1.3\\n\\nExtends combat mechanics to make them deeper and more tactical.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Overhaul",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.3/CombatExtended.zip"
+    },
+    "relationships": {
+      "conflicts": "CombatRealism",
+      "recommends": "CEGuns",
+      "contains": [
+        "Achtung",
+        "CombatRealism"
+      ]
+    },
+    "created": "2017-06-24T17:53:58+00:00",
+    "changeLog": "- Added minimum range to offensive grenades\r\n- Rebalanced go-juice:\r\n  - Halved duration\r\n  - Suppressability reduction decreased from 75% -> 50%\r\n  - Addiction no longer possible on first use. Requires two doses within 3 days of each other.\r\n- Fixed a bug with pawns trying to throw invalid taunts\r\n- Pawns will now throw special taunts under suppression\r\n- Added patch for Zombieland mod\r\n- Added French translation\r\n- Updated Korean translation"
+  },
+  {
+    "id": "CEGuns",
+    "name": "Combat Extended",
+    "version": "0.17.1-3",
+    "targetGameVersion": "0.17.1557",
+    "authors": "NoImageAvailable",
+    "description": "Version: 0.17.1.3\\n\\nExtends combat mechanics to make them deeper and more tactical.",
+    "preview": "https://raw.githubusercontent.com/NoImageAvailable/CombatExtended/master/About/Preview.png",
+    "homePage": "https://github.com/NoImageAvailable/CombatExtended",
+    "issues": "https://github.com/NoImageAvailable/CombatExtended/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://github.com/NoImageAvailable/CombatExtended/releases/download/v0.17.1.3/CombatExtended.zip"
+    },
+    "relationships": {
+      "requires": "CombatExtended"
+    },
+    "created": "2017-06-24T17:53:58+00:00",
+    "changeLog": "- Added minimum range to offensive grenades\r\n- Rebalanced go-juice:\r\n  - Halved duration\r\n  - Suppressability reduction decreased from 75% -> 50%\r\n  - Addiction no longer possible on first use. Requires two doses within 3 days of each other.\r\n- Fixed a bug with pawns trying to throw invalid taunts\r\n- Pawns will now throw special taunts under suppression\r\n- Added patch for Zombieland mod\r\n- Added French translation\r\n- Updated Korean translation"
+  },
+  {
+    "id": "ColonistBarKF",
+    "name": "Colonist Bar KF 0.17.1.12",
+    "version": "0.17.1-12",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Killface",
+    "description": "More options for the Colonist Bar, including new status icons and a mood bar.\n\n    Allows custom placement of the bar, as well as advanced scaling and sorting functionality.\n    All options available with Right Mouse Button click on any icon.\n    FollowMe™ functionality via Middle Mouse Button click.\n\n    Includes icon stats based on 'Pawn State Icons™' by Dan Sadler\n    Includes 'FollowMe™' functionality by Fluffy with updated code by alexschrod\n    Includes 'ZoomToMouse™' functionality by Fluffy\n    \n    Chinese translation by duduluu",
+    "preview": "https://raw.githubusercontent.com/Killface1980/RW_ColonistBarKF/A17_rewrite/About/preview.png",
+    "homePage": "https://github.com/Killface1980/RW_ColonistBarKF",
+    "issues": "https://github.com/Killface1980/RW_ColonistBarKF/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/RW_ColonistBarKF/zipball/0.17.1.12",
+      "steam": "729908976"
+    },
+    "relationships": {
+      "contains": "FollowMe"
+    },
+    "created": "2017-06-23T21:36:07+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "JecsTools",
+    "name": "JecsTools",
+    "version": "1.0.4-10",
+    "targetGameVersion": "0.17.0",
+    "authors": "jecrell",
+    "description": "[1.0.4.9] Adds modding components to RimWorld: vehicles, spell casting, weapon slots, oversized weapons, and more!\n\nNote to players: This mod will not change your game, but rather it lets modders do more, so you can have an even more amazing RimWorld experience.\n\nNote to modders: This mod is filled with lots of tools that allow you to do many new and different things in RimWorld. Check out RoxxPloxx's guide for more info here: https://github.com/roxxploxx/RimWorldModGuide/wiki\n\nTotal list of components:\n\nCompAbilityUser\n - Adds spell/ability casting to humanlikes.\n\nCompActivatableEffect\n - Adds an activation graphic for weapons (e.g. lightsaber beam).\n\nCompDeflector\n - Allows the ability to knock projectiles to melee weapons.\n\nCompExtraSounds\n - Allows extra melee sounds to weapons.\n\nCompLumbering\n - Makes a staggered walking animation. (e.g. ATST walking effect)\n\nCompOversizedWeapon\n - Allows weapons with graphic sizes that can be bigger than RimWorld's limits.\n\nCompSlotLoadable\n - Adds slots to objects that can be filled to have effects. (e.g. different ammo types for guns, crystals for lightsabers)\n\nCompToggleDef (by Roxxploxx)\n- Allows for something to despawn, change its def, and respawn.\n\nCompVehicle (Experimental)\n - Allows for a pawn to be treated as a vehicle that can be loaded with pilots, gunners, crew, and passengers.\n\nCompInstalledPart (WIP)\n- Allows installation and uninstallation of things onto other things. This is particularly useful for weapons on vehicles.\n\nAdditions by roxxploxx.\nAdditions and transpilers by Erdelf.",
+    "preview": "https://raw.githubusercontent.com/jecrell/JecsTools/master/About/Preview.png",
+    "homePage": "https://github.com/jecrell/JecsTools",
+    "issues": "https://github.com/jecrell/JecsTools/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://api.github.com/repos/jecrell/JecsTools/zipball/1.0.4.10",
+      "steam": "932008009"
+    },
+    "created": "2017-06-20T22:13:50+00:00",
+    "changeLog": "Added a fix for Linux users in A17b courtesy of Erdelf."
+  },
+  {
+    "id": "HugsLib",
+    "name": "HugsLib",
+    "version": "3.1.2",
+    "targetGameVersion": "0.17.0",
+    "authors": "UnlimitedHugs",
+    "description": "<color=orange><b>Important: </b> This mod should be loaded right after Core to work properly.</color>\\n\nHugsLib is a library that provides shared functionality to other mods.\nVersion: 3.1.2",
+    "preview": "http://i.imgur.com/W8wAiTm.png",
+    "homePage": "https://ludeon.com/forums/index.php?topic=28066",
+    "issues": "https://ludeon.com/forums/index.php?topic=28066",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/UnlimitedHugs/RimworldHugsLib/releases/download/v3.1.2/HugsLib_3.1.2.zip",
+      "steam": "818773962"
+    },
+    "support": "https://www.patreon.com/UnlimitedHugs",
+    "created": "2017-06-25T02:25:40+00:00",
+    "changeLog": "- Fixed the log uploader failing to find the log file on OSX\n- Optimized InjectedDefHasher\n- Added French translation"
+  },
+  {
+    "id": "StorageSearch",
+    "name": "Storage Search A17",
+    "version": "0.17.1",
+    "targetGameVersion": "0.17.1535",
+    "authors": "meonester, Killface",
+    "description": "This Mod allows you to search by name in storage filter tab. Original A12 version by meonester.\n    Updated for A17 by Killface.\n\n    Includes Hauling Hysteresis by Vendan https://ludeon.com/forums/index.php?topic=26958.0\n\n    As of 2016-09-28, this mod also\n    - allows apparel to be searched by name in the edit window",
+    "preview": "https://raw.githubusercontent.com/Killface1980/StorageSearch/A17/About/preview.png",
+    "homePage": "https://github.com/Killface1980/StorageSearch",
+    "issues": "https://github.com/Killface1980/StorageSearch/issues",
+    "category": "UI",
+    "source": {
+      "github": "https://api.github.com/repos/Killface1980/StorageSearch/zipball/0.17.1",
+      "steam": "726479594"
+    },
+    "created": "2017-06-23T07:42:35+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "RTSolarFlareShield",
+    "name": "RT Solar Flare Shield",
+    "version": "1.2.1",
+    "targetGameVersion": "0.17.1557",
+    "authors": "Ratysz",
+    "description": "Adds a magnetic shield to mitigate the solar flare incident.\n\nChinese translations by duduluu.\nSpanish translations by a mysterious stranger, who wished to remain anonymous.",
+    "preview": "https://raw.githubusercontent.com/Ratysz/RT_SolarFlareShield/master/About/Preview.png",
+    "homePage": "https://github.com/Ratysz/RT_SolarFlareShield",
+    "issues": "https://github.com/Ratysz/RT_SolarFlareShield/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Ratysz/RT_SolarFlareShield/zipball/A17-1.2.1",
+      "steam": "728315620"
+    },
+    "created": "2017-06-26T11:38:16+00:00",
+    "changeLog": "Rewrote for efficiency, recompiled for latest, added Spanish translations."
+  },
+  {
+    "id": "CorrectedWorkgivers",
+    "name": "Corrected WorkGivers",
+    "version": "0.17.2-1",
+    "targetGameVersion": "0.17.0",
+    "authors": "kaptain-kavern",
+    "description": "Re-introduce the old \"Repair\" work type, so now Construction and Repair are two different skills in the work-planner.\n\nMoves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing. As a counterbalance, trees can \"harvest fail\".\n\nAlso contain a XML patches that makes \"Stone Cutting\" depending on the \"Construction skill\" and bring back the old \"Repair\" work type.\n\n=====================================================================\n\n- Be cautious to plan your work priorities accordingly.\n- Note that now harvesting wood on tree can fail.\n- I highly recommend mixing it with XeoNovaDan's \"Plant cutting is for growers\" which shows the relevant skills. - Mehni",
+    "homePage": "https://github.com/kaptain-kavern/Corrected-Workgivers",
+    "issues": "https://github.com/kaptain-kavern/Corrected-Workgivers/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/kaptain-kavern/Corrected-Workgivers/releases/download/0.17.2.1/Corrected_Workgivers.zip"
+    },
+    "created": "2017-06-26T00:13:00+00:00",
+    "changeLog": "### Update in the \"Work\" tab\r\n\r\nTo reflect how the mod changes work priorities and being more clear\r\n\r\n- \"Grow\" is now labeled \"Sow\"\r\n- Update \"Plant Cut\" description field\r\n- Update \"GrowerHarvest\" label field\r\n\r\n<p align=\"center\"><img src=\"http://i.imgur.com/isfSEUG.png?2\" alt=\"Preview\"/></p>"
+  },
+  {
+    "id": "QRY",
+    "name": "Quarry",
+    "version": "17.35.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds a quarry for mining in flat terrain.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/QRY/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/QRY",
+    "issues": "https://github.com/cuproPanda/QRY/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/QRY/zipball/17.35",
+      "steam": "942690136"
+    },
+    "created": "2017-06-27T02:30:19+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "STN",
+    "name": "Cupro's Stones",
+    "version": "17.23.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds 10 new types of stone. If using Fluffy's Stuffed Floors or a similar mod, delete this mod's DesignationCategoryDefs folder and TerrainDefs folder.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/STN/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/STN",
+    "issues": "https://github.com/cuproPanda/STN/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/STN/zipball/17.23",
+      "steam": "936487414"
+    },
+    "created": "2017-06-25T23:06:13+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "POW",
+    "name": "Powerless!",
+    "version": "17.29.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds new features for an early colony or one without power.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/POW/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/POW",
+    "issues": "https://github.com/cuproPanda/POW/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/POW/zipball/17.29",
+      "steam": "936490437"
+    },
+    "created": "2017-06-25T23:05:18+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "MFO",
+    "name": "Mod Friendly Overrides",
+    "version": "0.0.1-2017179+github",
+    "targetGameVersion": "0.16.0",
+    "authors": "notfood",
+    "description": "If it has a name, you can change it.",
+    "preview": "https://raw.githubusercontent.com/notfood/RimWorld-MFO/master/About/Preview.png",
+    "homePage": "https://github.com/notfood/Rimworld-MFO",
+    "issues": "https://github.com/notfood/Rimworld-MFO/issues",
+    "category": "Library",
+    "source": {
+      "github": "https://github.com/notfood/RimWorld-MFO/archive/master.zip"
+    },
+    "created": "2017-06-28T08:07:12+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
+  },
+  {
+    "id": "QRY",
+    "name": "Quarry",
+    "version": "17.36.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds a quarry for mining in flat terrain.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/QRY/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/QRY",
+    "issues": "https://github.com/cuproPanda/QRY/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/QRY/zipball/17.36",
+      "steam": "942690136"
+    },
+    "created": "2017-06-28T10:19:59+00:00",
+    "changeLog": "Added rare injury event when mining"
+  },
+  {
+    "id": "OHUDropships",
+    "name": "OHU Ships",
+    "version": "1.32.0",
+    "targetGameVersion": "0.17.1546",
+    "authors": "Cpt-Ohu",
+    "description": "1.32 A mod that adds aircraft for suborbital jumps to the game.",
+    "preview": "https://raw.githubusercontent.com/Cpt-Ohu/OHU-Dropships/master/About/Preview.png",
+    "homePage": "https://github.com/Cpt-Ohu/OHU-Dropships",
+    "issues": "https://github.com/Cpt-Ohu/OHU-Dropships/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/Cpt-Ohu/OHU-Dropships/zipball/v1.32"
+    },
+    "created": "2017-06-29T21:08:55+00:00",
+    "changeLog": "Second Patch. Trying to fix shiploading."
+  },
+  {
+    "id": "QRY",
+    "name": "Quarry",
+    "version": "17.38.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Adds a quarry for mining in flat terrain.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/QRY/master/About/Preview.PNG",
+    "homePage": "https://github.com/cuproPanda/QRY",
+    "issues": "https://github.com/cuproPanda/QRY/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/QRY/zipball/17.38",
+      "steam": "942690136"
+    },
+    "created": "2017-06-28T17:43:11+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "CPD",
+    "name": "Cupro's Drinks",
+    "version": "0.1.0-17.30p",
+    "targetGameVersion": "0.17.0",
+    "authors": "cuproPanda",
+    "description": "Allows brewing of sodas, alcohol, and other drinks.",
+    "preview": "https://raw.githubusercontent.com/cuproPanda/CPD/master/About/Preview.png",
+    "homePage": "https://github.com/cuproPanda/CPD",
+    "issues": "https://github.com/cuproPanda/CPD/issues",
+    "category": "Content",
+    "source": {
+      "github": "https://api.github.com/repos/cuproPanda/CPD/zipball/17.30p",
+      "steam": "936487181"
+    },
+    "created": "2017-06-28T18:03:45+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "PrisonerRansom",
+    "name": "PrisonerRansom",
+    "version": "17.0.0",
+    "targetGameVersion": "0.17.0",
+    "authors": "erdelf",
+    "description": "This mod allows you to demand ransom for inprisoned pawns for silver at the comms console.\nIt will give you a slight relationship boost.\nLeaders are, of course, worth more and will likely be more friendly to you after that.",
+    "preview": "https://raw.githubusercontent.com/erdelf/PrisonerRansom/master/About/Preview.png",
+    "homePage": "https://github.com/erdelf/PrisonerRansom",
+    "issues": "https://github.com/erdelf/PrisonerRansom/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://api.github.com/repos/erdelf/PrisonerRansom/zipball/a17",
+      "steam": "794038005"
+    },
+    "created": "2017-06-30T16:53:24+00:00",
+    "changeLog": ""
+  },
+  {
+    "id": "SimpleSlavery",
+    "name": "Simple Slavery",
+    "version": "0.0.1-2017170+github",
+    "targetGameVersion": "0.17.0",
+    "authors": "thirite",
+    "description": "Allows the player to take captured prisoners as slaves.",
+    "homePage": "https://github.com/thirite/SimpleSlavery",
+    "issues": "https://github.com/thirite/SimpleSlavery/issues",
+    "category": "Gameplay",
+    "source": {
+      "github": "https://github.com/thirite/SimpleSlavery/archive/master.zip"
+    },
+    "relationships": {
+      "requires": "HugsLib"
+    },
+    "created": "2017-06-19T06:50:59+00:00",
+    "changeLog": "Commit to github",
+    "preRelease": true
   }
 ]

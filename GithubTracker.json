@@ -1442,6 +1442,16 @@
             "category": "Content"
         }
     },
+    {
+        "repoOwner": "thirite",
+        "repoName": "SimpleSlavery",
+        "definition": {
+            "category": "Gameplay",
+            "relationships": {
+                "requires": "HugsLib"
+            }
+        }
+    },
     // Orion's mods
     {
         "repoOwner": "OrionFive",
