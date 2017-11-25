@@ -1435,13 +1435,13 @@
     },
 
     // thirite' mods
-    {
-        "repoOwner": "thirite",
-        "repoName": "AnimalCollabProject",
-        "definition": {
-            "category": "Content"
-        }
-    },
+    //{
+    //    "repoOwner": "thirite",
+    //    "repoName": "AnimalCollabProject",
+    //    "definition": {
+    //        "category": "Content"
+    //    }
+    //},
     {
         "repoOwner": "thirite",
         "repoName": "SimpleSlavery",
