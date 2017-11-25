@@ -369,7 +369,7 @@
         "repoName": "Rimworld-Infused",
         "releaseFilter": "^(.*)\\sCombatRealism$",
         "definition": {
-            "id": "Infused-CombatRealism",
+            "id": "InfusedCombatRealism",
             "category": "Gameplay",
             "relationships": {
                 "patches": [ "Infused", "CombatRealism" ],
