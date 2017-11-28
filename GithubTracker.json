@@ -6,12 +6,7 @@
         "definition": {
             "id": "Background",
             "preview": "https://raw.githubusercontent.com/Fumblesneeze/RimBackground/master/Background/About/Preview.png",
-            "category": "UI",
-            "relationships": {
-                "requires": [
-                    "HugsLib"
-                ]
-            }
+            "category": "UI"
         }
     },
     {
@@ -829,20 +824,20 @@
         }
     },
     {
-        "repoOwner": "scuba156",
-        "repoName": "PersistentWorlds",
-        "definition": {
-            "homePage": "https://ludeon.com/forums/index.php?topic=28360.msg286364",
-            "category": "Gameplay",
-            "source": {
-                "steam": "828696032"
-            },
-            "relationships": {
-                "requires": [ "HugsLib" ]
-            }
-        }
-    },
-    {
+    //    "repoOwner": "scuba156",
+    //    "repoName": "PersistentWorlds",
+    //    "definition": {
+    //        "homePage": "https://ludeon.com/forums/index.php?topic=28360.msg286364",
+    //        "category": "Gameplay",
+    //        "source": {
+    //            "steam": "828696032"
+    //        },
+    //        "relationships": {
+    //            "requires": [ "HugsLib" ]
+    //        }
+    //    }
+    //},
+    //{
         "repoOwner": "scuba156",
         "repoName": "VerifyStartA17",
         "definition": {
